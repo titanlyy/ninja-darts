@@ -42,10 +42,9 @@
     attributionControl: true,
   }).setView([25, 30], 2);
 
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution:
-      '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
-    subdomains: 'abcd',
+      '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> contributors',
     maxZoom: 19,
   }).addTo(map);
 
@@ -92,6 +91,14 @@
   const linkify = (s) =>
     /^https?:\/\//.test(s) ? escapeHtml(s) : 'https://' + escapeHtml(s);
 
+  // Break business-hours strings into one line per day for readability
+  const prettyHours = (h) =>
+    String(h)
+      .replace(/(Sun|Mon|Tue|Wed|Thu|Fri|Sat|Holiday|祝日)\s*/g, '$1 ')
+      .replace(/(?=(Sun|Mon|Tue|Wed|Thu|Fri|Sat|Holiday) )/g, '\n')
+      .replace(/\n+/g, '\n')
+      .trim();
+
   let toastTimer;
   function toast(msg) {
     els.toast.textContent = msg;
@@ -123,7 +130,7 @@
         state.venues.length.toLocaleString() +
         ' venues · ' +
         state.countries.length +
-        ' countries';
+        (state.countries.length === 1 ? ' country' : ' countries');
     } catch (err) {
       console.error(err);
       els.venueCount.textContent = 'Failed to load venue data';
@@ -216,7 +223,7 @@
     els.venueCount.textContent =
       shown.toLocaleString() +
       (shown === state.venues.length && state.selected === 'all'
-        ? ' venues · ' + state.countries.length + ' countries'
+        ? ' venues · ' + state.countries.length + (state.countries.length === 1 ? ' country' : ' countries')
         : ' venues shown');
   }
 
@@ -255,7 +262,7 @@
       ${v.h ? `
       <div class="detail-section">
         <h3>Business Hours</h3>
-        <p class="detail-hours">${escapeHtml(v.h)}</p>
+        <p class="detail-hours">${escapeHtml(prettyHours(v.h))}</p>
       </div>` : ''}
       ${v.st ? `
       <div class="detail-section">

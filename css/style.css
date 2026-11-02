@@ -224,8 +224,9 @@ a:hover { text-decoration: underline; }
 
 .country-item .cc-count {
   font-size: var(--text-xs);
-  color: var(--color-text-faint);
-  background: var(--color-surface-2);
+  font-weight: 500;
+  color: var(--color-text-muted);
+  background: var(--color-surface-offset);
   padding: 2px var(--space-2);
   border-radius: 999px;
   min-width: 34px;
@@ -285,6 +286,12 @@ body.sb-collapsed #sidebar-toggle svg { transform: rotate(180deg); }
 }
 
 #map .leaflet-container { background: var(--color-bg); }
+
+/* Dark-mode map: invert OSM raster tiles (markers live in a separate pane,
+   so only the tiles are filtered) */
+#map .leaflet-tile-pane {
+  filter: invert(1) hue-rotate(185deg) brightness(0.92) contrast(0.88) saturate(0.6);
+}
 
 .leaflet-control-attribution {
   background: rgba(20, 18, 16, 0.85) !important;
@@ -540,7 +547,7 @@ body.sb-collapsed #sidebar-toggle svg { transform: rotate(180deg); }
     top: 0;
     left: 0;
     bottom: 0;
-    width: min(320px, 86vw);
+    width: min(300px, 78vw);
     transform: translateX(0);
     transition: transform var(--transition-interactive);
   }
@@ -549,7 +556,7 @@ body.sb-collapsed #sidebar-toggle svg { transform: rotate(180deg); }
 
   #sidebar-toggle {
     top: var(--space-2);
-    left: calc(min(320px, 86vw) + var(--space-2));
+    left: calc(min(300px, 78vw) + var(--space-2));
     z-index: 1250;
   }
 
