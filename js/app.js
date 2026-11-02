@@ -38,9 +38,11 @@
 
   // ── Map ───────────────────────────────────────────────────
   const map = L.map(els.map, {
-    zoomControl: true,
+    zoomControl: false,
     attributionControl: true,
   }).setView([25, 30], 2);
+
+  L.control.zoom({ position: 'bottomleft' }).addTo(map);
 
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution:
@@ -378,8 +380,14 @@
   });
 
   // ── Service worker (PWA) ──────────────────────────────────
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('sw.js').catch(() => {});
+  // try/catch: accessing navigator.serviceWorker throws inside sandboxed
+  // iframes (e.g. cross-origin previews); the app must still boot.
+  try {
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js').catch(() => {});
+    }
+  } catch (e) {
+    /* sandboxed context — PWA install unavailable, app still works */
   }
 
   boot();

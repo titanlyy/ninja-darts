@@ -5,8 +5,8 @@ const CACHE = 'ninja-darts-v1';
 const APP_SHELL = [
   './',
   './index.html',
-  './css/style.css',
-  './js/app.js',
+  './css/style.css?v=2',
+  './js/app.js?v=2',
   './manifest.webmanifest',
   './icons/icon-192.png',
   './icons/icon-512.png',
