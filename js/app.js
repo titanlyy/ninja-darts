@@ -131,6 +131,29 @@
   }
 
   // ── Data loading ──────────────────────────────────────────
+  async function phoenixJson(path) {
+    // Keep the attached preview on the same live public feeds as GitHub Pages.
+    // Production/local builds remain same-origin and support their offline cache.
+    const preview = /(^|\.)pplx\.app$|(^|\.)perplexity\.ai$/.test(location.hostname);
+    if (preview) {
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), 3500);
+      try {
+        const response = await fetch(`https://raw.githubusercontent.com/titanlyy/ninja-darts/main/${path}`, {
+          signal: controller.signal, credentials: 'omit', referrerPolicy: 'no-referrer', cache: 'no-cache',
+        });
+        if (response.ok) return await response.json();
+      } catch {
+        // A public-feed/CDN outage must not take down the bundled directory.
+      } finally {
+        clearTimeout(timeout);
+      }
+    }
+    const response = await fetch(path);
+    if (!response.ok) throw new Error('Phoenix feed unavailable');
+    return response.json();
+  }
+
   async function detectCountry() {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 2500);
@@ -171,15 +194,19 @@
       // Additive feeds: preserve original DARTSLIVE source records and the pilot.
       let pilot = { venues: [] };
       try {
-        const manifestResponse = await fetch('data/phoenix/index.json');
-        if (!manifestResponse.ok) throw new Error('Global manifest unavailable');
-        const manifest = await manifestResponse.json();
+        const manifest = await phoenixJson('data/phoenix/index.json');
+        let failedFeeds = 0;
         const feeds = await Promise.all(manifest.countries.filter((c) => c.file).map(async (c) => {
-          const response = await fetch(c.file);
-          if (!response.ok) throw new Error(`Phoenix ${c.name} unavailable`);
-          const feed = await response.json();
-          return feed.venues.map((v) => ({ ...v, country_code: c.country_code }));
+          try {
+            if (!/^data\/phoenix\/[a-z]{2}\.json$/.test(c.file)) throw new Error('Invalid feed path');
+            const feed = await phoenixJson(c.file);
+            return feed.venues.map((v) => ({ ...v, country_code: c.country_code }));
+          } catch {
+            failedFeeds++;
+            return [];
+          }
         }));
+        if (failedFeeds) toast(`${failedFeeds} Phoenix country feed(s) could not load. Other listings are still available.`);
         pilot.venues = feeds.flat();
         const completed = manifest.countries.filter((c) => c.status === 'complete').length;
         const coverage = $('phoenix-coverage');
