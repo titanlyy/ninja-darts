@@ -1,0 +1,42 @@
+name: Deploy Ninja Darts map
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - index.html
+      - css/**
+      - js/**
+      - data/**
+      - icons/**
+      - vendor/**
+      - manifest.webmanifest
+      - sw.js
+      - .github/workflows/deploy-site.yml
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: ninja-darts-pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Prepare public map assets only
+        run: |
+          mkdir -p /tmp/ninja-darts-site
+          cp -r index.html css js data icons vendor manifest.webmanifest sw.js .nojekyll /tmp/ninja-darts-site/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: /tmp/ninja-darts-site
+      - name: Publish map
+        id: deployment
+        uses: actions/deploy-pages@v4
