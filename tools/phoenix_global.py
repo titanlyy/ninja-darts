@@ -294,7 +294,7 @@ def build():
             columns = ["source_id", "country_code", "name", "address", "region",
                        "latitude", "longitude", "map_eligible", "directory_eligible",
                        "exclusion_reason", "machine_text", "source_url", "collected_at"]
-            writer = csv.DictWriter(handle, fieldnames=columns, extrasaction="ignore")
+            writer = csv.DictWriter(handle, fieldnames=columns, extrasaction="ignore", lineterminator="\n")
             writer.writeheader()
             writer.writerows(feed["venues"])
     save(folder / "index.json", {
