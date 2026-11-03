@@ -1,6 +1,6 @@
 {
   "provider": "phoenix",
-  "updated_at": "2026-11-03T08:18:37.045664+00:00",
+  "updated_at": "2026-11-03T08:31:33.178970+00:00",
   "countries": [
     {
       "country_code": "sg",
@@ -84,7 +84,7 @@
       "updated_at": "2026-11-03T08:07:28.899844+00:00",
       "discovered": 206,
       "collected": 206,
-      "mapped": 191,
+      "mapped": 198,
       "listing_pages": 42,
       "file": "data/phoenix/id.json"
     },
@@ -92,7 +92,13 @@
       "country_code": "my",
       "name": "Malaysia",
       "source_url": "https://www.phoenixdarts.com/my/shop/shopSearch",
-      "status": "pending"
+      "status": "complete",
+      "updated_at": "2026-11-03T08:31:32.863605+00:00",
+      "discovered": 694,
+      "collected": 694,
+      "mapped": 694,
+      "listing_pages": 139,
+      "file": "data/phoenix/my.json"
     },
     {
       "country_code": "hk",
