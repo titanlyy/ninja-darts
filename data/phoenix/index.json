@@ -1,6 +1,6 @@
 {
   "provider": "phoenix",
-  "updated_at": "2026-11-03T12:26:44.522121+00:00",
+  "updated_at": "2026-11-03T13:32:01.063429+00:00",
   "countries": [
     {
       "country_code": "sg",
@@ -387,7 +387,14 @@
       "country_code": "kr",
       "name": "Korea",
       "source_url": "https://www.phoenixdarts.com/kr/shop/shopSearch",
-      "status": "pending"
+      "status": "complete",
+      "updated_at": "2026-11-03T13:32:00.199442+00:00",
+      "continuation_attempt": 0,
+      "discovered": 1863,
+      "collected": 1863,
+      "mapped": 1862,
+      "listing_pages": 373,
+      "file": "data/phoenix/kr.json"
     },
     {
       "country_code": "jp",
