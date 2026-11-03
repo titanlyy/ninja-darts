@@ -1,0 +1,1840 @@
+{
+  "coverage": {
+    "country_code": "cz",
+    "name": "Czechia",
+    "source_url": "https://www.phoenixdarts.com/cz/shop/shopSearch",
+    "status": "complete",
+    "updated_at": "2026-11-03T09:39:04.299484+00:00",
+    "discovered": 73,
+    "collected": 73,
+    "mapped": 73,
+    "listing_pages": 15
+  },
+  "venues": [
+    {
+      "source_id": "100576",
+      "name": "Hotel a restaurace KRAS",
+      "address": "Riviera 585, 679 06 Jedovnice,",
+      "region": "Jihomoravský kraj",
+      "source_title": "[Jihomoravský kraj]Hotel a restaurace KRAS",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=100576",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 49.3377941,
+      "longitude": 16.7637995,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:10.587876+00:00"
+    },
+    {
+      "source_id": "99509",
+      "name": "Bar Dawu",
+      "address": "Smetanova 993/8a Brno 602 00, Jihomoravský kraj",
+      "region": "Jihomoravský kraj",
+      "source_title": "[Jihomoravský kraj]Bar Dawu",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=99509",
+      "machine_text": "VSS 3.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 49.2010947,
+      "longitude": 16.6015854,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:12.194584+00:00"
+    },
+    {
+      "source_id": "99093",
+      "name": "Putyka Pub",
+      "address": "Fráni Šramka 32  České Budějovice, Jihočeský kraj",
+      "region": "Jihočeský kraj",
+      "source_title": "[Jihočeský kraj]Putyka Pub",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=99093",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 48.9817052,
+      "longitude": 14.4782852,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:13.788570+00:00"
+    },
+    {
+      "source_id": "99459",
+      "name": "GAME ZONE",
+      "address": "Havlíčkovo nám. 94/4, 397 01 Písek 1, Jihočeský kraj",
+      "region": "Jihočeský kraj",
+      "source_title": "[Jihočeský kraj]GAME ZONE",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=99459",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 49.3087763,
+      "longitude": 14.1496303,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:15.390475+00:00"
+    },
+    {
+      "source_id": "98954",
+      "name": "Pivnice Rybárna",
+      "address": "Loučovice 63, Loučovice, 382 76 Jihočeský kraj",
+      "region": "Jihočeský kraj",
+      "source_title": "[Jihočeský kraj]Pivnice Rybárna",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=98954",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 48.6223158,
+      "longitude": 14.2621285,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:16.977029+00:00"
+    },
+    {
+      "source_id": "100490",
+      "name": "Club Náplavka",
+      "address": "U Koupaliště 860/1, Karlovy Vary",
+      "region": "Karlovarský kraj",
+      "source_title": "[Karlovarský kraj]Club Náplavka",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=100490",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.2380442,
+      "longitude": 12.8519577,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:18.565568+00:00"
+    },
+    {
+      "source_id": "99962",
+      "name": "Eurobar Morava",
+      "address": "Závodu Míru 851/81 Karlovy Vary 36017 Karlovarský kraj",
+      "region": "Karlovarský kraj",
+      "source_title": "[Karlovarský kraj]Eurobar Morava",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=99962",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.244792,
+      "longitude": 12.8320298,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:20.157021+00:00"
+    },
+    {
+      "source_id": "97842",
+      "name": "Restaurace Butovanka",
+      "address": "506 01 Butoves-Jičín 1 Královéhradecký kraj",
+      "region": "Královéhradecký kraj",
+      "source_title": "[Královéhradecký kraj]Restaurace Butovanka",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=97842",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.3864505,
+      "longitude": 15.4274152,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:21.751658+00:00"
+    },
+    {
+      "source_id": "98370",
+      "name": "PIVNICE U BAČI (FACTORY)",
+      "address": "Bacalky 101, 50723 Bacalky",
+      "region": "Královéhradecký kraj",
+      "source_title": "[Královéhradecký kraj]PIVNICE U BAČI (FACTORY)",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=98370",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.38409619999999,
+      "longitude": 15.1560013,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:23.369420+00:00"
+    },
+    {
+      "source_id": "97319",
+      "name": "Středověká krčma - Starý Pivovar",
+      "address": "Dukelská 414, 544 01 Dvůr Králové nad Labem 1",
+      "region": "Královéhradecký kraj",
+      "source_title": "[Královéhradecký kraj]Středověká krčma - Starý Pivovar",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=97319",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.43128549999999,
+      "longitude": 15.8162902,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:24.938279+00:00"
+    },
+    {
+      "source_id": "96788",
+      "name": "Sportovní Centrum Nová Paka",
+      "address": "Havlova 1656, 509 01 Nová Paka, Česko",
+      "region": "Královéhradecký kraj",
+      "source_title": "[Královéhradecký kraj]Sportovní Centrum Nová Paka",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=96788",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.493118,
+      "longitude": 15.5091053,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:26.530351+00:00"
+    },
+    {
+      "source_id": "96037",
+      "name": "Restaurace Na Sídlišti - Smeťák",
+      "address": "Husitská 1356, 509 01 Nová Paka, Česko",
+      "region": "Královéhradecký kraj",
+      "source_title": "[Královéhradecký kraj]Restaurace Na Sídlišti - Smeťák",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=96037",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.4870421,
+      "longitude": 15.5133637,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:28.119729+00:00"
+    },
+    {
+      "source_id": "95778",
+      "name": "Cafe Bar Štěstí / U Mlejnků",
+      "address": "Husova 133, 506 01 Jičín 1-Valdické Předměstí, Česko",
+      "region": "Královéhradecký kraj",
+      "source_title": "[Královéhradecký kraj]Cafe Bar Štěstí / U Mlejnků",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=95778",
+      "machine_text": "VSS 4.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 4
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.4357132,
+      "longitude": 15.3597008,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:29.728876+00:00"
+    },
+    {
+      "source_id": "97570",
+      "name": "PIVNICE KNIZE",
+      "address": "Kollárova 356, 506 01 Jičín 1-Holínské Předměstí Královéhradecký kraj",
+      "region": "Královéhradecký kraj",
+      "source_title": "[Královéhradecký kraj]PIVNICE KNIZE",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=97570",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.4397765,
+      "longitude": 15.348125,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:31.317933+00:00"
+    },
+    {
+      "source_id": "96456",
+      "name": "Obecní Hospoda Lampertice",
+      "address": "Lampertice 182, 541 01 Lampertice, Česko",
+      "region": "Královéhradecký kraj",
+      "source_title": "[Královéhradecký kraj]Obecní Hospoda Lampertice",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=96456",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.6656056,
+      "longitude": 15.9483012,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:32.904992+00:00"
+    },
+    {
+      "source_id": "95779",
+      "name": "Veselka",
+      "address": "Lidické nám. 83, 506 01 Jičín 1",
+      "region": "Královéhradecký kraj",
+      "source_title": "[Královéhradecký kraj]Veselka",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=95779",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.4317939,
+      "longitude": 15.3496963,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:34.486664+00:00"
+    },
+    {
+      "source_id": "96583",
+      "name": "Qýčepu",
+      "address": "Nemyčeves 140, 50601 Czech Republic",
+      "region": "Královéhradecký kraj",
+      "source_title": "[Královéhradecký kraj]Qýčepu",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=96583",
+      "machine_text": "VSS 3.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.38496749999999,
+      "longitude": 15.3676418,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:36.095984+00:00"
+    },
+    {
+      "source_id": "96379",
+      "name": "Naše Hospoda",
+      "address": "Palackého nám. 67, 508 01 Hořice v Podkrkonoší, Česko",
+      "region": "Královéhradecký kraj",
+      "source_title": "[Královéhradecký kraj]Naše Hospoda",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=96379",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.3683102,
+      "longitude": 15.6294503,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:37.676727+00:00"
+    },
+    {
+      "source_id": "96038",
+      "name": "Hostinec U Růženky",
+      "address": "Pšánky 12, 503 15 Pšánky, Česko",
+      "region": "Královéhradecký kraj",
+      "source_title": "[Královéhradecký kraj]Hostinec U Růženky",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=96038",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.2938761,
+      "longitude": 15.6210192,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:39.267931+00:00"
+    },
+    {
+      "source_id": "96451",
+      "name": "U Stolinů",
+      "address": "Revoluční tř. 214, 504 01 Nový Bydžov, Czechia",
+      "region": "Královéhradecký kraj",
+      "source_title": "[Královéhradecký kraj]U Stolinů",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=96451",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.238206,
+      "longitude": 15.489579,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:40.870290+00:00"
+    },
+    {
+      "source_id": "95794",
+      "name": "Hostinec U Dvorecké Louže",
+      "address": "Robousy 33, 506 01 Jičín 1, Czechia",
+      "region": "Královéhradecký kraj",
+      "source_title": "[Královéhradecký kraj]Hostinec U Dvorecké Louže",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=95794",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.43266939999999,
+      "longitude": 15.3985021,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:42.490002+00:00"
+    },
+    {
+      "source_id": "97512",
+      "name": "Hospoda U Lípy",
+      "address": "Sběř 94, 507 03 Sběř Královéhradecký kraj",
+      "region": "Královéhradecký kraj",
+      "source_title": "[Královéhradecký kraj]Hospoda U Lípy",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=97512",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.3189558,
+      "longitude": 15.4259828,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:44.074954+00:00"
+    },
+    {
+      "source_id": "98533",
+      "name": "Železný Bar",
+      "address": "Spojenecká, 541 01 Trutnov 1, Královéhradecký kraj",
+      "region": "Královéhradecký kraj",
+      "source_title": "[Královéhradecký kraj]Železný Bar",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=98533",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.5632224,
+      "longitude": 15.9116123,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:45.665344+00:00"
+    },
+    {
+      "source_id": "97900",
+      "name": "Pivnice na hřišti v Poříčí",
+      "address": "Sportovní 324, 541 03 Trutnov 3-Poříčí, Czechia",
+      "region": "Královéhradecký kraj",
+      "source_title": "[Královéhradecký kraj]Pivnice na hřišti v Poříčí",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=97900",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.57713829999999,
+      "longitude": 15.95052,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:47.301483+00:00"
+    },
+    {
+      "source_id": "95906",
+      "name": "Murloc Bar HK",
+      "address": "Tylovo nábř. 367/10, 500 02 Hradec Králové 2, Česko",
+      "region": "Královéhradecký kraj",
+      "source_title": "[Královéhradecký kraj]Murloc Bar HK",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=95906",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.2114103,
+      "longitude": 15.8272353,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:48.872469+00:00"
+    },
+    {
+      "source_id": "98760",
+      "name": "Sportclub",
+      "address": "Tyršova 783, 543 01 Vrchlabí 1, Královéhradecký kraj",
+      "region": "Královéhradecký kraj",
+      "source_title": "[Královéhradecký kraj]Sportclub",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=98760",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.6191216,
+      "longitude": 15.6157794,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:50.459963+00:00"
+    },
+    {
+      "source_id": "96118",
+      "name": "Bar Na Starym",
+      "address": "Valdštejnovo nám. 38, 506 01 Jičín 1, Česko",
+      "region": "Královéhradecký kraj",
+      "source_title": "[Královéhradecký kraj]Bar Na Starym",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=96118",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.4370905,
+      "longitude": 15.3504379,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:52.065387+00:00"
+    },
+    {
+      "source_id": "98090",
+      "name": "Americana Bar",
+      "address": "Vrchlického 735, 544 01 Dvůr Králové nad Labem 1, Královéhradecký kraj",
+      "region": "Královéhradecký kraj",
+      "source_title": "[Královéhradecký kraj]Americana Bar",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=98090",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.4446388,
+      "longitude": 15.8161132,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:53.645759+00:00"
+    },
+    {
+      "source_id": "96259",
+      "name": "Pivnice U Marťase",
+      "address": "tř. E. Beneše 598/84, 500 12 Hradec Králové 12-Třebeš, Česko",
+      "region": "Královéhradecký kraj",
+      "source_title": "[Královéhradecký kraj]Pivnice U Marťase",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=96259",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.1917367,
+      "longitude": 15.840473,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:55.228889+00:00"
+    },
+    {
+      "source_id": "99258",
+      "name": "Sokolovna",
+      "address": "Šnajdrova 12, 503 53 Smidary, Královéhradecký kraj",
+      "region": "Královéhradecký kraj",
+      "source_title": "[Královéhradecký kraj]Sokolovna",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=99258",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.2924003,
+      "longitude": 15.4797986,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:56.825902+00:00"
+    },
+    {
+      "source_id": "95938",
+      "name": "Sportbar Hvězda",
+      "address": "Štefánikova 536/29, 500 11 Hradec Králové 11-Moravské Předměstí, Česko",
+      "region": "Královéhradecký kraj",
+      "source_title": "[Královéhradecký kraj]Sportbar Hvězda",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=95938",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.1867612,
+      "longitude": 15.8358994,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:58.398387+00:00"
+    },
+    {
+      "source_id": "96977",
+      "name": "Charovna",
+      "address": "Štít 24, 503 51 Klamoš-Chlumec nad Cidlinou, Czechia",
+      "region": "Královéhradecký kraj",
+      "source_title": "[Královéhradecký kraj]Charovna",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=96977",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.1206206,
+      "longitude": 15.466255,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:37:59.986939+00:00"
+    },
+    {
+      "source_id": "98131",
+      "name": "Obecní hospoda na hřišti Žlunice",
+      "address": "Žlunice 50, 507 34 Žlunice, Královéhradecký kraj",
+      "region": "Královéhradecký kraj",
+      "source_title": "[Královéhradecký kraj]Obecní hospoda na hřišti Žlunice",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=98131",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.3013103,
+      "longitude": 15.3813327,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:01.628797+00:00"
+    },
+    {
+      "source_id": "99160",
+      "name": "Hotel Krakonoš",
+      "address": "Jablonec nad Jizerou 425, 512 43 Jablonec nad Jizerou, Liberecký kraj",
+      "region": "Liberecký kraj",
+      "source_title": "[Liberecký kraj]Hotel Krakonoš",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=99160",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.7044188,
+      "longitude": 15.4282566,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:03.222905+00:00"
+    },
+    {
+      "source_id": "96352",
+      "name": "Kuželna Jilemnice",
+      "address": "Jungmannova ul. (za Sokolovnou) 514 01 Jilemnice",
+      "region": "Liberecký kraj",
+      "source_title": "[Liberecký kraj]Kuželna Jilemnice",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=96352",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.6079553,
+      "longitude": 15.5063406,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:04.841104+00:00"
+    },
+    {
+      "source_id": "98038",
+      "name": "U Arnošta",
+      "address": "Jihoslovanská, 796 01 Prostějov 1, Olomoucký kraj",
+      "region": "Olomoucký kraj",
+      "source_title": "[Olomoucký kraj]U Arnošta",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=98038",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 49.4712342,
+      "longitude": 17.1196421,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:06.448757+00:00"
+    },
+    {
+      "source_id": "97158",
+      "name": "Hotel Národní dům",
+      "address": "T.G. Masaryka 6/48, Svitavy",
+      "region": "Pardubický kraj",
+      "source_title": "[Pardubický kraj]Hotel Národní dům",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=97158",
+      "machine_text": "VSS 3.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 49.7582438,
+      "longitude": 16.460995,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:08.050306+00:00"
+    },
+    {
+      "source_id": "97504",
+      "name": "Na Kurtech - sportbar Svitavy",
+      "address": "U Stadionu 528/17b, 568 02 Svitavy 2-Lány Pardubický kraj",
+      "region": "Pardubický kraj",
+      "source_title": "[Pardubický kraj]Na Kurtech - sportbar Svitavy",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=97504",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 49.750832,
+      "longitude": 16.4648789,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:09.633544+00:00"
+    },
+    {
+      "source_id": "99243",
+      "name": "MusicBar U Komína",
+      "address": "Karlovarská 126, 323 00 Plzeň 1-Bolevec, Plzeňský kraj",
+      "region": "Plzeňský kraj",
+      "source_title": "[Plzeňský kraj]MusicBar U Komína",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=99243",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 49.772762,
+      "longitude": 13.3626094,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:11.265468+00:00"
+    },
+    {
+      "source_id": "98776",
+      "name": "Opixe Atom",
+      "address": "Sokolovská 1327/74, Plzeňský kraj",
+      "region": "Plzeňský kraj",
+      "source_title": "[Plzeňský kraj]Opixe Atom",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=98776",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 49.7724708,
+      "longitude": 13.3704555,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:12.827359+00:00"
+    },
+    {
+      "source_id": "99460",
+      "name": "Lucky Bar",
+      "address": "Zlatnická 29, 339 01 Klatovy I, Plzeňský kraj",
+      "region": "Plzeňský kraj",
+      "source_title": "[Plzeňský kraj]Lucky Bar",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=99460",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 49.3969836,
+      "longitude": 13.2936002,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:14.422907+00:00"
+    },
+    {
+      "source_id": "99357",
+      "name": "REST.ART BAR",
+      "address": "Podolská 158/33, 147 00 Praha 4-Podolí",
+      "region": "Praha",
+      "source_title": "[Praha]REST.ART BAR",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=99357",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.0591057,
+      "longitude": 14.4198335,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:16.021776+00:00"
+    },
+    {
+      "source_id": "99275",
+      "name": "Anime Coffee and Secondhand Bar",
+      "address": "Čelakovského sady 2, 110 00 Nové Město, Praha",
+      "region": "Praha",
+      "source_title": "[Praha]Anime Coffee and Secondhand Bar",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=99275",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.0776092,
+      "longitude": 14.4294487,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:17.621811+00:00"
+    },
+    {
+      "source_id": "97867",
+      "name": "Hospoda Nemcice",
+      "address": "21 21, Němčice 21, 280 02 Němčice, Středočeský kraj",
+      "region": "Středočeský kraj",
+      "source_title": "[Středočeský kraj]Hospoda Nemcice",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=97867",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.0844193,
+      "longitude": 15.2941179,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:19.223845+00:00"
+    },
+    {
+      "source_id": "98371",
+      "name": "Na Sídlišti 1962",
+      "address": "Benešova 644, 280 02 Kolín 2, Středočeský kraj",
+      "region": "Středočeský kraj",
+      "source_title": "[Středočeský kraj]Na Sídlišti 1962",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=98371",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.0255671,
+      "longitude": 15.1867845,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:20.823592+00:00"
+    },
+    {
+      "source_id": "97901",
+      "name": "Rest Club Býchory Fotbalové Hřiště",
+      "address": "Býchory 41, 280 02 Býchory, Středočeský kraj",
+      "region": "Středočeský kraj",
+      "source_title": "[Středočeský kraj]Rest Club Býchory Fotbalové Hřiště",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=97901",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.06560358175532,
+      "longitude": 15.273285028836069,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:22.430391+00:00"
+    },
+    {
+      "source_id": "97798",
+      "name": "Pivovar Tahoun",
+      "address": "Hlavní 58, Vanovice, 294 43 Všejany-Čachovice u Mladé Boleslavě, Středočeský kraj",
+      "region": "Středočeský kraj",
+      "source_title": "[Středočeský kraj]Pivovar Tahoun",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=97798",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.2588324,
+      "longitude": 14.9492731,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:24.023375+00:00"
+    },
+    {
+      "source_id": "97844",
+      "name": "Billiard Club Dalibor",
+      "address": "Husova 25/11, 290 01 Poděbrady I, Středočeský kraj",
+      "region": "Středočeský kraj",
+      "source_title": "[Středočeský kraj]Billiard Club Dalibor",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=97844",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.14308459999999,
+      "longitude": 15.1159619,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:25.599751+00:00"
+    },
+    {
+      "source_id": "97621",
+      "name": "U Vojty Jestřabí Lhota",
+      "address": "Jestřabí Lhota 31, 280 02 Jestřabí Lhota Středočeský kraj",
+      "region": "Středočeský kraj",
+      "source_title": "[Středočeský kraj]U Vojty Jestřabí Lhota",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=97621",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.089208,
+      "longitude": 15.2626657,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:27.191974+00:00"
+    },
+    {
+      "source_id": "98866",
+      "name": "U vypíchlýho voka",
+      "address": "Masarykova 359, 281 51 Velký Osek, Středočeský kraj",
+      "region": "Středočeský kraj",
+      "source_title": "[Středočeský kraj]U vypíchlýho voka",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=98866",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.09829329999999,
+      "longitude": 15.1919742,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:28.790449+00:00"
+    },
+    {
+      "source_id": "99425",
+      "name": "SHISA MUSIC BAR",
+      "address": "Soukenická 63 Slaný 27401",
+      "region": "Středočeský kraj",
+      "source_title": "[Středočeský kraj]SHISA MUSIC BAR",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=99425",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.2309564,
+      "longitude": 14.084328,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:30.388379+00:00"
+    },
+    {
+      "source_id": "97619",
+      "name": "U Vojty na Volárně",
+      "address": "Volárna 65, 280 02 Volárna Středočeský kraj",
+      "region": "Středočeský kraj",
+      "source_title": "[Středočeský kraj]U Vojty na Volárně",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=97619",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.0917864,
+      "longitude": 15.2399565,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:32.004915+00:00"
+    },
+    {
+      "source_id": "99424",
+      "name": "Pivnice Stromovka",
+      "address": "Kamarytova 1331, 396 01 Humpolec",
+      "region": "Vysočina kraj",
+      "source_title": "[Vysočina kraj]Pivnice Stromovka",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=99424",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 49.5442759,
+      "longitude": 15.3559019,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:33.595524+00:00"
+    },
+    {
+      "source_id": "99514",
+      "name": "Bar u Krokodýla",
+      "address": "nám. Svobody 108, 584 01 Ledeč nad Sázavou, Vysočina kraj",
+      "region": "Vysočina kraj",
+      "source_title": "[Vysočina kraj]Bar u Krokodýla",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=99514",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 49.6969321,
+      "longitude": 15.276986,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:35.211823+00:00"
+    },
+    {
+      "source_id": "98794",
+      "name": "Music Club Sklípek",
+      "address": "Boženy Němcové 552/32, 430 01 Chomutov",
+      "region": "Ústecký kraj",
+      "source_title": "[Ústecký kraj]Music Club Sklípek",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=98794",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.4639724,
+      "longitude": 13.4140096,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:36.778830+00:00"
+    },
+    {
+      "source_id": "100104",
+      "name": "Triple 20",
+      "address": "Bratři Čapků 2778  Žatec 43801",
+      "region": "Ústecký kraj",
+      "source_title": "[Ústecký kraj]Triple 20",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=100104",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.3178071,
+      "longitude": 13.5403461,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:38.377485+00:00"
+    },
+    {
+      "source_id": "97119",
+      "name": "Klubovna",
+      "address": "Cajk Jateční 1002/20 Ústí nad Labem 40001",
+      "region": "Ústecký kraj",
+      "source_title": "[Ústecký kraj]Klubovna",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=97119",
+      "machine_text": "VSS 3.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.6654072,
+      "longitude": 14.0136449,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:39.977931+00:00"
+    },
+    {
+      "source_id": "99726",
+      "name": "Hospůdka u Rádi",
+      "address": "Chomutovská 210, 431 51 Klášterec nad Ohří 1, Ústecký kraj",
+      "region": "Ústecký kraj",
+      "source_title": "[Ústecký kraj]Hospůdka u Rádi",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=99726",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.3865496,
+      "longitude": 13.1762262,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:41.573532+00:00"
+    },
+    {
+      "source_id": "99712",
+      "name": "Tipáč",
+      "address": "Dřínovská 5415 Chomutov  43004 Ústecký kraj",
+      "region": "Ústecký kraj",
+      "source_title": "[Ústecký kraj]Tipáč",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=99712",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.4773584,
+      "longitude": 13.4155093,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:43.185617+00:00"
+    },
+    {
+      "source_id": "100103",
+      "name": "Hostince u Johanu",
+      "address": "Generála Svobody 297 Horní Jiřetín",
+      "region": "Ústecký kraj",
+      "source_title": "[Ústecký kraj]Hostince u Johanu",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=100103",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.5790236,
+      "longitude": 13.5406957,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:44.767292+00:00"
+    },
+    {
+      "source_id": "99711",
+      "name": "Sportbar Ježek",
+      "address": "Kamenný vrch 5309 Chomutov  43004 Ústecký kraj",
+      "region": "Ústecký kraj",
+      "source_title": "[Ústecký kraj]Sportbar Ježek",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=99711",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.4827199,
+      "longitude": 13.4251295,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:46.365221+00:00"
+    },
+    {
+      "source_id": "100240",
+      "name": "Áčko 23",
+      "address": "Mládežnická 1646, 431 11 Jirkov Ústecký kraj",
+      "region": "Ústecký kraj",
+      "source_title": "[Ústecký kraj]Áčko 23",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=100240",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.49982139999999,
+      "longitude": 13.4306907,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:47.979114+00:00"
+    },
+    {
+      "source_id": "100054",
+      "name": "Herna Mírák",
+      "address": "Mírové nám. 107/31, 400 01 Ústí nad Labem-centrum, Česko Ústecký kraj",
+      "region": "Ústecký kraj",
+      "source_title": "[Ústecký kraj]Herna Mírák",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=100054",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.6597365,
+      "longitude": 14.0401947,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:49.438910+00:00"
+    },
+    {
+      "source_id": "100340",
+      "name": "Bohemia Pub",
+      "address": "Náměstí 1.Máje 89, Chomutov 43001, Ústecký kraj",
+      "region": "Ústecký kraj",
+      "source_title": "[Ústecký kraj]Bohemia Pub",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=100340",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.4601509,
+      "longitude": 13.4183208,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:50.903016+00:00"
+    },
+    {
+      "source_id": "98479",
+      "name": "Hospoda Podlesice",
+      "address": "Podlesice 2 Veliká Ves Ústecký kraj",
+      "region": "Ústecký kraj",
+      "source_title": "[Ústecký kraj]Hospoda Podlesice",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=98479",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.2794027,
+      "longitude": 13.3316854,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:52.370568+00:00"
+    },
+    {
+      "source_id": "99713",
+      "name": "Mustang",
+      "address": "Písečná 5306 Chomutov  43004 Ústecký kraj",
+      "region": "Ústecký kraj",
+      "source_title": "[Ústecký kraj]Mustang",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=99713",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.4879068,
+      "longitude": 13.4408746,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:53.835467+00:00"
+    },
+    {
+      "source_id": "97448",
+      "name": "Restart bar",
+      "address": "Síbova 330, 418 01 Bílina 1-Újezdské Předměstí, Ústecký kraj",
+      "region": "Ústecký kraj",
+      "source_title": "[Ústecký kraj]Restart bar",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=97448",
+      "machine_text": "VSS 3.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.5409792,
+      "longitude": 13.7683404,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:55.439818+00:00"
+    },
+    {
+      "source_id": "99007",
+      "name": "Music Club Svět",
+      "address": "Tržní 421, 436 01 Litvínov 1, Ústecký kraj",
+      "region": "Ústecký kraj",
+      "source_title": "[Ústecký kraj]Music Club Svět",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=99007",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.5985003,
+      "longitude": 13.6151683,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:56.936753+00:00"
+    },
+    {
+      "source_id": "100373",
+      "name": "Podnos Restaurant s.r.o.",
+      "address": "U Chemičky 967/7 Psč 40001 Ústí nad Labem",
+      "region": "Ústecký kraj",
+      "source_title": "[Ústecký kraj]Podnos Restaurant s.r.o.",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=100373",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.6601071,
+      "longitude": 14.0301341,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:58.427262+00:00"
+    },
+    {
+      "source_id": "96544",
+      "name": "Pivnice Na Trhu",
+      "address": "Víta Nejedlého 1186, 434 01 Most",
+      "region": "Ústecký kraj",
+      "source_title": "[Ústecký kraj]Pivnice Na Trhu",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=96544",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.4975033,
+      "longitude": 13.6394694,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:38:59.863914+00:00"
+    },
+    {
+      "source_id": "96734",
+      "name": "Jakoby bar",
+      "address": "tř. Budovatelů 2957, 434 01 Most 1, Česko",
+      "region": "Ústecký kraj",
+      "source_title": "[Ústecký kraj]Jakoby bar",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=96734",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.5050569,
+      "longitude": 13.639395,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:39:01.344137+00:00"
+    },
+    {
+      "source_id": "99775",
+      "name": "Pivnice u klubíčka",
+      "address": "třída budovatelů 2376/100 Most 43401 Ústecký kraj",
+      "region": "Ústecký kraj",
+      "source_title": "[Ústecký kraj]Pivnice u klubíčka",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=99775",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.5071615,
+      "longitude": 13.6406509,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:39:02.802687+00:00"
+    },
+    {
+      "source_id": "99714",
+      "name": "Restaurace Morava",
+      "address": "Školní pěšina 5248, 430 04 Chomutov Ústecký kraj",
+      "region": "Ústecký kraj",
+      "source_title": "[Ústecký kraj]Restaurace Morava",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopDetail?s_seq=99714",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "cz",
+      "latitude": 50.4820399,
+      "longitude": 13.4268623,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:39:04.299204+00:00"
+    }
+  ]
+}

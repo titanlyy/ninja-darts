@@ -1,6 +1,6 @@
 {
   "provider": "phoenix",
-  "updated_at": "2026-11-03T09:36:14.111610+00:00",
+  "updated_at": "2026-11-03T09:39:04.642838+00:00",
   "countries": [
     {
       "country_code": "sg",
@@ -298,7 +298,13 @@
       "country_code": "cz",
       "name": "Czechia",
       "source_url": "https://www.phoenixdarts.com/cz/shop/shopSearch",
-      "status": "pending"
+      "status": "complete",
+      "updated_at": "2026-11-03T09:39:04.299484+00:00",
+      "discovered": 73,
+      "collected": 73,
+      "mapped": 73,
+      "listing_pages": 15,
+      "file": "data/phoenix/cz.json"
     },
     {
       "country_code": "de",

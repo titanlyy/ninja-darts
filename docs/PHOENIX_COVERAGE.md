@@ -32,7 +32,7 @@ Business facts only are collected. No player data, descriptions or photos are im
 | Luxembourg | complete | 49 | 47 | [Public directory](https://www.phoenixdarts.com/lu/shop/shopSearch) |
 | Austria | complete | 15 | 15 | [Public directory](https://www.phoenixdarts.com/at/shop/shopSearch) |
 | Belgium | complete | 73 | 72 | [Public directory](https://www.phoenixdarts.com/be/shop/shopSearch) |
-| Czechia | pending | n.a. | n.a. | [Public directory](https://www.phoenixdarts.com/cz/shop/shopSearch) |
+| Czechia | complete | 73 | 73 | [Public directory](https://www.phoenixdarts.com/cz/shop/shopSearch) |
 | Germany | pending | n.a. | n.a. | [Public directory](https://www.phoenixdarts.com/de/shop/shopSearch) |
 | Portugal | pending | n.a. | n.a. | [Public directory](https://www.phoenixdarts.com/pt/shop/shopSearch) |
 | Switzerland | pending | n.a. | n.a. | [Public directory](https://www.phoenixdarts.com/ch/shop/shopSearch) |
