@@ -1,0 +1,265 @@
+{
+  "coverage": {
+    "country_code": "nc",
+    "name": "New Caledonia",
+    "source_url": "https://www.phoenixdarts.com/nc/shop/shopSearch",
+    "status": "complete",
+    "updated_at": "2026-11-03T09:23:01.817597+00:00",
+    "discovered": 10,
+    "collected": 10,
+    "mapped": 10,
+    "listing_pages": 2
+  },
+  "venues": [
+    {
+      "source_id": "88137",
+      "name": "SHERATON DEVA",
+      "address": "Route de Poé 98870",
+      "region": "Bourail",
+      "source_title": "[Bourail]SHERATON DEVA",
+      "source_url": "https://www.phoenixdarts.com/nc/shop/shopDetail?s_seq=88137",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nc",
+      "latitude": -21.6006595,
+      "longitude": 165.4388237,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:22:47.371032+00:00"
+    },
+    {
+      "source_id": "73279",
+      "name": "NAI NAK",
+      "address": "191 naina 98880 La Foa",
+      "region": "La Foa",
+      "source_title": "[La Foa]NAI NAK",
+      "source_url": "https://www.phoenixdarts.com/nc/shop/shopDetail?s_seq=73279",
+      "machine_text": "VSS 3.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nc",
+      "latitude": -21.72431819051507,
+      "longitude": 165.82452357237662,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:22:48.971630+00:00"
+    },
+    {
+      "source_id": "52166",
+      "name": "LE JARDIN",
+      "address": "73 rue des Flamboyants 98809 MONT-DORE",
+      "region": "Mont-Dore",
+      "source_title": "[Mont-Dore]LE JARDIN",
+      "source_url": "https://www.phoenixdarts.com/nc/shop/shopDetail?s_seq=52166",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nc",
+      "latitude": -22.2254915534123,
+      "longitude": 166.5135948216451,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:22:50.578173+00:00"
+    },
+    {
+      "source_id": "58311",
+      "name": "NAKAMAL LE BANIAN",
+      "address": "11 rue Nobel - ZI Ducos 98800 Nouméa",
+      "region": "Nouméa",
+      "source_title": "[Nouméa]NAKAMAL LE BANIAN",
+      "source_url": "https://www.phoenixdarts.com/nc/shop/shopDetail?s_seq=58311",
+      "machine_text": "VSS 3.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nc",
+      "latitude": -22.233223762266746,
+      "longitude": 166.44201825700836,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:22:52.188669+00:00"
+    },
+    {
+      "source_id": "65432",
+      "name": "LA CASE",
+      "address": "15, rue Jules Garnier 98800 Nouméa NOUMEA",
+      "region": "Nouméa",
+      "source_title": "[Nouméa]LA CASE",
+      "source_url": "https://www.phoenixdarts.com/nc/shop/shopDetail?s_seq=65432",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nc",
+      "latitude": -22.28968485512993,
+      "longitude": 166.44158562578625,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:22:53.803575+00:00"
+    },
+    {
+      "source_id": "65247",
+      "name": "L'ENDROIT",
+      "address": "22 rue Jules garnier 98800 NOUMEA",
+      "region": "Nouméa",
+      "source_title": "[Nouméa]L'ENDROIT",
+      "source_url": "https://www.phoenixdarts.com/nc/shop/shopDetail?s_seq=65247",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nc",
+      "latitude": -22.2953293,
+      "longitude": 166.4371016,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:22:55.400177+00:00"
+    },
+    {
+      "source_id": "51691",
+      "name": "ART ' CAFE",
+      "address": "29, rue Dusquesne 98800 Nouméa",
+      "region": "Nouméa",
+      "source_title": "[Nouméa]ART ' CAFE",
+      "source_url": "https://www.phoenixdarts.com/nc/shop/shopDetail?s_seq=51691",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nc",
+      "latitude": -22.277846,
+      "longitude": 166.44222200000002,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:22:57.000531+00:00"
+    },
+    {
+      "source_id": "83585",
+      "name": "STARGATE",
+      "address": "31 PROMENADE ROGER LAROQUE 98800 NOUMÉA",
+      "region": "Nouméa",
+      "source_title": "[Nouméa]STARGATE",
+      "source_url": "https://www.phoenixdarts.com/nc/shop/shopDetail?s_seq=83585",
+      "machine_text": "VSS 15.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 15
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nc",
+      "latitude": -22.2989043,
+      "longitude": 166.4396023,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:22:58.617547+00:00"
+    },
+    {
+      "source_id": "51127",
+      "name": "3 BRASSEURS",
+      "address": "33 Promenade Roger Laroque 98800 NOUMEA",
+      "region": "Nouméa",
+      "source_title": "[Nouméa]3 BRASSEURS",
+      "source_url": "https://www.phoenixdarts.com/nc/shop/shopDetail?s_seq=51127",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nc",
+      "latitude": -22.299757264494758,
+      "longitude": 166.4386438823357,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:23:00.219038+00:00"
+    },
+    {
+      "source_id": "91328",
+      "name": "BAMBOU",
+      "address": "Ave de la baie de Koutio 98800 NOUMEA NOUMEA",
+      "region": "Nouméa",
+      "source_title": "[Nouméa]BAMBOU",
+      "source_url": "https://www.phoenixdarts.com/nc/shop/shopDetail?s_seq=91328",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nc",
+      "latitude": -22.2262323,
+      "longitude": 166.4447536,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:23:01.817307+00:00"
+    }
+  ]
+}

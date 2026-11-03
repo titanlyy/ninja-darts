@@ -1,6 +1,6 @@
 {
   "provider": "phoenix",
-  "updated_at": "2026-11-03T09:22:17.729944+00:00",
+  "updated_at": "2026-11-03T09:23:02.215552+00:00",
   "countries": [
     {
       "country_code": "sg",
@@ -201,7 +201,13 @@
       "country_code": "nc",
       "name": "New Caledonia",
       "source_url": "https://www.phoenixdarts.com/nc/shop/shopSearch",
-      "status": "pending"
+      "status": "complete",
+      "updated_at": "2026-11-03T09:23:01.817597+00:00",
+      "discovered": 10,
+      "collected": 10,
+      "mapped": 10,
+      "listing_pages": 2,
+      "file": "data/phoenix/nc.json"
     },
     {
       "country_code": "ca",

@@ -1,1 +1,11 @@
 source_id,country_code,name,address,region,latitude,longitude,map_eligible,directory_eligible,exclusion_reason,machine_text,source_url,collected_at,coordinate_review
+88137,nc,SHERATON DEVA,Route de Poé 98870,Bourail,-21.6006595,165.4388237,True,True,,VSS 2.,https://www.phoenixdarts.com/nc/shop/shopDetail?s_seq=88137,2026-11-03T09:22:47.371032+00:00,
+73279,nc,NAI NAK,191 naina 98880 La Foa,La Foa,-21.72431819051507,165.82452357237662,True,True,,VSS 3.,https://www.phoenixdarts.com/nc/shop/shopDetail?s_seq=73279,2026-11-03T09:22:48.971630+00:00,
+52166,nc,LE JARDIN,73 rue des Flamboyants 98809 MONT-DORE,Mont-Dore,-22.2254915534123,166.5135948216451,True,True,,VSS 1.,https://www.phoenixdarts.com/nc/shop/shopDetail?s_seq=52166,2026-11-03T09:22:50.578173+00:00,
+58311,nc,NAKAMAL LE BANIAN,11 rue Nobel - ZI Ducos 98800 Nouméa,Nouméa,-22.233223762266746,166.44201825700836,True,True,,VSS 3.,https://www.phoenixdarts.com/nc/shop/shopDetail?s_seq=58311,2026-11-03T09:22:52.188669+00:00,
+65432,nc,LA CASE,"15, rue Jules Garnier 98800 Nouméa NOUMEA",Nouméa,-22.28968485512993,166.44158562578625,True,True,,VSS 1.,https://www.phoenixdarts.com/nc/shop/shopDetail?s_seq=65432,2026-11-03T09:22:53.803575+00:00,
+65247,nc,L'ENDROIT,22 rue Jules garnier 98800 NOUMEA,Nouméa,-22.2953293,166.4371016,True,True,,VSS 2.,https://www.phoenixdarts.com/nc/shop/shopDetail?s_seq=65247,2026-11-03T09:22:55.400177+00:00,
+51691,nc,ART ' CAFE,"29, rue Dusquesne 98800 Nouméa",Nouméa,-22.277846,166.44222200000002,True,True,,VSS 1.,https://www.phoenixdarts.com/nc/shop/shopDetail?s_seq=51691,2026-11-03T09:22:57.000531+00:00,
+83585,nc,STARGATE,31 PROMENADE ROGER LAROQUE 98800 NOUMÉA,Nouméa,-22.2989043,166.4396023,True,True,,VSS 15.,https://www.phoenixdarts.com/nc/shop/shopDetail?s_seq=83585,2026-11-03T09:22:58.617547+00:00,
+51127,nc,3 BRASSEURS,33 Promenade Roger Laroque 98800 NOUMEA,Nouméa,-22.299757264494758,166.4386438823357,True,True,,VSS 1.,https://www.phoenixdarts.com/nc/shop/shopDetail?s_seq=51127,2026-11-03T09:23:00.219038+00:00,
+91328,nc,BAMBOU,Ave de la baie de Koutio 98800 NOUMEA NOUMEA,Nouméa,-22.2262323,166.4447536,True,True,,VSS 2.,https://www.phoenixdarts.com/nc/shop/shopDetail?s_seq=91328,2026-11-03T09:23:01.817307+00:00,
