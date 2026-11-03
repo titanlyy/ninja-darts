@@ -11,7 +11,7 @@ Checked 2026-11-03 using Chromium, at 1440 × 900 and 375 × 812.
 - Detail panel: SE9TEMBER shows supplied address and two VSS machines, original
   provider page and coordinate-based Google Maps directions.
 - Branded marker symbols load in 30 × 30 px square markers with no wordmark
-  text; Leaflet hit areas remain 38 × 38 px for easier selection.
+  text; a downward tip anchors the supplied coordinate within a 38 × 40 px hit area.
 - Mobile sidebar can open and collapse; provider filtering and detail opening
   work without document-width overflow.
 - Near me with a supplied Singapore browser location returns 50 nearest venues.
@@ -24,3 +24,21 @@ Checked 2026-11-03 using Chromium, at 1440 × 900 and 375 × 812.
 These are UI and structural checks, not verification that a venue is currently
 operating, allows public access, or still has the listed machines. No confirmed
 dual-provider venue was found; the empty Both filter was removed in the UI cleanup.
+
+## Country and locality navigation regression
+
+- Country counts are numerically descending with All countries pinned first.
+- Japan → Tokyo prefecture: 1,084 records; Shinjuku district: 102.
+- USA → Hawaii → Honolulu: 30 records. Washington → Seattle: 15.
+- France → Bretagne → Côtes-d'Armor: 122 records, correctly labelled Department.
+- Region reset clears the city selection. Country switch clears both selections.
+- Provider filters compose with geography; Phoenix in Shinjuku returns zero,
+  and returning to All restores 102.
+- City-scoped nonsense search returns zero, then clearing restores city count.
+- Near me resets geographic/provider selections and returns 50 nearby venues;
+  denied location permission displays an explanatory message.
+- Singapore provider, DARTSLIVE3 and league totals remain 61/60, 32 and 37.
+- Mobile 375 px city controls fit inside the scrolling country navigation;
+  collapsing the drawer restores the full map with no horizontal overflow.
+- No application exceptions, JavaScript syntax failures or whitespace errors.
+- Venue snapshots and original coordinate fields remain unchanged.

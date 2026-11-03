@@ -14,7 +14,7 @@
   <link href="https://api.fontshare.com/v2/css?f[]=clash-display@500,600,700&f[]=satoshi@400,500,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
-  <link rel="stylesheet" href="css/style.css?v=4" />
+  <link rel="stylesheet" href="css/style.css?v=5" />
 </head>
 <body>
   <div id="app">
@@ -59,6 +59,12 @@
       <nav class="country-list" id="country-list" aria-label="Countries">
         <div class="loading-skeleton" aria-hidden="true"></div>
       </nav>
+      <div id="location-filter" class="location-filter hidden">
+        <p id="location-heading"></p>
+        <label><span id="region-label">Region</span><select id="geo-region" aria-labelledby="region-label"></select></label>
+        <label id="area-control"><span id="area-label">City / area</span><select id="geo-area" aria-labelledby="area-label"></select></label>
+        <p class="location-note">Listing totals across all providers</p>
+      </div>
 
       <footer class="sidebar-foot">
         <p id="venue-count">Loading venues…</p>
@@ -87,6 +93,6 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-  <script src="js/app.js?v=4"></script>
+  <script src="js/app.js?v=5"></script>
 </body>
 </html>

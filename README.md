@@ -15,6 +15,8 @@ A map-based global directory of darts venues, with DARTSLIVE source data across 
 - Independent, provider-attributed machine inventories and source links.
 - Conservative duplicate matching. The original DARTSLIVE data remains unchanged.
 - Singapore opens by default. Country browsing still covers the global dataset.
+- Countries ranked by mapped listing count, with region and city/area drill-down
+  where source geography is available. See [location field coverage](docs/LOCATION_FILTERS.md).
 - See [pilot collection and matching notes](docs/PHOENIX_PILOT.md).
 
 ## Features

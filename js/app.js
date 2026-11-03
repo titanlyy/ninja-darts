@@ -14,6 +14,8 @@
     markers: new Map(), // venue.id -> marker
     selected: 'sg',
     provider: 'all',
+    region: '',
+    area: '',
     query: '',
     leagueOnly: false,
     dl3Only: false,
@@ -30,6 +32,13 @@
     dl3: $('f-dl3'),
     nearMe: $('near-me'),
     provider: $('provider'),
+    locationFilter: $('location-filter'),
+    locationHeading: $('location-heading'),
+    region: $('geo-region'),
+    area: $('geo-area'),
+    regionLabel: $('region-label'),
+    areaLabel: $('area-label'),
+    areaControl: $('area-control'),
     countryList: $('country-list'),
     venueCount: $('venue-count'),
     detail: $('detail'),
@@ -78,8 +87,8 @@
         venue.providers.map(providerSymbol).join('') +
         '</div>',
       className: 'venue-marker-wrap',
-      iconSize: [38, 38],
-      iconAnchor: [19, 19],
+      iconSize: [38, 40],
+      iconAnchor: [19, 40],
     });
 
   // ── Helpers ───────────────────────────────────────────────
@@ -165,6 +174,18 @@
           });
         }
       });
+      try {
+        const locationsResponse = await fetch('data/locations.json');
+        if (!locationsResponse.ok) throw new Error('Location metadata unavailable');
+        const locations = await locationsResponse.json();
+        state.venues.forEach((v) => {
+          const location = locations.countries[v.cc]?.[v.id];
+          v.region = location?.region || '';
+          v.area = location?.area || '';
+        });
+      } catch (error) {
+        toast('City filters could not load. Country browsing is still available.');
+      }
       state.countries.forEach((c) => {
         const venues = state.venues.filter((v) => v.cc === c.cc);
         c.count = venues.length;
@@ -173,6 +194,7 @@
           [Math.max(...venues.map((v) => v.la)), Math.max(...venues.map((v) => v.lo))],
         ];
       });
+      state.countries.sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
       renderCountryList();
       buildMarkers();
       selectCountry('sg');
@@ -224,17 +246,86 @@
 
   function selectCountry(cc) {
     state.selected = cc;
+    state.region = '';
+    state.area = '';
+    els.detail.classList.add('hidden');
     els.countryList.querySelectorAll('.country-item').forEach((el) => {
       const active = el.dataset.cc === cc;
       el.classList.toggle('active', active);
       el.classList.toggle('selected', active);
     });
+    renderLocationFilters();
+    if (!els.locationFilter.classList.contains('hidden')) {
+      els.countryList.querySelector(`[data-cc="${cc}"]`)?.scrollIntoView({ block: 'start' });
+    }
     if (cc === 'all') {
       map.setView([25, 30], 2);
     } else {
       const c = state.countries.find((x) => x.cc === cc);
-      if (c) map.fitBounds(c.bounds, { padding: [48, 48], maxZoom: 11 });
+      if (c) map.fitBounds(c.bounds, { padding: [48, 48], maxZoom: 11, animate: false });
     }
+    applyFilters();
+  }
+
+  const missingLocation = '__missing__';
+  const regionKey = (v) => v.region || missingLocation;
+  const areaKey = (v) => JSON.stringify([v.region || '', v.area || '']);
+  const geoLabels = {
+    jp: ['Prefecture', 'City / district'],
+    fr: ['Region', 'Department'],
+    us: ['State', 'City'],
+    ca: ['Province', 'City'],
+    au: ['State / territory', 'City / locality'],
+    tw: ['City / county', 'Area'],
+    cn: ['Region', 'Province / municipality'],
+    my: ['Region', 'State / territory'],
+    hk: ['Region', 'District'],
+  };
+
+  function fillLocationOptions(select, items, allLabel, value) {
+    select.replaceChildren(new Option(allLabel, ''));
+    items.sort((a, b) => b.count - a.count || a.name.localeCompare(b.name))
+      .forEach((item) => select.add(new Option(`${item.name} (${item.count.toLocaleString()})`, item.key)));
+    select.value = value;
+  }
+
+  function renderLocationFilters() {
+    const venues = state.venues.filter((v) => v.cc === state.selected);
+    const regionGroups = new Map();
+    venues.forEach((v) => {
+      const key = regionKey(v);
+      if (!regionGroups.has(key)) regionGroups.set(key, { key, name: v.region || 'Not provided', count: 0 });
+      regionGroups.get(key).count++;
+    });
+    const hasGeography = state.selected !== 'sg' && venues.some((v) => v.region || v.area);
+    els.locationFilter.classList.toggle('hidden', !hasGeography);
+    if (!hasGeography) return;
+    const country = state.countries.find((c) => c.cc === state.selected);
+    const selectedButton = els.countryList.querySelector(`[data-cc="${state.selected}"]`);
+    selectedButton.after(els.locationFilter);
+    els.locationHeading.textContent = `Explore ${country.name}`;
+    const [regionLabel, areaLabel] = geoLabels[state.selected] || ['Region', 'City / area'];
+    els.regionLabel.textContent = regionLabel;
+    els.areaLabel.textContent = areaLabel;
+    fillLocationOptions(els.region, [...regionGroups.values()], `All (${venues.length.toLocaleString()} venues)`, state.region);
+    const areaVenues = venues.filter((v) => !state.region || regionKey(v) === state.region);
+    const areaGroups = new Map();
+    areaVenues.forEach((v) => {
+      const key = areaKey(v);
+      const suffix = !state.region && v.region ? ` · ${v.region}` : '';
+      if (!areaGroups.has(key)) areaGroups.set(key, { key, name: (v.area || 'Not provided') + suffix, count: 0 });
+      areaGroups.get(key).count++;
+    });
+    els.areaControl.classList.toggle('hidden', !areaVenues.some((v) => v.area));
+    fillLocationOptions(els.area, [...areaGroups.values()], `All (${areaVenues.length.toLocaleString()} venues)`, state.area);
+  }
+
+  function focusGeography() {
+    const venues = state.venues.filter((v) => v.cc === state.selected &&
+      (!state.region || regionKey(v) === state.region) && (!state.area || areaKey(v) === state.area));
+    map.stop();
+    if (venues.length) map.fitBounds(venues.map((v) => [v.la, v.lo]), { padding: [48, 48], maxZoom: 14, animate: false });
+    els.detail.classList.add('hidden');
     applyFilters();
   }
 
@@ -254,11 +345,13 @@
 
   function matchesFilters(v) {
     if (state.selected !== 'all' && v.cc !== state.selected) return false;
+    if (state.region && regionKey(v) !== state.region) return false;
+    if (state.area && areaKey(v) !== state.area) return false;
     if (state.provider !== 'all' && !v.providers.includes(state.provider)) return false;
     if (state.leagueOnly && !v.L) return false;
     if (state.dl3Only && !v.d3) return false;
     if (state.query) {
-      const hay = (v.n + ' ' + (v.phoenix_name || '') + ' ' + v.a + ' ' + v.g + ' ' + (v.st || '')).toLowerCase();
+      const hay = (v.n + ' ' + (v.phoenix_name || '') + ' ' + v.a + ' ' + v.g + ' ' + (v.st || '') + ' ' + (v.region || '') + ' ' + (v.area || '')).toLowerCase();
       if (!hay.includes(state.query)) return false;
     }
     return true;
@@ -347,6 +440,16 @@
 
   // ── Events ────────────────────────────────────────────────
   let debounce;
+  els.region.addEventListener('change', () => {
+    state.region = els.region.value;
+    state.area = '';
+    renderLocationFilters();
+    focusGeography();
+  });
+  els.area.addEventListener('change', () => {
+    state.area = els.area.value;
+    focusGeography();
+  });
   function syncProviderButtons() {
     els.provider.querySelectorAll('[data-provider]').forEach((button) =>
       button.setAttribute('aria-pressed', String(button.dataset.provider === state.provider))
@@ -400,6 +503,9 @@
       (pos) => {
         const { latitude: la, longitude: lo } = pos.coords;
         state.selected = 'all';
+        state.region = '';
+        state.area = '';
+        renderLocationFilters();
         els.countryList.querySelectorAll('.country-item').forEach((el) => {
           const active = el.dataset.cc === 'all';
           el.classList.toggle('active', active);
