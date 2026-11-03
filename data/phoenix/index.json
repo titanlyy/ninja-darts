@@ -1,6 +1,6 @@
 {
   "provider": "phoenix",
-  "updated_at": "2026-11-03T09:29:14.905106+00:00",
+  "updated_at": "2026-11-03T09:30:09.518606+00:00",
   "countries": [
     {
       "country_code": "sg",
@@ -181,7 +181,7 @@
       "updated_at": "2026-11-03T09:20:37.305749+00:00",
       "discovered": 77,
       "collected": 77,
-      "mapped": 74,
+      "mapped": 0,
       "listing_pages": 16,
       "file": "data/phoenix/au.json"
     },
@@ -250,7 +250,13 @@
       "country_code": "ma",
       "name": "Morocco",
       "source_url": "https://www.phoenixdarts.com/ma/shop/shopSearch",
-      "status": "pending"
+      "status": "complete",
+      "updated_at": "2026-11-03T09:30:09.169671+00:00",
+      "discovered": 79,
+      "collected": 79,
+      "mapped": 79,
+      "listing_pages": 16,
+      "file": "data/phoenix/ma.json"
     },
     {
       "country_code": "lu",
