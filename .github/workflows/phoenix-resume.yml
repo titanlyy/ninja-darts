@@ -1,0 +1,51 @@
+name: Continue checkpointed Phoenix collection
+on:
+  workflow_run:
+    workflows: ['Collect global Phoenix directories']
+    types: [completed]
+  # Manual execution is deliberately dry-run only.
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: write
+concurrency:
+  group: phoenix-global-continuation
+  cancel-in-progress: false
+jobs:
+  continue:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.workflow_run.conclusion == 'success' &&
+       github.event.workflow_run.head_branch == 'main' &&
+       github.event.workflow_run.head_repository.full_name == github.repository)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test bounded continuation policy
+        run: python -m unittest discover -s tools -p test_phoenix_resume.py
+      - name: Continue only unfinished checkpointed countries
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          countries="$(python tools/phoenix_resume.py data/phoenix/index.json)"
+          printf 'Eligible checkpoint continuations: `%s`\n' "$countries" | tee -a "$GITHUB_STEP_SUMMARY"
+          if [[ "$DRY_RUN" == "true" || "$countries" == "[]" ]]; then
+            exit 0
+          fi
+          active="$(gh run list --workflow phoenix-global.yml --limit 100 --json status --jq '[.[] | select(.status != "completed")] | length')"
+          if [[ "$active" != "0" ]]; then
+            echo 'An existing collection run is active or queued; no duplicate dispatched.' | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          gh workflow run phoenix-global.yml --ref main --field "countries=$countries"
+          echo 'Dispatched the next bounded checkpoint continuation.' | tee -a "$GITHUB_STEP_SUMMARY"

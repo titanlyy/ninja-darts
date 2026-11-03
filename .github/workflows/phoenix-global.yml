@@ -37,6 +37,7 @@ jobs:
           restore-keys: phoenix-${{ matrix.country }}-
       - run: pip install requests beautifulsoup4
       - run: python -m unittest discover -s tools -p test_phoenix_global.py
+      - run: python -m unittest discover -s tools -p test_phoenix_resume.py
       - name: Collect public business facts, paced and checkpointed
         id: collect
         run: python tools/phoenix_global.py --countries "${PHOENIX_COUNTRY}" --cache .phoenix-cache

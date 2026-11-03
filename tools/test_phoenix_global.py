@@ -29,6 +29,11 @@ class ParserTests(unittest.TestCase):
             self.assertEqual(result["coverage"]["status"], "partial")
             self.assertEqual(result["coverage"]["collected"], 0)
             self.assertIn("resumption", result["coverage"]["note"])
+            self.assertEqual(result["coverage"]["continuation_attempt"], 0)
+            with patch("phoenix_global.ROOT", root):
+                collect("my", root / "cache", client)
+            resumed = json.loads((root / "data/phoenix/my.json").read_text())
+            self.assertEqual(resumed["coverage"]["continuation_attempt"], 1)
 
     def test_duplicate_iso_features_are_aggregated(self):
         def feature(points):

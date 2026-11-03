@@ -265,7 +265,13 @@ def collect(route, cache, client):
         "country_code": cc_for(route), "name": name, "source_url": start_for(route),
         "status": "collecting", "updated_at": now(),
     }
-    records = json.loads(out.read_text()).get("venues", []) if out.exists() else []
+    previous = json.loads(out.read_text()) if out.exists() else {}
+    previous_coverage = previous.get("coverage", {})
+    coverage["continuation_attempt"] = (
+        previous_coverage.get("continuation_attempt", 0) + 1
+        if previous_coverage.get("status") == "partial" else 0
+    )
+    records = previous.get("venues", [])
     def export():
         coverage["discovered"] = len(progress["rows"])
         coverage["collected"] = len(records)
