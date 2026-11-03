@@ -71,6 +71,46 @@ def text(node):
     return node.get_text(" ", strip=True) if node else ""
 
 
+def split_title(value, route):
+    """Separate the source's balanced location prefix, including [[MY]City]."""
+    value = value.strip()
+    if not value.startswith("["):
+        return value, ""
+    depth = 0
+    for index, character in enumerate(value):
+        if character == "[":
+            depth += 1
+        elif character == "]":
+            depth -= 1
+            if depth == 0:
+                region = value[1:index].strip()
+                for code in {route.upper(), cc_for(route).upper()}:
+                    tag = f"[{code}]"
+                    if region.upper().startswith(tag):
+                        region = region[len(tag):].strip()
+                        break
+                return value[index + 1:].strip(), region
+    return value, ""
+
+
+def repair_nested_title(record, route):
+    """Migrate the old split at the first ] without fetching source pages again."""
+    region = record.get("region", "")
+    if region.upper() not in {f"[{route.upper()}", f"[{cc_for(route).upper()}"}:
+        return False
+    old_name = record.get("name", "")
+    reconstructed = f"[{region}]{old_name}"
+    name, fixed_region = split_title(reconstructed, route)
+    if not name or not fixed_region or fixed_region == region:
+        return False
+    record["title_repair"] = {
+        "method": "Balanced nested location prefix reconstructed from legacy parsed fields",
+        "previous_name": old_name, "previous_region": region,
+    }
+    record["name"], record["region"] = name, fixed_region
+    return True
+
+
 def machines_from(value):
     # Global "." suffix, Japanese 台 suffix, and model:count listing tags.
     result = []
@@ -127,8 +167,7 @@ def listing_rows(soup, route, url):
         if not sid or not dt:
             continue
         raw_name = text(dt)
-        region = re.match(r"^\[([^]]+)\]", raw_name)
-        name = re.sub(r"^\[[^]]+\]\s*", "", raw_name).strip()
+        name, region = split_title(raw_name, route)
         address_node = link.select_one(".address")
         dds = link.select("dd")
         address = text(address_node) if address_node else (text(dds[0]) if dds else "")
@@ -136,7 +175,7 @@ def listing_rows(soup, route, url):
         machine_text = text(machine_node) or " ".join(text(n) for n in link.select(".tag"))
         rows[sid[1]] = {
             "source_id": sid[1], "name": name, "address": address,
-            "region": region[1] if region else "",
+            "region": region, "source_title": raw_name,
             "source_url": urljoin(url, link["href"]),
             "machine_text": machine_text, "machines": machines_from(machine_text),
         }
@@ -147,7 +186,10 @@ def parse_detail(soup, row, route):
     record = dict(row)
     heading = soup.select_one("#subSection .pageTitle h2")
     if heading:
-        record["name"] = re.sub(r"^\[[^]]+\]\s*", "", text(heading)).strip()
+        record["source_title"] = text(heading)
+        record["name"], region = split_title(record["source_title"], route)
+        if region:
+            record["region"] = region
     fields = {}
     for anchor in soup.select('a[href*="shopSearch_region"]'):
         area = parse_qs(urlparse(anchor["href"]).query).get("ac4_n")
@@ -311,6 +353,8 @@ def build():
         feed = json.loads(path.read_text())
         changed = False
         for record in feed["venues"]:
+            if repair_nested_title(record, route):
+                changed = True
             if record.get("map_eligible") and cc_for(route) in bounds and not in_country(record, bounds[cc_for(route)]):
                 record["map_eligible"] = False
                 record["coordinate_review"] = "Pin falls outside permissive source-country geometry checks; verify before mapping"

@@ -1,10 +1,40 @@
 """Parser regression fixtures modelled on the fetched public country templates."""
 import unittest
 from bs4 import BeautifulSoup
-from phoenix_global import in_country, listing_rows, machines_from, parse_detail
+from phoenix_global import in_country, listing_rows, machines_from, parse_detail, repair_nested_title, split_title
 
 
 class ParserTests(unittest.TestCase):
+    def test_nested_country_city_prefix(self):
+        self.assertEqual(split_title("[[MY]Kuala Lumpur]Q2 SNOOKER (KL)", "my"),
+                         ("Q2 SNOOKER (KL)", "Kuala Lumpur"))
+        self.assertEqual(split_title("[Central] Real Venue", "sg"), ("Real Venue", "Central"))
+        self.assertEqual(split_title("Venue [VIP]", "my"), ("Venue [VIP]", ""))
+        self.assertEqual(split_title("[Unclosed Venue", "my"), ("[Unclosed Venue", ""))
+        soup = BeautifulSoup('''<a href="/my/shop/shopDetail?s_seq=46668"><dl>
+          <dt>[[MY]Kuala Lumpur]Q2 SNOOKER (KL)</dt><dd>498 Jalan Tun Razak</dd>
+          <dd class="machine">VSS 1 .</dd></dl></a>''', "html.parser")
+        row = listing_rows(soup, "my", "https://www.phoenixdarts.com/my/shop/shopSearch")["46668"]
+        self.assertEqual(row["region"], "Kuala Lumpur")
+        self.assertEqual(row["name"], "Q2 SNOOKER (KL)")
+        self.assertEqual(row["source_title"], "[[MY]Kuala Lumpur]Q2 SNOOKER (KL)")
+        detail = BeautifulSoup('''<section id="subSection"><div class="pageTitle">
+          <h2>[[MY]Kuala Lumpur]Q2 SNOOKER (KL)</h2></div></section>
+          <input id="lat" value="3.13324"><input id="lag" value="101.71858">''', "html.parser")
+        parsed = parse_detail(detail, row, "my")
+        self.assertEqual(parsed["name"], "Q2 SNOOKER (KL)")
+        self.assertEqual(parsed["region"], "Kuala Lumpur")
+        self.assertEqual(parsed["source_title"], row["source_title"])
+
+    def test_legacy_title_repair_is_idempotent(self):
+        record = {"name": "Kuala Lumpur]Q2 SNOOKER (KL)", "region": "[MY", "source_id": "46668"}
+        self.assertTrue(repair_nested_title(record, "my"))
+        self.assertEqual(record["name"], "Q2 SNOOKER (KL)")
+        self.assertEqual(record["region"], "Kuala Lumpur")
+        self.assertEqual(record["title_repair"]["previous_name"], "Kuala Lumpur]Q2 SNOOKER (KL)")
+        self.assertEqual(record["source_id"], "46668")
+        self.assertFalse(repair_nested_title(record, "my"))
+
     def test_country_sanity_check(self):
         self.assertTrue(in_country({"latitude": 1.3, "longitude": 103.8}, [[103.6, 1.2, 104.1, 1.5]]))
         self.assertFalse(in_country({"latitude": 40.7, "longitude": -74}, [[103.6, 1.2, 104.1, 1.5]]))
