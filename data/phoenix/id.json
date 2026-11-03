@@ -7,7 +7,7 @@
     "updated_at": "2026-11-03T08:07:28.899844+00:00",
     "discovered": 206,
     "collected": 206,
-    "mapped": 198,
+    "mapped": 191,
     "listing_pages": 42
   },
   "venues": [
@@ -969,11 +969,12 @@
       "country_code": "id",
       "latitude": 0.0,
       "longitude": 107.6092433,
-      "map_eligible": true,
+      "map_eligible": false,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T08:02:57.107973+00:00"
+      "collected_at": "2026-11-03T08:02:57.107973+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
     },
     {
       "source_id": "95017",
@@ -1065,11 +1066,12 @@
       "country_code": "id",
       "latitude": 0.0,
       "longitude": 107.53625629999999,
-      "map_eligible": true,
+      "map_eligible": false,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T08:03:04.171208+00:00"
+      "collected_at": "2026-11-03T08:03:04.171208+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
     },
     {
       "source_id": "47159",
@@ -1809,11 +1811,12 @@
       "country_code": "id",
       "latitude": 37.539841,
       "longitude": 126.97231299999999,
-      "map_eligible": true,
+      "map_eligible": false,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T08:03:56.025671+00:00"
+      "collected_at": "2026-11-03T08:03:56.025671+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
     },
     {
       "source_id": "68636",
@@ -2582,11 +2585,12 @@
       "country_code": "id",
       "latitude": 40.7162692,
       "longitude": -74.00863229999999,
-      "map_eligible": true,
+      "map_eligible": false,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T08:04:48.493788+00:00"
+      "collected_at": "2026-11-03T08:04:48.493788+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
     },
     {
       "source_id": "99642",
@@ -2654,11 +2658,12 @@
       "country_code": "id",
       "latitude": 37.539841,
       "longitude": 126.97231299999999,
-      "map_eligible": true,
+      "map_eligible": false,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T08:04:53.415781+00:00"
+      "collected_at": "2026-11-03T08:04:53.415781+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
     },
     {
       "source_id": "76614",
@@ -3570,11 +3575,12 @@
       "country_code": "id",
       "latitude": 33.2087007,
       "longitude": -80.78794069999998,
-      "map_eligible": true,
+      "map_eligible": false,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T08:05:52.383662+00:00"
+      "collected_at": "2026-11-03T08:05:52.383662+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
     },
     {
       "source_id": "77935",
@@ -3666,11 +3672,12 @@
       "country_code": "id",
       "latitude": 37.539841,
       "longitude": 126.97231299999999,
-      "map_eligible": true,
+      "map_eligible": false,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T08:05:58.403716+00:00"
+      "collected_at": "2026-11-03T08:05:58.403716+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
     },
     {
       "source_id": "95008",

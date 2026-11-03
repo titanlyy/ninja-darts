@@ -1,1 +1,1 @@
-source_id,country_code,name,address,region,latitude,longitude,map_eligible,directory_eligible,exclusion_reason,machine_text,source_url,collected_at
+source_id,country_code,name,address,region,latitude,longitude,map_eligible,directory_eligible,exclusion_reason,machine_text,source_url,collected_at,coordinate_review

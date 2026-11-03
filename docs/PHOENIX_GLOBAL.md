@@ -9,7 +9,7 @@ The map preserves the original DARTSLIVE feeds and adds public Phoenix business 
 - Checkpoints and partial facts are retained. HTTP 403/429 stops the workflow without bypass. Unavailable, failed, blocked and pending sources remain explicit in the [coverage audit](PHOENIX_COVERAGE.md).
 - Each finished country is committed with GitHub's authenticated application identity and published through GitHub Pages. No user git identity is impersonated.
 - Facts include provider URLs and timestamps. No player data, photos or promotional descriptions are copied.
-- Coordinates are taken from source listings, not independently geocoded. Range checks reject impossible coordinates, with tighter checks for the reviewed Singapore pilot. Public visitor access and current operation are not guaranteed.
+- Coordinates are taken from source listings, not independently geocoded. Range checks reject impossible coordinates, with tighter checks for the reviewed Singapore pilot. Permissive component-polygon boxes derived from [Natural Earth geography](https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries.geojson) hold grossly misplaced pins for review, with a 0.3-degree margin to avoid false precision near coasts and borders. This is not address-level location verification.
 - Uncertain cross-brand duplicates are not silently merged. Listing counts are source listings, not a certified count of unique physical premises or machines.
 
 ## Live country spreadsheets

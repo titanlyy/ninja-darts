@@ -1,6 +1,6 @@
 {
   "provider": "phoenix",
-  "updated_at": "2026-11-03T08:12:03.172142+00:00",
+  "updated_at": "2026-11-03T08:18:37.045664+00:00",
   "countries": [
     {
       "country_code": "sg",
@@ -84,7 +84,7 @@
       "updated_at": "2026-11-03T08:07:28.899844+00:00",
       "discovered": 206,
       "collected": 206,
-      "mapped": 198,
+      "mapped": 191,
       "listing_pages": 42,
       "file": "data/phoenix/id.json"
     },

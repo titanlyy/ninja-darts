@@ -1,10 +1,13 @@
 """Parser regression fixtures modelled on the fetched public country templates."""
 import unittest
 from bs4 import BeautifulSoup
-from phoenix_global import listing_rows, machines_from, parse_detail
+from phoenix_global import in_country, listing_rows, machines_from, parse_detail
 
 
 class ParserTests(unittest.TestCase):
+    def test_country_sanity_check(self):
+        self.assertTrue(in_country({"latitude": 1.3, "longitude": 103.8}, [[103.6, 1.2, 104.1, 1.5]]))
+        self.assertFalse(in_country({"latitude": 40.7, "longitude": -74}, [[103.6, 1.2, 104.1, 1.5]]))
     def test_native_listing(self):
         soup = BeautifulSoup('''<a href="/kr/shop/shopDetail?s_seq=84814"><dl>
           <dt><span>[서울특별시]</span>짱게임(은평)</dt><dd>서울특별시 은평구</dd>

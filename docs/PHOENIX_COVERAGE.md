@@ -14,7 +14,7 @@ Business facts only are collected. No player data, descriptions or photos are im
 | United Arab Emirates | unavailable | 0 | 0 | [Public directory](https://www.phoenixdarts.com/ae/shop/shopSearch) |
 | Saudi Arabia | complete | 9 | 9 | [Public directory](https://www.phoenixdarts.com/sa/shop/shopSearch) |
 | India | complete | 1 | 1 | [Public directory](https://www.phoenixdarts.com/in/shop/shopSearch) |
-| Indonesia | complete | 206 | 198 | [Public directory](https://www.phoenixdarts.com/id/shop/shopSearch) |
+| Indonesia | complete | 206 | 191 | [Public directory](https://www.phoenixdarts.com/id/shop/shopSearch) |
 | Malaysia | pending | n.a. | n.a. | [Public directory](https://www.phoenixdarts.com/my/shop/shopSearch) |
 | Hong Kong | pending | n.a. | n.a. | [Public directory](https://www.phoenixdarts.com/hk/shop/shopSearch) |
 | Taiwan | pending | n.a. | n.a. | [Public directory](https://www.phoenixdarts.com/tw/shop/shopSearch) |

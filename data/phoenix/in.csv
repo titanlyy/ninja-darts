@@ -1,2 +1,2 @@
-source_id,country_code,name,address,region,latitude,longitude,map_eligible,directory_eligible,exclusion_reason,machine_text,source_url,collected_at
-76948,in,Pair A Dice Cafe,"53, Oshiwara Link Plaza, 1st Floor, Andhrei West, Mumbai, Maharashtra 400102",West India,18.93175448975276,73.02208428278492,True,True,,VSP 1 .,https://www.phoenixdarts.com/in/shop/shopDetail?s_seq=76948,2026-11-03T07:53:37.878151+00:00
+source_id,country_code,name,address,region,latitude,longitude,map_eligible,directory_eligible,exclusion_reason,machine_text,source_url,collected_at,coordinate_review
+76948,in,Pair A Dice Cafe,"53, Oshiwara Link Plaza, 1st Floor, Andhrei West, Mumbai, Maharashtra 400102",West India,18.93175448975276,73.02208428278492,True,True,,VSP 1 .,https://www.phoenixdarts.com/in/shop/shopDetail?s_seq=76948,2026-11-03T07:53:37.878151+00:00,

@@ -53,6 +53,14 @@ def cc_for(route):
     return "gb" if route == "uk" else route
 
 
+def in_country(record, bounds):
+    lat, lon = record.get("latitude"), record.get("longitude")
+    if lat is None or lon is None or not math.isfinite(lat) or not math.isfinite(lon):
+        return False
+    return any(w - .3 <= lon <= e + .3 and s - .3 <= lat <= n + .3
+               for w, s, e, n in bounds)
+
+
 def start_for(route):
     if route == "jp":
         return "https://vs.phoenixdarts.com/jp/shop/shopSearch_terms"
@@ -271,7 +279,7 @@ def build():
     folder.mkdir(parents=True, exist_ok=True)
     columns = ["source_id", "country_code", "name", "address", "region",
                "latitude", "longitude", "map_eligible", "directory_eligible",
-               "exclusion_reason", "machine_text", "source_url", "collected_at"]
+               "exclusion_reason", "machine_text", "source_url", "collected_at", "coordinate_review"]
     def export_csv(path, venues):
         with path.open("w", newline="") as handle:
             writer = csv.DictWriter(handle, fieldnames=columns, extrasaction="ignore", lineterminator="\n")
@@ -290,6 +298,8 @@ def build():
             "note": "Existing reviewed Singapore pilot", "updated_at": max(v["collected_at"] for v in venues),
         }, "venues": venues})
     countries = []
+    bounds_path = ROOT / "data/phoenix-country-bounds.json"
+    bounds = json.loads(bounds_path.read_text())["countries"] if bounds_path.exists() else {}
     for route, name in COUNTRIES:
         path = folder / f"{cc_for(route)}.json"
         if not path.exists():
@@ -299,6 +309,15 @@ def build():
             export_csv(path.with_suffix(".csv"), [])
             continue
         feed = json.loads(path.read_text())
+        changed = False
+        for record in feed["venues"]:
+            if record.get("map_eligible") and cc_for(route) in bounds and not in_country(record, bounds[cc_for(route)]):
+                record["map_eligible"] = False
+                record["coordinate_review"] = "Pin falls outside permissive source-country geometry checks; verify before mapping"
+                changed = True
+        if changed:
+            feed["coverage"]["mapped"] = sum(v.get("map_eligible", False) and v.get("directory_eligible", True) for v in feed["venues"])
+            save(path, feed)
         coverage = feed["coverage"]
         countries.append({**coverage, "file": f"data/phoenix/{cc_for(route)}.json"})
         # Per-country spreadsheet-compatible export, including held/unmappable rows.
