@@ -1,6 +1,6 @@
 {
   "provider": "phoenix",
-  "updated_at": "2026-11-03T09:20:37.733627+00:00",
+  "updated_at": "2026-11-03T09:22:17.729944+00:00",
   "countries": [
     {
       "country_code": "sg",
@@ -189,7 +189,13 @@
       "country_code": "nz",
       "name": "New Zealand",
       "source_url": "https://www.phoenixdarts.com/nz/shop/shopSearch",
-      "status": "pending"
+      "status": "complete",
+      "updated_at": "2026-11-03T09:22:17.301427+00:00",
+      "discovered": 35,
+      "collected": 35,
+      "mapped": 34,
+      "listing_pages": 7,
+      "file": "data/phoenix/nz.json"
     },
     {
       "country_code": "nc",

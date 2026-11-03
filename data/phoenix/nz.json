@@ -1,0 +1,890 @@
+{
+  "coverage": {
+    "country_code": "nz",
+    "name": "New Zealand",
+    "source_url": "https://www.phoenixdarts.com/nz/shop/shopSearch",
+    "status": "complete",
+    "updated_at": "2026-11-03T09:22:17.301427+00:00",
+    "discovered": 35,
+    "collected": 35,
+    "mapped": 34,
+    "listing_pages": 7
+  },
+  "venues": [
+    {
+      "source_id": "67994",
+      "name": "NZ Office bar",
+      "address": "16 Dagenham Street, Manurena, Auckland, 2102, New Zealand",
+      "region": "Auckland",
+      "source_title": "[Auckland]NZ Office bar",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=67994",
+      "machine_text": "VSS 5 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 5
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -37.0186369,
+      "longitude": 174.8684895,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:21:19.587145+00:00"
+    },
+    {
+      "source_id": "66879",
+      "name": "Dart Shop",
+      "address": "Unit 11, 16 Lambie Drive, Manukau, Auckland, New Zealand",
+      "region": "Auckland",
+      "source_title": "[Auckland]Dart Shop",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=66879",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -36.98648850000001,
+      "longitude": 174.87273189999996,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:21:21.263463+00:00"
+    },
+    {
+      "source_id": "80978",
+      "name": "Glen's Place",
+      "address": "1 Layla Place, Katikati, 3178",
+      "region": "Bay of Plenty",
+      "source_title": "[Bay of Plenty]Glen's Place",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=80978",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -37.5640335,
+      "longitude": 175.9221649,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:21:22.959503+00:00"
+    },
+    {
+      "source_id": "76881",
+      "name": "Mitchell Downs Tavern",
+      "address": "12 Goldie Street, Pukehangi, Rotorua 3015",
+      "region": "Bay of Plenty",
+      "source_title": "[Bay of Plenty]Mitchell Downs Tavern",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=76881",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -38.13854449999999,
+      "longitude": 176.20580760000007,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:21:24.652021+00:00"
+    },
+    {
+      "source_id": "75602",
+      "name": "Top Pub",
+      "address": "2618 SH 26, Morrinsville 3372",
+      "region": "Bay of Plenty",
+      "source_title": "[Bay of Plenty]Top Pub",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=75602",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -37.6621215,
+      "longitude": 175.51718800000003,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:21:26.346846+00:00"
+    },
+    {
+      "source_id": "72057",
+      "name": "Waihi Memorial RSA",
+      "address": "71 Seddon Avenue, Waihi 3610, Bay of Plenty",
+      "region": "Bay of Plenty",
+      "source_title": "[Bay of Plenty]Waihi Memorial RSA",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=72057",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -37.3915226,
+      "longitude": 175.83870379999996,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:21:28.036415+00:00"
+    },
+    {
+      "source_id": "71986",
+      "name": "Kope Turf Bar",
+      "address": "9 James Whakatane",
+      "region": "Bay of Plenty",
+      "source_title": "[Bay of Plenty]Kope Turf Bar",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=71986",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -37.9615398,
+      "longitude": 176.98120319999998,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:21:29.759170+00:00"
+    },
+    {
+      "source_id": "72166",
+      "name": "Rangitaiki Cosmopolitan Club",
+      "address": "Bridge Street, Edgecumbe",
+      "region": "Bay of Plenty",
+      "source_title": "[Bay of Plenty]Rangitaiki Cosmopolitan Club",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=72166",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -37.9757944,
+      "longitude": 176.8267634,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:21:31.460190+00:00"
+    },
+    {
+      "source_id": "75603",
+      "name": "Marties Place",
+      "address": "Looney Road, Opotiki",
+      "region": "Bay of Plenty",
+      "source_title": "[Bay of Plenty]Marties Place",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=75603",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -38.0095979,
+      "longitude": 177.18435390000002,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:21:33.149239+00:00"
+    },
+    {
+      "source_id": "77221",
+      "name": "Elmwood Trading Company",
+      "address": "1 Normans Road, Strowan, Christchurch 8052",
+      "region": "Canterbury",
+      "source_title": "[Canterbury]Elmwood Trading Company",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=77221",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -43.5097748,
+      "longitude": 172.6065068,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:21:34.837216+00:00"
+    },
+    {
+      "source_id": "75601",
+      "name": "Traffic Finance Christchurch",
+      "address": "10 Ranger Street, Mairehau, Christchurch",
+      "region": "Canterbury",
+      "source_title": "[Canterbury]Traffic Finance Christchurch",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=75601",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -43.4984615,
+      "longitude": 172.63442099999997,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:21:36.527910+00:00"
+    },
+    {
+      "source_id": "77220",
+      "name": "Black Horse Hotel",
+      "address": "33 Lincoln Road, Spreydon, Christchurch 8024",
+      "region": "Canterbury",
+      "source_title": "[Canterbury]Black Horse Hotel",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=77220",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -43.5518271,
+      "longitude": 172.5975631,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:21:38.215179+00:00"
+    },
+    {
+      "source_id": "68254",
+      "name": "Timaru South Cosmopolitan Club",
+      "address": "44 Browne St, Parkside, Timaru 7910",
+      "region": "Canterbury",
+      "source_title": "[Canterbury]Timaru South Cosmopolitan Club",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=68254",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -44.4028192,
+      "longitude": 171.250445,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:21:39.923073+00:00"
+    },
+    {
+      "source_id": "80277",
+      "name": "Woodend Tavern",
+      "address": "51 Main North Road, Woodend 7610",
+      "region": "Canterbury",
+      "source_title": "[Canterbury]Woodend Tavern",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=80277",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -43.3233615,
+      "longitude": 172.665422,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:21:41.618816+00:00"
+    },
+    {
+      "source_id": "79421",
+      "name": "Woolston Sports Bar",
+      "address": "669 Ferry Road, Woolston, Christchurch 8023",
+      "region": "Canterbury",
+      "source_title": "[Canterbury]Woolston Sports Bar",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=79421",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -43.5486203,
+      "longitude": 172.6821006,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:21:43.358751+00:00"
+    },
+    {
+      "source_id": "79317",
+      "name": "Tao Soft Tip",
+      "address": "Tao Matarau Junior Dart Academy Hall Turana Ararau 154 Kahutia Stree Gisborne",
+      "region": "Gisborne",
+      "source_title": "[Gisborne]Tao Soft Tip",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=79317",
+      "machine_text": "VSS 4 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 4
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -35.6658562,
+      "longitude": 174.2303977,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:21:45.022289+00:00"
+    },
+    {
+      "source_id": "81782",
+      "name": "Rosie O'Grady's Taradal",
+      "address": "246 Gloucester Street, Taradale",
+      "region": "Hawkes' Bay",
+      "source_title": "[Hawkes' Bay]Rosie O'Grady's Taradal",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=81782",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -39.5350776,
+      "longitude": 176.848993,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:21:46.741856+00:00"
+    },
+    {
+      "source_id": "71031",
+      "name": "Cloverlea",
+      "address": "301 Tremaine Ave, Highbury, Palmerston North 4412",
+      "region": "Manawatu-Wanganui",
+      "source_title": "[Manawatu-Wanganui]Cloverlea",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=71031",
+      "machine_text": "VSS 4 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 4
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -40.3509846,
+      "longitude": 175.58317699999998,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:21:48.449777+00:00"
+    },
+    {
+      "source_id": "72167",
+      "name": "Manawatu Dart Hall",
+      "address": "324 Tremaine Ave, Palmerston North",
+      "region": "Manawatu-Wanganui",
+      "source_title": "[Manawatu-Wanganui]Manawatu Dart Hall",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=72167",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -40.3501617,
+      "longitude": 175.58856149999997,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:21:50.147837+00:00"
+    },
+    {
+      "source_id": "80275",
+      "name": "Ashhurst RSA",
+      "address": "74 Cambridge Avenue, Ashhurst 4810",
+      "region": "Manawatu-Wanganui",
+      "source_title": "[Manawatu-Wanganui]Ashhurst RSA",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=80275",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -40.29159,
+      "longitude": 175.7547655,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:21:51.820755+00:00"
+    },
+    {
+      "source_id": "76947",
+      "name": "Rosie O'Grady's",
+      "address": "96 Fitzherbert Avenue, Palmerston North 4410",
+      "region": "Manawatu-Wanganui",
+      "source_title": "[Manawatu-Wanganui]Rosie O'Grady's",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=76947",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -40.3593461,
+      "longitude": 175.61307579999993,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:21:53.545803+00:00"
+    },
+    {
+      "source_id": "78907",
+      "name": "Traffic Finance Dunedin",
+      "address": "181 Hillside Road, South Dunedin",
+      "region": "Otago",
+      "source_title": "[Otago]Traffic Finance Dunedin",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=78907",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -45.893714,
+      "longitude": 170.4974193,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:21:55.241972+00:00"
+    },
+    {
+      "source_id": "78908",
+      "name": "Biddy Kate's Backpackers",
+      "address": "2 Market Street, Blenheim 7201",
+      "region": "Otago",
+      "source_title": "[Otago]Biddy Kate's Backpackers",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=78908",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -41.5110759,
+      "longitude": 173.9569291,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:21:56.932063+00:00"
+    },
+    {
+      "source_id": "77208",
+      "name": "Morrison's Irish Pub",
+      "address": "Stratton House Level 1/16-24 Beach Street, Queenstown 9300",
+      "region": "Southland",
+      "source_title": "[Southland]Morrison's Irish Pub",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=77208",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -45.03193419999999,
+      "longitude": 168.6601139,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:21:58.654712+00:00"
+    },
+    {
+      "source_id": "79893",
+      "name": "Waitara T&C",
+      "address": "29 West Quay, Waitara 4320",
+      "region": "Taranaki",
+      "source_title": "[Taranaki]Waitara T&C",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=79893",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -39.000091,
+      "longitude": 174.2384138,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:22:00.355701+00:00"
+    },
+    {
+      "source_id": "77276",
+      "name": "The Good Home (NP) Ltd",
+      "address": "3-7 Broughan Street, New Plymouth",
+      "region": "Taranaki",
+      "source_title": "[Taranaki]The Good Home (NP) Ltd",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=77276",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -39.0573248,
+      "longitude": 174.0727617,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:22:02.048953+00:00"
+    },
+    {
+      "source_id": "71897",
+      "name": "Tet Stadium",
+      "address": "62 Portia St, Stratford 4332",
+      "region": "Taranaki",
+      "source_title": "[Taranaki]Tet Stadium",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=71897",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -39.3403779,
+      "longitude": 174.2825272,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:22:03.742468+00:00"
+    },
+    {
+      "source_id": "77133",
+      "name": "White Hart Hotel",
+      "address": "82 High St, Hawera",
+      "region": "Taranaki",
+      "source_title": "[Taranaki]White Hart Hotel",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=77133",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": 0.0,
+      "longitude": 0.0,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:22:05.440419+00:00"
+    },
+    {
+      "source_id": "56643",
+      "name": "[R] Porirua Club",
+      "address": "1 Lodge Place Porirua, New Zealand",
+      "region": "Wellington",
+      "source_title": "[Wellington][R] Porirua Club",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=56643",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -41.1366772,
+      "longitude": 174.8400845,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:22:07.146597+00:00"
+    },
+    {
+      "source_id": "81513",
+      "name": "Legends Sports Bar",
+      "address": "1 Serlby Place, Porirua 5022",
+      "region": "Wellington",
+      "source_title": "[Wellington]Legends Sports Bar",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=81513",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -41.134347,
+      "longitude": 174.8407311,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:22:08.879613+00:00"
+    },
+    {
+      "source_id": "76893",
+      "name": "South Wairarapa Workingmen Club",
+      "address": "120 Main Street, Greytown 5742",
+      "region": "Wellington",
+      "source_title": "[Wellington]South Wairarapa Workingmen Club",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=76893",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -41.0805253,
+      "longitude": 175.45992769999998,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:22:10.537341+00:00"
+    },
+    {
+      "source_id": "77206",
+      "name": "Eddy's Bay",
+      "address": "13 Queen Street, Wainuiomata, Lower Hutt 5014",
+      "region": "Wellington",
+      "source_title": "[Wellington]Eddy's Bay",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=77206",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -41.2611584,
+      "longitude": 174.9453315,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:22:12.231577+00:00"
+    },
+    {
+      "source_id": "76787",
+      "name": "Newtown Sports Bar",
+      "address": "34 Constable Street, Newtown, Wellington 6021",
+      "region": "Wellington",
+      "source_title": "[Wellington]Newtown Sports Bar",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=76787",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -41.3135528,
+      "longitude": 174.78167150000002,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:22:13.917136+00:00"
+    },
+    {
+      "source_id": "76435",
+      "name": "BJs Tavern",
+      "address": "5 Tocker Street, Taita, Lower Hutt 5011",
+      "region": "Wellington",
+      "source_title": "[Wellington]BJs Tavern",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=76435",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -41.1778188,
+      "longitude": 174.95874019999997,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:22:15.613683+00:00"
+    },
+    {
+      "source_id": "56070",
+      "name": "[R] 4 Kings Sports Bar",
+      "address": "Corner of Dixon & Taranaki Street Wellington, New Zealand",
+      "region": "Wellington",
+      "source_title": "[Wellington][R] 4 Kings Sports Bar",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopDetail?s_seq=56070",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "nz",
+      "latitude": -41.2924969,
+      "longitude": 174.77881890000003,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:22:17.301101+00:00"
+    }
+  ]
+}

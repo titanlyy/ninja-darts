@@ -14,7 +14,7 @@ vn,Vietnam,complete,103,103,101,2026-11-03T09:14:17.708902+00:00,https://www.pho
 mn,Mongolia,complete,70,70,70,2026-11-03T09:17:13.775351+00:00,https://www.phoenixdarts.com/mn/shop/shopSearch,
 cn,China,failed,0,0,0,2026-11-03T09:17:47.289753+00:00,https://www.phoenixdarts.com/cn/shop/shopSearch,"HTTPConnectionPool(host='www.phoenixdartcn.com', port=80): Max retries exceeded with url: /cn (Caused by NameResolutionError(""HTTPConnection(host='www.phoenixdartcn.com', port=80): Failed to resolve 'www.phoenixdartcn.com' ([Errno -2] Name or service not known)""))"
 au,Australia,complete,77,77,0,2026-11-03T09:20:37.305749+00:00,https://www.phoenixdarts.com/au/shop/shopSearch,
-nz,New Zealand,pending,,,,,https://www.phoenixdarts.com/nz/shop/shopSearch,
+nz,New Zealand,complete,35,35,34,2026-11-03T09:22:17.301427+00:00,https://www.phoenixdarts.com/nz/shop/shopSearch,
 nc,New Caledonia,pending,,,,,https://www.phoenixdarts.com/nc/shop/shopSearch,
 ca,Canada,pending,,,,,https://www.phoenixdarts.com/ca/shop/shopSearch,
 ie,Ireland,pending,,,,,https://www.phoenixdarts.com/ie/shop/shopSearch,
