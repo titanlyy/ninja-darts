@@ -1,0 +1,1765 @@
+{
+  "coverage": {
+    "country_code": "mn",
+    "name": "Mongolia",
+    "source_url": "https://www.phoenixdarts.com/mn/shop/shopSearch",
+    "status": "complete",
+    "updated_at": "2026-11-03T09:17:13.775351+00:00",
+    "discovered": 70,
+    "collected": 70,
+    "mapped": 70,
+    "listing_pages": 14
+  },
+  "venues": [
+    {
+      "source_id": "100089",
+      "name": "APEX Billiard Lounge",
+      "address": "FX99+6QR, Darkhan, Darkhan-Uul",
+      "region": "Darkhan",
+      "source_title": "[Darkhan]APEX Billiard Lounge",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=100089",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 49.4681125,
+      "longitude": 105.9693906,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:15:28.037504+00:00"
+    },
+    {
+      "source_id": "97707",
+      "name": "Oyu Tolgoi - Sport Bar",
+      "address": "2RW8+JMC, Oyu Tolgoi, Ömnögovi",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Oyu Tolgoi - Sport Bar",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=97707",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 43.0465625,
+      "longitude": 106.8166406,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.facebook.com/bar.gobi.2025",
+      "collected_at": "2026-11-03T09:15:29.595665+00:00"
+    },
+    {
+      "source_id": "97706",
+      "name": "Oyu tolgoi - Chill Zone",
+      "address": "2RW8+PPR Oyu Tolgoi",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Oyu tolgoi - Chill Zone",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=97706",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 43.0468625,
+      "longitude": 106.8167656,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.facebook.com/bar.gobi.2025",
+      "collected_at": "2026-11-03T09:15:31.174096+00:00"
+    },
+    {
+      "source_id": "96795",
+      "name": "Root billiard lounge",
+      "address": "FX79+WQH, Darkhan, Darkhan-Uul",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Root billiard lounge",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=96795",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 49.4648125,
+      "longitude": 105.9694844,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.facebook.com/1st.choice0305",
+      "collected_at": "2026-11-03T09:15:32.809474+00:00"
+    },
+    {
+      "source_id": "96743",
+      "name": "Broccoli",
+      "address": "UNESCO St, SBD-1 khoroo, Ulaanbaatar 14220, Mongolia",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Broccoli",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=96743",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9125475,
+      "longitude": 106.927437,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.instagram.com/broccoli.bar.store?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+      "collected_at": "2026-11-03T09:15:34.411564+00:00"
+    },
+    {
+      "source_id": "97723",
+      "name": "TJ Billiarg & Darts Club",
+      "address": "VQ3J+2PF, HUD - 21 khoroo, Ulaanbaatar 17121",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]TJ Billiarg & Darts Club",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=97723",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.8525625,
+      "longitude": 106.7817969,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.facebook.com/profile.php?id=61566885470605",
+      "collected_at": "2026-11-03T09:15:36.006099+00:00"
+    },
+    {
+      "source_id": "97639",
+      "name": "88 Billiard & Lounge",
+      "address": "VR6M+MMR, HUD - 23 khoroo, Ulaanbaatar 17100",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]88 Billiard & Lounge",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=97639",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.8617375,
+      "longitude": 106.8341406,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.facebook.com/urjeerei",
+      "collected_at": "2026-11-03T09:15:37.597758+00:00"
+    },
+    {
+      "source_id": "97537",
+      "name": "Z Billiard",
+      "address": "VR7P+95G, HUD - 23 khoroo, Ulaanbaatar",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Z Billiard",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=97537",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.8634375,
+      "longitude": 106.8354531,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.facebook.com/profile.php?id=100067682324144",
+      "collected_at": "2026-11-03T09:15:39.173290+00:00"
+    },
+    {
+      "source_id": "97538",
+      "name": "Billiards 888 Lounge",
+      "address": "VR84+2W5, HUD - 6 khoroo, Ulaanbaatar",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Billiards 888 Lounge",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=97538",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.8650125,
+      "longitude": 106.8073594,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.facebook.com/profile.php?id=100064575193967",
+      "collected_at": "2026-11-03T09:15:40.750034+00:00"
+    },
+    {
+      "source_id": "97637",
+      "name": "KRUSH Billiard",
+      "address": "VR8P+QW Ulaanbaatar",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]KRUSH Billiard",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=97637",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.8669375,
+      "longitude": 106.8373125,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.facebook.com/profile.php?id=61575520306146",
+      "collected_at": "2026-11-03T09:15:42.348587+00:00"
+    },
+    {
+      "source_id": "97434",
+      "name": "Infinity billiard Club",
+      "address": "VR9F+Q7C, HUD - 5 khoroo, Ulaanbaatar 17110",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Infinity billiard Club",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=97434",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.8694375,
+      "longitude": 106.8231406,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.facebook.com/profile.php?id=61572471935993",
+      "collected_at": "2026-11-03T09:15:43.919323+00:00"
+    },
+    {
+      "source_id": "99383",
+      "name": "GESAK Pool Billiard & Tennis",
+      "address": "VRC9+6RV Ulaanbaatar",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]GESAK Pool Billiard & Tennis",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=99383",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.87061250000001,
+      "longitude": 106.8195469,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:15:45.483416+00:00"
+    },
+    {
+      "source_id": "99170",
+      "name": "ZET Pool Lounge",
+      "address": "VWJ6+QM Ulaanbaatar, Mongolia",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]ZET Pool Lounge",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=99170",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.8819375,
+      "longitude": 106.9116875,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:15:47.052312+00:00"
+    },
+    {
+      "source_id": "99568",
+      "name": "4.27 Club House",
+      "address": "VWP7+V4W, HUD - 11 khoroo, Ulaanbaatar 17023, Mongolia",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]4.27 Club House",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=99568",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.8872375,
+      "longitude": 106.9128281,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.facebook.com/profile.php?id=61590236953337",
+      "collected_at": "2026-11-03T09:15:48.635391+00:00"
+    },
+    {
+      "source_id": "99329",
+      "name": "Star Billiard Darts Club",
+      "address": "WRF8+5CV, SHD - 27 khoroo, Ulaanbaatar 18082, Mongolia",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Star Billiard Darts Club",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=99329",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9229875,
+      "longitude": 106.8160469,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:15:50.205183+00:00"
+    },
+    {
+      "source_id": "97525",
+      "name": "Гарьд биллиард клуб",
+      "address": "WV62+RRG Ulaanbaatar",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Гарьд биллиард клуб",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=97525",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9120625,
+      "longitude": 106.8520781,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.facebook.com/profile.php?id=61585851514154",
+      "collected_at": "2026-11-03T09:15:51.826993+00:00"
+    },
+    {
+      "source_id": "98586",
+      "name": "METRO POOL 2 BILLIARD",
+      "address": "WV7C+R9 Ulaanbaatar, Mongolia",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]METRO POOL 2 BILLIARD",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=98586",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9145625,
+      "longitude": 106.8709375,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:15:53.380896+00:00"
+    },
+    {
+      "source_id": "97636",
+      "name": "MD Lounge",
+      "address": "WV9M+GG Ulaanbaatar",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]MD Lounge",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=97636",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9188125,
+      "longitude": 106.8838125,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:15:54.947239+00:00"
+    },
+    {
+      "source_id": "99384",
+      "name": "Big Family Esport Center",
+      "address": "WVCM+564, BGD - 18 khoroo, Ulaanbaatar 16067, Mongolia",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Big Family Esport Center",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=99384",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9203875,
+      "longitude": 106.8830781,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:15:56.522935+00:00"
+    },
+    {
+      "source_id": "97522",
+      "name": "King Eight Billiard & Pub",
+      "address": "WVCR+54 Ulaanbaatar",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]King Eight Billiard & Pub",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=97522",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.92043750000001,
+      "longitude": 106.8903125,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.facebook.com/kingeightbilliardclub",
+      "collected_at": "2026-11-03T09:15:58.070978+00:00"
+    },
+    {
+      "source_id": "97722",
+      "name": "Ballers Billiard",
+      "address": "WVF9+7PP Ulaanbaatar",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Ballers Billiard",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=97722",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9232125,
+      "longitude": 106.8693281,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:15:59.661889+00:00"
+    },
+    {
+      "source_id": "96755",
+      "name": "Melange Lounge",
+      "address": "WVFJ+7C8, BGD - 14 khoroo, Ulaanbaatar 16066",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Melange Lounge",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=96755",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9231625,
+      "longitude": 106.8810781,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.facebook.com/profile.php?id=61553575889281",
+      "collected_at": "2026-11-03T09:16:01.212054+00:00"
+    },
+    {
+      "source_id": "98452",
+      "name": "Rexo sport lounge",
+      "address": "WVFJ+8V Ulaanbaatar",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Rexo sport lounge",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=98452",
+      "machine_text": "VSS 4.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 4
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.92331249999999,
+      "longitude": 106.8821875,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:16:02.771419+00:00"
+    },
+    {
+      "source_id": "99669",
+      "name": "Union Gaming E-Sport",
+      "address": "WVFQ+39 Ulaanbaatar",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Union Gaming E-Sport",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=99669",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.92268749999999,
+      "longitude": 106.8884375,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:16:04.370720+00:00"
+    },
+    {
+      "source_id": "97580",
+      "name": "Cozy Billiard Bar",
+      "address": "WVFQ+48 Ulaanbaatar",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Cozy Billiard Bar",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=97580",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9228125,
+      "longitude": 106.8883125,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.facebook.com/profile.php?id=100078368280478",
+      "collected_at": "2026-11-03T09:16:05.953616+00:00"
+    },
+    {
+      "source_id": "98730",
+      "name": "Elite Billiard Club",
+      "address": "WVFQ+C6 Ulaanbaatar, Mongolia",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Elite Billiard Club",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=98730",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9235625,
+      "longitude": 106.8880625,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:16:07.559378+00:00"
+    },
+    {
+      "source_id": "100569",
+      "name": "Monjoy Billiard - Horoolol",
+      "address": "WVGG+3F Ulaanbaatar",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Monjoy Billiard - Horoolol",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=100569",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9251875,
+      "longitude": 106.8761875,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:16:09.108725+00:00"
+    },
+    {
+      "source_id": "100398",
+      "name": "Champions Billiard",
+      "address": "WVGV+3MC Гандан, BGD - 11 khoroo, Ulaanbaatar 16040",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Champions Billiard",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=100398",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9251875,
+      "longitude": 106.8941406,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:16:10.691832+00:00"
+    },
+    {
+      "source_id": "97151",
+      "name": "Star sport's lounge",
+      "address": "WW3M+PJ Ulaanbaatar",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Star sport's lounge",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=97151",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9043125,
+      "longitude": 106.9340625,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.facebook.com/profile.php?id=61560642695621",
+      "collected_at": "2026-11-03T09:16:12.259037+00:00"
+    },
+    {
+      "source_id": "96761",
+      "name": "JOY",
+      "address": "WW3Q+QXW Сүмбэр Орд, BZD - 26 khoroo, Ulaanbaatar 13312",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]JOY",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=96761",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9047012,
+      "longitude": 106.9395676,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:16:13.820739+00:00"
+    },
+    {
+      "source_id": "97989",
+      "name": "Popo Entertainment",
+      "address": "WW4H+VF Ulaanbaatar",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Popo Entertainment",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=97989",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9071875,
+      "longitude": 106.9286875,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.facebook.com/popoentertainment/photos",
+      "collected_at": "2026-11-03T09:16:15.400396+00:00"
+    },
+    {
+      "source_id": "100568",
+      "name": "Monjoy Billiard - Ikh Nayad",
+      "address": "WW4H+WW Ulaanbaatar",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Monjoy Billiard - Ikh Nayad",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=100568",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9073125,
+      "longitude": 106.9298125,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:16:16.975365+00:00"
+    },
+    {
+      "source_id": "97551",
+      "name": "Monjoy Billiard club",
+      "address": "WW5F+52P, HUD - 15 khoroo, Ulaanbaatar",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Monjoy Billiard club",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=97551",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9079625,
+      "longitude": 106.9225781,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.facebook.com/monjoyclub",
+      "collected_at": "2026-11-03T09:16:18.565412+00:00"
+    },
+    {
+      "source_id": "99512",
+      "name": "PI Club House",
+      "address": "WW64+2RH, SBD - 3 khoroo, Ulaanbaatar 14252, Mongolia",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]PI Club House",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=99512",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9100625,
+      "longitude": 106.9071094,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:16:20.141221+00:00"
+    },
+    {
+      "source_id": "99360",
+      "name": "Legend Darts Club",
+      "address": "WW64+G9 Ulaanbaatar, Mongolia",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Legend Darts Club",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=99360",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9113125,
+      "longitude": 106.9059375,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:16:21.712483+00:00"
+    },
+    {
+      "source_id": "99228",
+      "name": "SOR Billiard Club",
+      "address": "WW6V+566, BZD - 25 khoroo, Ulaanbaatar 13371, Mongolia",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]SOR Billiard Club",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=99228",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9104125,
+      "longitude": 106.9430156,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:16:23.275351+00:00"
+    },
+    {
+      "source_id": "97550",
+      "name": "UB Billiard",
+      "address": "WW6V+F23, BZD - 25 khoroo, Ulaanbaatar",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]UB Billiard",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=97550",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9111375,
+      "longitude": 106.9425469,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.facebook.com/profile.php?id=61572619511501",
+      "collected_at": "2026-11-03T09:16:24.873506+00:00"
+    },
+    {
+      "source_id": "100399",
+      "name": "Crescita caffe",
+      "address": "WW76+M95 Seoul St, SBD - 2 khoroo, Ulaanbaatar 14251",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Crescita caffe",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=100399",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9144297,
+      "longitude": 106.90949,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:16:26.462752+00:00"
+    },
+    {
+      "source_id": "100238",
+      "name": "MODE Garden Bar",
+      "address": "WW77+RPM, Sukhbaatar district, 1st khoroo, Chinggis avenue, National amusement park, Park, SBD - 1 khoroo, Ulaanbaatar",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]MODE Garden Bar",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=100238",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9088198,
+      "longitude": 106.9229091,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:16:28.035020+00:00"
+    },
+    {
+      "source_id": "99992",
+      "name": "Prime Darts Academy",
+      "address": "WW7J+RW Ulaanbaatar",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Prime Darts Academy",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=99992",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9145625,
+      "longitude": 106.9323125,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:16:29.629350+00:00"
+    },
+    {
+      "source_id": "98931",
+      "name": "Bizrus Billiard Lounge",
+      "address": "WW7V+XC Ulaanbaatar, Mongolia",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Bizrus Billiard Lounge",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=98931",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9149375,
+      "longitude": 106.9435625,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:16:31.087500+00:00"
+    },
+    {
+      "source_id": "98019",
+      "name": "ZOOM Billiard sport lounge",
+      "address": "WW7V+XPW, BZD - 14 khoroo, Ulaanbaatar 13335",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]ZOOM Billiard sport lounge",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=98019",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9149875,
+      "longitude": 106.9443281,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.facebook.com/profile.php?id=61559746080217",
+      "collected_at": "2026-11-03T09:16:32.558945+00:00"
+    },
+    {
+      "source_id": "96953",
+      "name": "Neighbourhood Café in UB",
+      "address": "WW85+VR Ulaanbaatar",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Neighbourhood Café in UB",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=96953",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9171875,
+      "longitude": 106.9095625,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.instagram.com/_neighborhood_ub?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+      "collected_at": "2026-11-03T09:16:34.115798+00:00"
+    },
+    {
+      "source_id": "97799",
+      "name": "KingS Billiard&Lounge",
+      "address": "WW8J+J95 r khoroo, BZD - 6 khoroo, Ulaanbaatar 13373",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]KingS Billiard&Lounge",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=97799",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9165125,
+      "longitude": 106.9309844,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.facebook.com/profile.php?id=100081343484397",
+      "collected_at": "2026-11-03T09:16:35.567170+00:00"
+    },
+    {
+      "source_id": "96766",
+      "name": "Target darts",
+      "address": "WW93+FP4, CHD - 3 khoroo, Ulaanbaatar 15172",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Target darts",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=96766",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9186375,
+      "longitude": 106.9043281,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.facebook.com/profile.php?id=61559286554649&mibextid=wwXIfr&rdid=yKHnB5zy5fYGzbBU&share_url=https://www.facebook.com/share/1CN6Ra2xAd/?mibextid=wwXIfr#",
+      "collected_at": "2026-11-03T09:16:37.022205+00:00"
+    },
+    {
+      "source_id": "100039",
+      "name": "KOF",
+      "address": "WW95+Q3 Ulaanbaatar",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]KOF",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=100039",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9194375,
+      "longitude": 106.9076875,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:16:38.484761+00:00"
+    },
+    {
+      "source_id": "100372",
+      "name": "The Joy Underground Dining and Lounge",
+      "address": "WWC3+RH Ulaanbaatar",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]The Joy Underground Dining and Lounge",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=100372",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9220625,
+      "longitude": 106.9039375,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:16:40.068040+00:00"
+    },
+    {
+      "source_id": "97947",
+      "name": "Red Star Billiard & Karaoke",
+      "address": "WWCC+V7 Ulaanbaatar",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Red Star Billiard & Karaoke",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=97947",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9221875,
+      "longitude": 106.9206875,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.facebook.com/RedStarClub.UB",
+      "collected_at": "2026-11-03T09:16:41.542855+00:00"
+    },
+    {
+      "source_id": "99169",
+      "name": "Route-11 Sport Pub",
+      "address": "WWCJ+MC3, SBD - 8 khoroo, Ulaanbaatar 14191, Mongolia",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Route-11 Sport Pub",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=99169",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9216375,
+      "longitude": 106.9310469,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:16:42.991360+00:00"
+    },
+    {
+      "source_id": "99977",
+      "name": "Hide at Orshil",
+      "address": "WWCP+54V, BZD - 3 khoroo, Ulaanbaatar 13381",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Hide at Orshil",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=99977",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9204875,
+      "longitude": 106.9352969,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:16:44.443208+00:00"
+    },
+    {
+      "source_id": "100426",
+      "name": "EDEL Billiard & Lounge",
+      "address": "WWF5+9W Ulaanbaatar",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]EDEL Billiard & Lounge",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=100426",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9234375,
+      "longitude": 106.9098125,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:16:45.885163+00:00"
+    },
+    {
+      "source_id": "98719",
+      "name": "SHINE Billiard & Lounge",
+      "address": "WWFC+WG3 Бага тойруу, BZD - 6 khoroo, Ulaanbaatar 14200, Mongolia",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]SHINE Billiard & Lounge",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=98719",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9204992,
+      "longitude": 106.9232173,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:16:47.361410+00:00"
+    },
+    {
+      "source_id": "97360",
+      "name": "Guys Zone Billiard club",
+      "address": "WWGR+V2V Ikh Toiruu",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Guys Zone Billiard club",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=97360",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9272375,
+      "longitude": 106.9400469,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.facebook.com/profile.php?id=61567223127939",
+      "collected_at": "2026-11-03T09:16:48.824545+00:00"
+    },
+    {
+      "source_id": "98085",
+      "name": "MD Буянт Pool-Billiard & Tennis",
+      "address": "WWGV+G2 Ulaanbaatar",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]MD Буянт Pool-Billiard & Tennis",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=98085",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.92631249999999,
+      "longitude": 106.9425625,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:16:50.283389+00:00"
+    },
+    {
+      "source_id": "97523",
+      "name": "HEXA billiard & Lounge",
+      "address": "WWH6+Q6W Lago Verde 428-r bair 1-7 toot, SBD - 9 khoroo, Ulaanbaatar 14182",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]HEXA billiard & Lounge",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=97523",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9294875,
+      "longitude": 106.9105781,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.facebook.com/Hexaodxxk",
+      "collected_at": "2026-11-03T09:16:51.881708+00:00"
+    },
+    {
+      "source_id": "97573",
+      "name": "SULD Billiard & Lounge",
+      "address": "WWHW+77W, BZD - 2 khoroo, Ulaanbaatar",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]SULD Billiard & Lounge",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=97573",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9282375,
+      "longitude": 106.9457031,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:16:53.324300+00:00"
+    },
+    {
+      "source_id": "98906",
+      "name": "Adore Restaurant",
+      "address": "WWJ7+W8 Ulaanbaatar, Mongolia",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Adore Restaurant",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=98906",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9323125,
+      "longitude": 106.9133125,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:16:54.804748+00:00"
+    },
+    {
+      "source_id": "97666",
+      "name": "Mon Rasson Billiard Club",
+      "address": "WWM7+6X Ulaanbaatar",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Mon Rasson Billiard Club",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=97666",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9330625,
+      "longitude": 106.9149375,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.facebook.com/profile.php?id=100087987797412",
+      "collected_at": "2026-11-03T09:16:56.250702+00:00"
+    },
+    {
+      "source_id": "97341",
+      "name": "TDM Darts Club - Shine Sports Center",
+      "address": "WWPF+72 Ulaanbaatar",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]TDM Darts Club - Shine Sports Center",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=97341",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.93568750000001,
+      "longitude": 106.9225625,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.facebook.com/UnitedBilliards",
+      "collected_at": "2026-11-03T09:16:57.836232+00:00"
+    },
+    {
+      "source_id": "99668",
+      "name": "UNION Billiard SPORT",
+      "address": "WWR8+X6R, SBD - 12 khoroo, Ulaanbaatar 14170",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]UNION Billiard SPORT",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=99668",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9424875,
+      "longitude": 106.9155156,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:16:59.288329+00:00"
+    },
+    {
+      "source_id": "98060",
+      "name": "Guys Zone Billiard club 2",
+      "address": "WWXJ+WR Ulaanbaatar",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Guys Zone Billiard club 2",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=98060",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9498125,
+      "longitude": 106.9320625,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.facebook.com/profile.php?id=61567223127939",
+      "collected_at": "2026-11-03T09:17:00.730809+00:00"
+    },
+    {
+      "source_id": "98135",
+      "name": "UYAN Bowling Mongolia",
+      "address": "WX84+G3Q Peace Ave, BZD - 14 khoroo, Ulaanbaatar 13333",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]UYAN Bowling Mongolia",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=98135",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9170318,
+      "longitude": 106.9566575,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.facebook.com/profile.php?id=61556533381437",
+      "collected_at": "2026-11-03T09:17:02.191839+00:00"
+    },
+    {
+      "source_id": "97442",
+      "name": "Flare Sport Bar",
+      "address": "WX9P+W69 93, BZD - 16 khoroo, Ulaanbaatar 13320",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Flare Sport Bar",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=97442",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9197734,
+      "longitude": 106.9855945,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.facebook.com/flare.sportbar",
+      "collected_at": "2026-11-03T09:17:03.636619+00:00"
+    },
+    {
+      "source_id": "99121",
+      "name": "SUPER BILLIARD",
+      "address": "WXC6+GW Ulaanbaatar, Mongolia",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]SUPER BILLIARD",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=99121",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9213125,
+      "longitude": 106.9623125,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:17:05.078489+00:00"
+    },
+    {
+      "source_id": "99083",
+      "name": "Kabi Sport Lounge",
+      "address": "WXF5+83 Ulaanbaatar, Mongolia",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Kabi Sport Lounge",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=99083",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.92331249999999,
+      "longitude": 106.9576875,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:17:06.538785+00:00"
+    },
+    {
+      "source_id": "99330",
+      "name": "Хөх гүрэн бильярд клуб",
+      "address": "WXFF+P6 Ulaanbaatar, Mongolia",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Хөх гүрэн бильярд клуб",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=99330",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9243125,
+      "longitude": 106.9730625,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:17:07.982760+00:00"
+    },
+    {
+      "source_id": "99513",
+      "name": "Light16 Billiard Club",
+      "address": "WXFM+JVC, BZD - 16 khoroo, Ulaanbaatar 13291",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Light16 Billiard Club",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=99513",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9240625,
+      "longitude": 106.9846406,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:17:09.424023+00:00"
+    },
+    {
+      "source_id": "98907",
+      "name": "Bear Arena Sport Pub",
+      "address": "XR4R+347, SHD - 8 khoroo, Ulaanbaatar 18140, Mongolia",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Bear Arena Sport Pub",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=98907",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9551625,
+      "longitude": 106.8402969,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:17:10.880817+00:00"
+    },
+    {
+      "source_id": "98659",
+      "name": "Bear Billiard",
+      "address": "XV24+WM Ulaanbaatar, Mongolia",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]Bear Billiard",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=98659",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9523125,
+      "longitude": 106.8566875,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:17:12.318512+00:00"
+    },
+    {
+      "source_id": "97856",
+      "name": "SG Billiard Club",
+      "address": "XW27+6C Ulaanbaatar",
+      "region": "Ulaanbaatar",
+      "source_title": "[Ulaanbaatar]SG Billiard Club",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopDetail?s_seq=97856",
+      "machine_text": "VSS 3.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "mn",
+      "latitude": 47.9505625,
+      "longitude": 106.9135625,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "https://www.facebook.com/profile.php?id=100063181720881",
+      "collected_at": "2026-11-03T09:17:13.775049+00:00"
+    }
+  ]
+}

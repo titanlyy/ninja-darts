@@ -1,6 +1,6 @@
 {
   "provider": "phoenix",
-  "updated_at": "2026-11-03T09:14:18.112373+00:00",
+  "updated_at": "2026-11-03T09:17:14.178017+00:00",
   "countries": [
     {
       "country_code": "sg",
@@ -152,7 +152,13 @@
       "country_code": "mn",
       "name": "Mongolia",
       "source_url": "https://www.phoenixdarts.com/mn/shop/shopSearch",
-      "status": "pending"
+      "status": "complete",
+      "updated_at": "2026-11-03T09:17:13.775351+00:00",
+      "discovered": 70,
+      "collected": 70,
+      "mapped": 70,
+      "listing_pages": 14,
+      "file": "data/phoenix/mn.json"
     },
     {
       "country_code": "cn",
