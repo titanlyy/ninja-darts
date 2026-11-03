@@ -1,6 +1,6 @@
 {
   "provider": "phoenix",
-  "updated_at": "2026-11-03T09:40:15.470880+00:00",
+  "updated_at": "2026-11-03T10:28:18.572859+00:00",
   "countries": [
     {
       "country_code": "sg",
@@ -322,7 +322,13 @@
       "country_code": "pt",
       "name": "Portugal",
       "source_url": "https://www.phoenixdarts.com/pt/shop/shopSearch",
-      "status": "pending"
+      "status": "complete",
+      "updated_at": "2026-11-03T10:28:17.997658+00:00",
+      "discovered": 1427,
+      "collected": 1427,
+      "mapped": 1396,
+      "listing_pages": 286,
+      "file": "data/phoenix/pt.json"
     },
     {
       "country_code": "ch",
