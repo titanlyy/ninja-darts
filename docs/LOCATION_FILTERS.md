@@ -48,3 +48,13 @@ The logo tile remains 30 × 30 px, within a 38 × 40 px Leaflet hit area. A
 downward white triangle ends at the bottom-centre coordinate anchor (19, 40),
 so the point, rather than the centre of the square, identifies the supplied pin
 coordinate. Logo symbols remain text-free.
+
+## Clustering
+
+`CLUSTER_RADIUS_PX` in `js/app.js` controls the Leaflet marker-cluster grouping
+distance in screen pixels. It is 28 px, reduced from the earlier 55 px setting,
+so venues must be closer on screen to combine. Lower values reveal more
+individual pins at the same zoom, at the cost of denser/overlapping logos.
+It is not a fixed geographic distance: its ground distance changes with zoom.
+Very close or identical-coordinate venues still cluster and can be expanded
+by clicking a cluster and zooming in.

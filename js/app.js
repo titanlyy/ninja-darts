@@ -61,9 +61,11 @@
     maxZoom: 19,
   }).addTo(map);
 
+  // Screen-pixel grouping distance. Lower values keep more venue pins separate.
+  const CLUSTER_RADIUS_PX = 28;
   const clusterGroup = L.markerClusterGroup({
     chunkedLoading: true,
-    maxClusterRadius: 55,
+    maxClusterRadius: CLUSTER_RADIUS_PX,
     spiderfyOnMaxZoom: true,
     showCoverageOnHover: false,
     iconCreateFunction: (cluster) =>

@@ -42,3 +42,14 @@ dual-provider venue was found; the empty Both filter was removed in the UI clean
   collapsing the drawer restores the full map with no horizontal overflow.
 - No application exceptions, JavaScript syntax failures or whitespace errors.
 - Venue snapshots and original coordinate fields remain unchanged.
+
+## Lighter clustering
+
+- `CLUSTER_RADIUS_PX` reduced from 55 to 28 screen pixels.
+- Same 1440 × 900 Singapore zoom-11 view: 2 individual pins / 12 clusters
+  before, 11 individual pins / 18 smaller groups after.
+- All 121 Singapore listings remain included; clustering changes representation,
+  not the number of listings.
+- Cluster click-to-zoom, DARTSLIVE/Phoenix buttons, machine filters, search,
+  venue details and Japan prefecture/district filtering pass regression checks.
+- Mobile map and provider filtering remain usable.
