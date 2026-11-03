@@ -1,6 +1,6 @@
 {
   "provider": "phoenix",
-  "updated_at": "2026-11-03T09:30:09.518606+00:00",
+  "updated_at": "2026-11-03T09:32:18.400689+00:00",
   "countries": [
     {
       "country_code": "sg",
@@ -181,7 +181,7 @@
       "updated_at": "2026-11-03T09:20:37.305749+00:00",
       "discovered": 77,
       "collected": 77,
-      "mapped": 0,
+      "mapped": 74,
       "listing_pages": 16,
       "file": "data/phoenix/au.json"
     },
@@ -262,7 +262,13 @@
       "country_code": "lu",
       "name": "Luxembourg",
       "source_url": "https://www.phoenixdarts.com/lu/shop/shopSearch",
-      "status": "pending"
+      "status": "complete",
+      "updated_at": "2026-11-03T09:32:17.984939+00:00",
+      "discovered": 49,
+      "collected": 49,
+      "mapped": 47,
+      "listing_pages": 10,
+      "file": "data/phoenix/lu.json"
     },
     {
       "country_code": "at",

@@ -13,14 +13,14 @@ th,Thailand,complete,59,59,57,2026-11-03T09:10:19.849009+00:00,https://www.phoen
 vn,Vietnam,complete,103,103,101,2026-11-03T09:14:17.708902+00:00,https://www.phoenixdarts.com/vn/shop/shopSearch,
 mn,Mongolia,complete,70,70,70,2026-11-03T09:17:13.775351+00:00,https://www.phoenixdarts.com/mn/shop/shopSearch,
 cn,China,failed,0,0,0,2026-11-03T09:17:47.289753+00:00,https://www.phoenixdarts.com/cn/shop/shopSearch,"HTTPConnectionPool(host='www.phoenixdartcn.com', port=80): Max retries exceeded with url: /cn (Caused by NameResolutionError(""HTTPConnection(host='www.phoenixdartcn.com', port=80): Failed to resolve 'www.phoenixdartcn.com' ([Errno -2] Name or service not known)""))"
-au,Australia,complete,77,77,0,2026-11-03T09:20:37.305749+00:00,https://www.phoenixdarts.com/au/shop/shopSearch,
+au,Australia,complete,77,77,74,2026-11-03T09:20:37.305749+00:00,https://www.phoenixdarts.com/au/shop/shopSearch,
 nz,New Zealand,complete,35,35,34,2026-11-03T09:22:17.301427+00:00,https://www.phoenixdarts.com/nz/shop/shopSearch,
 nc,New Caledonia,complete,10,10,10,2026-11-03T09:23:01.817597+00:00,https://www.phoenixdarts.com/nc/shop/shopSearch,
 ca,Canada,complete,27,27,26,2026-11-03T09:24:49.256270+00:00,https://www.phoenixdarts.com/ca/shop/shopSearch,
 ie,Ireland,unavailable,0,0,0,2026-11-03T09:25:21.665024+00:00,https://www.phoenixdarts.com/ie/shop/shopSearch,Public directory returned no usable venue rows; not proof of zero installations
 gb,United Kingdom,complete,33,33,33,2026-11-03T09:27:09.255857+00:00,https://www.phoenixdarts.com/uk/shop/shopSearch,
 ma,Morocco,complete,79,79,79,2026-11-03T09:30:09.169671+00:00,https://www.phoenixdarts.com/ma/shop/shopSearch,
-lu,Luxembourg,pending,,,,,https://www.phoenixdarts.com/lu/shop/shopSearch,
+lu,Luxembourg,complete,49,49,47,2026-11-03T09:32:17.984939+00:00,https://www.phoenixdarts.com/lu/shop/shopSearch,
 at,Austria,pending,,,,,https://www.phoenixdarts.com/at/shop/shopSearch,
 be,Belgium,pending,,,,,https://www.phoenixdarts.com/be/shop/shopSearch,
 cz,Czechia,pending,,,,,https://www.phoenixdarts.com/cz/shop/shopSearch,

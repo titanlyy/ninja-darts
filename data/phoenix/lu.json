@@ -1,0 +1,1240 @@
+{
+  "coverage": {
+    "country_code": "lu",
+    "name": "Luxembourg",
+    "source_url": "https://www.phoenixdarts.com/lu/shop/shopSearch",
+    "status": "complete",
+    "updated_at": "2026-11-03T09:32:17.984939+00:00",
+    "discovered": 49,
+    "collected": 49,
+    "mapped": 47,
+    "listing_pages": 10
+  },
+  "venues": [
+    {
+      "source_id": "73801",
+      "name": "Duerfkessel",
+      "address": "1 rue de windhof L8384 koerich Luxembourg",
+      "region": "CAPELLEN",
+      "source_title": "[CAPELLEN]Duerfkessel",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=73801",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.6693514,
+      "longitude": 5.964922800000068,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:02.978309+00:00"
+    },
+    {
+      "source_id": "74019",
+      "name": "Cafe des sports",
+      "address": "42 haapstrooss L 9806 hosingen clervaux",
+      "region": "CLERVEAUX",
+      "source_title": "[CLERVEAUX]Cafe des sports",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=74019",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 50.0166449,
+      "longitude": 6.092058100000031,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:04.547339+00:00"
+    },
+    {
+      "source_id": "73992",
+      "name": "Buvette du lac",
+      "address": "68 RUE weilwerdangerstoos L9990 weiswampach",
+      "region": "CLERVEAUX",
+      "source_title": "[CLERVEAUX]Buvette du lac",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=73992",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 50.1383497,
+      "longitude": 6.0779580999999325,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:06.119564+00:00"
+    },
+    {
+      "source_id": "73785",
+      "name": "Blue bar",
+      "address": "119 grand rue L9051 ettelbruck Luxembourg",
+      "region": "DIEKIRCH",
+      "source_title": "[DIEKIRCH]Blue bar",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=73785",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.8477274,
+      "longitude": 6.102715100000069,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:07.695360+00:00"
+    },
+    {
+      "source_id": "75154",
+      "name": "Cafe neuhengen",
+      "address": "17 rue helpert L 8710 boevange-attert Luxembourg",
+      "region": "DIEKIRCH",
+      "source_title": "[DIEKIRCH]Cafe neuhengen",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=75154",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.7758216,
+      "longitude": 6.012805599999979,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:09.264234+00:00"
+    },
+    {
+      "source_id": "75716",
+      "name": "Rocket cafe",
+      "address": "46 rue stavelot L 9280 Diekirch",
+      "region": "DIEKIRCH",
+      "source_title": "[DIEKIRCH]Rocket cafe",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=75716",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.86736380000001,
+      "longitude": 6.159229800000048,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:10.839719+00:00"
+    },
+    {
+      "source_id": "76376",
+      "name": "Um poteau",
+      "address": "1 route de rumelange  L-4309 esch sur alzette",
+      "region": "ESCH-SUR-ALZETTE",
+      "source_title": "[ESCH-SUR-ALZETTE]Um poteau",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=76376",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.491732,
+      "longitude": 5.996286899999973,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:12.425765+00:00"
+    },
+    {
+      "source_id": "73568",
+      "name": "Nostalgie",
+      "address": "1 rue boltgen L4038 esch alzette",
+      "region": "ESCH-SUR-ALZETTE",
+      "source_title": "[ESCH-SUR-ALZETTE]Nostalgie",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=73568",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.49596690000001,
+      "longitude": 5.984384200000022,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:13.990744+00:00"
+    },
+    {
+      "source_id": "75234",
+      "name": "Roude leiw",
+      "address": "124, rue jean piere michels L4243 esch sur alzette",
+      "region": "ESCH-SUR-ALZETTE",
+      "source_title": "[ESCH-SUR-ALZETTE]Roude leiw",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=75234",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.5043168,
+      "longitude": 5.98416629999997,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:15.562078+00:00"
+    },
+    {
+      "source_id": "73569",
+      "name": "Cafe am bredewee",
+      "address": "14 rue large l4204 esch alzette luxembourg",
+      "region": "ESCH-SUR-ALZETTE",
+      "source_title": "[ESCH-SUR-ALZETTE]Cafe am bredewee",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=73569",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.4978188,
+      "longitude": 5.980235200000038,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:17.211142+00:00"
+    },
+    {
+      "source_id": "81709",
+      "name": "Duke's bar",
+      "address": "15 rue de la liberation L3510 Dudelange",
+      "region": "ESCH-SUR-ALZETTE",
+      "source_title": "[ESCH-SUR-ALZETTE]Duke's bar",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=81709",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.47746129999999,
+      "longitude": 6.0849837,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:18.782962+00:00"
+    },
+    {
+      "source_id": "73858",
+      "name": "Brasserie Bizarre",
+      "address": "19 avenue de la liberte L4601 differdange",
+      "region": "ESCH-SUR-ALZETTE",
+      "source_title": "[ESCH-SUR-ALZETTE]Brasserie Bizarre",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=73858",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.5237607,
+      "longitude": 5.888535899999965,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:20.383186+00:00"
+    },
+    {
+      "source_id": "74214",
+      "name": "Dolce et gabana",
+      "address": "2 grand rue L4132 esch alzette Luxembourg",
+      "region": "ESCH-SUR-ALZETTE",
+      "source_title": "[ESCH-SUR-ALZETTE]Dolce et gabana",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=74214",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.4967532,
+      "longitude": 5.985009499999933,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:21.942862+00:00"
+    },
+    {
+      "source_id": "75687",
+      "name": "Terres Rouges cafe",
+      "address": "2 rue de l eglise L 3833 Schiﬂange ESCH-SUR-ALZETTE",
+      "region": "ESCH-SUR-ALZETTE",
+      "source_title": "[ESCH-SUR-ALZETTE]Terres Rouges cafe",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=75687",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.5038233,
+      "longitude": 6.009855900000048,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:23.524749+00:00"
+    },
+    {
+      "source_id": "74602",
+      "name": "Cafe de l'amitie",
+      "address": "27 rue de vormeldange L-3593 dudelange Luxembourg",
+      "region": "ESCH-SUR-ALZETTE",
+      "source_title": "[ESCH-SUR-ALZETTE]Cafe de l'amitie",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=74602",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.4671363,
+      "longitude": 6.0820481000000655,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:25.078664+00:00"
+    },
+    {
+      "source_id": "80247",
+      "name": "Cafe OP DER DR BRILL PLATZ",
+      "address": "28 rue louis pasteur L 4276 esch sur alzette Luxembourg",
+      "region": "ESCH-SUR-ALZETTE",
+      "source_title": "[ESCH-SUR-ALZETTE]Cafe OP DER DR BRILL PLATZ",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=80247",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.49290629999999,
+      "longitude": 5.976214199999999,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:26.695190+00:00"
+    },
+    {
+      "source_id": "78020",
+      "name": "Fengeger stuff",
+      "address": "3 rue de l'eglise L 4979 ﬁngig",
+      "region": "ESCH-SUR-ALZETTE",
+      "source_title": "[ESCH-SUR-ALZETTE]Fengeger stuff",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=78020",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.6021208,
+      "longitude": 5.8999586,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:28.252656+00:00"
+    },
+    {
+      "source_id": "73879",
+      "name": "CAFE DE LA VALLEE",
+      "address": "3, route de grunghof Luxemburg",
+      "region": "ESCH-SUR-ALZETTE",
+      "source_title": "[ESCH-SUR-ALZETTE]CAFE DE LA VALLEE",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=73879",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.95659999102421,
+      "longitude": 6.171334801402861,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:29.822987+00:00"
+    },
+    {
+      "source_id": "73733",
+      "name": "Pub la madelaine",
+      "address": "31 grand rue L4874 la madelaine Luxembourg",
+      "region": "ESCH-SUR-ALZETTE",
+      "source_title": "[ESCH-SUR-ALZETTE]Pub la madelaine",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=73733",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.5457056,
+      "longitude": 5.855642999999986,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:31.395294+00:00"
+    },
+    {
+      "source_id": "73583",
+      "name": "Goodwave",
+      "address": "31 rue de audun L4018 esch alzette Luxembourg",
+      "region": "ESCH-SUR-ALZETTE",
+      "source_title": "[ESCH-SUR-ALZETTE]Goodwave",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=73583",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.4894919,
+      "longitude": 5.978916300000037,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:32.949077+00:00"
+    },
+    {
+      "source_id": "74967",
+      "name": "Cafe videira",
+      "address": "4 rue dupont des loges F54400 gouraincourt",
+      "region": "ESCH-SUR-ALZETTE",
+      "source_title": "[ESCH-SUR-ALZETTE]Cafe videira",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=74967",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.52776550000001,
+      "longitude": 5.7776572000000215,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:34.527578+00:00"
+    },
+    {
+      "source_id": "73696",
+      "name": "Cafe bom petisco",
+      "address": "4 rue kettengaass L5680 dalheim Luxembourg",
+      "region": "ESCH-SUR-ALZETTE",
+      "source_title": "[ESCH-SUR-ALZETTE]Cafe bom petisco",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=73696",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.5436043,
+      "longitude": 6.258947600000056,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:36.098015+00:00"
+    },
+    {
+      "source_id": "74202",
+      "name": "Cafe vitinho II",
+      "address": "40 route de longwy L4830 rodange",
+      "region": "ESCH-SUR-ALZETTE",
+      "source_title": "[ESCH-SUR-ALZETTE]Cafe vitinho II",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=74202",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.55036699999999,
+      "longitude": 5.840275600000041,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:37.671248+00:00"
+    },
+    {
+      "source_id": "76264",
+      "name": "Inked geeks",
+      "address": "42 rue alzette L 4010",
+      "region": "ESCH-SUR-ALZETTE",
+      "source_title": "[ESCH-SUR-ALZETTE]Inked geeks",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=76264",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.4944248,
+      "longitude": 5.982107000000042,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:39.240339+00:00"
+    },
+    {
+      "source_id": "73565",
+      "name": "O PATRIMONIO",
+      "address": "45 rue du kanal l4050 Esch alzette Luxembourg",
+      "region": "ESCH-SUR-ALZETTE",
+      "source_title": "[ESCH-SUR-ALZETTE]O PATRIMONIO",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=73565",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.49448839999999,
+      "longitude": 5.977693000000045,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:40.815068+00:00"
+    },
+    {
+      "source_id": "77701",
+      "name": "Cafe come ci come ca",
+      "address": "49 AVENUE DE LA GARE L4031 ESCH-SUR-ALZETTE",
+      "region": "ESCH-SUR-ALZETTE",
+      "source_title": "[ESCH-SUR-ALZETTE]Cafe come ci come ca",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=77701",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 0.0,
+      "longitude": 0.0,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:42.395528+00:00"
+    },
+    {
+      "source_id": "73691",
+      "name": "Cafe chez sa pinto",
+      "address": "51 rue michel rodange L4660 differdange Luxembourg",
+      "region": "ESCH-SUR-ALZETTE",
+      "source_title": "[ESCH-SUR-ALZETTE]Cafe chez sa pinto",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=73691",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.5230882,
+      "longitude": 5.891245099999992,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:43.993487+00:00"
+    },
+    {
+      "source_id": "75546",
+      "name": "Brasserie Um Dill",
+      "address": "52 rue pierre hamer L 4737 petange Luxembourg",
+      "region": "ESCH-SUR-ALZETTE",
+      "source_title": "[ESCH-SUR-ALZETTE]Brasserie Um Dill",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=75546",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.5575805,
+      "longitude": 5.86760860000004,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:45.549417+00:00"
+    },
+    {
+      "source_id": "77855",
+      "name": "Taverne du sud",
+      "address": "54 route de soleuvre L4670 differdange",
+      "region": "ESCH-SUR-ALZETTE",
+      "source_title": "[ESCH-SUR-ALZETTE]Taverne du sud",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=77855",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.5208555,
+      "longitude": 5.9040658,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:47.135332+00:00"
+    },
+    {
+      "source_id": "73624",
+      "name": "The face",
+      "address": "56 route de esch L4450 belvaux Luxembourg",
+      "region": "ESCH-SUR-ALZETTE",
+      "source_title": "[ESCH-SUR-ALZETTE]The face",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=73624",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.5109442,
+      "longitude": 5.932041700000013,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:48.705854+00:00"
+    },
+    {
+      "source_id": "73917",
+      "name": "Metropole shisha bar",
+      "address": "74 rue Èmile Mark L-4620 Differdange Luxembourg",
+      "region": "ESCH-SUR-ALZETTE",
+      "source_title": "[ESCH-SUR-ALZETTE]Metropole shisha bar",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=73917",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.5220188,
+      "longitude": 5.897289799999953,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:50.293477+00:00"
+    },
+    {
+      "source_id": "78094",
+      "name": "Brasserie du centenaire",
+      "address": "8 rue emile mark L 4620 differdange",
+      "region": "ESCH-SUR-ALZETTE",
+      "source_title": "[ESCH-SUR-ALZETTE]Brasserie du centenaire",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=78094",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.522653,
+      "longitude": 5.889175,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:51.867699+00:00"
+    },
+    {
+      "source_id": "73679",
+      "name": "Le diplomate",
+      "address": "9 route de kayl L3514 dudelange Luxembourg",
+      "region": "ESCH-SUR-ALZETTE",
+      "source_title": "[ESCH-SUR-ALZETTE]Le diplomate",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=73679",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.4828345,
+      "longitude": 6.082095200000026,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:53.451013+00:00"
+    },
+    {
+      "source_id": "75125",
+      "name": "Pasta Shana",
+      "address": "Belval plaza, avenue du rock and roll L4361 esch sur alzette",
+      "region": "ESCH-SUR-ALZETTE",
+      "source_title": "[ESCH-SUR-ALZETTE]Pasta Shana",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=75125",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.5004747,
+      "longitude": 5.945636000000036,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:55.018276+00:00"
+    },
+    {
+      "source_id": "74328",
+      "name": "U.S Russange",
+      "address": "Rue jules ferry F 57390 russange Luxembourg",
+      "region": "ESCH-SUR-ALZETTE",
+      "source_title": "[ESCH-SUR-ALZETTE]U.S Russange",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=74328",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.480797,
+      "longitude": 5.953401999999983,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:56.586894+00:00"
+    },
+    {
+      "source_id": "75599",
+      "name": "Am kundel",
+      "address": "35 rue basse L-6670 mertert Luxembourg",
+      "region": "GREVENMACHER",
+      "source_title": "[GREVENMACHER]Am kundel",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=75599",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.70171310000001,
+      "longitude": 6.483908499999984,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:58.153225+00:00"
+    },
+    {
+      "source_id": "77214",
+      "name": "Calango bar 2",
+      "address": "1 rue de l usine L3754 rumelange",
+      "region": "LUXEMBOURG",
+      "source_title": "[LUXEMBOURG]Calango bar 2",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=77214",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.4616483,
+      "longitude": 6.0343219,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:31:59.723846+00:00"
+    },
+    {
+      "source_id": "74037",
+      "name": "Schetter stuff",
+      "address": "10 place de l eglise L5367 schuttrange",
+      "region": "LUXEMBOURG",
+      "source_title": "[LUXEMBOURG]Schetter stuff",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=74037",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.6243438,
+      "longitude": 6.26821330000007,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:32:01.274554+00:00"
+    },
+    {
+      "source_id": "75293",
+      "name": "Brasserie Benelux",
+      "address": "151 route d arlon L8009 strassen Luxembourg",
+      "region": "LUXEMBOURG",
+      "source_title": "[LUXEMBOURG]Brasserie Benelux",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=75293",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.6193037,
+      "longitude": 6.0776943999999276,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:32:02.877447+00:00"
+    },
+    {
+      "source_id": "73644",
+      "name": "Bistro de bonnevoie",
+      "address": "29 rue de bonnevoie L1260 luxembourg",
+      "region": "LUXEMBOURG",
+      "source_title": "[LUXEMBOURG]Bistro de bonnevoie",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=73644",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.602802,
+      "longitude": 6.135566700000027,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:32:04.462511+00:00"
+    },
+    {
+      "source_id": "73848",
+      "name": "Macedo's cafe",
+      "address": "3 route d''esch L3230 bettembourg Luxembourg",
+      "region": "LUXEMBOURG",
+      "source_title": "[LUXEMBOURG]Macedo's cafe",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=73848",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.5180747,
+      "longitude": 6.069260100000065,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:32:06.032085+00:00"
+    },
+    {
+      "source_id": "76265",
+      "name": "Peppers cafe",
+      "address": "69 rue de bonnevoie L1260 Luxembourg",
+      "region": "LUXEMBOURG",
+      "source_title": "[LUXEMBOURG]Peppers cafe",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=76265",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.6004185,
+      "longitude": 6.137151700000004,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:32:07.610465+00:00"
+    },
+    {
+      "source_id": "78049",
+      "name": "An der stuff",
+      "address": "14 rue de feulen L-9043 ettelbruck",
+      "region": "MERSCH",
+      "source_title": "[MERSCH]An der stuff",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=78049",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.847082,
+      "longitude": 6.0981236,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:32:09.161933+00:00"
+    },
+    {
+      "source_id": "75717",
+      "name": "Cafe du chateau",
+      "address": "35 rue du chateau L 7463 pettingen",
+      "region": "MERSCH",
+      "source_title": "[MERSCH]Cafe du chateau",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=75717",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.7699715,
+      "longitude": 6.107761100000062,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:32:10.728448+00:00"
+    },
+    {
+      "source_id": "77733",
+      "name": "Restaurant op der gare",
+      "address": "5 rue de la gare L-7448 lintgen mersch",
+      "region": "MERSCH",
+      "source_title": "[MERSCH]Restaurant op der gare",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=77733",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 0.0,
+      "longitude": 0.0,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:32:12.181967+00:00"
+    },
+    {
+      "source_id": "76484",
+      "name": "Seven bar",
+      "address": "1, place du merche L-5555 remiche",
+      "region": "REMICH",
+      "source_title": "[REMICH]Seven bar",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=76484",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.54409709999999,
+      "longitude": 6.368487899999991,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:32:13.630501+00:00"
+    },
+    {
+      "source_id": "78033",
+      "name": "Cafe Algarve",
+      "address": "24 route de luxembourg L-5634 Mondorf les bains",
+      "region": "REMICH",
+      "source_title": "[REMICH]Cafe Algarve",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=78033",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.5043529,
+      "longitude": 6.2659981,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:32:15.079120+00:00"
+    },
+    {
+      "source_id": "75449",
+      "name": "Cafe du vin",
+      "address": "58 route du vin Luxembourg",
+      "region": "REMICH",
+      "source_title": "[REMICH]Cafe du vin",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=75449",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 49.5112495,
+      "longitude": 6.356576700000005,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:32:16.538769+00:00"
+    },
+    {
+      "source_id": "73920",
+      "name": "Auberge Matonge",
+      "address": "Maison 60 L9780 wincrange Luxembourg",
+      "region": "WILTZ",
+      "source_title": "[WILTZ]Auberge Matonge",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopDetail?s_seq=73920",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "lu",
+      "latitude": 50.05365889999999,
+      "longitude": 5.914972700000021,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:32:17.984658+00:00"
+    }
+  ]
+}
