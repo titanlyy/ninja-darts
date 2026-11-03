@@ -65,7 +65,8 @@ jobs:
         if: success()
         run: |
           mkdir -p /tmp/phoenix-site
-          cp -r index.html css js data icons vendor manifest.webmanifest sw.js .nojekyll /tmp/phoenix-site/
+          git fetch --depth=1 origin main
+          git archive FETCH_HEAD index.html css js data icons vendor manifest.webmanifest sw.js .nojekyll | tar -x -C /tmp/phoenix-site/
       - uses: actions/upload-pages-artifact@v3
         if: success()
         with:
