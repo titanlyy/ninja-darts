@@ -269,6 +269,16 @@ def collect(route, cache, client):
 def build():
     folder = ROOT / "data/phoenix"
     folder.mkdir(parents=True, exist_ok=True)
+    columns = ["source_id", "country_code", "name", "address", "region",
+               "latitude", "longitude", "map_eligible", "directory_eligible",
+               "exclusion_reason", "machine_text", "source_url", "collected_at"]
+    def export_csv(path, venues):
+        with path.open("w", newline="") as handle:
+            writer = csv.DictWriter(handle, fieldnames=columns, extrasaction="ignore", lineterminator="\n")
+            writer.writeheader()
+            # Business names/addresses are untrusted input, not spreadsheet code.
+            writer.writerows({k: "'" + v if isinstance(v, str) and v.lstrip().startswith(("=", "+", "-", "@")) else v
+                              for k, v in record.items()} for record in venues)
     # Preserve all reviewed pilot decisions while other countries are collected.
     if not (folder / "sg.json").exists():
         pilot = json.loads((ROOT / "data/phoenix-sg.json").read_text())
@@ -285,22 +295,25 @@ def build():
         if not path.exists():
             countries.append({"country_code": cc_for(route), "name": name,
                               "source_url": start_for(route), "status": "pending"})
+            # Stable URLs for live spreadsheets before collection finishes.
+            export_csv(path.with_suffix(".csv"), [])
             continue
         feed = json.loads(path.read_text())
         coverage = feed["coverage"]
         countries.append({**coverage, "file": f"data/phoenix/{cc_for(route)}.json"})
         # Per-country spreadsheet-compatible export, including held/unmappable rows.
-        with path.with_suffix(".csv").open("w", newline="") as handle:
-            columns = ["source_id", "country_code", "name", "address", "region",
-                       "latitude", "longitude", "map_eligible", "directory_eligible",
-                       "exclusion_reason", "machine_text", "source_url", "collected_at"]
-            writer = csv.DictWriter(handle, fieldnames=columns, extrasaction="ignore", lineterminator="\n")
-            writer.writeheader()
-            writer.writerows(feed["venues"])
+        export_csv(path.with_suffix(".csv"), feed["venues"])
     save(folder / "index.json", {
         "provider": "phoenix", "updated_at": now(), "countries": countries,
         "scope": "Public directories exposed by Phoenix country selector; not a guaranteed worldwide installation census",
     })
+    with (folder / "coverage.csv").open("w", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=[
+            "country_code", "name", "status", "discovered", "collected",
+            "mapped", "updated_at", "source_url", "note",
+        ], extrasaction="ignore", lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(countries)
     lines = [
         "# Phoenix collection coverage", "",
         "This is a collection audit, not a worldwide installation census. Pending, unavailable and failed directories do not mean zero machines.", "",
