@@ -1,6 +1,6 @@
 {
   "provider": "phoenix",
-  "updated_at": "2026-11-03T11:09:49.351916+00:00",
+  "updated_at": "2026-11-03T11:56:57.087547+00:00",
   "countries": [
     {
       "country_code": "sg",
@@ -361,7 +361,14 @@
       "country_code": "fr",
       "name": "France",
       "source_url": "https://www.phoenixdarts.com/fr/shop/shopSearch",
-      "status": "pending"
+      "status": "complete",
+      "updated_at": "2026-11-03T11:56:56.500922+00:00",
+      "continuation_attempt": 0,
+      "discovered": 1376,
+      "collected": 1376,
+      "mapped": 1375,
+      "listing_pages": 276,
+      "file": "data/phoenix/fr.json"
     },
     {
       "country_code": "us",
