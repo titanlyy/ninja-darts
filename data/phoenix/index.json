@@ -1,0 +1,243 @@
+{
+  "provider": "phoenix",
+  "updated_at": "2026-11-03T07:54:57.120776+00:00",
+  "countries": [
+    {
+      "country_code": "sg",
+      "name": "Singapore",
+      "source_url": "https://www.phoenixdarts.com/sg/shop/shopSearch",
+      "status": "complete",
+      "collected": 67,
+      "discovered": 67,
+      "mapped": 61,
+      "note": "Existing reviewed Singapore pilot",
+      "updated_at": "2026-11-03T04:38:52.605677+00:00",
+      "file": "data/phoenix/sg.json"
+    },
+    {
+      "country_code": "bn",
+      "name": "Brunei",
+      "source_url": "https://www.phoenixdarts.com/bn/shop/shopSearch",
+      "status": "unavailable",
+      "updated_at": "2026-11-03T07:52:36.982186+00:00",
+      "note": "Public directory returned no usable venue rows; not proof of zero installations",
+      "discovered": 0,
+      "collected": 0,
+      "mapped": 0,
+      "listing_pages": 0,
+      "file": "data/phoenix/bn.json"
+    },
+    {
+      "country_code": "kh",
+      "name": "Cambodia",
+      "source_url": "https://www.phoenixdarts.com/kh/shop/shopSearch",
+      "status": "complete",
+      "updated_at": "2026-11-03T07:53:13.561055+00:00",
+      "discovered": 17,
+      "collected": 17,
+      "mapped": 17,
+      "listing_pages": 4,
+      "file": "data/phoenix/kh.json"
+    },
+    {
+      "country_code": "ae",
+      "name": "United Arab Emirates",
+      "source_url": "https://www.phoenixdarts.com/ae/shop/shopSearch",
+      "status": "unavailable",
+      "updated_at": "2026-11-03T07:53:15.532287+00:00",
+      "note": "Public directory returned no usable venue rows; not proof of zero installations",
+      "discovered": 0,
+      "collected": 0,
+      "mapped": 0,
+      "listing_pages": 0,
+      "file": "data/phoenix/ae.json"
+    },
+    {
+      "country_code": "sa",
+      "name": "Saudi Arabia",
+      "source_url": "https://www.phoenixdarts.com/sa/shop/shopSearch",
+      "status": "complete",
+      "updated_at": "2026-11-03T07:53:34.413362+00:00",
+      "discovered": 9,
+      "collected": 9,
+      "mapped": 9,
+      "listing_pages": 2,
+      "file": "data/phoenix/sa.json"
+    },
+    {
+      "country_code": "in",
+      "name": "India",
+      "source_url": "https://www.phoenixdarts.com/in/shop/shopSearch",
+      "status": "complete",
+      "updated_at": "2026-11-03T07:53:37.878626+00:00",
+      "discovered": 1,
+      "collected": 1,
+      "mapped": 1,
+      "listing_pages": 1,
+      "file": "data/phoenix/in.json"
+    },
+    {
+      "country_code": "id",
+      "name": "Indonesia",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopSearch",
+      "status": "pending"
+    },
+    {
+      "country_code": "my",
+      "name": "Malaysia",
+      "source_url": "https://www.phoenixdarts.com/my/shop/shopSearch",
+      "status": "pending"
+    },
+    {
+      "country_code": "hk",
+      "name": "Hong Kong",
+      "source_url": "https://www.phoenixdarts.com/hk/shop/shopSearch",
+      "status": "pending"
+    },
+    {
+      "country_code": "tw",
+      "name": "Taiwan",
+      "source_url": "https://www.phoenixdarts.com/tw/shop/shopSearch",
+      "status": "pending"
+    },
+    {
+      "country_code": "th",
+      "name": "Thailand",
+      "source_url": "https://www.phoenixdarts.com/th/shop/shopSearch",
+      "status": "pending"
+    },
+    {
+      "country_code": "vn",
+      "name": "Vietnam",
+      "source_url": "https://www.phoenixdarts.com/vn/shop/shopSearch",
+      "status": "pending"
+    },
+    {
+      "country_code": "mn",
+      "name": "Mongolia",
+      "source_url": "https://www.phoenixdarts.com/mn/shop/shopSearch",
+      "status": "pending"
+    },
+    {
+      "country_code": "cn",
+      "name": "China",
+      "source_url": "https://www.phoenixdarts.com/cn/shop/shopSearch",
+      "status": "pending"
+    },
+    {
+      "country_code": "au",
+      "name": "Australia",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopSearch",
+      "status": "pending"
+    },
+    {
+      "country_code": "nz",
+      "name": "New Zealand",
+      "source_url": "https://www.phoenixdarts.com/nz/shop/shopSearch",
+      "status": "pending"
+    },
+    {
+      "country_code": "nc",
+      "name": "New Caledonia",
+      "source_url": "https://www.phoenixdarts.com/nc/shop/shopSearch",
+      "status": "pending"
+    },
+    {
+      "country_code": "ca",
+      "name": "Canada",
+      "source_url": "https://www.phoenixdarts.com/ca/shop/shopSearch",
+      "status": "pending"
+    },
+    {
+      "country_code": "ie",
+      "name": "Ireland",
+      "source_url": "https://www.phoenixdarts.com/ie/shop/shopSearch",
+      "status": "pending"
+    },
+    {
+      "country_code": "gb",
+      "name": "United Kingdom",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopSearch",
+      "status": "pending"
+    },
+    {
+      "country_code": "ma",
+      "name": "Morocco",
+      "source_url": "https://www.phoenixdarts.com/ma/shop/shopSearch",
+      "status": "pending"
+    },
+    {
+      "country_code": "lu",
+      "name": "Luxembourg",
+      "source_url": "https://www.phoenixdarts.com/lu/shop/shopSearch",
+      "status": "pending"
+    },
+    {
+      "country_code": "at",
+      "name": "Austria",
+      "source_url": "https://www.phoenixdarts.com/at/shop/shopSearch",
+      "status": "pending"
+    },
+    {
+      "country_code": "be",
+      "name": "Belgium",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopSearch",
+      "status": "pending"
+    },
+    {
+      "country_code": "cz",
+      "name": "Czechia",
+      "source_url": "https://www.phoenixdarts.com/cz/shop/shopSearch",
+      "status": "pending"
+    },
+    {
+      "country_code": "de",
+      "name": "Germany",
+      "source_url": "https://www.phoenixdarts.com/de/shop/shopSearch",
+      "status": "pending"
+    },
+    {
+      "country_code": "pt",
+      "name": "Portugal",
+      "source_url": "https://www.phoenixdarts.com/pt/shop/shopSearch",
+      "status": "pending"
+    },
+    {
+      "country_code": "ch",
+      "name": "Switzerland",
+      "source_url": "https://www.phoenixdarts.com/ch/shop/shopSearch",
+      "status": "pending"
+    },
+    {
+      "country_code": "es",
+      "name": "Spain",
+      "source_url": "https://www.phoenixdarts.com/es/shop/shopSearch",
+      "status": "pending"
+    },
+    {
+      "country_code": "fr",
+      "name": "France",
+      "source_url": "https://www.phoenixdarts.com/fr/shop/shopSearch",
+      "status": "pending"
+    },
+    {
+      "country_code": "us",
+      "name": "USA",
+      "source_url": "https://www.phoenixdarts.com/us/shop/shopSearch",
+      "status": "pending"
+    },
+    {
+      "country_code": "kr",
+      "name": "Korea",
+      "source_url": "https://www.phoenixdarts.com/kr/shop/shopSearch",
+      "status": "pending"
+    },
+    {
+      "country_code": "jp",
+      "name": "Japan",
+      "source_url": "https://vs.phoenixdarts.com/jp/shop/shopSearch_terms",
+      "status": "pending"
+    }
+  ],
+  "scope": "Public directories exposed by Phoenix country selector; not a guaranteed worldwide installation census"
+}

@@ -1,0 +1,231 @@
+{
+  "coverage": {
+    "country_code": "sa",
+    "name": "Saudi Arabia",
+    "source_url": "https://www.phoenixdarts.com/sa/shop/shopSearch",
+    "status": "complete",
+    "updated_at": "2026-11-03T07:53:34.413362+00:00",
+    "discovered": 9,
+    "collected": 9,
+    "mapped": 9,
+    "listing_pages": 2
+  },
+  "venues": [
+    {
+      "source_id": "94668",
+      "name": "Bob's famous Jeddah",
+      "address": "3539 Al Amir Sultan, AZ Zahra District, 6966, Jeddah 23424 Saudi Arabia",
+      "region": "Makkah",
+      "source_url": "https://www.phoenixdarts.com/sa/shop/shopDetail?s_seq=94668",
+      "machine_text": "VSX 4 .",
+      "machines": [
+        {
+          "model": "VSX",
+          "count": 4
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "sa",
+      "latitude": 21.5816574,
+      "longitude": 39.13874939999999,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T07:53:20.749211+00:00"
+    },
+    {
+      "source_id": "100323",
+      "name": "Bob's famous Taif",
+      "address": "City Walk, Aljal, Taif 26532, Saudi Arabia",
+      "region": "Makkah",
+      "source_url": "https://www.phoenixdarts.com/sa/shop/shopDetail?s_seq=100323",
+      "machine_text": "VSX 2 .",
+      "machines": [
+        {
+          "model": "VSX",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "sa",
+      "latitude": 21.2840782,
+      "longitude": 40.42481919999999,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T07:53:22.443310+00:00"
+    },
+    {
+      "source_id": "100023",
+      "name": "KINGDOM ARENA",
+      "address": "3168 Akkah، حي حطين، RRHB7787، 7787, Riyadh 13516, Saudi Arabia",
+      "region": "Riyadh",
+      "source_url": "https://www.phoenixdarts.com/sa/shop/shopDetail?s_seq=100023",
+      "machine_text": "VSX 1 .",
+      "machines": [
+        {
+          "model": "VSX",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "sa",
+      "latitude": 24.7777103,
+      "longitude": 46.6062157,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T07:53:24.149828+00:00"
+    },
+    {
+      "source_id": "99677",
+      "name": "Fanater mall jubail",
+      "address": "8830، الشاطئ, Fanateer, Al Jubail 35811, Saudi Arabia",
+      "region": "Riyadh",
+      "source_url": "https://www.phoenixdarts.com/sa/shop/shopDetail?s_seq=99677",
+      "machine_text": "VSX 4 .",
+      "machines": [
+        {
+          "model": "VSX",
+          "count": 4
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "sa",
+      "latitude": 27.1354269,
+      "longitude": 49.5670094,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T07:53:25.846399+00:00"
+    },
+    {
+      "source_id": "98598",
+      "name": "Bob’s Famous - Boulevard",
+      "address": "Boulevard City (BLVD Riyadh City) Prince Turki Al-Awwal Road, Hittin, Riyadh",
+      "region": "Riyadh",
+      "source_url": "https://www.phoenixdarts.com/sa/shop/shopDetail?s_seq=98598",
+      "machine_text": "VSX 4 .",
+      "machines": [
+        {
+          "model": "VSX",
+          "count": 4
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "sa",
+      "latitude": 24.7619999,
+      "longitude": 46.6038327,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T07:53:27.580500+00:00"
+    },
+    {
+      "source_id": "98597",
+      "name": "Bob’s Famous - Alnakheel mall",
+      "address": "Exit 9, Al Imam Saud Ibn Abdul Aziz Branch Rd, Al Mughrizat",
+      "region": "Riyadh",
+      "source_url": "https://www.phoenixdarts.com/sa/shop/shopDetail?s_seq=98597",
+      "machine_text": "VSX 2 .",
+      "machines": [
+        {
+          "model": "VSX",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "sa",
+      "latitude": 24.7679336,
+      "longitude": 46.7158214,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T07:53:29.279467+00:00"
+    },
+    {
+      "source_id": "98665",
+      "name": "BOB's Famous U Walk",
+      "address": "Imam Saud Bin Abdulaziz Bin Mohammed Rd, Riyadh Saudi Arabia",
+      "region": "Riyadh",
+      "source_url": "https://www.phoenixdarts.com/sa/shop/shopDetail?s_seq=98665",
+      "machine_text": "VSX 4 .",
+      "machines": [
+        {
+          "model": "VSX",
+          "count": 4
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "sa",
+      "latitude": 24.7586376,
+      "longitude": 46.6891855,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T07:53:30.987751+00:00"
+    },
+    {
+      "source_id": "98664",
+      "name": "Bob's Famous - Al Hamra Mall Riyadh",
+      "address": "King Abdullah Rd, King Faisal Dt., Riyadh 13215, Saudi Arabia",
+      "region": "Riyadh",
+      "source_url": "https://www.phoenixdarts.com/sa/shop/shopDetail?s_seq=98664",
+      "machine_text": "VSX 2 .",
+      "machines": [
+        {
+          "model": "VSX",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "sa",
+      "latitude": 24.7716968,
+      "longitude": 46.768485,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T07:53:32.677108+00:00"
+    },
+    {
+      "source_id": "97752",
+      "name": "bob's famous",
+      "address": "Park avenue mall, Qurtubah, Riyadh 11133, Saudi Arabia",
+      "region": "Riyadh",
+      "source_url": "https://www.phoenixdarts.com/sa/shop/shopDetail?s_seq=97752",
+      "machine_text": "VSX 1 .",
+      "machines": [
+        {
+          "model": "VSX",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "sa",
+      "latitude": 24.8165838,
+      "longitude": 46.732001,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T07:53:34.413014+00:00"
+    }
+  ]
+}

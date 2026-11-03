@@ -1,0 +1,15 @@
+{
+  "coverage": {
+    "country_code": "bn",
+    "name": "Brunei",
+    "source_url": "https://www.phoenixdarts.com/bn/shop/shopSearch",
+    "status": "unavailable",
+    "updated_at": "2026-11-03T07:52:36.982186+00:00",
+    "note": "Public directory returned no usable venue rows; not proof of zero installations",
+    "discovered": 0,
+    "collected": 0,
+    "mapped": 0,
+    "listing_pages": 0
+  },
+  "venues": []
+}

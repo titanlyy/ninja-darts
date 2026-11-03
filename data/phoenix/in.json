@@ -1,0 +1,39 @@
+{
+  "coverage": {
+    "country_code": "in",
+    "name": "India",
+    "source_url": "https://www.phoenixdarts.com/in/shop/shopSearch",
+    "status": "complete",
+    "updated_at": "2026-11-03T07:53:37.878626+00:00",
+    "discovered": 1,
+    "collected": 1,
+    "mapped": 1,
+    "listing_pages": 1
+  },
+  "venues": [
+    {
+      "source_id": "76948",
+      "name": "Pair A Dice Cafe",
+      "address": "53, Oshiwara Link Plaza, 1st Floor, Andhrei West, Mumbai, Maharashtra 400102",
+      "region": "West India",
+      "source_url": "https://www.phoenixdarts.com/in/shop/shopDetail?s_seq=76948",
+      "machine_text": "VSP 1 .",
+      "machines": [
+        {
+          "model": "VSP",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "in",
+      "latitude": 18.93175448975276,
+      "longitude": 73.02208428278492,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T07:53:37.878151+00:00"
+    }
+  ]
+}

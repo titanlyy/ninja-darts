@@ -1,0 +1,15 @@
+{
+  "coverage": {
+    "country_code": "ae",
+    "name": "United Arab Emirates",
+    "source_url": "https://www.phoenixdarts.com/ae/shop/shopSearch",
+    "status": "unavailable",
+    "updated_at": "2026-11-03T07:53:15.532287+00:00",
+    "note": "Public directory returned no usable venue rows; not proof of zero installations",
+    "discovered": 0,
+    "collected": 0,
+    "mapped": 0,
+    "listing_pages": 0
+  },
+  "venues": []
+}

@@ -1,0 +1,423 @@
+{
+  "coverage": {
+    "country_code": "kh",
+    "name": "Cambodia",
+    "source_url": "https://www.phoenixdarts.com/kh/shop/shopSearch",
+    "status": "complete",
+    "updated_at": "2026-11-03T07:53:13.561055+00:00",
+    "discovered": 17,
+    "collected": 17,
+    "mapped": 17,
+    "listing_pages": 4
+  },
+  "venues": [
+    {
+      "source_id": "70771",
+      "name": "Ha Tien Vegas Beer Garden",
+      "address": "Street 33, Phumi Prek Chak, Krong Kampot, Cambodia.",
+      "region": "Kampot",
+      "source_url": "https://www.phoenixdarts.com/kh/shop/shopDetail?s_seq=70771",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "kh",
+      "latitude": 11.85415,
+      "longitude": 104.32280000000003,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T07:52:46.223000+00:00"
+    },
+    {
+      "source_id": "66261",
+      "name": "Mark Bar",
+      "address": "#25, Street 04, Borey Penh Huot, Prektakong Village, Sangkat Chak Angke Le, Khan Meanchey, Phnom Penh, Cambodia",
+      "region": "Phnom Penh",
+      "source_url": "https://www.phoenixdarts.com/kh/shop/shopDetail?s_seq=66261",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "kh",
+      "latitude": 11.5858306,
+      "longitude": 104.8698762,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T07:52:47.941184+00:00"
+    },
+    {
+      "source_id": "79628",
+      "name": "Gotha",
+      "address": "#44 , ST: 172 , Phum II , Sangkat Phar They III , Khan : Duan Penh , Phnom Penh , Cambodia",
+      "region": "Phnom Penh",
+      "source_url": "https://www.phoenixdarts.com/kh/shop/shopDetail?s_seq=79628",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "kh",
+      "latitude": 11.5659218,
+      "longitude": 104.9240706,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T07:52:49.646480+00:00"
+    },
+    {
+      "source_id": "93264",
+      "name": "UP2U BISTRO",
+      "address": "#44 JAYAVARMAN 7 ST. 172 SANGKAT PHSAR THMEY, TI BEY, KHAN DAUN PENH, PHNOM PENH, CAMBODIA",
+      "region": "Phnom Penh",
+      "source_url": "https://www.phoenixdarts.com/kh/shop/shopDetail?s_seq=93264",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "kh",
+      "latitude": 11.5656438,
+      "longitude": 104.923349,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T07:52:51.375593+00:00"
+    },
+    {
+      "source_id": "63696",
+      "name": "CASA KTV",
+      "address": "#5, France St. (47), Phnom Penh, Cambodia",
+      "region": "Phnom Penh",
+      "source_url": "https://www.phoenixdarts.com/kh/shop/shopDetail?s_seq=63696",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "kh",
+      "latitude": 11.5812244,
+      "longitude": 104.91969199999994,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T07:52:53.057349+00:00"
+    },
+    {
+      "source_id": "63697",
+      "name": "All Sports Bar",
+      "address": "#52, Jayavarman 7 St. (172), Phnom Penh, Cambodia",
+      "region": "Phnom Penh",
+      "source_url": "https://www.phoenixdarts.com/kh/shop/shopDetail?s_seq=63697",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "kh",
+      "latitude": 11.5657571,
+      "longitude": 104.92353370000001,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T07:52:54.784345+00:00"
+    },
+    {
+      "source_id": "47798",
+      "name": "Q Club",
+      "address": "#67ABC, Street 113, Sangkat Beoung Pralit, Phnom Penh, Cambodia",
+      "region": "Phnom Penh",
+      "source_url": "https://www.phoenixdarts.com/kh/shop/shopDetail?s_seq=47798",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "kh",
+      "latitude": 11.5448729,
+      "longitude": 104.8921668,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T07:52:56.507841+00:00"
+    },
+    {
+      "source_id": "53690",
+      "name": "Q House",
+      "address": "#91, Street 294, Sangkat Beoung Keng Kong 1, Khan Chamkamorn, Phnom Penh, Cambodia",
+      "region": "Phnom Penh",
+      "source_url": "https://www.phoenixdarts.com/kh/shop/shopDetail?s_seq=53690",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "kh",
+      "latitude": 11.5536483,
+      "longitude": 104.92648740000004,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T07:52:58.214107+00:00"
+    },
+    {
+      "source_id": "45336",
+      "name": "Phoenix_KH",
+      "address": "City Mall 3rd Floor, Street Monireth (St. 217), Sangkat Veal Vong, Khan 7 Makara, Phnom Penh, Cambodia",
+      "region": "Phnom Penh",
+      "source_url": "https://www.phoenixdarts.com/kh/shop/shopDetail?s_seq=45336",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "kh",
+      "latitude": 11.5590889,
+      "longitude": 104.91114449999998,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T07:52:59.918724+00:00"
+    },
+    {
+      "source_id": "93263",
+      "name": "CHILL CHILL BAR",
+      "address": "NO. 67, STREET 322, BKK 1, PHNOM PENH, CAMBODIA 120102",
+      "region": "Phnom Penh",
+      "source_url": "https://www.phoenixdarts.com/kh/shop/shopDetail?s_seq=93263",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "kh",
+      "latitude": 11.5508978,
+      "longitude": 104.925363,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T07:53:01.629133+00:00"
+    },
+    {
+      "source_id": "56983",
+      "name": "Hops Brewery & Craft",
+      "address": "No 17, Street 228, Khan Daun Penh, Phnom Penh, Cambodia",
+      "region": "Phnom Penh",
+      "source_url": "https://www.phoenixdarts.com/kh/shop/shopDetail?s_seq=56983",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "kh",
+      "latitude": 11.5592246,
+      "longitude": 104.92375900000002,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T07:53:03.320781+00:00"
+    },
+    {
+      "source_id": "72241",
+      "name": "5drunkment",
+      "address": "No 317e, Preach sisowath, Phnom Penh, Cambodia",
+      "region": "Phnom Penh",
+      "source_url": "https://www.phoenixdarts.com/kh/shop/shopDetail?s_seq=72241",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "kh",
+      "latitude": 11.5681937,
+      "longitude": 104.9306712,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T07:53:05.029449+00:00"
+    },
+    {
+      "source_id": "82853",
+      "name": "Hops Brewery & Craft (New location)",
+      "address": "No. 17 Street 228 Phnom Penh, 12207",
+      "region": "Phnom Penh",
+      "source_url": "https://www.phoenixdarts.com/kh/shop/shopDetail?s_seq=82853",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "kh",
+      "latitude": 11.5563738,
+      "longitude": 104.9282099,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T07:53:06.731360+00:00"
+    },
+    {
+      "source_id": "67087",
+      "name": "Filling Station",
+      "address": "Samdach Louis Em St. (282), Boeung Keng Kang 1, Khan Chamkarmon, Phnom Penh, Cambodia",
+      "region": "Phnom Penh",
+      "source_url": "https://www.phoenixdarts.com/kh/shop/shopDetail?s_seq=67087",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "kh",
+      "latitude": 11.554697,
+      "longitude": 104.9247795,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T07:53:08.445010+00:00"
+    },
+    {
+      "source_id": "45710",
+      "name": "Mao's Club",
+      "address": "Street 106, Sangkat Wat Phnom, Khan Doun Penh, Phnom Penh, Cambodia",
+      "region": "Phnom Penh",
+      "source_url": "https://www.phoenixdarts.com/kh/shop/shopDetail?s_seq=45710",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "kh",
+      "latitude": 11.574339,
+      "longitude": 104.92355429999998,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T07:53:10.162347+00:00"
+    },
+    {
+      "source_id": "75692",
+      "name": "Collin's",
+      "address": "The Bridge SOHO, Level 13, No. 14, St. 78, Tonle Basac, Phnom Penh, Cambodia",
+      "region": "Phnom Penh",
+      "source_url": "https://www.phoenixdarts.com/kh/shop/shopDetail?s_seq=75692",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "kh",
+      "latitude": 11.5519136,
+      "longitude": 104.93646250000006,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T07:53:11.865883+00:00"
+    },
+    {
+      "source_id": "70096",
+      "name": "B Bar SHV",
+      "address": "#09, Street 19 Mithona, Sangkat 3, Krong Preah Sihanouk, Cambodia.",
+      "region": "Preah Sihanouk",
+      "source_url": "https://www.phoenixdarts.com/kh/shop/shopDetail?s_seq=70096",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "kh",
+      "latitude": 10.6133052,
+      "longitude": 103.50363970000001,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T07:53:13.560717+00:00"
+    }
+  ]
+}

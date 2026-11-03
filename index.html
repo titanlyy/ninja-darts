@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>Ninja Darts — Global Darts Venue Map</title>
-  <meta name="description" content="Find DARTSLIVE and Phoenix darts venues on the map. Phoenix Singapore pilot with provider logos, machine counts and directions." />
+  <meta name="description" content="Find DARTSLIVE and Phoenix darts venues on the map, with provider logos, machine counts, directions and transparent collection coverage." />
   <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png" />
   <link rel="apple-touch-icon" href="icons/icon-192.png" />
   <link rel="manifest" href="manifest.webmanifest" />
@@ -14,7 +14,7 @@
   <link href="https://api.fontshare.com/v2/css?f[]=clash-display@500,600,700&f[]=satoshi@400,500,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="vendor/leaflet/leaflet.css" />
   <link rel="stylesheet" href="vendor/markercluster/MarkerCluster.css" />
-  <link rel="stylesheet" href="css/style.css?v=8" />
+  <link rel="stylesheet" href="css/style.css?v=9" />
 </head>
 <body>
   <div id="app">
@@ -45,7 +45,7 @@
           <button type="button" data-provider="dartslive" aria-pressed="false"><img src="icons/providers/dartslive-symbol.png" alt="" />DARTSLIVE</button>
           <button type="button" data-provider="phoenix" aria-pressed="false"><img src="icons/providers/phoenix-symbol.png" alt="" />Phoenix</button>
         </div>
-        <p class="provider-hint">Phoenix coverage: Singapore pilot</p>
+        <p class="provider-hint"><a id="phoenix-coverage" href="https://github.com/titanlyy/ninja-darts/blob/main/docs/PHOENIX_COVERAGE.md" target="_blank" rel="noopener">Phoenix collection coverage</a></p>
       </div>
       <div class="filters">
         <label class="chip"><input type="checkbox" id="f-league" /><span>League venues</span></label>
@@ -94,6 +94,6 @@
 
   <script src="vendor/leaflet/leaflet.js"></script>
   <script src="vendor/markercluster/leaflet.markercluster.js"></script>
-  <script src="js/app.js?v=8"></script>
+  <script src="js/app.js?v=9"></script>
 </body>
 </html>

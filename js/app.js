@@ -168,19 +168,38 @@
             })
         )
       );
-      // Additive pilot feed: preserve the original DARTSLIVE source records.
+      // Additive feeds: preserve original DARTSLIVE source records and the pilot.
       let pilot = { venues: [] };
       try {
-        const pilotResponse = await fetch('data/phoenix-sg.json');
-        if (!pilotResponse.ok) throw new Error('Phoenix pilot data unavailable');
-        pilot = await pilotResponse.json();
+        const manifestResponse = await fetch('data/phoenix/index.json');
+        if (!manifestResponse.ok) throw new Error('Global manifest unavailable');
+        const manifest = await manifestResponse.json();
+        const feeds = await Promise.all(manifest.countries.filter((c) => c.file).map(async (c) => {
+          const response = await fetch(c.file);
+          if (!response.ok) throw new Error(`Phoenix ${c.name} unavailable`);
+          const feed = await response.json();
+          return feed.venues.map((v) => ({ ...v, country_code: c.country_code }));
+        }));
+        pilot.venues = feeds.flat();
+        const completed = manifest.countries.filter((c) => c.status === 'complete').length;
+        const coverage = $('phoenix-coverage');
+        if (coverage) coverage.textContent = `Phoenix: ${completed}/${manifest.countries.length} country directories collected`;
+        manifest.countries.forEach((c) => {
+          if (!state.countries.some((existing) => existing.cc === c.country_code) &&
+              pilot.venues.some((p) => p.country_code === c.country_code && p.map_eligible && p.directory_eligible !== false)) {
+            state.countries.push({ cc: c.country_code, name: c.name, count: 0 });
+          }
+        });
       } catch (error) {
-        toast('Phoenix pilot could not load. DARTSLIVE venues are still available.');
+        const pilotResponse = await fetch('data/phoenix-sg.json');
+        if (pilotResponse.ok) pilot = await pilotResponse.json();
+        else toast('Phoenix data could not load. DARTSLIVE venues are still available.');
       }
       pilot.venues.forEach((p) => {
         if (p.directory_eligible === false) return;
+        const country = p.country_code || 'sg';
         const existing = p.dartslive_id
-          ? state.venues.find((v) => v.cc === 'sg' && v.id === p.dartslive_id)
+          ? state.venues.find((v) => v.cc === country && v.id === p.dartslive_id)
           : null;
         const source = { provider: 'phoenix', id: p.source_id, url: p.source_url, collected_at: p.collected_at };
         if (existing) {
@@ -190,8 +209,9 @@
           existing.phoenix_name = p.name;
         } else if (p.map_eligible) {
           state.venues.push({
-            id: `phoenix-${p.source_id}`, cc: 'sg', n: p.name, a: p.address,
+            id: `phoenix-${p.source_id}`, cc: country, n: p.name, a: p.address,
             la: p.latitude, lo: p.longitude, g: '', h: '', st: '', d2: null, d3: null,
+            region: p.region || '', area: p.area || '',
             L: false, C: false, providers: ['phoenix'], sources: [source],
             phoenix_machines: p.machines,
           });
@@ -203,8 +223,8 @@
         const locations = await locationsResponse.json();
         state.venues.forEach((v) => {
           const location = locations.countries[v.cc]?.[v.id];
-          v.region = location?.region || '';
-          v.area = location?.area || '';
+          v.region = location?.region || v.region || '';
+          v.area = location?.area || v.area || '';
         });
       } catch (error) {
         toast('City filters could not load. Country browsing is still available.');

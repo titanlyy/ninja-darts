@@ -1,0 +1,82 @@
+name: Collect global Phoenix directories
+on:
+  workflow_dispatch:
+    inputs:
+      countries:
+        description: 'JSON array of Phoenix country routes (default: all remaining)'
+        default: '["bn","kh","ae","sa","in","id","my","hk","tw","th","vn","mn","cn","au","nz","nc","ca","ie","uk","ma","lu","at","be","cz","de","pt","ch","es","fr","us","kr","jp"]'
+        required: true
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: phoenix-global-collection
+  cancel-in-progress: false
+jobs:
+  collect:
+    name: Collect ${{ matrix.country }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    strategy:
+      fail-fast: true
+      max-parallel: 1
+      matrix:
+        country: ${{ fromJSON(inputs.countries) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/cache@v4
+        with:
+          path: .phoenix-cache
+          key: phoenix-${{ matrix.country }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: phoenix-${{ matrix.country }}-
+      - run: pip install requests beautifulsoup4
+      - run: python -m unittest discover -s tools -p test_phoenix_global.py
+      - name: Collect public business facts, paced and checkpointed
+        id: collect
+        run: python tools/phoenix_global.py --countries "${PHOENIX_COUNTRY}" --cache .phoenix-cache
+        env:
+          PHOENIX_COUNTRY: ${{ matrix.country }}
+      - name: Rebuild coverage after an interrupted collection
+        if: always()
+        run: python tools/phoenix_global.py --build-only
+      - name: Preserve generated facts and collection audit on GitHub
+        if: always()
+        run: node tools/publish_phoenix.mjs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PHOENIX_COUNTRY: ${{ matrix.country }}
+      - name: Preserve checkpoint artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: phoenix-${{ matrix.country }}-${{ github.run_attempt }}
+          path: |
+            data/phoenix/
+            docs/PHOENIX_COVERAGE.md
+            .phoenix-cache/
+          retention-days: 90
+      - name: Prepare static site without collector caches or repository metadata
+        if: success()
+        run: |
+          mkdir -p /tmp/phoenix-site
+          cp -r index.html css js data icons vendor manifest.webmanifest sw.js .nojekyll /tmp/phoenix-site/
+      - uses: actions/upload-pages-artifact@v3
+        if: success()
+        with:
+          path: /tmp/phoenix-site
+          name: github-pages-${{ matrix.country }}
+      - name: Publish updated map
+        if: success()
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-${{ matrix.country }}
+        id: deployment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
