@@ -1,10 +1,28 @@
 """Parser regression fixtures modelled on the fetched public country templates."""
 import unittest
+import json
 from bs4 import BeautifulSoup
-from phoenix_global import in_country, listing_rows, machines_from, parse_detail, repair_nested_title, split_title
+from phoenix_global import ROOT, in_country, listing_rows, machines_from, parse_detail, repair_nested_title, split_title
+from build_phoenix_bounds import country_boxes
 
 
 class ParserTests(unittest.TestCase):
+    def test_duplicate_iso_features_are_aggregated(self):
+        def feature(points):
+            return {"properties": {"ISO_A2_EH": "ZZ"}, "geometry": {
+                "type": "Polygon", "coordinates": [points],
+            }}
+        source = {"features": [
+            feature([[0, 0], [1, 0], [1, 1], [0, 0]]),
+            feature([[10, 10], [11, 10], [11, 11], [10, 10]]),
+        ]}
+        self.assertEqual(country_boxes(source, {"zz"})["zz"], [[0, 0, 1, 1], [10, 10, 11, 11]])
+
+    def test_australian_source_pin_matches_sourced_geometry(self):
+        bounds = json.loads((ROOT / "data/phoenix-country-bounds.json").read_text())["countries"]
+        # Phoenix's Pelican RSL Club source coordinates, not invented geography.
+        self.assertTrue(in_country({"latitude": -33.0689049, "longitude": 151.6445364}, bounds["au"]))
+
     def test_nested_country_city_prefix(self):
         self.assertEqual(split_title("[[MY]Kuala Lumpur]Q2 SNOOKER (KL)", "my"),
                          ("Q2 SNOOKER (KL)", "Kuala Lumpur"))

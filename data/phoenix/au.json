@@ -7,7 +7,7 @@
     "updated_at": "2026-11-03T09:20:37.305749+00:00",
     "discovered": 77,
     "collected": 77,
-    "mapped": 0,
+    "mapped": 74,
     "listing_pages": 16
   },
   "venues": [
@@ -30,12 +30,11 @@
       "country_code": "au",
       "latitude": -33.0689049,
       "longitude": 151.6445364,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:18:41.326613+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:18:41.326613+00:00"
     },
     {
       "source_id": "57674",
@@ -56,12 +55,11 @@
       "country_code": "au",
       "latitude": -34.39842790000001,
       "longitude": 150.89377030000003,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:18:42.929375+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:18:42.929375+00:00"
     },
     {
       "source_id": "52672",
@@ -82,12 +80,11 @@
       "country_code": "au",
       "latitude": -33.849604,
       "longitude": 151.04956600000003,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:18:44.535201+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:18:44.535201+00:00"
     },
     {
       "source_id": "62938",
@@ -108,12 +105,11 @@
       "country_code": "au",
       "latitude": -34.6387693,
       "longitude": 143.56134040000006,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:18:46.129512+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:18:46.129512+00:00"
     },
     {
       "source_id": "76449",
@@ -134,12 +130,11 @@
       "country_code": "au",
       "latitude": -31.3542587,
       "longitude": 150.64836349999996,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:18:47.715568+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:18:47.715568+00:00"
     },
     {
       "source_id": "70700",
@@ -160,12 +155,11 @@
       "country_code": "au",
       "latitude": -33.7365149,
       "longitude": 150.9484698,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:18:49.321463+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:18:49.321463+00:00"
     },
     {
       "source_id": "49055",
@@ -186,12 +180,11 @@
       "country_code": "au",
       "latitude": -33.7435185,
       "longitude": 150.60840610000002,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:18:50.945621+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:18:50.945621+00:00"
     },
     {
       "source_id": "53647",
@@ -212,12 +205,11 @@
       "country_code": "au",
       "latitude": -30.512759,
       "longitude": 151.65689900000007,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:18:52.510173+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:18:52.510173+00:00"
     },
     {
       "source_id": "79590",
@@ -238,12 +230,11 @@
       "country_code": "au",
       "latitude": -33.7336584,
       "longitude": 151.0045266,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:18:54.118137+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:18:54.118137+00:00"
     },
     {
       "source_id": "77799",
@@ -264,12 +255,11 @@
       "country_code": "au",
       "latitude": -32.9189409,
       "longitude": 151.7482057,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:18:55.699771+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:18:55.699771+00:00"
     },
     {
       "source_id": "57368",
@@ -290,12 +280,11 @@
       "country_code": "au",
       "latitude": -34.5007775,
       "longitude": 144.8442182,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:18:57.296310+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:18:57.296310+00:00"
     },
     {
       "source_id": "55720",
@@ -316,12 +305,11 @@
       "country_code": "au",
       "latitude": -33.8450834,
       "longitude": 150.89399600000002,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:18:58.886026+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:18:58.886026+00:00"
     },
     {
       "source_id": "80592",
@@ -342,12 +330,11 @@
       "country_code": "au",
       "latitude": -33.8750995,
       "longitude": 151.2059774,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:00.489243+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:00.489243+00:00"
     },
     {
       "source_id": "80593",
@@ -368,12 +355,11 @@
       "country_code": "au",
       "latitude": -33.8762691,
       "longitude": 151.2065148,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:02.084878+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:02.084878+00:00"
     },
     {
       "source_id": "57608",
@@ -394,12 +380,11 @@
       "country_code": "au",
       "latitude": -33.833944,
       "longitude": 151.24462360000007,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:03.690166+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:03.690166+00:00"
     },
     {
       "source_id": "74251",
@@ -420,12 +405,11 @@
       "country_code": "au",
       "latitude": -31.4288038,
       "longitude": 152.90859420000004,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:05.288878+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:05.288878+00:00"
     },
     {
       "source_id": "79591",
@@ -446,12 +430,11 @@
       "country_code": "au",
       "latitude": -33.7877183,
       "longitude": 151.1328101,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:06.880786+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:06.880786+00:00"
     },
     {
       "source_id": "56595",
@@ -472,12 +455,11 @@
       "country_code": "au",
       "latitude": -33.283333,
       "longitude": 149.10000000000002,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:08.464645+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:08.464645+00:00"
     },
     {
       "source_id": "54826",
@@ -498,12 +480,11 @@
       "country_code": "au",
       "latitude": -33.8515815,
       "longitude": 150.94301259999997,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:10.048967+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:10.048967+00:00"
     },
     {
       "source_id": "72810",
@@ -524,12 +505,11 @@
       "country_code": "au",
       "latitude": -32.1602817,
       "longitude": 150.88634760000002,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:11.635173+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:11.635173+00:00"
     },
     {
       "source_id": "60271",
@@ -550,12 +530,11 @@
       "country_code": "au",
       "latitude": -33.923264,
       "longitude": 150.92393900000002,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:13.235812+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:13.235812+00:00"
     },
     {
       "source_id": "80404",
@@ -576,12 +555,11 @@
       "country_code": "au",
       "latitude": -33.8783648,
       "longitude": 151.1022808,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:14.865660+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:14.865660+00:00"
     },
     {
       "source_id": "69567",
@@ -602,12 +580,11 @@
       "country_code": "au",
       "latitude": -32.2575285,
       "longitude": 148.63660519999996,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:16.439863+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:16.439863+00:00"
     },
     {
       "source_id": "73692",
@@ -628,12 +605,11 @@
       "country_code": "au",
       "latitude": -27.5958784,
       "longitude": 153.06530659999999,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:18.030250+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:18.030250+00:00"
     },
     {
       "source_id": "76729",
@@ -654,12 +630,11 @@
       "country_code": "au",
       "latitude": -27.6009278,
       "longitude": 152.95323239999993,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:19.624662+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:19.624662+00:00"
     },
     {
       "source_id": "42763",
@@ -680,12 +655,11 @@
       "country_code": "au",
       "latitude": -27.964683,
       "longitude": 153.41184199999998,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:21.258991+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:21.258991+00:00"
     },
     {
       "source_id": "78173",
@@ -706,12 +680,11 @@
       "country_code": "au",
       "latitude": -27.4794747,
       "longitude": 153.0122097,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:22.833186+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:22.833186+00:00"
     },
     {
       "source_id": "74944",
@@ -732,12 +705,11 @@
       "country_code": "au",
       "latitude": -27.4582175,
       "longitude": 153.0332247,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:24.417917+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:24.417917+00:00"
     },
     {
       "source_id": "53446",
@@ -758,12 +730,11 @@
       "country_code": "au",
       "latitude": -27.613488,
       "longitude": 152.79105800000002,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:26.019794+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:26.019794+00:00"
     },
     {
       "source_id": "76233",
@@ -784,12 +755,11 @@
       "country_code": "au",
       "latitude": -27.5882628,
       "longitude": 152.95692350000002,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:27.618150+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:27.618150+00:00"
     },
     {
       "source_id": "42762",
@@ -810,12 +780,11 @@
       "country_code": "au",
       "latitude": -27.610397,
       "longitude": 153.05555600000002,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:29.287965+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:29.287965+00:00"
     },
     {
       "source_id": "72362",
@@ -836,12 +805,11 @@
       "country_code": "au",
       "latitude": -27.455996,
       "longitude": 153.0308893,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:30.884403+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:30.884403+00:00"
     },
     {
       "source_id": "63619",
@@ -862,12 +830,11 @@
       "country_code": "au",
       "latitude": -27.6391544,
       "longitude": 153.10467790000007,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:32.476082+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:32.476082+00:00"
     },
     {
       "source_id": "51011",
@@ -888,12 +855,11 @@
       "country_code": "au",
       "latitude": -28.0407556,
       "longitude": 153.43351459999997,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:34.065241+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:34.065241+00:00"
     },
     {
       "source_id": "76475",
@@ -914,12 +880,11 @@
       "country_code": "au",
       "latitude": -27.6146011,
       "longitude": 152.75419969999996,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:35.655056+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:35.655056+00:00"
     },
     {
       "source_id": "84228",
@@ -940,12 +905,11 @@
       "country_code": "au",
       "latitude": -27.4857743,
       "longitude": 152.9943974,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:37.233695+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:37.233695+00:00"
     },
     {
       "source_id": "67581",
@@ -966,12 +930,11 @@
       "country_code": "au",
       "latitude": -27.1848029,
       "longitude": 153.0254734,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:38.725143+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:38.725143+00:00"
     },
     {
       "source_id": "51614",
@@ -992,12 +955,11 @@
       "country_code": "au",
       "latitude": -26.779942,
       "longitude": 151.10830399999998,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:40.151591+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:40.151591+00:00"
     },
     {
       "source_id": "76255",
@@ -1018,12 +980,11 @@
       "country_code": "au",
       "latitude": -28.0814532,
       "longitude": 152.8405537,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:41.617810+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:41.617810+00:00"
     },
     {
       "source_id": "76821",
@@ -1044,12 +1005,11 @@
       "country_code": "au",
       "latitude": -42.8721121,
       "longitude": 147.31487119999997,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:43.079979+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:43.079979+00:00"
     },
     {
       "source_id": "69972",
@@ -1070,12 +1030,11 @@
       "country_code": "au",
       "latitude": -27.5729671,
       "longitude": 153.0695789,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:44.545471+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:44.545471+00:00"
     },
     {
       "source_id": "74516",
@@ -1096,12 +1055,11 @@
       "country_code": "au",
       "latitude": -27.3961773,
       "longitude": 153.02791379999996,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:46.007374+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:46.007374+00:00"
     },
     {
       "source_id": "74943",
@@ -1122,12 +1080,11 @@
       "country_code": "au",
       "latitude": -27.5228839,
       "longitude": 153.28578560000005,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:47.471337+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:47.471337+00:00"
     },
     {
       "source_id": "77204",
@@ -1148,12 +1105,11 @@
       "country_code": "au",
       "latitude": -27.6802762,
       "longitude": 153.1166565,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:48.935810+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:48.935810+00:00"
     },
     {
       "source_id": "78155",
@@ -1174,12 +1130,11 @@
       "country_code": "au",
       "latitude": -26.2421063,
       "longitude": 151.9411758,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:50.412726+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:50.412726+00:00"
     },
     {
       "source_id": "72487",
@@ -1200,12 +1155,11 @@
       "country_code": "au",
       "latitude": -23.3746355,
       "longitude": 150.50352470000007,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:51.867592+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:51.867592+00:00"
     },
     {
       "source_id": "75351",
@@ -1226,12 +1180,11 @@
       "country_code": "au",
       "latitude": -27.6385599,
       "longitude": 152.7734511,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:53.341555+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:53.341555+00:00"
     },
     {
       "source_id": "49287",
@@ -1278,12 +1231,11 @@
       "country_code": "au",
       "latitude": -27.5123462,
       "longitude": 153.221405,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:56.269475+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:56.269475+00:00"
     },
     {
       "source_id": "62124",
@@ -1304,12 +1256,11 @@
       "country_code": "au",
       "latitude": -19.3099682,
       "longitude": 146.8003506,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:19:57.746791+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:19:57.746791+00:00"
     },
     {
       "source_id": "78530",
@@ -1355,12 +1306,11 @@
       "country_code": "au",
       "latitude": -34.9232911,
       "longitude": 138.5986474,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:20:00.695600+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:20:00.695600+00:00"
     },
     {
       "source_id": "57904",
@@ -1381,12 +1331,11 @@
       "country_code": "au",
       "latitude": -34.8503875,
       "longitude": 138.5085861,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:20:02.136597+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:20:02.136597+00:00"
     },
     {
       "source_id": "53949",
@@ -1407,12 +1356,11 @@
       "country_code": "au",
       "latitude": -34.753235,
       "longitude": 138.63318100000004,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:20:03.604720+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:20:03.604720+00:00"
     },
     {
       "source_id": "64153",
@@ -1433,12 +1381,11 @@
       "country_code": "au",
       "latitude": -35.0656173,
       "longitude": 138.86216620000005,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:20:05.079726+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:20:05.079726+00:00"
     },
     {
       "source_id": "57746",
@@ -1459,12 +1406,11 @@
       "country_code": "au",
       "latitude": -34.7615388,
       "longitude": 138.64914829999998,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:20:06.539761+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:20:06.539761+00:00"
     },
     {
       "source_id": "58016",
@@ -1485,12 +1431,11 @@
       "country_code": "au",
       "latitude": -34.8556024,
       "longitude": 138.5613975,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:20:07.999452+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:20:07.999452+00:00"
     },
     {
       "source_id": "49370",
@@ -1511,12 +1456,11 @@
       "country_code": "au",
       "latitude": -34.7017966,
       "longitude": 138.67539350000004,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:20:09.485128+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:20:09.485128+00:00"
     },
     {
       "source_id": "57358",
@@ -1537,12 +1481,11 @@
       "country_code": "au",
       "latitude": -34.8635291,
       "longitude": 138.51879529999997,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:20:10.953914+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:20:10.953914+00:00"
     },
     {
       "source_id": "76968",
@@ -1563,12 +1506,11 @@
       "country_code": "au",
       "latitude": -37.6838478,
       "longitude": 144.58568089999994,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:20:12.409419+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:20:12.409419+00:00"
     },
     {
       "source_id": "49852",
@@ -1589,12 +1531,11 @@
       "country_code": "au",
       "latitude": -36.131162,
       "longitude": 144.75474099999997,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:20:13.878356+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:20:13.878356+00:00"
     },
     {
       "source_id": "84583",
@@ -1615,12 +1556,11 @@
       "country_code": "au",
       "latitude": -37.81469500000001,
       "longitude": 145.0000808,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:20:15.344244+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:20:15.344244+00:00"
     },
     {
       "source_id": "55593",
@@ -1641,12 +1581,11 @@
       "country_code": "au",
       "latitude": -36.7700064,
       "longitude": 144.26079879999998,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:20:16.804150+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:20:16.804150+00:00"
     },
     {
       "source_id": "47275",
@@ -1667,12 +1606,11 @@
       "country_code": "au",
       "latitude": -36.766572,
       "longitude": 144.27502000000004,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:20:18.263308+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:20:18.263308+00:00"
     },
     {
       "source_id": "51710",
@@ -1693,12 +1631,11 @@
       "country_code": "au",
       "latitude": -36.313193,
       "longitude": 145.048497,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:20:19.730851+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:20:19.730851+00:00"
     },
     {
       "source_id": "77963",
@@ -1744,12 +1681,11 @@
       "country_code": "au",
       "latitude": -37.2938933,
       "longitude": 144.9509984,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:20:22.680392+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:20:22.680392+00:00"
     },
     {
       "source_id": "47738",
@@ -1770,12 +1706,11 @@
       "country_code": "au",
       "latitude": -36.731909,
       "longitude": 144.256983,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:20:24.135610+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:20:24.135610+00:00"
     },
     {
       "source_id": "48594",
@@ -1796,12 +1731,11 @@
       "country_code": "au",
       "latitude": -36.718257,
       "longitude": 144.25375299999996,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:20:25.604817+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:20:25.604817+00:00"
     },
     {
       "source_id": "50885",
@@ -1822,12 +1756,11 @@
       "country_code": "au",
       "latitude": -36.78267,
       "longitude": 145.15537800000004,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:20:27.064571+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:20:27.064571+00:00"
     },
     {
       "source_id": "74932",
@@ -1848,12 +1781,11 @@
       "country_code": "au",
       "latitude": -37.857884,
       "longitude": 145.21668699999998,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:20:28.522806+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:20:28.522806+00:00"
     },
     {
       "source_id": "75983",
@@ -1874,12 +1806,11 @@
       "country_code": "au",
       "latitude": -37.857884,
       "longitude": 145.21668699999998,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:20:29.989102+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:20:29.989102+00:00"
     },
     {
       "source_id": "74373",
@@ -1900,12 +1831,11 @@
       "country_code": "au",
       "latitude": -37.8860419,
       "longitude": 145.01352559999998,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:20:31.446311+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:20:31.446311+00:00"
     },
     {
       "source_id": "50886",
@@ -1926,12 +1856,11 @@
       "country_code": "au",
       "latitude": -36.378915,
       "longitude": 145.40163200000006,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:20:32.920579+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:20:32.920579+00:00"
     },
     {
       "source_id": "80736",
@@ -1952,12 +1881,11 @@
       "country_code": "au",
       "latitude": -38.3460696,
       "longitude": 141.6034738,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:20:34.378817+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:20:34.378817+00:00"
     },
     {
       "source_id": "76244",
@@ -1978,12 +1906,11 @@
       "country_code": "au",
       "latitude": -30.4994027,
       "longitude": 115.07055459999992,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:20:35.838403+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:20:35.838403+00:00"
     },
     {
       "source_id": "63340",
@@ -2004,12 +1931,11 @@
       "country_code": "au",
       "latitude": -31.7437054,
       "longitude": 115.7600966,
-      "map_eligible": false,
+      "map_eligible": true,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T09:20:37.305429+00:00",
-      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+      "collected_at": "2026-11-03T09:20:37.305429+00:00"
     }
   ]
 }

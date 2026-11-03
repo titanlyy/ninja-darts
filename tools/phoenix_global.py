@@ -36,6 +36,7 @@ HELD_SG = {
     "PHOENIXDARTS SG OFFICE", "TEST MACHINE FOR SINGAPORE",
     "FORTRESS MESS (WTD)", "SEMBAWANG CAMP", "WELLS SINGAPORE", "NCS PTE LTD",
 }
+COORDINATE_HOLD = "Pin falls outside permissive source-country geometry checks; verify before mapping"
 
 
 def now():
@@ -355,9 +356,16 @@ def build():
         for record in feed["venues"]:
             if repair_nested_title(record, route):
                 changed = True
+            # Recheck only importer-created geographic holds. A corrected
+            # country geometry must not leave valid pins permanently excluded;
+            # unrelated manual, access or invalid-coordinate exclusions remain.
+            if record.get("coordinate_review") == COORDINATE_HOLD and cc_for(route) in bounds and in_country(record, bounds[cc_for(route)]):
+                record["map_eligible"] = True
+                record.pop("coordinate_review")
+                changed = True
             if record.get("map_eligible") and cc_for(route) in bounds and not in_country(record, bounds[cc_for(route)]):
                 record["map_eligible"] = False
-                record["coordinate_review"] = "Pin falls outside permissive source-country geometry checks; verify before mapping"
+                record["coordinate_review"] = COORDINATE_HOLD
                 changed = True
         if changed:
             feed["coverage"]["mapped"] = sum(v.get("map_eligible", False) and v.get("directory_eligible", True) for v in feed["venues"])
