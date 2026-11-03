@@ -1,6 +1,6 @@
 {
   "provider": "phoenix",
-  "updated_at": "2026-11-03T09:39:04.642838+00:00",
+  "updated_at": "2026-11-03T09:40:15.470880+00:00",
   "countries": [
     {
       "country_code": "sg",
@@ -310,7 +310,13 @@
       "country_code": "de",
       "name": "Germany",
       "source_url": "https://www.phoenixdarts.com/de/shop/shopSearch",
-      "status": "pending"
+      "status": "complete",
+      "updated_at": "2026-11-03T09:40:15.182432+00:00",
+      "discovered": 16,
+      "collected": 16,
+      "mapped": 16,
+      "listing_pages": 4,
+      "file": "data/phoenix/de.json"
     },
     {
       "country_code": "pt",
