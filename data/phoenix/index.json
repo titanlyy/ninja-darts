@@ -1,6 +1,6 @@
 {
   "provider": "phoenix",
-  "updated_at": "2026-11-03T09:25:22.079102+00:00",
+  "updated_at": "2026-11-03T09:27:09.670079+00:00",
   "countries": [
     {
       "country_code": "sg",
@@ -238,7 +238,13 @@
       "country_code": "gb",
       "name": "United Kingdom",
       "source_url": "https://www.phoenixdarts.com/uk/shop/shopSearch",
-      "status": "pending"
+      "status": "complete",
+      "updated_at": "2026-11-03T09:27:09.255857+00:00",
+      "discovered": 33,
+      "collected": 33,
+      "mapped": 33,
+      "listing_pages": 7,
+      "file": "data/phoenix/gb.json"
     },
     {
       "country_code": "ma",

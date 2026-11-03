@@ -27,7 +27,7 @@ Business facts only are collected. No player data, descriptions or photos are im
 | New Caledonia | complete | 10 | 10 | [Public directory](https://www.phoenixdarts.com/nc/shop/shopSearch) |
 | Canada | complete | 27 | 26 | [Public directory](https://www.phoenixdarts.com/ca/shop/shopSearch) |
 | Ireland | unavailable | 0 | 0 | [Public directory](https://www.phoenixdarts.com/ie/shop/shopSearch) |
-| United Kingdom | pending | n.a. | n.a. | [Public directory](https://www.phoenixdarts.com/uk/shop/shopSearch) |
+| United Kingdom | complete | 33 | 33 | [Public directory](https://www.phoenixdarts.com/uk/shop/shopSearch) |
 | Morocco | pending | n.a. | n.a. | [Public directory](https://www.phoenixdarts.com/ma/shop/shopSearch) |
 | Luxembourg | pending | n.a. | n.a. | [Public directory](https://www.phoenixdarts.com/lu/shop/shopSearch) |
 | Austria | pending | n.a. | n.a. | [Public directory](https://www.phoenixdarts.com/at/shop/shopSearch) |

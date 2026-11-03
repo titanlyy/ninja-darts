@@ -1,0 +1,840 @@
+{
+  "coverage": {
+    "country_code": "gb",
+    "name": "United Kingdom",
+    "source_url": "https://www.phoenixdarts.com/uk/shop/shopSearch",
+    "status": "complete",
+    "updated_at": "2026-11-03T09:27:09.255857+00:00",
+    "discovered": 33,
+    "collected": 33,
+    "mapped": 33,
+    "listing_pages": 7
+  },
+  "venues": [
+    {
+      "source_id": "76464",
+      "name": "THE COPPENHALL CLUB",
+      "address": "103 NORTH STREET CREWE CHESHIRE CWI 4NJ 01270 584144",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]THE COPPENHALL CLUB",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=76464",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 53.1125385,
+      "longitude": -2.444917499999974,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:26:16.283249+00:00"
+    },
+    {
+      "source_id": "76775",
+      "name": "Nantwich Road Social Club",
+      "address": "127 Nantwich Road Crewe CW2 6BA",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]Nantwich Road Social Club",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=76775",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 53.0882205,
+      "longitude": -2.442069100000026,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:26:17.914391+00:00"
+    },
+    {
+      "source_id": "48674",
+      "name": "City Social Sports Club",
+      "address": "13 Merrivale Road, Beacon Park PL2 2QG",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]City Social Sports Club",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=48674",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 50.39401669999999,
+      "longitude": -4.163733500000035,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:26:19.581719+00:00"
+    },
+    {
+      "source_id": "51902",
+      "name": "Ming Moon Birmingham",
+      "address": "16 Hurst Street, Birmingham B5 4BN",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]Ming Moon Birmingham",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=51902",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 52.47532870000001,
+      "longitude": -1.8975404000000253,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "http://www.mingmoon.co.uk/",
+      "collected_at": "2026-11-03T09:26:21.239341+00:00"
+    },
+    {
+      "source_id": "70683",
+      "name": "1920 BAR",
+      "address": "19-20 Great Sutton Street, London, EC1V 0DR",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]1920 BAR",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=70683",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 51.5232205,
+      "longitude": -0.10060910000004242,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:26:22.884330+00:00"
+    },
+    {
+      "source_id": "48011",
+      "name": "VSPhoenix UK Office - Dart Locker",
+      "address": "19-23 Sidwell Street Exeter, EX4 6NN",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]VSPhoenix UK Office - Dart Locker",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=48011",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 50.726344153742055,
+      "longitude": -3.5258394999999676,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:26:24.572293+00:00"
+    },
+    {
+      "source_id": "94847",
+      "name": "Club 200",
+      "address": "1st floor, 3-9, Hyde Rd, Manchester M12 6BQ",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]Club 200",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=94847",
+      "machine_text": "VSS 4.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 4
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 53.47037580000001,
+      "longitude": -2.2212766,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:26:26.222328+00:00"
+    },
+    {
+      "source_id": "55347",
+      "name": "501 Bar",
+      "address": "2, Broad Street,  Bristol, BS16 5NX",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]501 Bar",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=55347",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 51.48092519999999,
+      "longitude": -2.5062474000000066,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:26:27.880842+00:00"
+    },
+    {
+      "source_id": "86332",
+      "name": "Players Entertainment",
+      "address": "20 Tower Street Coventry CV1 1JN",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]Players Entertainment",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=86332",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 52.4120549,
+      "longitude": -1.5099385,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:26:29.539666+00:00"
+    },
+    {
+      "source_id": "52699",
+      "name": "Note Bar & Lounge",
+      "address": "20, Suffolk Street, B1 1LW",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]Note Bar & Lounge",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=52699",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 52.4766073,
+      "longitude": -1.90214119999996,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:26:31.210387+00:00"
+    },
+    {
+      "source_id": "76461",
+      "name": "OFFICE SHOP_FALKON",
+      "address": "20-22 WENLOCK ROAD LONDON ENGLAND N1 7GU 77210",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]OFFICE SHOP_FALKON",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=76461",
+      "machine_text": "VSS 3.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 51.53075,
+      "longitude": -0.09371499999997468,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:26:32.858773+00:00"
+    },
+    {
+      "source_id": "49455",
+      "name": "FAIS ORIENTAL",
+      "address": "27 St Botolphs Street CO27EA",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]FAIS ORIENTAL",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=49455",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 51.8871341,
+      "longitude": 0.9038180999999668,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:26:34.509119+00:00"
+    },
+    {
+      "source_id": "56982",
+      "name": "The Clifton Inn",
+      "address": "35 Clifton St, Plymouth PL4 8JB",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]The Clifton Inn",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=56982",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 50.37772080000001,
+      "longitude": -4.132854199999997,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:26:36.176689+00:00"
+    },
+    {
+      "source_id": "53822",
+      "name": "K2 Karaoke Manchester",
+      "address": "52-56 George Street, Manchester, M1 4HF",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]K2 Karaoke Manchester",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=53822",
+      "machine_text": "VSS 3.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 53.4788487,
+      "longitude": -2.2404874000000063,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:26:37.822179+00:00"
+    },
+    {
+      "source_id": "49563",
+      "name": "The King Billy",
+      "address": "53 High Street Budleigh Salterton EX9 6LE",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]The King Billy",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=49563",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 50.6295559,
+      "longitude": -3.327927700000032,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:26:39.473703+00:00"
+    },
+    {
+      "source_id": "56975",
+      "name": "On Cue Snooker Club",
+      "address": "53A Whitby Road, Ellesmere Port CH65 8AB",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]On Cue Snooker Club",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=56975",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 53.27965039999999,
+      "longitude": -2.8989301000000296,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:26:41.156659+00:00"
+    },
+    {
+      "source_id": "52700",
+      "name": "Arabian Nites Birmingham",
+      "address": "54 - 76, Biseell Street, Digbeth, B5 7HP",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]Arabian Nites Birmingham",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=52700",
+      "machine_text": "VSS 3.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 52.4759918,
+      "longitude": -1.8899504999999408,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:26:42.805815+00:00"
+    },
+    {
+      "source_id": "47394",
+      "name": "VSPhoenix UK Office - HQ London",
+      "address": "57B, Railway Arches, North Woolwich Road E16 2AA",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]VSPhoenix UK Office - HQ London",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=47394",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 51.50442289999999,
+      "longitude": 0.018553300000007766,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "www.phoenixdart.com/uk",
+      "collected_at": "2026-11-03T09:26:44.450493+00:00"
+    },
+    {
+      "source_id": "52698",
+      "name": "China Red",
+      "address": "58, Hertford Street, Coventy, CV1 1LB",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]China Red",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=52698",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 52.4064035,
+      "longitude": -1.5115647999999737,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:26:46.105908+00:00"
+    },
+    {
+      "source_id": "58659",
+      "name": "Maritime Social Club",
+      "address": "6-8 Saltash Rd, Plymouth PL2 1QT",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]Maritime Social Club",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=58659",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 50.3838815,
+      "longitude": -4.1804213000000345,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:26:47.744000+00:00"
+    },
+    {
+      "source_id": "76776",
+      "name": "The Male",
+      "address": "7-9 beach street crewe CW1 2PY",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]The Male",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=76776",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 53.1000381,
+      "longitude": -2.4470661999999948,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:26:49.401027+00:00"
+    },
+    {
+      "source_id": "48010",
+      "name": "Bar Sport Cannock",
+      "address": "85 - 87, High Green, Cannock WS11 1BJ",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]Bar Sport Cannock",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=48010",
+      "machine_text": "VSS 3.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 52.6897893,
+      "longitude": -2.032781699999987,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:26:51.039088+00:00"
+    },
+    {
+      "source_id": "48673",
+      "name": "The Winchester Club",
+      "address": "90 Buller Rd, St Thomas EX4 1AU",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]The Winchester Club",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=48673",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 50.7170234,
+      "longitude": -3.5411980000000085,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:26:52.701130+00:00"
+    },
+    {
+      "source_id": "56980",
+      "name": "Chatime Manchester",
+      "address": "93 Princess St, Manchester M1 4HT",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]Chatime Manchester",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=56980",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 53.4778512,
+      "longitude": -2.2404037999999673,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:26:54.355871+00:00"
+    },
+    {
+      "source_id": "69705",
+      "name": "Meat Liquor Croydon",
+      "address": "99 George Street | Box park Unit 58-62, Croydon CR0 1LD, England",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]Meat Liquor Croydon",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=69705",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 51.3750236,
+      "longitude": -0.09377150000000256,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:26:56.012779+00:00"
+    },
+    {
+      "source_id": "57640",
+      "name": "RILEYS SPORTS BAR CHESTER",
+      "address": "Centurion Point, Victoria Road, Blacon, CH2 2AX",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]RILEYS SPORTS BAR CHESTER",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=57640",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 53.19591467362159,
+      "longitude": -2.892884999999985,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "www.rileys.co.uk",
+      "collected_at": "2026-11-03T09:26:57.675285+00:00"
+    },
+    {
+      "source_id": "55967",
+      "name": "Duke of Edinburgh",
+      "address": "Cricklade Road, SN2 1AE",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]Duke of Edinburgh",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=55967",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 51.57507649999999,
+      "longitude": -1.7775007000000187,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:26:59.334231+00:00"
+    },
+    {
+      "source_id": "53954",
+      "name": "MURDOCH BAR",
+      "address": "FOUNDRY ROW, REDRUTH TR15 1AN, CORNWALL",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]MURDOCH BAR",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=53954",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 50.2348979,
+      "longitude": -5.2317348000000266,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:27:00.991298+00:00"
+    },
+    {
+      "source_id": "57389",
+      "name": "BideFord & District Angling & Social Club",
+      "address": "Honestone Street, EX39 2DL",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]BideFord & District Angling & Social Club",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=57389",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 51.0164359,
+      "longitude": -4.207787999999937,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:27:02.649614+00:00"
+    },
+    {
+      "source_id": "78995",
+      "name": "Blue's Club",
+      "address": "North St, Gainsborough DN21 2HU",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]Blue's Club",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=78995",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 53.402226,
+      "longitude": -0.7755323,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:27:04.332004+00:00"
+    },
+    {
+      "source_id": "68819",
+      "name": "LeVel",
+      "address": "Preston Guild Hall, Lancaster Rd, Preston PR1 1HT",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]LeVel",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=68819",
+      "machine_text": "VSS 10.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 10
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 53.7597098,
+      "longitude": -2.697202999999945,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:27:05.963442+00:00"
+    },
+    {
+      "source_id": "58658",
+      "name": "The Queens Arms",
+      "address": "The Queens Arms, Fore St, Constantine TR11 5AB",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]The Queens Arms",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=58658",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 50.1180433,
+      "longitude": -5.1731291999999485,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:27:07.605096+00:00"
+    },
+    {
+      "source_id": "48254",
+      "name": "Playgolf London",
+      "address": "Watford Road, Harrows, Middlesex HA1 3TZ",
+      "region": "ENGLAND",
+      "source_title": "[ENGLAND]Playgolf London",
+      "source_url": "https://www.phoenixdarts.com/uk/shop/shopDetail?s_seq=48254",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "gb",
+      "latitude": 51.5671656,
+      "longitude": -0.32130419999998594,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "http://playgolf-london.com",
+      "collected_at": "2026-11-03T09:27:09.255542+00:00"
+    }
+  ]
+}
