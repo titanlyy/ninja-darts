@@ -14,7 +14,7 @@
   <link href="https://api.fontshare.com/v2/css?f[]=clash-display@500,600,700&f[]=satoshi@400,500,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
-  <link rel="stylesheet" href="css/style.css?v=3" />
+  <link rel="stylesheet" href="css/style.css?v=4" />
 </head>
 <body>
   <div id="app">
@@ -39,18 +39,13 @@
       </div>
 
       <div class="provider-control">
-        <label for="provider">Machine provider</label>
-        <select id="provider" aria-label="Machine provider">
-          <option value="all">All providers</option>
-          <option value="dartslive">DARTSLIVE</option>
-          <option value="phoenix">Phoenix · Singapore pilot</option>
-          <option value="both">Both brands</option>
-        </select>
-        <div class="provider-legend">
-          <span><img src="icons/providers/dartslive.svg" alt="DARTSLIVE" /></span>
-          <span><img src="icons/providers/phoenix.png" alt="Phoenix Darts" /></span>
+        <p class="provider-heading" id="provider-label">Machine provider</p>
+        <div id="provider" class="provider-switch" role="group" aria-labelledby="provider-label">
+          <button type="button" data-provider="all" aria-pressed="true">All</button>
+          <button type="button" data-provider="dartslive" aria-pressed="false"><img src="icons/providers/dartslive-symbol.png" alt="" />DARTSLIVE</button>
+          <button type="button" data-provider="phoenix" aria-pressed="false"><img src="icons/providers/phoenix-symbol.png" alt="" />Phoenix</button>
         </div>
-        <p>Logo pins show each venue's brands. Zoom into numbered clusters to see venues.</p>
+        <p class="provider-hint">Phoenix coverage: Singapore pilot</p>
       </div>
       <div class="filters">
         <label class="chip"><input type="checkbox" id="f-league" /><span>League venues</span></label>
@@ -92,6 +87,6 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-  <script src="js/app.js?v=3"></script>
+  <script src="js/app.js?v=4"></script>
 </body>
 </html>

@@ -68,16 +68,18 @@
 
   const providerLogo = (provider) =>
     `<img src="icons/providers/${provider === 'phoenix' ? 'phoenix.png' : 'dartslive.svg'}" alt="${provider === 'phoenix' ? 'Phoenix Darts' : 'DARTSLIVE'}" />`;
+  const providerSymbol = (provider) =>
+    `<img src="icons/providers/${provider === 'phoenix' ? 'phoenix' : 'dartslive'}-symbol.png" alt="${provider === 'phoenix' ? 'Phoenix Darts' : 'DARTSLIVE'}" />`;
 
   const markerIcon = (venue) =>
     L.divIcon({
       html:
         '<div class="provider-marker' + (venue.providers.length > 1 ? ' dual' : '') + '">' +
-        venue.providers.map(providerLogo).join('') +
+        venue.providers.map(providerSymbol).join('') +
         '</div>',
       className: 'venue-marker-wrap',
-      iconSize: [82, venue.providers.length > 1 ? 58 : 38],
-      iconAnchor: [41, venue.providers.length > 1 ? 58 : 38],
+      iconSize: [38, 38],
+      iconAnchor: [19, 19],
     });
 
   // ── Helpers ───────────────────────────────────────────────
@@ -243,6 +245,7 @@
         icon: markerIcon(v), title: `${v.n} · ${v.providers.join(' + ')}`,
         alt: `${v.n} · ${v.providers.join(' + ')}`,
       });
+      m.on('add', () => m.getElement()?.setAttribute('aria-label', `${v.n} · ${v.providers.join(' + ')}`));
       m.on('click', () => showDetail(v));
       state.markers.set(venueKey(v), m);
     });
@@ -251,8 +254,7 @@
 
   function matchesFilters(v) {
     if (state.selected !== 'all' && v.cc !== state.selected) return false;
-    if (state.provider === 'both' && v.providers.length < 2) return false;
-    if (!['all', 'both'].includes(state.provider) && !v.providers.includes(state.provider)) return false;
+    if (state.provider !== 'all' && !v.providers.includes(state.provider)) return false;
     if (state.leagueOnly && !v.L) return false;
     if (state.dl3Only && !v.d3) return false;
     if (state.query) {
@@ -279,6 +281,7 @@
         ? ' venues · ' + state.countries.length + (state.countries.length === 1 ? ' country' : ' countries')
         : ' venues shown');
     if (!shown) toast('No matching venues. Try another provider, country or search.');
+    else if (els.toast.textContent.startsWith('No matching venues.')) els.toast.classList.add('hidden');
   }
 
   // ── Detail panel ──────────────────────────────────────────
@@ -344,8 +347,16 @@
 
   // ── Events ────────────────────────────────────────────────
   let debounce;
-  els.provider.addEventListener('change', (e) => {
-    state.provider = e.target.value;
+  function syncProviderButtons() {
+    els.provider.querySelectorAll('[data-provider]').forEach((button) =>
+      button.setAttribute('aria-pressed', String(button.dataset.provider === state.provider))
+    );
+  }
+  els.provider.addEventListener('click', (e) => {
+    const button = e.target.closest('[data-provider]');
+    if (!button) return;
+    state.provider = button.dataset.provider;
+    syncProviderButtons();
     els.detail.classList.add('hidden');
     applyFilters();
   });
@@ -399,7 +410,7 @@
         state.leagueOnly = false;
         state.dl3Only = false;
         state.provider = 'all';
-        els.provider.value = 'all';
+        syncProviderButtons();
         els.league.checked = false;
         els.dl3.checked = false;
         applyFilters();

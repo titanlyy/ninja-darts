@@ -57,5 +57,5 @@ restrict unauthorised reproduction, distribution and commercial use of service
 information; permission review is needed before wider/commercial reuse.
 
 Numbered clusters aggregate venues; zoom in to see individual logo pins.
-Phoenix currently covers Singapore only. The Both filter means confirmed
-cross-provider matches, not inferred co-location.
+Phoenix currently covers Singapore only. Provider buttons show All, DARTSLIVE
+or Phoenix. No cross-provider matches are inferred from co-location alone.

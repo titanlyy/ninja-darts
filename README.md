@@ -10,8 +10,8 @@ A map-based global directory of darts venues, with DARTSLIVE source data across 
 
 ## Phoenix Singapore pilot
 
-- Official DARTSLIVE and Phoenix logo markers; both logos on matched dual-brand venues.
-- Provider filters: All, DARTSLIVE, Phoenix and Both.
+- Compact square DARTSLIVE and Phoenix symbol markers without wordmark text.
+- One-click provider filters: All, DARTSLIVE and Phoenix.
 - Independent, provider-attributed machine inventories and source links.
 - Conservative duplicate matching. The original DARTSLIVE data remains unchanged.
 - Singapore opens by default. Country browsing still covers the global dataset.
