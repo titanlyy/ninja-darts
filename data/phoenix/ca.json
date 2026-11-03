@@ -1,0 +1,691 @@
+{
+  "coverage": {
+    "country_code": "ca",
+    "name": "Canada",
+    "source_url": "https://www.phoenixdarts.com/ca/shop/shopSearch",
+    "status": "complete",
+    "updated_at": "2026-11-03T09:24:49.256270+00:00",
+    "discovered": 27,
+    "collected": 27,
+    "mapped": 26,
+    "listing_pages": 6
+  },
+  "venues": [
+    {
+      "source_id": "68208",
+      "name": "Metro Fairway Indoor Golfing",
+      "address": "5220 4 St NE #10 Calgary AB T2K 6J5",
+      "region": "Alberta",
+      "source_title": "[Alberta]Metro Fairway Indoor Golfing",
+      "source_url": "https://www.phoenixdarts.com/ca/shop/shopDetail?s_seq=68208",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "ca",
+      "latitude": 51.0980126,
+      "longitude": -114.05309119999998,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:24:07.530448+00:00"
+    },
+    {
+      "source_id": "90040",
+      "name": "The Fountainhead Pub",
+      "address": "1025 Davie St, Vancouver, BC V6E 1M5, Canada",
+      "region": "British Columbia",
+      "source_title": "[British Columbia]The Fountainhead Pub",
+      "source_url": "https://www.phoenixdarts.com/ca/shop/shopDetail?s_seq=90040",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "ca",
+      "latitude": 49.2796092,
+      "longitude": -123.1297467,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:24:09.102261+00:00"
+    },
+    {
+      "source_id": "67703",
+      "name": "Charlie Hamilton Pub",
+      "address": "1163 Lincoln Ave Coquitlam B.C. V3B 8A9",
+      "region": "British Columbia",
+      "source_title": "[British Columbia]Charlie Hamilton Pub",
+      "source_url": "https://www.phoenixdarts.com/ca/shop/shopDetail?s_seq=67703",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "ca",
+      "latitude": 49.2786338,
+      "longitude": -122.7564443,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:24:10.698006+00:00"
+    },
+    {
+      "source_id": "78078",
+      "name": "Guu Davie",
+      "address": "1239 Davie St, Vancouver, BC, V6E 1N4",
+      "region": "British Columbia",
+      "source_title": "[British Columbia]Guu Davie",
+      "source_url": "https://www.phoenixdarts.com/ca/shop/shopDetail?s_seq=78078",
+      "machine_text": "VSS 4 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 4
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "ca",
+      "latitude": 49.2823917,
+      "longitude": -123.1336009,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:24:12.305600+00:00"
+    },
+    {
+      "source_id": "94653",
+      "name": "DartSoul",
+      "address": "12860 Clarke Pl, Richmond, BC V6V 2H9",
+      "region": "British Columbia",
+      "source_title": "[British Columbia]DartSoul",
+      "source_url": "https://www.phoenixdarts.com/ca/shop/shopDetail?s_seq=94653",
+      "machine_text": "VSS 8 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 8
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "ca",
+      "latitude": 49.1854007,
+      "longitude": -123.081087,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:24:13.914848+00:00"
+    },
+    {
+      "source_id": "41057",
+      "name": "Marstin Billiards",
+      "address": "2211 Kingsway Vancouver B.C. V5N 2T6",
+      "region": "British Columbia",
+      "source_title": "[British Columbia]Marstin Billiards",
+      "source_url": "https://www.phoenixdarts.com/ca/shop/shopDetail?s_seq=41057",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "ca",
+      "latitude": 49.2435268,
+      "longitude": -123.06173139999999,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:24:15.533453+00:00"
+    },
+    {
+      "source_id": "90370",
+      "name": "Fraser Valley billiards",
+      "address": "31760 South Fraser Way, Abbotsford, BC V2T 1T9, Canada",
+      "region": "British Columbia",
+      "source_title": "[British Columbia]Fraser Valley billiards",
+      "source_url": "https://www.phoenixdarts.com/ca/shop/shopDetail?s_seq=90370",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "ca",
+      "latitude": 49.0468711,
+      "longitude": -122.3437634,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:24:17.168547+00:00"
+    },
+    {
+      "source_id": "92413",
+      "name": "Meiten",
+      "address": "4151 Hazelbridge Wy 2790 2nd Floor, Richmond, BC V6X 0A4, Canada",
+      "region": "British Columbia",
+      "source_title": "[British Columbia]Meiten",
+      "source_url": "https://www.phoenixdarts.com/ca/shop/shopDetail?s_seq=92413",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "ca",
+      "latitude": 49.1841117,
+      "longitude": -123.1335429,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:24:18.782362+00:00"
+    },
+    {
+      "source_id": "59249",
+      "name": "Q1 Billiards",
+      "address": "4411 No.3 Road Richmond BC V6X 2C3",
+      "region": "British Columbia",
+      "source_title": "[British Columbia]Q1 Billiards",
+      "source_url": "https://www.phoenixdarts.com/ca/shop/shopDetail?s_seq=59249",
+      "machine_text": "VSS 7 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 7
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "ca",
+      "latitude": 49.18141301254946,
+      "longitude": -123.1381893989502,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:24:20.437571+00:00"
+    },
+    {
+      "source_id": "98530",
+      "name": "Nu-Zone Tactical Laser Tag",
+      "address": "4411 Number 3 Rd Unit 111, Richmond, BC V6X 2C3, Canada",
+      "region": "British Columbia",
+      "source_title": "[British Columbia]Nu-Zone Tactical Laser Tag",
+      "source_url": "https://www.phoenixdarts.com/ca/shop/shopDetail?s_seq=98530",
+      "machine_text": "VSS 4 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 4
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "ca",
+      "latitude": 49.1815789,
+      "longitude": -123.1372344,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:24:22.037660+00:00"
+    },
+    {
+      "source_id": "17405",
+      "name": "Commodore Lanes & Billiards",
+      "address": "838 Granville Street Vancouver B.C. V6B 2C9",
+      "region": "British Columbia",
+      "source_title": "[British Columbia]Commodore Lanes & Billiards",
+      "source_url": "https://www.phoenixdarts.com/ca/shop/shopDetail?s_seq=17405",
+      "machine_text": "VSS 5 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 5
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "ca",
+      "latitude": 49.2809076,
+      "longitude": -123.12049030000003,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "http://commodorelanes.com/",
+      "collected_at": "2026-11-03T09:24:23.650475+00:00"
+    },
+    {
+      "source_id": "67082",
+      "name": "TRUE'STEA Restaurant",
+      "address": "8400 Alexandra Road Unit 1 Richmond B.C. V6X 1C3",
+      "region": "British Columbia",
+      "source_title": "[British Columbia]TRUE'STEA Restaurant",
+      "source_url": "https://www.phoenixdarts.com/ca/shop/shopDetail?s_seq=67082",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "ca",
+      "latitude": 49.1783624,
+      "longitude": -123.1310042,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:24:25.256901+00:00"
+    },
+    {
+      "source_id": "17406",
+      "name": "MM",
+      "address": "",
+      "region": "Ontario",
+      "source_title": "[Ontario]MM",
+      "source_url": "https://www.phoenixdarts.com/ca/shop/shopDetail?s_seq=17406",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "ca",
+      "latitude": 34.0633443,
+      "longitude": -117.6508876,
+      "map_eligible": false,
+      "directory_eligible": false,
+      "off_days": "",
+      "website": "http://phoenixdart.com",
+      "collected_at": "2026-11-03T09:24:26.853321+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "51395",
+      "name": "Nikos Restaurant",
+      "address": "245 Parkhill Main St, Parkhill, ON N0M 2K0, Canada",
+      "region": "Ontario",
+      "source_title": "[Ontario]Nikos Restaurant",
+      "source_url": "https://www.phoenixdarts.com/ca/shop/shopDetail?s_seq=51395",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "ca",
+      "latitude": 43.1638593,
+      "longitude": -81.68374770000003,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:24:28.449682+00:00"
+    },
+    {
+      "source_id": "94021",
+      "name": "La Belle et La Boeuf",
+      "address": "1275 Av. des Canadiens-de-Montréal Suite 110, Montréal, QC H3B 0G4",
+      "region": "Quebec",
+      "source_title": "[Quebec]La Belle et La Boeuf",
+      "source_url": "https://www.phoenixdarts.com/ca/shop/shopDetail?s_seq=94021",
+      "machine_text": "VSX 1 .",
+      "machines": [
+        {
+          "model": "VSX",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "ca",
+      "latitude": 45.4965505,
+      "longitude": -73.57055079999999,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:24:30.079777+00:00"
+    },
+    {
+      "source_id": "91670",
+      "name": "Canadarts Events",
+      "address": "13 route 227",
+      "region": "Quebec",
+      "source_title": "[Quebec]Canadarts Events",
+      "source_url": "https://www.phoenixdarts.com/ca/shop/shopDetail?s_seq=91670",
+      "machine_text": "VSX 1 .",
+      "machines": [
+        {
+          "model": "VSX",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "ca",
+      "latitude": 45.6039422,
+      "longitude": -73.1015869,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:24:31.649676+00:00"
+    },
+    {
+      "source_id": "91687",
+      "name": "Dooly's St-Hyacinthe",
+      "address": "1300 Rue Daniel - Johnson O, Saint-Hyacinthe, QC J2S 7K7",
+      "region": "Quebec",
+      "source_title": "[Quebec]Dooly's St-Hyacinthe",
+      "source_url": "https://www.phoenixdarts.com/ca/shop/shopDetail?s_seq=91687",
+      "machine_text": "VSX 1 .",
+      "machines": [
+        {
+          "model": "VSX",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "ca",
+      "latitude": 45.63928019999999,
+      "longitude": -72.9689757,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:24:33.245616+00:00"
+    },
+    {
+      "source_id": "92223",
+      "name": "Doolys Valleyfield",
+      "address": "30 Av du Centenaire suite 220, Salaberry-de-Valleyfield, QC J6S 3L6",
+      "region": "Quebec",
+      "source_title": "[Quebec]Doolys Valleyfield",
+      "source_url": "https://www.phoenixdarts.com/ca/shop/shopDetail?s_seq=92223",
+      "machine_text": "VSX 1 .",
+      "machines": [
+        {
+          "model": "VSX",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "ca",
+      "latitude": 45.25919649999999,
+      "longitude": -74.12937660000001,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:24:34.842534+00:00"
+    },
+    {
+      "source_id": "91547",
+      "name": "Dooly’s Longueuil",
+      "address": "3366 Ch. de Chambly,  Longueuil, QC, J4L 1N8",
+      "region": "Quebec",
+      "source_title": "[Quebec]Dooly’s Longueuil",
+      "source_url": "https://www.phoenixdarts.com/ca/shop/shopDetail?s_seq=91547",
+      "machine_text": "VSX 2 .",
+      "machines": [
+        {
+          "model": "VSX",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "ca",
+      "latitude": 45.5148702,
+      "longitude": -73.4482859,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:24:36.451543+00:00"
+    },
+    {
+      "source_id": "94161",
+      "name": "FUNHUB DIX30",
+      "address": "40-9415 Boul. Leduc, Brossard, QC J4Y 0A5, Canada",
+      "region": "Quebec",
+      "source_title": "[Quebec]FUNHUB DIX30",
+      "source_url": "https://www.phoenixdarts.com/ca/shop/shopDetail?s_seq=94161",
+      "machine_text": "VSS 10 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 10
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "ca",
+      "latitude": 45.4410183,
+      "longitude": -73.4388238,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:24:38.044644+00:00"
+    },
+    {
+      "source_id": "92661",
+      "name": "Bar La Galanterie",
+      "address": "500 Bd Gréber, Gatineau, QC J8T 7W3",
+      "region": "Quebec",
+      "source_title": "[Quebec]Bar La Galanterie",
+      "source_url": "https://www.phoenixdarts.com/ca/shop/shopDetail?s_seq=92661",
+      "machine_text": "VSX 1 .",
+      "machines": [
+        {
+          "model": "VSX",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "ca",
+      "latitude": 45.4888622,
+      "longitude": -75.7037195,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:24:39.649134+00:00"
+    },
+    {
+      "source_id": "92584",
+      "name": "Cristal Billard",
+      "address": "5445 Boulevard Jean-XXIII, Trois-Rivières, Quebec G8Z 4E2, Canada",
+      "region": "Quebec",
+      "source_title": "[Quebec]Cristal Billard",
+      "source_url": "https://www.phoenixdarts.com/ca/shop/shopDetail?s_seq=92584",
+      "machine_text": "VSX 1 .",
+      "machines": [
+        {
+          "model": "VSX",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "ca",
+      "latitude": 46.3354451,
+      "longitude": -72.58921870000002,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:24:41.240371+00:00"
+    },
+    {
+      "source_id": "91546",
+      "name": "Dooly’s St Jean",
+      "address": "600 Rue Pierre-Caisse,  Saint-Jean-sur-Richelieu, QC, J3A 1M1",
+      "region": "Quebec",
+      "source_title": "[Quebec]Dooly’s St Jean",
+      "source_url": "https://www.phoenixdarts.com/ca/shop/shopDetail?s_seq=91546",
+      "machine_text": "VSX 2 .",
+      "machines": [
+        {
+          "model": "VSX",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "ca",
+      "latitude": 45.328492,
+      "longitude": -73.280317,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:24:42.835981+00:00"
+    },
+    {
+      "source_id": "94159",
+      "name": "FUNHUB Montreal",
+      "address": "733 Rue Cathcart #2, Montréal, QC H3B 1M6",
+      "region": "Quebec",
+      "source_title": "[Quebec]FUNHUB Montreal",
+      "source_url": "https://www.phoenixdarts.com/ca/shop/shopDetail?s_seq=94159",
+      "machine_text": "VSS 7 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 7
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "ca",
+      "latitude": 45.5022718,
+      "longitude": -73.5697789,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:24:44.429315+00:00"
+    },
+    {
+      "source_id": "88861",
+      "name": "MontVR Trois-Rivieres",
+      "address": "P22-4025 boulevard des Forges, Trois-Rivières, QC, G8Y 1V9",
+      "region": "Quebec",
+      "source_title": "[Quebec]MontVR Trois-Rivieres",
+      "source_url": "https://www.phoenixdarts.com/ca/shop/shopDetail?s_seq=88861",
+      "machine_text": "VSS 6 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 6
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "ca",
+      "latitude": 46.3546652,
+      "longitude": -72.5871557,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:24:46.064995+00:00"
+    },
+    {
+      "source_id": "73400",
+      "name": "Tisdale Hotel & Pub",
+      "address": "1001 100 Ave, Tisdale, SK S0E 1T0",
+      "region": "Saskatchewan",
+      "source_title": "[Saskatchewan]Tisdale Hotel & Pub",
+      "source_url": "https://www.phoenixdarts.com/ca/shop/shopDetail?s_seq=73400",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "ca",
+      "latitude": 52.84806589999999,
+      "longitude": -104.04696660000002,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:24:47.644992+00:00"
+    },
+    {
+      "source_id": "65384",
+      "name": "Rosthern Hotel",
+      "address": "8016 Saskatchewan St, Rosthern, SK S0K 3R0",
+      "region": "Saskatchewan",
+      "source_title": "[Saskatchewan]Rosthern Hotel",
+      "source_url": "https://www.phoenixdarts.com/ca/shop/shopDetail?s_seq=65384",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "ca",
+      "latitude": 52.6677105,
+      "longitude": -106.34168460000001,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:24:49.256054+00:00"
+    }
+  ]
+}

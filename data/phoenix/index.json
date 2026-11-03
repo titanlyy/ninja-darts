@@ -1,6 +1,6 @@
 {
   "provider": "phoenix",
-  "updated_at": "2026-11-03T09:23:02.215552+00:00",
+  "updated_at": "2026-11-03T09:24:49.530125+00:00",
   "countries": [
     {
       "country_code": "sg",
@@ -213,7 +213,13 @@
       "country_code": "ca",
       "name": "Canada",
       "source_url": "https://www.phoenixdarts.com/ca/shop/shopSearch",
-      "status": "pending"
+      "status": "complete",
+      "updated_at": "2026-11-03T09:24:49.256270+00:00",
+      "discovered": 27,
+      "collected": 27,
+      "mapped": 26,
+      "listing_pages": 6,
+      "file": "data/phoenix/ca.json"
     },
     {
       "country_code": "ie",
