@@ -1,6 +1,6 @@
 {
   "provider": "phoenix",
-  "updated_at": "2026-11-03T09:32:18.400689+00:00",
+  "updated_at": "2026-11-03T09:33:16.524365+00:00",
   "countries": [
     {
       "country_code": "sg",
@@ -274,7 +274,13 @@
       "country_code": "at",
       "name": "Austria",
       "source_url": "https://www.phoenixdarts.com/at/shop/shopSearch",
-      "status": "pending"
+      "status": "complete",
+      "updated_at": "2026-11-03T09:33:16.113299+00:00",
+      "discovered": 15,
+      "collected": 15,
+      "mapped": 15,
+      "listing_pages": 3,
+      "file": "data/phoenix/at.json"
     },
     {
       "country_code": "be",
