@@ -325,11 +325,12 @@
 
   function renderLocationFilters() {
     const venues = state.venues.filter((v) => v.cc === state.selected);
+    const providerVenues = venues.filter(matchesProvider);
     const regionGroups = new Map();
     venues.forEach((v) => {
       const key = regionKey(v);
       if (!regionGroups.has(key)) regionGroups.set(key, { key, name: v.region || 'Not provided', count: 0 });
-      regionGroups.get(key).count++;
+      if (matchesProvider(v)) regionGroups.get(key).count++;
     });
     const hasGeography = state.selected !== 'sg' && venues.some((v) => v.region || v.area);
     els.locationFilter.classList.toggle('hidden', !hasGeography);
@@ -341,17 +342,19 @@
     const [regionLabel, areaLabel] = geoLabels[state.selected] || ['Region', 'City / area'];
     els.regionLabel.textContent = regionLabel;
     els.areaLabel.textContent = areaLabel;
-    fillLocationOptions(els.region, [...regionGroups.values()], `All (${venues.length.toLocaleString()} venues)`, state.region);
+    fillLocationOptions(els.region, [...regionGroups.values()], `All (${providerVenues.length.toLocaleString()} venues)`, state.region);
     const areaVenues = venues.filter((v) => !state.region || regionKey(v) === state.region);
     const areaGroups = new Map();
     areaVenues.forEach((v) => {
       const key = areaKey(v);
       const suffix = !state.region && v.region ? ` · ${v.region}` : '';
       if (!areaGroups.has(key)) areaGroups.set(key, { key, name: (v.area || 'Not provided') + suffix, count: 0 });
-      areaGroups.get(key).count++;
+      if (matchesProvider(v)) areaGroups.get(key).count++;
     });
     els.areaControl.classList.toggle('hidden', !areaVenues.some((v) => v.area));
-    fillLocationOptions(els.area, [...areaGroups.values()], `All (${areaVenues.length.toLocaleString()} venues)`, state.area);
+    fillLocationOptions(els.area, [...areaGroups.values()], `All (${areaVenues.filter(matchesProvider).length.toLocaleString()} venues)`, state.area);
+    els.locationFilter.querySelector('.location-note').textContent = state.provider === 'all'
+      ? 'Counts across all providers' : `Counts for ${state.provider === 'phoenix' ? 'Phoenix' : 'DARTSLIVE'}`;
   }
 
   function focusGeography() {
@@ -364,6 +367,32 @@
   }
 
   // ── Markers ───────────────────────────────────────────────
+  function matchesProvider(v) {
+    return state.provider === 'all' || v.providers.includes(state.provider);
+  }
+
+  function updateProviderNavigation() {
+    const counts = new Map(state.countries.map((c) => [c.cc, 0]));
+    let total = 0;
+    state.venues.forEach((v) => {
+      if (!matchesProvider(v)) return;
+      counts.set(v.cc, (counts.get(v.cc) || 0) + 1);
+      total++;
+    });
+    const scrollTop = els.countryList.scrollTop;
+    els.countryList.querySelector('[data-cc="all"] .cc-count').textContent = total.toLocaleString();
+    [...state.countries].sort((a, b) =>
+      Number(b.cc === state.defaultCountry) - Number(a.cc === state.defaultCountry) ||
+      counts.get(b.cc) - counts.get(a.cc) || a.name.localeCompare(b.name)
+    ).forEach((c) => {
+      const button = els.countryList.querySelector(`[data-cc="${c.cc}"]`);
+      button.querySelector('.cc-count').textContent = counts.get(c.cc).toLocaleString();
+      els.countryList.appendChild(button);
+    });
+    renderLocationFilters();
+    els.countryList.scrollTop = scrollTop;
+  }
+
   function buildMarkers() {
     state.venues.forEach((v) => {
       const m = L.marker([v.la, v.lo], {
@@ -381,7 +410,7 @@
     if (state.selected !== 'all' && v.cc !== state.selected) return false;
     if (state.region && regionKey(v) !== state.region) return false;
     if (state.area && areaKey(v) !== state.area) return false;
-    if (state.provider !== 'all' && !v.providers.includes(state.provider)) return false;
+    if (!matchesProvider(v)) return false;
     if (state.leagueOnly && !v.L) return false;
     if (state.dl3Only && !v.d3) return false;
     if (state.query) {
@@ -550,6 +579,7 @@
     els.provider.querySelectorAll('[data-provider]').forEach((button) =>
       button.setAttribute('aria-pressed', String(button.dataset.provider === state.provider))
     );
+    updateProviderNavigation();
   }
   els.provider.addEventListener('click', (e) => {
     const button = e.target.closest('[data-provider]');

@@ -5,6 +5,13 @@ countries are ranked by total mapped listings, descending, with name as a
 deterministic tie-breaker. Counts include both providers where the Phoenix pilot
 is available.
 
+The All countries badge, country badges and country ranking recompute for the
+selected provider. Region and city option counts follow that provider too,
+while retaining zero-count options so existing geographic selections remain
+visible. Country/location counts are provider facets across the directory;
+the footer shows the narrower current map result after search, geography or
+machine filters. Near me restores the All provider counts.
+
 ## IP-based default
 
 The browser requests https://api.country.is/ once on page load, with credentials

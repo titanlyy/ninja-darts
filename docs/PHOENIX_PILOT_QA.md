@@ -76,3 +76,14 @@ dual-provider venue was found; the empty Both filter was removed in the UI clean
 - Real browser integration received HTTP 200 from https://api.country.is/ and
   selected the sandbox IP's USA country without precise-location permission.
 - IP API purpose and privacy behaviour are documented in LOCATION_FILTERS.md.
+
+## Provider navigation counts
+
+- All / DARTSLIVE / Phoenix global badges: 6,914 / 6,853 / 61.
+- Singapore badges: 121 / 60 / 61. Japan: 4,024 / 4,024 / 0.
+- Selected Tokyo / Shinjuku retain their options with zero Phoenix counts and
+  restore to 1,084 / 102 for DARTSLIVE.
+- Mobile badges follow the same provider selection. Near me resets global
+  badges to all-provider totals.
+- Core Leaflet and markercluster assets are served locally after an external
+  CDN failure was reproduced; subsequent page checks had no app exceptions.

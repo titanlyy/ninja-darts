@@ -1,12 +1,16 @@
 /* Ninja Darts service worker — app-shell caching for offline/PWA use.
    Venues data is network-first (fresh data), falling back to cache. */
 
-const CACHE = 'ninja-darts-v7-selected-venue-focus';
+const CACHE = 'ninja-darts-v8-provider-counts';
 const APP_SHELL = [
   './',
   './index.html',
-  './css/style.css?v=7',
-  './js/app.js?v=7',
+  './css/style.css?v=8',
+  './js/app.js?v=8',
+  './vendor/leaflet/leaflet.js',
+  './vendor/leaflet/leaflet.css',
+  './vendor/markercluster/leaflet.markercluster.js',
+  './vendor/markercluster/MarkerCluster.css',
   './icons/providers/dartslive.svg',
   './icons/providers/phoenix.png',
   './icons/providers/dartslive-symbol.png',
