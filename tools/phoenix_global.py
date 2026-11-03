@@ -192,25 +192,31 @@ def listing_rows(soup, route, url):
 
 def parse_detail(soup, row, route):
     record = dict(row)
-    heading = soup.select_one("#subSection .pageTitle h2")
+    latitude, longitude = soup.select_one("#lat"), soup.select_one("#lag")
+    # Removed/invalid detail URLs can return the search directory with HTTP 200.
+    # Never replace this venue's facts with a directory heading or another shop.
+    directory_response = not latitude and not longitude and bool(
+        listing_rows(soup, route, row["source_url"])
+    )
+    heading = None if directory_response else soup.select_one("#subSection .pageTitle h2")
     if heading:
         record["source_title"] = text(heading)
         record["name"], region = split_title(record["source_title"], route)
         if region:
             record["region"] = region
     fields = {}
-    for anchor in soup.select('a[href*="shopSearch_region"]'):
+    for anchor in ([] if directory_response else soup.select('a[href*="shopSearch_region"]')):
         area = parse_qs(urlparse(anchor["href"]).query).get("ac4_n")
         if area:
             record["area"] = area[0]
-    for tr in soup.select("tr"):
+    for tr in ([] if directory_response else soup.select("tr")):
         th, td = tr.find("th"), tr.find("td")
         if th and td:
             clone = BeautifulSoup(str(td), "html.parser")
             for anchor in clone.select("#btnMap"):
                 anchor.decompose()
             fields[text(th).lower()] = text(clone)
-    address = soup.select_one("td.address")
+    address = None if directory_response else soup.select_one("td.address")
     if address:
         clone = BeautifulSoup(str(address), "html.parser")
         for anchor in clone.select("a"):
@@ -218,10 +224,9 @@ def parse_detail(soup, row, route):
         record["address"] = text(clone)
     else:
         record["address"] = fields.get("住所", fields.get("주소", record["address"]))
-    latitude, longitude = soup.select_one("#lat"), soup.select_one("#lag")
-    if not latitude or not longitude:
-        raise ValueError(f"No detail coordinate inputs: {row['source_url']}")
     def number(node):
+        if node is None:
+            return None
         try:
             value = float(node.get("value", ""))
             return value if math.isfinite(value) else None
@@ -244,6 +249,17 @@ def parse_detail(soup, row, route):
         "website": fields.get("url", ""),
         "collected_at": now(),
     })
+    if directory_response:
+        record["detail_status"] = "directory_response"
+        record["coordinate_review"] = "Detail URL returned a directory page; original listing retained without verified coordinates"
+    elif latitude is None or longitude is None:
+        record["detail_status"] = "missing_coordinates"
+        record["coordinate_review"] = "Missing source coordinate inputs; retained for review, not mapped"
+    elif not valid:
+        record["detail_status"] = "invalid_coordinates"
+        record["coordinate_review"] = "Invalid or unusable source coordinates; retained for review, not mapped"
+    else:
+        record["detail_status"] = "ok"
     if route == "sg" and record["name"].upper().strip() in HELD_SG:
         record["directory_eligible"] = False
         record["exclusion_reason"] = "Test, office, workplace or camp; public access unverified"

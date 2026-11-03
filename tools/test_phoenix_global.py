@@ -3,13 +3,124 @@ import unittest
 import json
 import tempfile
 from pathlib import Path
-from unittest.mock import Mock, patch
+from unittest.mock import Mock, call, patch
 from bs4 import BeautifulSoup
-from phoenix_global import ROOT, Client, CollectionDeferred, collect, in_country, listing_rows, machines_from, parse_detail, repair_nested_title, split_title
+from phoenix_global import ROOT, AccessBlocked, Client, CollectionDeferred, collect, in_country, listing_rows, machines_from, parse_detail, repair_nested_title, save, split_title
 from build_phoenix_bounds import country_boxes
 
 
 class ParserTests(unittest.TestCase):
+    def row(self, sid, route="es"):
+        return {"source_id": str(sid), "name": f"Venue {sid}", "address": f"{sid} Main St",
+                "source_url": f"https://www.phoenixdarts.com/{route}/shop/shopDetail?s_seq={sid}",
+                "machines": [{"model": "VSS", "count": 1}], "machine_text": "VSS 1 ."}
+
+    def soup(self, html):
+        return BeautifulSoup(html, "html.parser")
+
+    def test_missing_coordinate_inputs_are_retained_not_mapped(self):
+        row = self.row(1)
+        for html in ("<main>Venue information</main>", '<input id="lat" value="40">'):
+            with self.subTest(html=html):
+                record = parse_detail(self.soup(html), row, "es")
+                self.assertEqual(record["name"], row["name"])
+                self.assertEqual(record["address"], row["address"])
+                self.assertEqual(record["machines"], row["machines"])
+                self.assertFalse(record["map_eligible"])
+                self.assertTrue(record["directory_eligible"])
+                self.assertIsNone(record["longitude"])
+                self.assertEqual(record["detail_status"], "missing_coordinates")
+                self.assertIn("Missing source coordinate", record["coordinate_review"])
+
+    def test_directory_response_cannot_overwrite_original_venue(self):
+        soup = self.soup('''<section id="subSection"><div class="pageTitle">
+          <h2>Buscar local top</h2></div></section>
+          <a href="/es/shop/shopDetail?s_seq=999"><dl><dt>Another shop</dt>
+          <dd class="address">Wrong address</dd></dl></a>
+          <table><tr><th>Address</th><td class="address">Another address</td></tr>
+          <tr><th>Machine installation</th><td>VSP 99 .</td></tr></table>''')
+        row = self.row(1)
+        record = parse_detail(soup, row, "es")
+        for key in ("name", "address", "machines", "machine_text", "source_id", "source_url"):
+            self.assertEqual(record[key], row[key])
+        self.assertFalse(record["map_eligible"])
+        self.assertIsNone(record["latitude"])
+        self.assertIsNone(record["longitude"])
+        self.assertEqual(record["detail_status"], "directory_response")
+
+    def test_cached_details_survive_missing_coordinates_and_rerun(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            cache = root / "cache"
+            rows = {str(sid): self.row(sid) for sid in (1, 2, 3)}
+            original = parse_detail(self.soup('<input id="lat" value="40"><input id="lag" value="-3">'),
+                                    rows["1"], "es")
+            save(root / "data/phoenix/es.json", {"coverage": {"status": "failed"}, "venues": [original]})
+            save(cache / "es/listing.json", {"rows": rows, "visited": ["saved-page"],
+                                            "next": None, "complete": True})
+            client = Mock()
+            client.get.side_effect = [self.soup("<main>No coordinates</main>"),
+                                      self.soup('<input id="lat" value="41"><input id="lag" value="-4">')]
+            with patch("phoenix_global.ROOT", root):
+                collect("es", cache, client)
+            self.assertEqual(client.get.call_args_list,
+                             [call(rows["2"]["source_url"]), call(rows["3"]["source_url"])])
+            result = json.loads((root / "data/phoenix/es.json").read_text())
+            self.assertEqual(result["coverage"]["status"], "complete")
+            self.assertEqual(result["coverage"]["collected"], 3)
+            self.assertEqual(result["coverage"]["mapped"], 2)
+            self.assertEqual(result["venues"][0], original)
+            self.assertFalse(result["venues"][1]["map_eligible"])
+            client.get.reset_mock(side_effect=True)
+            client.get.side_effect = AssertionError("A cached source page must not be fetched again")
+            with patch("phoenix_global.ROOT", root):
+                collect("es", cache, client)
+            client.get.assert_not_called()
+            again = json.loads((root / "data/phoenix/es.json").read_text())
+            self.assertEqual(again["venues"], result["venues"])
+
+    def test_japan_pagination_resumes_at_saved_next_page(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root, rows = Path(temporary), {"1": self.row(1, "jp")}
+            cache = root / "cache"
+            next_page = "https://vs.phoenixdarts.com/jp/shop/shopSearch_terms/page/117"
+            save(cache / "jp/listing.json", {"rows": rows,
+                 "visited": [f"saved-page-{i}" for i in range(116)],
+                 "next": next_page, "complete": False})
+            original = parse_detail(self.soup('<input id="lat" value="35"><input id="lag" value="139">'),
+                                    rows["1"], "jp")
+            save(cache / "jp/1.json", original)
+            page = self.soup('''<a href="/jp/shop/shopDetail?s_seq=2"><dl>
+              <dt>Venue 2</dt><dd>Tokyo</dd></dl></a>''')
+            client = Mock()
+            client.get.side_effect = [page, self.soup('<input id="lat" value="35"><input id="lag" value="139">')]
+            with patch("phoenix_global.ROOT", root):
+                collect("jp", cache, client)
+            self.assertEqual(client.get.call_args_list, [
+                call(next_page), call("https://vs.phoenixdarts.com/jp/shop/shopDetail?s_seq=2")])
+            result = json.loads((root / "data/phoenix/jp.json").read_text())
+            self.assertEqual(result["coverage"]["listing_pages"], 117)
+            self.assertEqual(result["coverage"]["status"], "complete")
+            self.assertEqual(result["coverage"]["collected"], 2)
+            self.assertEqual(result["venues"][0], original)
+
+    def test_access_block_still_stops_after_retaining_coordinate_hold(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root, rows = Path(temporary), {str(sid): self.row(sid) for sid in (1, 2)}
+            cache = root / "cache"
+            save(cache / "es/listing.json", {"rows": rows, "visited": ["saved-page"],
+                                            "next": None, "complete": True})
+            client = Mock()
+            client.get.side_effect = [self.soup("<main>No coordinates</main>"),
+                                      AccessBlocked("HTTP 429; stopped without bypass")]
+            with patch("phoenix_global.ROOT", root), self.assertRaises(AccessBlocked):
+                collect("es", cache, client)
+            result = json.loads((root / "data/phoenix/es.json").read_text())
+            self.assertEqual(result["coverage"]["status"], "blocked")
+            self.assertEqual(result["coverage"]["collected"], 1)
+            self.assertEqual(result["venues"][0]["source_id"], "1")
+            self.assertFalse(result["venues"][0]["map_eligible"])
+
     def test_soft_budget_stops_before_another_source_request(self):
         client = Client(1.2)
         client.deadline = -1

@@ -6,6 +6,10 @@ on:
         description: 'JSON array of Phoenix country routes (default: all remaining)'
         default: '["bn","kh","ae","sa","in","id","my","hk","tw","th","vn","mn","cn","au","nz","nc","ca","ie","uk","ma","lu","at","be","cz","de","pt","ch","es","fr","us","kr","jp"]'
         required: true
+      require_checkpoint:
+        description: 'Refuse a fresh collection if the saved country checkpoint cannot be restored'
+        type: boolean
+        default: false
 permissions:
   contents: write
   pages: write
@@ -35,6 +39,29 @@ jobs:
           path: .phoenix-cache
           key: phoenix-${{ matrix.country }}-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: phoenix-${{ matrix.country }}-
+      - name: Verify and describe restored collection progress
+        env:
+          PHOENIX_COUNTRY: ${{ matrix.country }}
+          REQUIRE_CHECKPOINT: ${{ inputs.require_checkpoint }}
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          path = Path(".phoenix-cache") / os.environ["PHOENIX_COUNTRY"] / "listing.json"
+          if not path.exists():
+              if os.environ["REQUIRE_CHECKPOINT"] == "true":
+                  raise SystemExit("Required saved checkpoint was not restored; refusing to start over")
+              print("No saved checkpoint; starting a new country collection")
+          else:
+              progress = json.loads(path.read_text())
+              for key in ("rows", "visited", "next", "complete"):
+                  if key not in progress:
+                      raise SystemExit(f"Invalid restored checkpoint: missing {key}")
+              facts = len([p for p in path.parent.glob("*.json") if p.name != "listing.json"])
+              print(f"RESTORED: {len(progress['visited'])} listing pages; "
+                    f"{len(progress['rows'])} discovered venues; {facts} cached detail records; "
+                    f"listing complete={progress['complete']}; next={progress['next']}", flush=True)
+          PY
       - run: pip install requests beautifulsoup4
       - run: python -m unittest discover -s tools -p test_phoenix_global.py
       - run: python -m unittest discover -s tools -p test_phoenix_resume.py
@@ -57,6 +84,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: phoenix-${{ matrix.country }}-${{ github.run_attempt }}
+          include-hidden-files: true
           path: |
             data/phoenix/
             docs/PHOENIX_COVERAGE.md
