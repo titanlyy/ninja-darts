@@ -1,0 +1,4988 @@
+{
+  "coverage": {
+    "country_code": "id",
+    "name": "Indonesia",
+    "source_url": "https://www.phoenixdarts.com/id/shop/shopSearch",
+    "status": "complete",
+    "updated_at": "2026-11-03T08:07:28.899844+00:00",
+    "discovered": 206,
+    "collected": 206,
+    "mapped": 198,
+    "listing_pages": 42
+  },
+  "venues": [
+    {
+      "source_id": "52954",
+      "name": "[BALI] Stadium Café",
+      "address": "Jalan Kartika Plaza, Kuta, Bali",
+      "region": "Bali",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=52954",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -8.724720399999999,
+      "longitude": 115.17142630000001,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:01:48.946356+00:00"
+    },
+    {
+      "source_id": "58842",
+      "name": "[BALI] King's Kebab",
+      "address": "Jalan Raya Basangkasa No. 8X,  Seminyak,  Bali",
+      "region": "Bali",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=58842",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -8.683338899999999,
+      "longitude": 115.16666680000003,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:01:50.560537+00:00"
+    },
+    {
+      "source_id": "78280",
+      "name": "[BALI] Ramada Encore Kuta Bali",
+      "address": "Jalan Raya Kuta No.139, Kuta, Kabupaten Badung, Bali 80361",
+      "region": "Bali",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=78280",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": 0.0,
+      "longitude": 0.0,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:01:52.189902+00:00"
+    },
+    {
+      "source_id": "99039",
+      "name": "[DPS] The Walk-in",
+      "address": "Jl. Batur Sari No.44,b, Sanur, Denpasar Selatan, Kota Denpasar, Bali 80228",
+      "region": "Bali",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=99039",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -8.696391499999999,
+      "longitude": 115.2552391,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:01:53.834176+00:00"
+    },
+    {
+      "source_id": "94969",
+      "name": "(DPS)Das Bistro N Resto",
+      "address": "Jl. Bypass Ngurah Rai No.88 A, Pemogan, Denpasar Selatan, Kota Denpasar, Bali 80221",
+      "region": "Bali",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=94969",
+      "machine_text": "VSX 1 ., VSS 1 .",
+      "machines": [
+        {
+          "model": "VSX",
+          "count": 1
+        },
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -8.7216954,
+      "longitude": 115.193112,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:01:55.496191+00:00"
+    },
+    {
+      "source_id": "78278",
+      "name": "[BALI] Red Car Auto Detailing",
+      "address": "Jl. Gatot Subroto Tim. No.11, Kesiman Kertalangu, Kec. Denpasar Tim., Kota Denpasar, Bali 80237",
+      "region": "Bali",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=78278",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": 0.0,
+      "longitude": 0.0,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:01:57.119443+00:00"
+    },
+    {
+      "source_id": "59310",
+      "name": "[BALI] Pepita Nusa Lembongan",
+      "address": "Jl. Jungut Batu, Nusa Lembongan, Klungkung, Bali",
+      "region": "Bali",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=59310",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -8.6785828,
+      "longitude": 115.4555858,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:01:58.748163+00:00"
+    },
+    {
+      "source_id": "78279",
+      "name": "[BALI] Matilda Sports Bar",
+      "address": "Jl. Kartika Plaza No.4, Kuta, Kabupaten Badung, Bali 80361",
+      "region": "Bali",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=78279",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": 0.0,
+      "longitude": 0.0,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:00.377445+00:00"
+    },
+    {
+      "source_id": "78282",
+      "name": "[BALI] Away Bali Legian Camakila",
+      "address": "Jl. Padma Utara, Legian, Kuta, Kabupaten Badung, Bali 80361",
+      "region": "Bali",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=78282",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": 0.0,
+      "longitude": 0.0,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:02.006785+00:00"
+    },
+    {
+      "source_id": "70969",
+      "name": "[BALI] Café Dua Tiga",
+      "address": "Jl. Pantai Brawa No. 23, Canggu, Bali",
+      "region": "Bali",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=70969",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -8.6594305,
+      "longitude": 115.14696530000003,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:03.635678+00:00"
+    },
+    {
+      "source_id": "94994",
+      "name": "(DPS) Avera",
+      "address": "Jl. Raya Legian No.88, Kuta, Kec. Kuta, Kabupaten Badung, Bali 80361",
+      "region": "Bali",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=94994",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -8.7173941,
+      "longitude": 115.1750331,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:05.299121+00:00"
+    },
+    {
+      "source_id": "96411",
+      "name": "(DPS) ARKAC RESTAURANT",
+      "address": "Jl. Sempol No.26, Pererenan, Kec. Mengwi, Kabupaten Badung, Bali",
+      "region": "Bali",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=96411",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -8.636402,
+      "longitude": 115.1386616,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:06.871191+00:00"
+    },
+    {
+      "source_id": "99040",
+      "name": "[DPS] Legends Bistro Bar and Sport",
+      "address": "Jl. Subak Sari 13, Tibubeneng, Kec. Kuta Utara, Kabupaten Badung, Bali 80361",
+      "region": "Bali",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=99040",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -8.664677,
+      "longitude": 115.1461204,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:08.533447+00:00"
+    },
+    {
+      "source_id": "78281",
+      "name": "[BALI] Kartel",
+      "address": "Jl. Teuku Umar No.35 X, Dauh Puri Klod, Kec. Denpasar Bar., Kota Denpasar, Bali 80112",
+      "region": "Bali",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=78281",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": 0.0,
+      "longitude": 0.0,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:10.147723+00:00"
+    },
+    {
+      "source_id": "99660",
+      "name": "(DPS) AMV Shooting & Sport Bar",
+      "address": "Jln Legian No.63, Kuta, Badung Regency, Bali 80361 Bali 1 Bar 03-07-2026 New Shop Ben",
+      "region": "Bali",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=99660",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -8.7078373,
+      "longitude": 115.171981,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:11.766244+00:00"
+    },
+    {
+      "source_id": "51731",
+      "name": "[BALI] Vi Ai Pi",
+      "address": "Jln. Legian, Kuta, Bali",
+      "region": "Bali",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=51731",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -8.7096758,
+      "longitude": 115.17228929999999,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:13.385543+00:00"
+    },
+    {
+      "source_id": "100300",
+      "name": "(DPS) THE SHAKER BAR",
+      "address": "No. 801 Jl. I. Ketut Natih, The Shaker Bar, Amed, Kec. Abang, Kab. Karangasem, Bali 80852",
+      "region": "Bali",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=100300",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -8.333552899999999,
+      "longitude": 115.6391232,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:15.001108+00:00"
+    },
+    {
+      "source_id": "51730",
+      "name": "[BALI] Tubes Surfers Bar",
+      "address": "Poppies Lane II, Kuta, Bali",
+      "region": "Bali",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=51730",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -8.718174,
+      "longitude": 115.170484,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:16.644374+00:00"
+    },
+    {
+      "source_id": "99723",
+      "name": "[CRB] CAFE SCENES",
+      "address": "CSB, JL. CIPTO MANGUNKUSUMO NO.26, PEKIRINGAN, KEC. KESAMBI, KOTA CIREBON 45131",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=99723",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.7182514,
+      "longitude": 108.5499088,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:18.265205+00:00"
+    },
+    {
+      "source_id": "95961",
+      "name": "[BDG] ROASTED BAR",
+      "address": "Cilaki St No.45, Cihapit, Bandung Wetan, Bandung City, West Java 40115",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=95961",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.905466,
+      "longitude": 107.6240334,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:19.895563+00:00"
+    },
+    {
+      "source_id": "100301",
+      "name": "[BDG] MOD ELCAPO",
+      "address": "GATEWAY PASTEUR, APARTMENT, JL. GN. BATU NO.203 R1 D3, SUKARAJA, KEC. CICENDO 40175",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=100301",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.8901436,
+      "longitude": 107.5660387,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:21.523632+00:00"
+    },
+    {
+      "source_id": "77192",
+      "name": "[BDG] Seventh Dose",
+      "address": "Gedung Parkir Dukomsel, Jl. Diponegoro No.6, Citarum, Kec. Bandung Wetan, Kota Bandung, Jawa Barat 40115",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=77192",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.9006725,
+      "longitude": 107.6132697,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:23.147099+00:00"
+    },
+    {
+      "source_id": "100069",
+      "name": "[BDG] ALAM KANAYAKAN 48",
+      "address": "JL. ALAM KANAYAKAN NO.48, CIGADUNG, KEC. CIBEUNYING KALER, KOTA BANDUNG",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=100069",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.8802622,
+      "longitude": 107.6223806,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:24.767837+00:00"
+    },
+    {
+      "source_id": "99877",
+      "name": "[BDG] PADEL DOME",
+      "address": "JL. BIMA NO.81, ARJUNA, KEC. CICENDO, KOTA BANDUNG",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=99877",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.911585100000001,
+      "longitude": 107.5929576,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:26.394848+00:00"
+    },
+    {
+      "source_id": "96326",
+      "name": "[BDG] QMEALS & BEVERAGES",
+      "address": "JL. CIUMBULEUIT NO.122, CIUMBULEUIT, KEC. CIDADAP, KOTA BANDUNG, JAWA BARAT 40143",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=96326",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.871615299999999,
+      "longitude": 107.6056025,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:28.071503+00:00"
+    },
+    {
+      "source_id": "63075",
+      "name": "[BDG]WARUNG NDESO",
+      "address": "JL. Cihampelas No.159",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=63075",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.8931987,
+      "longitude": 107.60384599999998,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:29.668870+00:00"
+    },
+    {
+      "source_id": "99754",
+      "name": "[BDG] RANDA CAFE",
+      "address": "JL. JURANG NO.94, PASTEUR, KEC. SUKAJADI, KOTA BANDUNG",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=99754",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.8852096,
+      "longitude": 107.601065,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:31.307474+00:00"
+    },
+    {
+      "source_id": "99471",
+      "name": "[BDG] ALTO ARENA",
+      "address": "JL. MOH. TOHA NO.79, CIGERELENG, KEC. REGOL, KOTA BANDUNG",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=99471",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.9372051,
+      "longitude": 107.6080799,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:33.954166+00:00"
+    },
+    {
+      "source_id": "99769",
+      "name": "[BDG] BROIL GARDEN",
+      "address": "JL. PAGER GUNUNG NO.2, LEBAKGEDE, KEC. COBLONG, KOTA BANDUNG, JAWA BARAT 40132, INDONESIA",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=99769",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.896892800000001,
+      "longitude": 107.6151949,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:36.459082+00:00"
+    },
+    {
+      "source_id": "95067",
+      "name": "[BDG] SHOOTERS POOL & CAFE",
+      "address": "JL. PASIRKALIKI NO.16-18, KB. JERUK, KEC. ANDIR,  40181",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=95067",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.915258199999999,
+      "longitude": 107.5984606,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:38.530667+00:00"
+    },
+    {
+      "source_id": "51356",
+      "name": "[BDG] Gemi Cafe",
+      "address": "JL. Padjadjaran No.37, Bandung",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=51356",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.907165999999999,
+      "longitude": 107.60226260000002,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:40.490317+00:00"
+    },
+    {
+      "source_id": "100302",
+      "name": "[BDG] WARUNG HEALING",
+      "address": "JL. RAYA KOPO NO.424, BABAKAN CIPARAY, KEC. BABAKAN CIPARAY, 40223",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=100302",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.9475358,
+      "longitude": 107.5882425,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:42.410003+00:00"
+    },
+    {
+      "source_id": "49853",
+      "name": "[BDG] V Hotel",
+      "address": "JL. Setrawangi",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=49853",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.882400700000001,
+      "longitude": 107.58523830000001,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:44.345299+00:00"
+    },
+    {
+      "source_id": "95960",
+      "name": "[BDG] BIER ORT",
+      "address": "JL. TAMANSARI NO.88, LB. SILIWANGI, KECAMATAN COBLONG, KOTA BANDUNG, JAWA BARAT 40132",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=95960",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.891567,
+      "longitude": 107.6080047,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:46.275454+00:00"
+    },
+    {
+      "source_id": "100573",
+      "name": "[BDG] LAZURA KOFFIE",
+      "address": "JL. TAMBLONG NO.46, KB. PISANG, KEC. SUMUR BANDUNG 40112",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=100573",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.9193899,
+      "longitude": 107.6126492,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:48.197403+00:00"
+    },
+    {
+      "source_id": "56518",
+      "name": "[BDG] Botol Boozer & Beers",
+      "address": "JLN VETERAN NO 18",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=56518",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.539438,
+      "longitude": 107.44288000000006,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:49.990205+00:00"
+    },
+    {
+      "source_id": "77284",
+      "name": "[BDG] Lojitoeir",
+      "address": "Jalan Gemuruh No. 64, Bandung",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=77284",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.9336506,
+      "longitude": 107.6375682,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:51.756141+00:00"
+    },
+    {
+      "source_id": "55554",
+      "name": "[BDG] Hotel Savoy Homan",
+      "address": "Jl. Asia Afrika No.112, Cikawao, Lengkong",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=55554",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.921840599999999,
+      "longitude": 107.61262740000006,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:53.531276+00:00"
+    },
+    {
+      "source_id": "68410",
+      "name": "[BDG] Grand Preanger Hotel",
+      "address": "Jl. Asiua AfrikaNo. 81",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=68410",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.9208997,
+      "longitude": 107.6117825,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:55.298979+00:00"
+    },
+    {
+      "source_id": "57824",
+      "name": "[BDG] Braga Art Cafe",
+      "address": "Jl. Braga No. 68, bandung",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=57824",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": 0.0,
+      "longitude": 107.6092433,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:57.107973+00:00"
+    },
+    {
+      "source_id": "95017",
+      "name": "[BDG] F3X CLUB",
+      "address": "Jl. Braga No.129, Braga, Kec. Sumur Bandung, Kota Bandung",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=95017",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.917784699999999,
+      "longitude": 107.6095203,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:02:58.837546+00:00"
+    },
+    {
+      "source_id": "65223",
+      "name": "[BDG] IBIS Style Hotel",
+      "address": "Jl. Braga no.8 Bandung",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=65223",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.920474599999999,
+      "longitude": 107.60995400000002,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:00.605742+00:00"
+    },
+    {
+      "source_id": "73498",
+      "name": "[BDG] Ardan Radio",
+      "address": "Jl. Cipaganti No.159, Pasteur, Sukajadi, Kota Bandung, Jawa Barat 40161",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=73498",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.886100799999999,
+      "longitude": 107.60151050000002,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:02.389281+00:00"
+    },
+    {
+      "source_id": "57337",
+      "name": "[BDG] Golden Monkey",
+      "address": "Jl. Dayang Sumbi No. 1 Bandung",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=57337",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": 0.0,
+      "longitude": 107.53625629999999,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:04.171208+00:00"
+    },
+    {
+      "source_id": "47159",
+      "name": "[BDG] Badung",
+      "address": "Jl. Dr Cipto No. 3. Bandung",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=47159",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.9060771,
+      "longitude": 107.5999213,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:05.946326+00:00"
+    },
+    {
+      "source_id": "95066",
+      "name": "[BDG] BANDUNG PEOPLE'S PLACE",
+      "address": "Jl. Dr. Cipto No.3, Pasir Kaliki, Kec. Cicendo, Kota Bandung",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=95066",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.906613399999999,
+      "longitude": 107.5987205,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:07.742404+00:00"
+    },
+    {
+      "source_id": "77016",
+      "name": "[BDG] Kaayangan Lounge @ Aston Pasteur",
+      "address": "Jl. Dr. Djunjunan No.162, Sukagalih, Kec. Sukajadi, Kota Bandung, Jawa Barat 40162",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=77016",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.8933579,
+      "longitude": 107.58730109999999,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:09.514811+00:00"
+    },
+    {
+      "source_id": "75548",
+      "name": "[BDG] Mercure Hotel",
+      "address": "Jl. Dr. Setiabudi No.269-275, Isola, Kec. Sukasari, Kota Bandung, Jawa Barat 40154",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=75548",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.8547788,
+      "longitude": 107.5948266,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:11.200443+00:00"
+    },
+    {
+      "source_id": "68411",
+      "name": "[BDG] The Papandayan Hotel",
+      "address": "Jl. Gator Subroto No.83",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=68411",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.9229436,
+      "longitude": 107.62384880000002,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:12.825047+00:00"
+    },
+    {
+      "source_id": "72622",
+      "name": "[BDG] Moxy Hotel",
+      "address": "Jl. Ir.H. Djuanda No. 69, Tamansari",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=72622",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.9003605,
+      "longitude": 107.61200259999998,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:14.459610+00:00"
+    },
+    {
+      "source_id": "66263",
+      "name": "[BDG] Kalpa Tree",
+      "address": "Jl. Kiputih No.37",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=66263",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.865884299999999,
+      "longitude": 107.61013249999996,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:16.083857+00:00"
+    },
+    {
+      "source_id": "96147",
+      "name": "[BDG] Armor Genuine Urban Forest",
+      "address": "Jl. Leuwi Panjang No. 86, RT.01/Rw.04, Situsaeur, Kec. Bojongloa Kidul, Kota Bandung, Jawa Barat 40233",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=96147",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.9424229,
+      "longitude": 107.595913,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:17.703327+00:00"
+    },
+    {
+      "source_id": "99106",
+      "name": "[BDG] Padel Boss Mengger",
+      "address": "Jl. Mengger No.101, Sukapura, Kec. Dayeuhkolot, Kabupaten Bandung, Jawa Barat 40267",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=99106",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.9663203,
+      "longitude": 107.6213057,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:19.357810+00:00"
+    },
+    {
+      "source_id": "58686",
+      "name": "[BDG] Vape Hitz",
+      "address": "Jl. Palasari No. 20 Bandung",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=58686",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.929848,
+      "longitude": 107.62256049999996,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:21.011043+00:00"
+    },
+    {
+      "source_id": "68228",
+      "name": "[BDG] Greenlight",
+      "address": "Jl. Pasirkaliki No. 138A",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=68228",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.9053498,
+      "longitude": 107.5976895,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:22.596946+00:00"
+    },
+    {
+      "source_id": "51131",
+      "name": "[BDG] Hotel Grand Pacific",
+      "address": "Jl. Pasirkaliki No.100, Bandung",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=51131",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.902614499999999,
+      "longitude": 107.59747579999998,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:24.206288+00:00"
+    },
+    {
+      "source_id": "59205",
+      "name": "[BDG] Octopus Spa",
+      "address": "Jl. Pelajar Pejuang 45 No. 119, Bandung",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=59205",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.9370451,
+      "longitude": 107.62314190000006,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:25.843318+00:00"
+    },
+    {
+      "source_id": "75547",
+      "name": "[BDG] 4eat & Coffee",
+      "address": "Jl. Progo No.13A, Citarum, Kec. Bandung Wetan, Kota Bandung, Jawa Barat 40115",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=75547",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.9045514,
+      "longitude": 107.6182653,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:27.465495+00:00"
+    },
+    {
+      "source_id": "96661",
+      "name": "[BDG] Greenlight Cafe & Billiard",
+      "address": "Jl. Purnawarman No.3, Babakan Ciamis, Kec. Sumur Bandung, Kota Bandung, Jawa Barat 40117",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=96661",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.9088346,
+      "longitude": 107.6089969,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:29.096878+00:00"
+    },
+    {
+      "source_id": "96757",
+      "name": "[BDG] ULIN Billiard, PS & Cafe",
+      "address": "Jl. Raya Bojongsoang No.245, Lengkong, Kec. Bojongsoang, Kabupaten Bandung, Jawa Barat 40287",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=96757",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.9719444,
+      "longitude": 107.6362844,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:31.411603+00:00"
+    },
+    {
+      "source_id": "61595",
+      "name": "[BDG] Belly Boom",
+      "address": "Jl. Raya Cibabat No. 120, Bandung",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=61595",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.8812035,
+      "longitude": 107.55141200000003,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:33.051073+00:00"
+    },
+    {
+      "source_id": "59366",
+      "name": "[BDG] Regata Hotel",
+      "address": "Jl. Setiabudhi No. 35, Bandung",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=59366",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.8435242,
+      "longitude": 107.59871989999999,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:34.714546+00:00"
+    },
+    {
+      "source_id": "99043",
+      "name": "[BDG] The Grande Padel Society",
+      "address": "Jl. Soekarno-Hatta No.337B, Kb. Lega, Kec. Bojongloa Kidul, Kota Bandung, Jawa Barat 40235",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=99043",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.9474242,
+      "longitude": 107.5973611,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:36.374107+00:00"
+    },
+    {
+      "source_id": "96562",
+      "name": "[BDG] The Warung Kopi By MG MIM",
+      "address": "Jl. Soekarno-Hatta No.590, Sekejati, Kec. Buahbatu, Kota Bandung, Jawa Barat 40286",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=96562",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.9407862,
+      "longitude": 107.6578799,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:38.011327+00:00"
+    },
+    {
+      "source_id": "65137",
+      "name": "[BDG] Waroeng Babagi",
+      "address": "Jl. Sribentang no.29",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=65137",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.936998999999999,
+      "longitude": 107.61266799999999,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:39.662440+00:00"
+    },
+    {
+      "source_id": "56842",
+      "name": "[BDG] Warunk Lekoh",
+      "address": "Jl. Sriwijaya no 65",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=56842",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.390403999999999,
+      "longitude": 106.83552800000007,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:41.304956+00:00"
+    },
+    {
+      "source_id": "98433",
+      "name": "[BDG] RJ SPORTS BAR",
+      "address": "Jl. Sumatera No.51, Citarum, Kec. Bandung Wetan, Kota Bandung, Jawa Barat 40115",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=98433",
+      "machine_text": "VSS 6 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 6
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.9094488,
+      "longitude": 107.6118074,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:42.933872+00:00"
+    },
+    {
+      "source_id": "78697",
+      "name": "[BDG] Imah Djoglo",
+      "address": "Jl. Sumber Endah No.31, Babakan Ciparay, Kec. Babakan Ciparay, Kota Bandung, Jawa Barat 40223",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=78697",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": 0.0,
+      "longitude": 0.0,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:44.610454+00:00"
+    },
+    {
+      "source_id": "96907",
+      "name": "[BDG] Darmajati The Light Sports Bar",
+      "address": "Jl. Supratman No. 66-68, Cihaur Geulis, Kec. Cibeunying Kaler, Kota Bandung, Jawa Barat 40122",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=96907",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.905921299999999,
+      "longitude": 107.6299828,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:46.210662+00:00"
+    },
+    {
+      "source_id": "60705",
+      "name": "[BDG] Sam's Corner 2",
+      "address": "Jl. Talaga Bodas No. 15",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=60705",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.928617699999999,
+      "longitude": 107.62304219999999,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:47.867756+00:00"
+    },
+    {
+      "source_id": "67139",
+      "name": "[BDG] Warung Udsite Down",
+      "address": "Jl. Tera No.32",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=67139",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.9157848,
+      "longitude": 107.61258569999995,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:49.498226+00:00"
+    },
+    {
+      "source_id": "98853",
+      "name": "[BDG] Tambuhak Padel Garden",
+      "address": "Jl. Terusan Prof. DR. Sutami No.Kav. 02, Sarijadi, Kec. Sukasari, Kota Bandung, Jawa Barat 40151",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=98853",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.8805969,
+      "longitude": 107.5812356,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:51.133877+00:00"
+    },
+    {
+      "source_id": "55246",
+      "name": "[BDG] Sam's Corner",
+      "address": "Jl.Ir.Djuanda no 315",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=55246",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.8736961,
+      "longitude": 107.62013309999998,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:52.766540+00:00"
+    },
+    {
+      "source_id": "50217",
+      "name": "[BDG] Morning Glory @ Setrasari",
+      "address": "Jl.Sentra Sari Mall C2 No.31",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=50217",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.8725632,
+      "longitude": 107.5862869,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:54.392304+00:00"
+    },
+    {
+      "source_id": "56743",
+      "name": "[BDG] Morning Glory @singgasana",
+      "address": "Jl.Singgasana raya no 12a",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=56743",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": 37.539841,
+      "longitude": 126.97231299999999,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:56.025671+00:00"
+    },
+    {
+      "source_id": "68636",
+      "name": "[BDG] Kedai Waras",
+      "address": "Jl.terusan kopo n0.308/106 Soreang Katapang Bandung",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=68636",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.994040399999999,
+      "longitude": 107.55508129999998,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:57.656371+00:00"
+    },
+    {
+      "source_id": "66264",
+      "name": "[BDG] Kios Tetangga Cafe & Carwash",
+      "address": "Jln. Cisokan No.21",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=66264",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.9057815,
+      "longitude": 107.63425259999997,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:03:59.285503+00:00"
+    },
+    {
+      "source_id": "66265",
+      "name": "[BDG] Sektor 45",
+      "address": "Jln. Palasari N0.45",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=66265",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.932686299999999,
+      "longitude": 107.62214470000004,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:00.921312+00:00"
+    },
+    {
+      "source_id": "96439",
+      "name": "[BDG] Maple Board Game Cafe",
+      "address": "Kopo Mas Regency, A-3, Margasuka, Babakan Ciparay, Bandung City, West Java 40225",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=96439",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.958881,
+      "longitude": 107.578069,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:02.564592+00:00"
+    },
+    {
+      "source_id": "96463",
+      "name": "[BDG] Mataswara",
+      "address": "Mataswara, Jl. Jend. Sudirman No.502A, Ciroyom, Kec. Andir, Kota Bandung, Jawa Barat 40182",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=96463",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.918502999999999,
+      "longitude": 107.5857028,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:04.210648+00:00"
+    },
+    {
+      "source_id": "96561",
+      "name": "[BDG] The Warung Kopi By MG Ubertos",
+      "address": "Ubertos, Jl. AH. Nasution No.46A, Pakemitan, Kec. Cinambo, Kota Bandung, Jawa Barat 40294",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=96561",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.915495200000001,
+      "longitude": 107.6967302,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:05.843803+00:00"
+    },
+    {
+      "source_id": "54208",
+      "name": "[BDG] OJ's Café @ Hegarmanah",
+      "address": "jl.hegarmanah no 89",
+      "region": "Bandung",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=54208",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.593306399999999,
+      "longitude": 106.77216210000006,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:07.517073+00:00"
+    },
+    {
+      "source_id": "99214",
+      "name": "[TGR] HOTEL ARYADUTA LIPPO VILLAGE",
+      "address": "401 BOULEVARD JEND. SUDIRMAN, LIPPO VILLAGE 1300, TANGERANG 15811",
+      "region": "Banten",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=99214",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.235893,
+      "longitude": 106.5923845,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:09.152874+00:00"
+    },
+    {
+      "source_id": "95958",
+      "name": "[BSD] UNDERD*CK",
+      "address": "ARARASA BSD, JL. BSD RAYA UTAMA LT. 3, LENGKONG KULON, KEC. PAGEDANGAN, KABUPATEN TANGERANG, BANTEN 15331",
+      "region": "Banten",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=95958",
+      "machine_text": "VSS 4 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 4
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.2822752,
+      "longitude": 106.6372762,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:10.840919+00:00"
+    },
+    {
+      "source_id": "98851",
+      "name": "[TGR] REDBALL BILLIARD BINTARO",
+      "address": "BTC Bintaro lantai 2, Jalan Jenderal Sudirman, Bintaro Sektor VII, Pondok Jaya, Pondok Aren, South Tangerang City, Banten 15220, Indonesia",
+      "region": "Banten",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=98851",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.2793643,
+      "longitude": 106.7211136,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:12.474232+00:00"
+    },
+    {
+      "source_id": "96034",
+      "name": "[BSD] J.Flower Billiard",
+      "address": "ITC BSD City, Basment floor",
+      "region": "Banten",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=96034",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.2863554,
+      "longitude": 106.6649334,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:14.101876+00:00"
+    },
+    {
+      "source_id": "77891",
+      "name": "[W.JKT] FAHD Academy",
+      "address": "Jalan sutera harmoni utama no 9, Tangerang 15326Jalan sutera harmoni utama no 9, Tangerang 15326",
+      "region": "Banten",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=77891",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.2542211,
+      "longitude": 106.658799,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:15.738951+00:00"
+    },
+    {
+      "source_id": "100254",
+      "name": "[TGR] JET BILLIARD",
+      "address": "Jl. Boulevard Graha Raya Blk. A1 No.56c, RT.003/RW.012, Paku Jaya, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15324",
+      "region": "Banten",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=100254",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.2317689,
+      "longitude": 106.6726112,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:17.369328+00:00"
+    },
+    {
+      "source_id": "96595",
+      "name": "[TGR] Dart House",
+      "address": "Jl. Magnolia VI No.14 M3 Blok M3 No, Jelupang, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15323",
+      "region": "Banten",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=96595",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.261771899999999,
+      "longitude": 106.6640516,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:19.045021+00:00"
+    },
+    {
+      "source_id": "98519",
+      "name": "[TGR] ELYSIUM BILLIARD & CAFE",
+      "address": "Jl. Poris Residence, RT.003/RW.001, Cipondoh Makmur, Kec. Cipondoh, Kota Tangerang, Banten 15141, Desa/Kelurahan Cipondoh Makmur, Kec. Cipondoh, Kota Tangerang, Provinsi Banten 15141",
+      "region": "Banten",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=98519",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.1830806,
+      "longitude": 106.6692466,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:20.690336+00:00"
+    },
+    {
+      "source_id": "95332",
+      "name": "Eragon Billiard & Sport Bar",
+      "address": "Jl. Rasuna Said Blok BB No  07 & 08 Pantai Indah Kapuk 2, kel. Salembaran Jaya, Kec. Kosambi, Kab. Tangerang Banten 15211",
+      "region": "Banten",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=95332",
+      "machine_text": "VSS 4 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 4
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.0467942,
+      "longitude": 106.7031953,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:22.327126+00:00"
+    },
+    {
+      "source_id": "100411",
+      "name": "[BGR] NINJA BILLIARD CIBINONG",
+      "address": "Jl. Raya Jakarta-Bogor No.44a, Pakansari, Kec. Cibinong, Kabupaten Bogor, Jawa Barat 16915",
+      "region": "Banten",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=100411",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.4784,
+      "longitude": 106.8431596,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:23.956460+00:00"
+    },
+    {
+      "source_id": "99625",
+      "name": "[BGR] BALISSAN LOCAL BISTRO",
+      "address": "Jl. Raya Sirkuit Sentul, Leuwinutug, Kec. Citeureup, Kabupaten Bogor, Jawa Barat 16810",
+      "region": "Banten",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=99625",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.5170227,
+      "longitude": 106.8615446,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:25.590820+00:00"
+    },
+    {
+      "source_id": "95228",
+      "name": "(TGR) Daruma Pool & Coffee",
+      "address": "Metropolis town square, Jln Hartono Raya No 3 Rt 003/006, Jl haryono raya Lt.1, RT.002/RW.006, Klp. Indah, Kota Tangerang, Banten 15118",
+      "region": "Banten",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=95228",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.200236299999999,
+      "longitude": 106.6387148,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:27.223613+00:00"
+    },
+    {
+      "source_id": "98566",
+      "name": "Phoenixdarts Indonesia Office Test",
+      "address": "PIK 2, Biz Park Blok C2 Nomor 052, Type Gudang Badan, Desa Tanjung Burung, Kecamatan Teluknaga, Kabupaten Tangerang, Propinsi Banten 15510, Indonesia",
+      "region": "Banten",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=98566",
+      "machine_text": "VSX 1 ., VSS 1 .",
+      "machines": [
+        {
+          "model": "VSX",
+          "count": 1
+        },
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.0685581,
+      "longitude": 106.6345262,
+      "map_eligible": true,
+      "directory_eligible": false,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:28.858244+00:00",
+      "exclusion_reason": "Provider administration, event or test listing; public access unverified"
+    },
+    {
+      "source_id": "94746",
+      "name": "[PIK2] DOG'S HOUSE",
+      "address": "Ruko Milenial, Blok A, 008, Tanjung Burung, Teluknaga, Tangerang Regency, Banten",
+      "region": "Banten",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=94746",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.2968927,
+      "longitude": 106.6200711,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:30.507727+00:00"
+    },
+    {
+      "source_id": "96666",
+      "name": "[TGR] HEXA BILLIARD",
+      "address": "Ruko Sorrento Place no 37, Jl. Ir Soekarno Gading Serpong, Curug Sangereng, Kec. Klp. Dua, Kabupaten Tangerang, Banten 15810",
+      "region": "Banten",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=96666",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.2614421,
+      "longitude": 106.630859,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:32.159180+00:00"
+    },
+    {
+      "source_id": "95727",
+      "name": "[Priv] DAAAARTS",
+      "address": "TAMAN GIRI LOKA XX NO XX, RT 001/ RW 002",
+      "region": "Banten",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=95727",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.2862804,
+      "longitude": 106.6762252,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:33.781675+00:00"
+    },
+    {
+      "source_id": "100198",
+      "name": "[TGR] TAP CLUB SERPONG",
+      "address": "THE HOOD, Jl. Symphonia Blvd Melody Barat Lantai Dasar GF-G1, Cijantra, Kec. Pagedangan, Kabupaten Tangerang, Banten 15336",
+      "region": "Banten",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=100198",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.2724154,
+      "longitude": 106.6130088,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:35.392764+00:00"
+    },
+    {
+      "source_id": "94884",
+      "name": "[ALSUT] Mille Billiard",
+      "address": "West Lobby Mall @ Alam Sutera Jl. Jalur Sutera Bar. No.Kav. 16, RT.002/RW.003, Panunggangan Tim., Kec. Pinang, Kota Tangerang, Banten 15143",
+      "region": "Banten",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=94884",
+      "machine_text": "VSS 5 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 5
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.2238729,
+      "longitude": 106.6536224,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:37.034355+00:00"
+    },
+    {
+      "source_id": "62388",
+      "name": "[PWT] Head Quarter",
+      "address": "Jl. Prof. Dr. Suharso No. 53, Purwokerto, Banyumas, Jawa Tengah 53114",
+      "region": "C. Java",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=62388",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -7.4176506,
+      "longitude": 109.25395060000005,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:38.662443+00:00"
+    },
+    {
+      "source_id": "100412",
+      "name": "[TGR] NINJA BILLIARD BINTARO",
+      "address": "06 Jaya, Lottemart Bintaro Lantai 3 JL M.H. Thamrin CBD Blok B7, Jl. Wahid Hasyim No.01 Sektor 7, Pd. Jaya, Kec. Pd. Aren, Kota Tangerang Selatan, Banten 15224",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=100412",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.2725913,
+      "longitude": 106.7235678,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:40.299026+00:00"
+    },
+    {
+      "source_id": "76613",
+      "name": "[N.JKT] Rbar Sport",
+      "address": "8, RT.8/RW.3, Pegadungan, Kec. Kalideres, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11830",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=76613",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.1337984,
+      "longitude": 106.71130140000002,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:41.929870+00:00"
+    },
+    {
+      "source_id": "99679",
+      "name": "[W.JKT] PLAYSPOT BILLIARD",
+      "address": "Basement paling bawah Mall Taman Palem, RT.13/RW.10, Cengkareng Tim., Kecamatan Cengkareng, Jakarta, Daerah Khusus Ibukota Jakarta 11730",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=99679",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.139588799999999,
+      "longitude": 106.7309249,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:43.571495+00:00"
+    },
+    {
+      "source_id": "99907",
+      "name": "[W.JKT] BIEN RESTO & CAFE",
+      "address": "Blok As no.31C, Jl. Komp. Green Ville, RT.6/RW.14, Duri Kepa, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11510",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=99907",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.1689867,
+      "longitude": 106.7725121,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:45.207021+00:00"
+    },
+    {
+      "source_id": "99636",
+      "name": "[BKS] LA VIDA PADEL",
+      "address": "Blok SS, Jl. Pusat Otomotif Sentra Harapan Indah No.88, RT.003/RW.007, Pejuang, Kecamatan Medan Satria, Kota Bks, Jawa Barat 17132",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=99636",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.1905594,
+      "longitude": 106.9788662,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:46.864597+00:00"
+    },
+    {
+      "source_id": "56519",
+      "name": "[W.JKT] TGIF @ Tribeca Central Park",
+      "address": "Central Park Mall ,Tribeca",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=56519",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": 40.7162692,
+      "longitude": -74.00863229999999,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:48.493788+00:00"
+    },
+    {
+      "source_id": "99642",
+      "name": "[BKS] OUTBREAK SIGNATURE",
+      "address": "Crystal Boulevar Commercial, Sumarecon Mal Bks, Blok ND / 083, RT.002/RW.003, Marga Mulya, Kec. Bekasi Utara, Kota Bks, Jawa Barat 17142",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=99642",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.227766600000001,
+      "longitude": 106.9959576,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:50.130784+00:00"
+    },
+    {
+      "source_id": "66634",
+      "name": "[S.JKT] Beranda Depok Cafe & Resto",
+      "address": "Depok,Pancoran Mas , Kota Depok, Jawa Barat 16431",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=66634",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.399033699999999,
+      "longitude": 106.82078750000005,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:51.768565+00:00"
+    },
+    {
+      "source_id": "49541",
+      "name": "[W.JKT] Clique Resto & Bar",
+      "address": "Graha Saphere Jl.Boulevard raya block M5",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=49541",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": 37.539841,
+      "longitude": 126.97231299999999,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:53.415781+00:00"
+    },
+    {
+      "source_id": "76614",
+      "name": "[N.JKT] Xin Tian Di Jakarta",
+      "address": "Hayam Wuruk Sreet No.72, RT.2/RW.1, Maphar, Taman Sari, West Jakarta City, Jakarta 11160",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=76614",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.157095,
+      "longitude": 106.81884500000001,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:55.080229+00:00"
+    },
+    {
+      "source_id": "99742",
+      "name": "[BKS] VOX LOUNGE",
+      "address": "JI. Orange County Boulevard, Apartemen Orange County Garden Grove Lobby Glendale, Cibatu, Cikarang Selatan, Bekasi 17532",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=99742",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.3322935,
+      "longitude": 107.1650793,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:56.692875+00:00"
+    },
+    {
+      "source_id": "96035",
+      "name": "[N.JKT] Roastmary",
+      "address": "JL.Sunter Mas Utara Raya Blok A3 Kav.29, Sunter Jaya, Jkt Utara, Daerah Khusus Ibukota Jakarta 14360",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=96035",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.1516283,
+      "longitude": 106.8731911,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:58.180459+00:00"
+    },
+    {
+      "source_id": "53238",
+      "name": "[W.JKT] WJ De Cafe",
+      "address": "JL.Tubagus Angke Komplek Taman Duta Mas blok B6 no 12A-14, Jakarta, Indonesia",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=53238",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.2087634,
+      "longitude": 106.84559899999999,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:04:59.671169+00:00"
+    },
+    {
+      "source_id": "94095",
+      "name": "[S.JKT] GEN'S BAR",
+      "address": "Jakarta",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=94095",
+      "machine_text": "VSX 1 ., VSS 5 .",
+      "machines": [
+        {
+          "model": "VSX",
+          "count": 1
+        },
+        {
+          "model": "VSS",
+          "count": 5
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.1944491,
+      "longitude": 106.8229198,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:01.315356+00:00"
+    },
+    {
+      "source_id": "75482",
+      "name": "[W.JKT] Autowerke Body Repair",
+      "address": "Jalan Asem II Blok Ros No.32, RT.1/RW.1, South Cipete, Cilandak, South Jakarta City, Jakarta 12410",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=75482",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.272799,
+      "longitude": 106.80175899999995,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:02.783302+00:00"
+    },
+    {
+      "source_id": "74407",
+      "name": "[N.JKT] Highgrounds",
+      "address": "Jalan Marina Raya, Ruko Crown Golf Blok A No. 37, RT.39/RW.2, Kamal Muara, Kec. Penjaringan, Kota Jkt Utara, Daerah Khusus Ibukota Jakarta 14470",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=74407",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.1106627,
+      "longitude": 106.74050280000006,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:04.267660+00:00"
+    },
+    {
+      "source_id": "64473",
+      "name": "[S.JKT] Pizza E Birra @Gandaria City",
+      "address": "Jalan Sultan Iskandar Muda, Kebayoran Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12240",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=64473",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.2513923,
+      "longitude": 106.78165650000005,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:05.742895+00:00"
+    },
+    {
+      "source_id": "59769",
+      "name": "[S.JKT] TGIF @ Gandaria City",
+      "address": "Jalan Sultan Iskandar Muda, Kebayoran Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12240",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=59769",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.2509814,
+      "longitude": 106.78162440000006,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:07.267213+00:00"
+    },
+    {
+      "source_id": "99859",
+      "name": "[W.JKT] Hangover Cafe",
+      "address": "Jalan taman palem lestari Blok AA2 No:9A, RT.8/RW.5, Kalideres, Kecamatan Cengkareng, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11820",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=99859",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.129918600000001,
+      "longitude": 106.71694,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:08.772537+00:00"
+    },
+    {
+      "source_id": "100268",
+      "name": "[W.JKT] B FASHION KTV",
+      "address": "Jl. Aranda No.1 1, RT.1/RW.1, Tj. Duren Sel., Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11470",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=100268",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.167430899999999,
+      "longitude": 106.7637239,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:10.518946+00:00"
+    },
+    {
+      "source_id": "68027",
+      "name": "[N.JKT] Ibza's Bar & Lounge",
+      "address": "Jl. Boulevard raya FX 1 No.5/6 Kelapa Gading, Jakarta Utara",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=68027",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.164542399999999,
+      "longitude": 106.90227249999998,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:12.010612+00:00"
+    },
+    {
+      "source_id": "68589",
+      "name": "[N.JKT] Pappa Jack Kopitiam",
+      "address": "Jl. Danau Sunter Barat BlokA3 No.6 Kel.Sunter Agung Kec. Tanjung Priuk RW 10 Sunter Agung TJ.Priok Kota Jkt Utara DKI 14350",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=68589",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.1425062,
+      "longitude": 106.85750499999995,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:13.558279+00:00"
+    },
+    {
+      "source_id": "94680",
+      "name": "[W.JKT] OURA BILLIARD",
+      "address": "Jl. Dr. Susilo Raya No.338, RT./RW/RW.005/005, Grogol, Kec. Grogol petamburan, Jakarta, Daerah Khusus Ibukota Jakarta 11450",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=94680",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.166036999999999,
+      "longitude": 106.7923252,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:15.045343+00:00"
+    },
+    {
+      "source_id": "77852",
+      "name": "[N.JKT] Ibis Styles Jakarta Sunter",
+      "address": "Jl. Gaya Motor I, RW.8, Sungai Bambu, Tj. Priok, Kota Jkt Utara, Daerah Khusus Ibukota Jakarta 14350Jl. Gaya Motor I, RW.8, Sungai Bambu, Tj. Priok, K",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=77852",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.137886,
+      "longitude": 106.8870127,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:16.573532+00:00"
+    },
+    {
+      "source_id": "45689",
+      "name": "[C.JKT] Aphrodite Bar & Restaurant",
+      "address": "Jl. H. R. Rasuna Said Kav 22",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=45689",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.230002,
+      "longitude": 106.83365300000003,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:18.014762+00:00"
+    },
+    {
+      "source_id": "100118",
+      "name": "[W.JKT] FRIDAYS COFFEE & PASTRY",
+      "address": "Jl. Jelambar Baru Raya No.8, RT./ Rw/RW.: 005/006, Jelambar Baru, Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11460",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=100118",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.167430899999999,
+      "longitude": 106.7637239,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:19.676644+00:00"
+    },
+    {
+      "source_id": "77746",
+      "name": "[C.JKT] Food Outlet",
+      "address": "Jl. Kali Baru Timur III No.39, RT.2/RW.7, Bungur, Kec. Senen, Kota Jakarta Pusat, Daerah Khusus Ibuk",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=77746",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": 0.0,
+      "longitude": 0.0,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:21.148415+00:00"
+    },
+    {
+      "source_id": "99806",
+      "name": "[W.JKT] VELOPARK BEER TERRACE",
+      "address": "Jl. Komp. Graha Indah Green Ville Bl. Ax No.43, RT.10/RW.14, Duri Kepa, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11510",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=99806",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.170391299999999,
+      "longitude": 106.774724,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:22.650299+00:00"
+    },
+    {
+      "source_id": "47167",
+      "name": "[S.JKT] De'Club",
+      "address": "12430 Jl. Pangeran Antasari No. 19, HotRoad Gallery Lt. 2",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=47167",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.2087634,
+      "longitude": 106.845599,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:24.134643+00:00"
+    },
+    {
+      "source_id": "66475",
+      "name": "[N.JKT] Ipool Biliard & Beer",
+      "address": "Jl. Pantai Mutiara No.1 A,RT.6/RW.16 Pluit, Penjaringan, Kota JKT Utara",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=66475",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.1082706,
+      "longitude": 106.79088630000001,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:25.613679+00:00"
+    },
+    {
+      "source_id": "77936",
+      "name": "[N.JKT] Oh! My Pork Pluit",
+      "address": "Jl. Pluit Barat Raya No.1A, Pluit, Jakarta, Kota Jkt Utara, Daerah Khusus Ibukota Jakarta 14450",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=77936",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.1190676,
+      "longitude": 106.7843696,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:27.160471+00:00"
+    },
+    {
+      "source_id": "75580",
+      "name": "[N.JKT] Kyu Coffee&Kitchen",
+      "address": "Jl. Pluit Karang Utara No.141-142, RT./RW:/RW.001/008, Pluit, Kec. Penjaringan, Kota Jkt Utara, Daerah Khusus Ibukota Jakarta 14440",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=75580",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.1112069,
+      "longitude": 106.77710509999997,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:28.642617+00:00"
+    },
+    {
+      "source_id": "58979",
+      "name": "[N.JKT] Delta BIz Club Pluit",
+      "address": "Jl. Pluit Raya No.1, RT.21/RW.8, Penjaringan, Kota Jakarta Utara, Daerah Khusus Ibukota Jakarta 14450",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=58979",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.127084677999907,
+      "longitude": 106.7931186940032,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:31.173658+00:00"
+    },
+    {
+      "source_id": "67124",
+      "name": "[C.JKT] Penny Lane Bar & Resto",
+      "address": "Jl. Pramuka No.56. RT.1/RW.4,Rawasari,Cemp.Putih Jakarta Pusat 10570",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=67124",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.193534199999999,
+      "longitude": 106.86178310000003,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:32.749443+00:00"
+    },
+    {
+      "source_id": "96667",
+      "name": "[BKS] The Grit Family Billiard & Bistro",
+      "address": "Jl. Pulo Sirih Utama No.137 Blok E, Pekayon Jaya, Kec. Bekasi Sel., Kota Bks, Jawa Barat 17141",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=96667",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.2607575,
+      "longitude": 106.9727286,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:34.307148+00:00"
+    },
+    {
+      "source_id": "75121",
+      "name": "[BANTEN] Novus Jiva Resort & Spa Anyer",
+      "address": "Jl. Raya Anyer KM 149, Serang, Banten",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=75121",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.0661119,
+      "longitude": 105.89530200000002,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:35.791668+00:00"
+    },
+    {
+      "source_id": "96612",
+      "name": "[BKS] GTV Hotel",
+      "address": "Jl. Raya Sukamahi No.1, Sukamahi, Kec. Cikarang Pusat, Kabupaten Bekasi, Jawa Barat 17530",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=96612",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.3597286,
+      "longitude": 107.1819636,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:37.273601+00:00"
+    },
+    {
+      "source_id": "65507",
+      "name": "[S.JKT] Lavon Marketing Gallery",
+      "address": "Jl. Sulvarna Sutra Boulevard No.19 Tanggerang Banten",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=65507",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.203237,
+      "longitude": 106.52327289999994,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:38.797084+00:00"
+    },
+    {
+      "source_id": "99678",
+      "name": "[W.JKT] THE VAULT BOARD GAME CAFE",
+      "address": "Jl. Tanjung Duren Barat IV No.25, RT.10/RW.6, Tj. Duren Utara, Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11470",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=99678",
+      "machine_text": "VSS 4 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 4
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.178429899999999,
+      "longitude": 106.7803907,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:40.316992+00:00"
+    },
+    {
+      "source_id": "99641",
+      "name": "[N.JKT] OUTBREAK POOL & BAR",
+      "address": "Jl. Terusan Klp. Hybrida, RT.9/RW.1, Sukapura, Kec. Cilincing, Jkt Utara, Daerah Khusus Ibukota Jakarta 14140",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=99641",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.1488677,
+      "longitude": 106.9194268,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:41.783447+00:00"
+    },
+    {
+      "source_id": "66136",
+      "name": "[E.JKT] Holy Smoke",
+      "address": "Jl. Wolter Monginsidi No.27, RT.1/RW.7 RW. Bar, Kby. Baru Jakarta selatan",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=66136",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.23893,
+      "longitude": 106.80776100000003,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:43.309312+00:00"
+    },
+    {
+      "source_id": "69226",
+      "name": "[N.JKT] Semesta Investama",
+      "address": "Jl. Pluit Indah Raya No. 31, Pluit, Jakarta 14450",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=69226",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.1179536,
+      "longitude": 106.78565759999992,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:44.796135+00:00"
+    },
+    {
+      "source_id": "74801",
+      "name": "[W.JKT] Tipsy Bar",
+      "address": "Jln. Hayam Wuruk No.108, west jakarta",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=74801",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.1518602,
+      "longitude": 106.81797830000005,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:46.281063+00:00"
+    },
+    {
+      "source_id": "93607",
+      "name": "[W.JKT] BITES AND SIPS",
+      "address": "KOMPLEK CITRA GARDEN 2 BLOK N1 NO.17, RT.13/ RW.12, JAKARTA BARAT",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=93607",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.1420696,
+      "longitude": 106.7120385,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:47.764476+00:00"
+    },
+    {
+      "source_id": "69224",
+      "name": "[W.JKT] Pappajack Kopitiam Flavor Bliss",
+      "address": "Kawasan The Flavor Bliss 2No 9A - d-h No 8 Kav 6 Jalan Alam Sutera, Boulevard BS, Pakulonan, Serpong Utara, Pakulonan, Serpong Utara, Kota Tangerang Selatan, Banten 15325",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=69224",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.2431417,
+      "longitude": 106.65122559999998,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:49.253636+00:00"
+    },
+    {
+      "source_id": "97796",
+      "name": "(W.JKT) PURI KEMBANGAN",
+      "address": "Komplek Puri Kembangan, Blok A3-8, Jalan Mutiara Kedoya, Kembangan Selatan, Jakarta",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=97796",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.176713899999999,
+      "longitude": 106.7479554,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:50.862609+00:00"
+    },
+    {
+      "source_id": "55800",
+      "name": "[W.JKT] TGIF @ Lippo Mall Puri",
+      "address": "LIPPO MALL PURI.St.Moritz Unit UG-65.Jln Puri Indah Blok U1 Puri Indah CBD",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=55800",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": 33.2087007,
+      "longitude": -80.78794069999998,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:52.383662+00:00"
+    },
+    {
+      "source_id": "77935",
+      "name": "[S.JKT] Sampoerna Academy",
+      "address": "L’Avenue Building, Jl. Raya Pasar Minggu No.Kav. 16, Pancoran, Kec. Pancoran, Kota Jakarta Selatan,",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=77935",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.248588,
+      "longitude": 106.8440947,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:53.879415+00:00"
+    },
+    {
+      "source_id": "74372",
+      "name": "[SJKT] MAMA KITCHEN",
+      "address": "M point Building 1st Floor, Jl. Panglima Polim Raya 5A",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=74372",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.250796999999999,
+      "longitude": 106.797843,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:55.413864+00:00"
+    },
+    {
+      "source_id": "46784",
+      "name": "[N.JKT] Euro Sport Bar & Cafe",
+      "address": "Mall of Indonesia, Kelapa Gading Square, Jl. Boulevard Barat Raya, Kelapa Gading, Jakarta",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=46784",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.151811599999999,
+      "longitude": 106.8915455,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:56.907994+00:00"
+    },
+    {
+      "source_id": "50556",
+      "name": "[W.JKT] Pizza E Birra @MaxBoxx Lippo",
+      "address": "Maxx Box Lippo Village Lt. Groung, Jl.Boulevard Jend Sudirman Karawaci, Tangerang",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=50556",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": 37.539841,
+      "longitude": 126.97231299999999,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:58.403716+00:00"
+    },
+    {
+      "source_id": "95008",
+      "name": "[S.JKT] Underground pool & KTV",
+      "address": "Pasaraya Blok M, Jl. Iskandarsyah II No.2 Gedung B Unit LG, RT.3/RW.1, Melawai, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12160",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=95008",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.2437383,
+      "longitude": 106.8030197,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:05:59.965616+00:00"
+    },
+    {
+      "source_id": "44731",
+      "name": "Jakarta Office",
+      "address": "Puri Marina Raya Tahap 2 Nomor 7, Ancol Barat, RT.9/RW.11, Ancol, Pademangan, RT.9/RW.11, Ancol, Kec. Pademangan, Kota Jkt Utara, Daerah Khusus Ibukota Jakarta 14430",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=44731",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.125344,
+      "longitude": 106.828674,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:01.408246+00:00"
+    },
+    {
+      "source_id": "100119",
+      "name": "[W.JKT] NIGHTCAP BAR & KITCHEN",
+      "address": "Ruko Grand Puri Niaga Jl Puri Kencana Blok K6/2O, Lantai 2 / 2nd floor, RT.11/RW.7, Kembangan Sel., Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11610",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=100119",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.190584299999999,
+      "longitude": 106.7489965,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:02.893915+00:00"
+    },
+    {
+      "source_id": "70636",
+      "name": "[W.JKT] Pig Hunter @ Alam Sutera",
+      "address": "Ruko Imperial Walk, Kav 29B, No 33-35, Alam Sutera, Serpong Utara, Tangerang Banten",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=70636",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.226362399999999,
+      "longitude": 106.65999910000005,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:04.384974+00:00"
+    },
+    {
+      "source_id": "62024",
+      "name": "[S.JKT] TGIF @ PIM",
+      "address": "Street Gallery, Lantai Ground, Jl. Metro Pondok Indah, Pondok Indah, Jakarta",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=62024",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.267429799999999,
+      "longitude": 106.78381059999992,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:05.877442+00:00"
+    },
+    {
+      "source_id": "77937",
+      "name": "[C.JKT] Bands Cafe Kemayoran",
+      "address": "Super Blok Mega Kemayoran Jl Angkasa Kav B6, RW.10, Gn. Sahari Sel., Kec. Kemayoran, Kota Jakarta Pu",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=77937",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.1558816,
+      "longitude": 106.8494772,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:07.359824+00:00"
+    },
+    {
+      "source_id": "95957",
+      "name": "[N.JKT] FAQ'Q BAR",
+      "address": "TAMAN JL. PLUIT KENCANA RAYA NO.81, PLUIT, KEC. PENJARINGAN, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14240",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=95957",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.1201468,
+      "longitude": 106.7883506,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:08.853340+00:00"
+    },
+    {
+      "source_id": "72623",
+      "name": "[S.JKT] Pizza e Birra @ Townsquare",
+      "address": "Townsquare Cilandak, Ground Floor, Jl. TB Simatupang No.Kav. 17, RT.6/RW.9, Cilandak Bar., Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12430",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=72623",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.29156,
+      "longitude": 106.79990459999999,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:10.329494+00:00"
+    },
+    {
+      "source_id": "72108",
+      "name": "[W.JKT] Pizza ė Birra @ Central Park",
+      "address": "Tribeca Park Central Park Mall, Jl. Letjen S. Parman No.28, RT.12/RW.6, Tj. Duren Sel., Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11470, Indonesia",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=72108",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.1770846,
+      "longitude": 106.79070389999993,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:12.617239+00:00"
+    },
+    {
+      "source_id": "53391",
+      "name": "[W.JKT] Pizza E Bira @ Puri Indah Mall",
+      "address": "Mall Puri Indah Lantai Dasar, JL Puri Indah Raya, Kembangan, 11610",
+      "region": "Jakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=53391",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.185497199999999,
+      "longitude": 106.75231459999998,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:14.266850+00:00"
+    },
+    {
+      "source_id": "72699",
+      "name": "[KLMT] LVL 0.3 Rooftop",
+      "address": "Jalan Pangeran Antansari No .16, Samarinda, Kalimantan Timur",
+      "region": "Kalimantan",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=72699",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -0.4972241,
+      "longitude": 117.12656850000008,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:15.899335+00:00"
+    },
+    {
+      "source_id": "76831",
+      "name": "[KLMT] Playroom",
+      "address": "Ruko Cordoba, Blok F No. 3, Bukit Golf Mediterania, Jl. Marina Indah Raya, Pantai Indah Kapuk, Jakarta",
+      "region": "Kalimantan",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=76831",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.1114882,
+      "longitude": 106.75115299999993,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:17.534348+00:00"
+    },
+    {
+      "source_id": "97835",
+      "name": "(MLG) EL-Coco Darts Corner",
+      "address": "Jl. Ahmad Yani No.73, Purwodadi, Kec. Blimbing, Kota Malang, Jawa Timur 65126",
+      "region": "Malang",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=97835",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -7.939036199999999,
+      "longitude": 112.6430992,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:19.256049+00:00"
+    },
+    {
+      "source_id": "91759",
+      "name": "[BTM] SATURN BILLIARD AND CAFE",
+      "address": "BIDA TRADE CENTER, FLOOR 3, PIAYU, MANGSANG, SEI BEDUK, Kota Batam, Kepulauan Riau 29432 Batam, Riau Islands",
+      "region": "Riau Islands",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=91759",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": 1.037555,
+      "longitude": 104.0568966,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:20.898023+00:00"
+    },
+    {
+      "source_id": "88287",
+      "name": "[BTM] East Side Billiard",
+      "address": "Golden City Workshop D No. 10-13, Bengkong Laut",
+      "region": "Riau Islands",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=88287",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": 1.1561898,
+      "longitude": 104.0260997,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:22.640105+00:00"
+    },
+    {
+      "source_id": "93579",
+      "name": "[TJP] Star7Pool Billiard & Resto",
+      "address": "Jalan MT Haryono KM.3, Tj. Unggat, Kec. Bukit Bestari, Kota Tanjung Pinang, Kepulauan Riau, 29122",
+      "region": "Riau Islands",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=93579",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": 0.9153340000000001,
+      "longitude": 104.4645625,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:24.247113+00:00"
+    },
+    {
+      "source_id": "95290",
+      "name": "[BTM] StarPool",
+      "address": "Jl. Dang Merdu no 3 , batu besar Kec Nongsa , Kota batam, Kepu;auan Riau 29465",
+      "region": "Riau Islands",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=95290",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": 1.1378715,
+      "longitude": 104.1129031,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:25.860622+00:00"
+    },
+    {
+      "source_id": "94041",
+      "name": "[BTM] PRIME DARTS",
+      "address": "Jl. Ruko Greenland Blok K No. 1-6 Lt 2, teluk Tering, Kec. Batam Kota, Kota Batam, Kepulauan Riau, 29444",
+      "region": "Riau Islands",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=94041",
+      "machine_text": "VSX 4 ., VSS 4 .",
+      "machines": [
+        {
+          "model": "VSX",
+          "count": 4
+        },
+        {
+          "model": "VSS",
+          "count": 4
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": 1.124664,
+      "longitude": 104.0488346,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:27.539447+00:00"
+    },
+    {
+      "source_id": "48881",
+      "name": "[BTM] Thrive",
+      "address": "Jl. Yos Sudarso, Kampung Pelita, Kel. Lubuk Baja, Kec. Batam Kota, Kota Batam, Kepulauan Riau, Batam 29444",
+      "region": "Riau Islands",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=48881",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": 1.1414940934353681,
+      "longitude": 104.02368307113647,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:29.262494+00:00"
+    },
+    {
+      "source_id": "92394",
+      "name": "(BTM) ARTHA CAFE",
+      "address": "KOMP. GRAND ORCHID, BLOK A3, NO. 02, TAMAN BALOI, BATAM KOTA, KOTA BATAM, KEPULAUAN RIAU 29444",
+      "region": "Riau Islands",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=92394",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": 1.1299744,
+      "longitude": 104.0140413,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:30.920921+00:00"
+    },
+    {
+      "source_id": "98494",
+      "name": "[BTM] MUSO ART CAFE",
+      "address": "Komp. Ruko Palm Spring, Blok E / 104, Taman Baloi, Kec. Batam Kota, Kota Batam, Kepulauan Riau 29432",
+      "region": "Riau Islands",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=98494",
+      "machine_text": "VSX 1 ., VSS 1 .",
+      "machines": [
+        {
+          "model": "VSX",
+          "count": 1
+        },
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": 1.1125444,
+      "longitude": 104.0279181,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:32.551798+00:00"
+    },
+    {
+      "source_id": "94705",
+      "name": "[BTM] Black Ball 2",
+      "address": "Mitra Mall, Lantai 2, Bukit Tempayan, Kec. Batu Aji, Kota Batam, Kepulauan Riau, 29425",
+      "region": "Riau Islands",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=94705",
+      "machine_text": "VSS 5 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 5
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": 1.0531064,
+      "longitude": 103.9672461,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:34.214058+00:00"
+    },
+    {
+      "source_id": "96530",
+      "name": "[BTM] JFlowers Billiard Batam",
+      "address": "Park Avenue Mall, LG Floor, Belian, Kec. Batam Kota, Kota Batam, Kepulauan Riau 29444",
+      "region": "Riau Islands",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=96530",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": 1.1139783,
+      "longitude": 104.0644148,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:35.879669+00:00"
+    },
+    {
+      "source_id": "95580",
+      "name": "[BTM] Mood Resto & Bar",
+      "address": "Ruko Monde Juction, Blok B No. 15 & 16, Kel. Sadai, Kec. Bengkong, Kota Batam, Kepulauan Riau 29432",
+      "region": "Riau Islands",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=95580",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": 1.1441486,
+      "longitude": 104.0497899,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:37.513478+00:00"
+    },
+    {
+      "source_id": "95684",
+      "name": "[BTM] BONZ Pool & Cafe",
+      "address": "Ruko Raja Niaga No. 15-16, Kel. Kibing, Kec. Batu Aji, Kota Batam, Kepulauan Riau 29439",
+      "region": "Riau Islands",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=95684",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": 1.0516194,
+      "longitude": 103.9815639,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:39.160676+00:00"
+    },
+    {
+      "source_id": "74862",
+      "name": "[MKSR] Pizza e Birra @ The Rinra",
+      "address": "Jl. Metro Tj. Bunga No.2, Panambungan, Kec. Mariso, Kota Makassar, Sulawesi Selatan 90113",
+      "region": "Sulawesi",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=74862",
+      "machine_text": "VSS 4 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 4
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -5.1528431,
+      "longitude": 119.40365739999993,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:40.789840+00:00"
+    },
+    {
+      "source_id": "74861",
+      "name": "[MKSR] SYNC Karaoke @ The Rinra",
+      "address": "Jl. Metro Tj. Bunga No.2, Panambungan, Kec. Mariso, Kota Makassar, Sulawesi Selatan 90113",
+      "region": "Sulawesi",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=74861",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -5.1528431,
+      "longitude": 119.40365739999993,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:42.412734+00:00"
+    },
+    {
+      "source_id": "74408",
+      "name": "[MKSR] Vegas Claro Hotel",
+      "address": "Tamamaung, Panakkukang, Jl. A. P. Pettarani No.03, Mannuruki, Kec. Tamalate, Kota Makassar, Sulawesi Selatan 90221",
+      "region": "Sulawesi",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=74408",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -5.1719046,
+      "longitude": 119.43230489999996,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:44.064303+00:00"
+    },
+    {
+      "source_id": "94454",
+      "name": "[SBY]NIO",
+      "address": "Atlas sport club, Jl. Dharmahusada Indah Barat III No.64-66, Mojo, Kec. Gubeng, Surabaya, Jawa Timur 60285",
+      "region": "Surabaya",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=94454",
+      "machine_text": "VSX 1 ., VSS 3 .",
+      "machines": [
+        {
+          "model": "VSX",
+          "count": 1
+        },
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -7.274176100000001,
+      "longitude": 112.771345,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:45.731744+00:00"
+    },
+    {
+      "source_id": "50791",
+      "name": "[MLG] Level's Brew House",
+      "address": "Jalan Terusan Borobudur No. 26, Malang, Jawa Timur 65142",
+      "region": "Surabaya",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=50791",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -7.943462200000001,
+      "longitude": 112.63496740000005,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:47.321259+00:00"
+    },
+    {
+      "source_id": "95720",
+      "name": "[SBY]GoldVitel",
+      "address": "Jl. Basuki Rahmat No.147, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271",
+      "region": "Surabaya",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=95720",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -7.272495699999999,
+      "longitude": 112.7421249,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:48.957519+00:00"
+    },
+    {
+      "source_id": "93727",
+      "name": "(SBY) Tribes lounge and Bar",
+      "address": "Jl. Embong Malang No.78-A, RT.002/RW.02, Genteng, Kec. Tegalsari, Surabaya, Jawa Timur 60275",
+      "region": "Surabaya",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=93727",
+      "machine_text": "VSX 2 ., VSS 1 .",
+      "machines": [
+        {
+          "model": "VSX",
+          "count": 2
+        },
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -7.259117599999999,
+      "longitude": 112.7351812,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:50.595377+00:00"
+    },
+    {
+      "source_id": "96541",
+      "name": "[SDA] DOPS Coffee, Space and Roastery",
+      "address": "Jl. Kav. DPR III No.06, Nggrekmas, Pagerwojo, Kec. Buduran, Kabupaten Sidoarjo, Jawa Timur 61252",
+      "region": "Surabaya",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=96541",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -7.440205100000001,
+      "longitude": 112.7124309,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:52.231803+00:00"
+    },
+    {
+      "source_id": "98939",
+      "name": "(MLG) Cycon Billiard",
+      "address": "Jl. Kawi Atas No.1a, Gading Kasri, Kec. Klojen, Kota Malang, Jawa Timur 65116",
+      "region": "Surabaya",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=98939",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -7.980876999999999,
+      "longitude": 112.627151,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:53.866603+00:00"
+    },
+    {
+      "source_id": "98103",
+      "name": "[SBY]BreakShot",
+      "address": "Jl. Kenjeran No.432, Gading, Kec. Tambaksari, Surabaya, Jawa Timur 60134",
+      "region": "Surabaya",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=98103",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -7.248626499999999,
+      "longitude": 112.7787571,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:55.499598+00:00"
+    },
+    {
+      "source_id": "99343",
+      "name": "(SBY) OSAKA Pool N Bistro",
+      "address": "Jl. Kertajaya No.48, Kertajaya, Kec. Gubeng, Surabaya, Jawa Timur 60282",
+      "region": "Surabaya",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=99343",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -7.2779583,
+      "longitude": 112.7523258,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:57.175397+00:00"
+    },
+    {
+      "source_id": "99403",
+      "name": "(SBY) CIPUTRA HOTEL",
+      "address": "Jl. Mayjen Sungkono No.87-89, Gn. Sari, Kec. Dukuhpakis, Surabaya, Jawa Timur 60224",
+      "region": "Surabaya",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=99403",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -7.293268199999999,
+      "longitude": 112.7194028,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:06:58.810298+00:00"
+    },
+    {
+      "source_id": "98084",
+      "name": "(SBY)Shaokao Midnight",
+      "address": "Jl. Mayjend. Jonosewojo No.10-E, RT.000/RW.00, Pradahkalikendal, Kec. Dukuhpakis, Surabaya, Jawa Timur 60226",
+      "region": "Surabaya",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=98084",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -7.282322299999999,
+      "longitude": 112.6832053,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:07:00.440615+00:00"
+    },
+    {
+      "source_id": "99724",
+      "name": "(SBY) Fairway Nine Mall",
+      "address": "Jl. Mayjend. Jonosewojo No.9, Pradahkalikendal, Kec. Dukuhpakis, Surabaya, Jawa Timur 60226",
+      "region": "Surabaya",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=99724",
+      "machine_text": "VSS 4 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 4
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -7.2780266,
+      "longitude": 112.6890373,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:07:02.067918+00:00"
+    },
+    {
+      "source_id": "93762",
+      "name": "(SBY) Komplex Cafe",
+      "address": "Jl. Medokan Asri No.86, Medokan Ayu, Kec. Rungkut, Surabaya, Jawa Timur 60295",
+      "region": "Surabaya",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=93762",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -7.3286681,
+      "longitude": 112.7918292,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:07:03.707968+00:00"
+    },
+    {
+      "source_id": "94656",
+      "name": "[JOG]TIP TAP TOE",
+      "address": "Jl. Palagan Tentara Pelajar Kelurahan No.KM, RW.9, Tegal Rejo, Sariharjo, Kapanewon Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55581",
+      "region": "Surabaya",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=94656",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -7.7136562,
+      "longitude": 110.3812329,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:07:05.342695+00:00"
+    },
+    {
+      "source_id": "96205",
+      "name": "(SBY) STRIPES POOL& CAFE",
+      "address": "Jl. Raya Menganti No.68, Jajar Tunggal, Kec. Wiyung, Surabaya, Jawa Timur 60229",
+      "region": "Surabaya",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=96205",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -7.3124564,
+      "longitude": 112.7070702,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:07:06.991094+00:00"
+    },
+    {
+      "source_id": "96935",
+      "name": "(SBY) Tiger Pool & Bistro",
+      "address": "Jl. Raya Mulyosari No.121 Blok AA (Lantai 4, Kalisari, Kec. Mulyorejo, Surabaya, Jawa Timur 60112",
+      "region": "Surabaya",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=96935",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -7.265740599999999,
+      "longitude": 112.796145,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:07:09.649719+00:00"
+    },
+    {
+      "source_id": "77043",
+      "name": "[S.JKT] Sans House",
+      "address": "Jl. Ubud Village, RT.001/RW.011, Sudimara Tim., Kec. Ciledug, Kota Tangerang, Banten 15151",
+      "region": "Surabaya",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=77043",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.2341334,
+      "longitude": 106.7206231,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:07:11.791414+00:00"
+    },
+    {
+      "source_id": "95042",
+      "name": "(SBY)SCBD Billiards",
+      "address": "Plaza Surabaya, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271",
+      "region": "Surabaya",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=95042",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -7.2648774,
+      "longitude": 112.7485448,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:07:13.659812+00:00"
+    },
+    {
+      "source_id": "58446",
+      "name": "[SBY] 360 Club",
+      "address": "Royal Plaza, 9 Floor, Jl. Ahmad Yani 16-18, Kota Surabaya, Jawa Timur 60231",
+      "region": "Surabaya",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=58446",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -7.308825424989382,
+      "longitude": 112.73503662883606,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:07:15.442592+00:00"
+    },
+    {
+      "source_id": "94759",
+      "name": "(SBY) Odin Pool and Bistro",
+      "address": "The Central Mall, Lt.01, Gunawangsa TidarJl. Tidar No.350Surabaya, Jawa Timur",
+      "region": "Surabaya",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=94759",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -7.254909,
+      "longitude": 112.7158916,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:07:17.227369+00:00"
+    },
+    {
+      "source_id": "96864",
+      "name": "[SDA]Kongs Billiard",
+      "address": "nginsidi No.18, Sidoklumpuk, Sidokumpul, Kec. Sidoarjo, Kabupaten Sidoarjo, Jawa Timur 61",
+      "region": "Surabaya",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=96864",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -7.4481832,
+      "longitude": 112.7226611,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:07:18.876331+00:00"
+    },
+    {
+      "source_id": "100548",
+      "name": "[BDG] JUMPSHOT VIP",
+      "address": "Gedung ABG Lt.3, Jl. Pelajar Pejuang 45 No.115, Turangga. Kec. Lengkong, Kota Bandung 40265",
+      "region": "W. Java",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=100548",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.933972900000001,
+      "longitude": 107.6256558,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:07:20.731916+00:00"
+    },
+    {
+      "source_id": "67876",
+      "name": "[BGR] Hotel IBIS Styles",
+      "address": "Jl. Bogor Raya Golf Estate, sukaraja,Bogor 16710",
+      "region": "W. Java",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=67876",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.603757099999999,
+      "longitude": 106.83674100000007,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:07:22.362458+00:00"
+    },
+    {
+      "source_id": "67105",
+      "name": "[PNCK] Kampoeng Brasco Fashion Oulet",
+      "address": "Jl. Kampung Hanjawar No.1, Desa Palasari, Cipanans, Palasari, Cianjur, Jawa Barat 43253",
+      "region": "W. Java",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=67105",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.7144763,
+      "longitude": 107.02340460000005,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:07:23.991705+00:00"
+    },
+    {
+      "source_id": "67122",
+      "name": "[BGR] Brasco Factory Oulet",
+      "address": "Jl. Raya Puncak KM75 No.57 Cipayung Datar Megamendung, Bogor, Jawa Barat 16770",
+      "region": "W. Java",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=67122",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.649939600000001,
+      "longitude": 106.89692170000001,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:07:25.625928+00:00"
+    },
+    {
+      "source_id": "67745",
+      "name": "[PWKT] Heyho Cafe",
+      "address": "Jl. Veteran, Mulyamekar,Babakan Cikao,Purwakarta, Jawa Barat,41151",
+      "region": "W. Java",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=67745",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -6.5129391,
+      "longitude": 107.45647759999997,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:07:27.260199+00:00"
+    },
+    {
+      "source_id": "79678",
+      "name": "[SMRG] Wolfpack Resto & Pub",
+      "address": "Jl. Rinjani No.21 RT-1/02 Bendungan Kec. Gajahmungkur, Kota Semarang Jawa Tengah 50231",
+      "region": "Yogyakarta",
+      "source_url": "https://www.phoenixdarts.com/id/shop/shopDetail?s_seq=79678",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "id",
+      "latitude": -7.0025814,
+      "longitude": 110.4100509,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T08:07:28.899482+00:00"
+    }
+  ]
+}

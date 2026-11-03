@@ -1,6 +1,6 @@
 {
   "provider": "phoenix",
-  "updated_at": "2026-11-03T07:58:27.800872+00:00",
+  "updated_at": "2026-11-03T08:07:29.118662+00:00",
   "countries": [
     {
       "country_code": "sg",
@@ -80,7 +80,13 @@
       "country_code": "id",
       "name": "Indonesia",
       "source_url": "https://www.phoenixdarts.com/id/shop/shopSearch",
-      "status": "pending"
+      "status": "complete",
+      "updated_at": "2026-11-03T08:07:28.899844+00:00",
+      "discovered": 206,
+      "collected": 206,
+      "mapped": 198,
+      "listing_pages": 42,
+      "file": "data/phoenix/id.json"
     },
     {
       "country_code": "my",
