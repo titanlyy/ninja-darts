@@ -1,6 +1,6 @@
 {
   "provider": "phoenix",
-  "updated_at": "2026-11-03T13:32:01.063429+00:00",
+  "updated_at": "2026-11-03T13:39:08.842378+00:00",
   "countries": [
     {
       "country_code": "sg",
@@ -400,7 +400,15 @@
       "country_code": "jp",
       "name": "Japan",
       "source_url": "https://vs.phoenixdarts.com/jp/shop/shopSearch_terms",
-      "status": "pending"
+      "status": "failed",
+      "updated_at": "2026-11-03T13:39:08.000154+00:00",
+      "continuation_attempt": 0,
+      "note": "HTTPSConnectionPool(host='vs.phoenixdarts.com', port=443): Max retries exceeded with url: /jp/shop/shopSearch_terms/page/117?0=0&machines_type=&px2_camera_cnt=&itm=&rev=&leg= (Caused by ConnectTimeoutError(<HTTPSConnection(host='vs.phoenixdarts.com', port=443) at 0x7e2de97af4a0>, 'Connection to vs.phoenixdarts.com timed out. (connect timeout=45)'))",
+      "discovered": 1160,
+      "collected": 0,
+      "mapped": 0,
+      "listing_pages": 116,
+      "file": "data/phoenix/jp.json"
     }
   ],
   "scope": "Public directories exposed by Phoenix country selector; not a guaranteed worldwide installation census"

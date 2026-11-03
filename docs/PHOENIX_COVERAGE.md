@@ -40,7 +40,7 @@ Business facts only are collected. No player data, descriptions or photos are im
 | France | complete | 1376 | 1375 | [Public directory](https://www.phoenixdarts.com/fr/shop/shopSearch) |
 | USA | complete | 898 | 890 | [Public directory](https://www.phoenixdarts.com/us/shop/shopSearch) |
 | Korea | complete | 1863 | 1862 | [Public directory](https://www.phoenixdarts.com/kr/shop/shopSearch) |
-| Japan | pending | n.a. | n.a. | [Public directory](https://vs.phoenixdarts.com/jp/shop/shopSearch_terms) |
+| Japan | failed | 0 | 0 | [Public directory](https://vs.phoenixdarts.com/jp/shop/shopSearch_terms) |
 
 ## Collection notes
 
@@ -50,3 +50,4 @@ Business facts only are collected. No player data, descriptions or photos are im
 - China: HTTPConnectionPool(host='www.phoenixdartcn.com', port=80): Max retries exceeded with url: /cn (Caused by NameResolutionError("HTTPConnection(host='www.phoenixdartcn.com', port=80): Failed to resolve 'www.phoenixdartcn.com' ([Errno -2] Name or service not known)"))
 - Ireland: Public directory returned no usable venue rows; not proof of zero installations
 - Spain: No detail coordinate inputs: https://www.phoenixdarts.com/es/shop/shopDetail?s_seq=99167
+- Japan: HTTPSConnectionPool(host='vs.phoenixdarts.com', port=443): Max retries exceeded with url: /jp/shop/shopSearch_terms/page/117?0=0&machines_type=&px2_camera_cnt=&itm=&rev=&leg= (Caused by ConnectTimeoutError(<HTTPSConnection(host='vs.phoenixdarts.com', port=443) at 0x7e2de97af4a0>, 'Connection to vs.phoenixdarts.com timed out. (connect timeout=45)'))
