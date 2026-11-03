@@ -1,0 +1,2015 @@
+{
+  "coverage": {
+    "country_code": "au",
+    "name": "Australia",
+    "source_url": "https://www.phoenixdarts.com/au/shop/shopSearch",
+    "status": "complete",
+    "updated_at": "2026-11-03T09:20:37.305749+00:00",
+    "discovered": 77,
+    "collected": 77,
+    "mapped": 0,
+    "listing_pages": 16
+  },
+  "venues": [
+    {
+      "source_id": "55649",
+      "name": "Pelican RSL Club",
+      "address": "1 Piriwal St, Pelican NSW 2281",
+      "region": "New South Wales",
+      "source_title": "[New South Wales]Pelican RSL Club",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=55649",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -33.0689049,
+      "longitude": 151.6445364,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:18:41.326613+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "57674",
+      "name": "The Fraternity Club",
+      "address": "11 Bourke St, Fairy Meadow NSW 2519",
+      "region": "New South Wales",
+      "source_title": "[New South Wales]The Fraternity Club",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=57674",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -34.39842790000001,
+      "longitude": 150.89377030000003,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:18:42.929375+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "52672",
+      "name": "Tenpin City",
+      "address": "114/92 Parramatta Rd, Lidcombe NSW 2141",
+      "region": "New South Wales",
+      "source_title": "[New South Wales]Tenpin City",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=52672",
+      "machine_text": "VSS 6.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 6
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -33.849604,
+      "longitude": 151.04956600000003,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:18:44.535201+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "62938",
+      "name": "Balranald RSL",
+      "address": "116 Market Street Balranald",
+      "region": "New South Wales",
+      "source_title": "[New South Wales]Balranald RSL",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=62938",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -34.6387693,
+      "longitude": 143.56134040000006,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:18:46.129512+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "76449",
+      "name": "Werris Creek BC",
+      "address": "120/136 Henry St, Werris Creek NSW 2341",
+      "region": "New South Wales",
+      "source_title": "[New South Wales]Werris Creek BC",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=76449",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -31.3542587,
+      "longitude": 150.64836349999996,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:18:47.715568+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "70700",
+      "name": "Bella Vista Hotel",
+      "address": "13-15 Lexington Dr, Bella Vista NSW 2153",
+      "region": "New South Wales",
+      "source_title": "[New South Wales]Bella Vista Hotel",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=70700",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -33.7365149,
+      "longitude": 150.9484698,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:18:49.321463+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "49055",
+      "name": "Blaxland Tavern",
+      "address": "150 Great Western Highway Blaxland 2774",
+      "region": "New South Wales",
+      "source_title": "[New South Wales]Blaxland Tavern",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=49055",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -33.7435185,
+      "longitude": 150.60840610000002,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:18:50.945621+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "53647",
+      "name": "RAILWAY HOTEL ARMIDALE",
+      "address": "222 Rusden St, Armidale NSW 2350",
+      "region": "New South Wales",
+      "source_title": "[New South Wales]RAILWAY HOTEL ARMIDALE",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=53647",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -30.512759,
+      "longitude": 151.65689900000007,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:18:52.510173+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "79590",
+      "name": "Hillside Hotel",
+      "address": "273 Old Northern Road Castle Hill, NSW 2153",
+      "region": "New South Wales",
+      "source_title": "[New South Wales]Hillside Hotel",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=79590",
+      "machine_text": "VSS 4.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 4
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -33.7336584,
+      "longitude": 151.0045266,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:18:54.118137+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "77799",
+      "name": "The Gallipoli Legion Club",
+      "address": "3/5 Beuamont Street, Hamilton, NSW 23033/5 Beuamont Street, Hamilton, NSW 2303",
+      "region": "New South Wales",
+      "source_title": "[New South Wales]The Gallipoli Legion Club",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=77799",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -32.9189409,
+      "longitude": 151.7482057,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:18:55.699771+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "57368",
+      "name": "Hay Bowling & Golf Club",
+      "address": "408 Murray Street, Hay NSW 2711",
+      "region": "New South Wales",
+      "source_title": "[New South Wales]Hay Bowling & Golf Club",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=57368",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -34.5007775,
+      "longitude": 144.8442182,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:18:57.296310+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "55720",
+      "name": "New Victoria Tavern",
+      "address": "447 Victoria St, Wetherill Park NSW 2164",
+      "region": "New South Wales",
+      "source_title": "[New South Wales]New Victoria Tavern",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=55720",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -33.8450834,
+      "longitude": 150.89399600000002,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:18:58.886026+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "80592",
+      "name": "City Heroes Sydney",
+      "address": "6/505 George Street, Sydney NSW 2000",
+      "region": "New South Wales",
+      "source_title": "[New South Wales]City Heroes Sydney",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=80592",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -33.8750995,
+      "longitude": 151.2059774,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:00.489243+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "80593",
+      "name": "Century Bar",
+      "address": "640 George St, Sydney NSW 2000",
+      "region": "New South Wales",
+      "source_title": "[New South Wales]Century Bar",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=80593",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -33.8762691,
+      "longitude": 151.2065148,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:02.084878+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "57608",
+      "name": "Warringah Bowls Mosman",
+      "address": "74-82 Bradleys Head Rd, Mosman NSW 2088",
+      "region": "New South Wales",
+      "source_title": "[New South Wales]Warringah Bowls Mosman",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=57608",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -33.833944,
+      "longitude": 151.24462360000007,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:03.690166+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "74251",
+      "name": "PORT MACQUARIE HOTEL",
+      "address": "8 Horton St Port Macquarie 2444",
+      "region": "New South Wales",
+      "source_title": "[New South Wales]PORT MACQUARIE HOTEL",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=74251",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -31.4288038,
+      "longitude": 152.90859420000004,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:05.288878+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "79591",
+      "name": "The Governer Hotel",
+      "address": "9 Waterloo Rd Macquarie Park, NSW 2330",
+      "region": "New South Wales",
+      "source_title": "[New South Wales]The Governer Hotel",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=79591",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -33.7877183,
+      "longitude": 151.1328101,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:06.880786+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "56595",
+      "name": "Orange Tenpin Bowl",
+      "address": "Cnr Byng & Seymor Streets, Orange NSW 2800",
+      "region": "New South Wales",
+      "source_title": "[New South Wales]Orange Tenpin Bowl",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=56595",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -33.283333,
+      "longitude": 149.10000000000002,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:08.464645+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "54826",
+      "name": "Smithfield RSL",
+      "address": "Cumberland Hwy, Smithfield NSW 2164",
+      "region": "New South Wales",
+      "source_title": "[New South Wales]Smithfield RSL",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=54826",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -33.8515815,
+      "longitude": 150.94301259999997,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:10.048967+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "72810",
+      "name": "Aberdeen Bowling Club",
+      "address": "Jefferson Park, New England Highway, Aberdeen NSW 2336",
+      "region": "New South Wales",
+      "source_title": "[New South Wales]Aberdeen Bowling Club",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=72810",
+      "machine_text": "VSS 3.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -32.1602817,
+      "longitude": 150.88634760000002,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:11.635173+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "60271",
+      "name": "VIP KARAOKE",
+      "address": "LEVEL 1, 236 MACQUARIE STREET, LIVERPOOL",
+      "region": "New South Wales",
+      "source_title": "[New South Wales]VIP KARAOKE",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=60271",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -33.923264,
+      "longitude": 150.92393900000002,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:13.235812+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "80404",
+      "name": "City Heroes Burwood",
+      "address": "Level 3, Emerald Square, 27-31 Belmore Street, Burwood NSW 2134",
+      "region": "New South Wales",
+      "source_title": "[New South Wales]City Heroes Burwood",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=80404",
+      "machine_text": "VSS 4.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 4
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -33.8783648,
+      "longitude": 151.1022808,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:14.865660+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "69567",
+      "name": "Dubbo Tenpin Bowl",
+      "address": "Windsor Parade, Dubbo, NSW 2830, New South Wales",
+      "region": "New South Wales",
+      "source_title": "[New South Wales]Dubbo Tenpin Bowl",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=69567",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -32.2575285,
+      "longitude": 148.63660519999996,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:16.439863+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "73692",
+      "name": "Runcorn Tavern",
+      "address": "124 Gowan Rd, Sunnybank Hills",
+      "region": "Queensland",
+      "source_title": "[Queensland]Runcorn Tavern",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=73692",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -27.5958784,
+      "longitude": 153.06530659999999,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:18.030250+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "76729",
+      "name": "Hotel Richland",
+      "address": "132 Government Rd, Richlands QLD 4077",
+      "region": "Queensland",
+      "source_title": "[Queensland]Hotel Richland",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=76729",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -27.6009278,
+      "longitude": 152.95323239999993,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:19.624662+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "42763",
+      "name": "Phoenix Zone Darts Bar",
+      "address": "138 Scarborough Street, Southport, Queensland 4215, Australia",
+      "region": "Queensland",
+      "source_title": "[Queensland]Phoenix Zone Darts Bar",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=42763",
+      "machine_text": "VSS 6.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 6
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -27.964683,
+      "longitude": 153.41184199999998,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:21.258991+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "78173",
+      "name": "Mad Burger Westend",
+      "address": "145b Boundary St, West End , QLD 4101",
+      "region": "Queensland",
+      "source_title": "[Queensland]Mad Burger Westend",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=78173",
+      "machine_text": "VSS 4.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 4
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -27.4794747,
+      "longitude": 153.0122097,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:22.833186+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "74944",
+      "name": "Mad Burger Fortitude Valley",
+      "address": "16 Duncan Street, Fortitude Valley, QLD 4006",
+      "region": "Queensland",
+      "source_title": "[Queensland]Mad Burger Fortitude Valley",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=74944",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -27.4582175,
+      "longitude": 153.0332247,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:24.417917+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "53446",
+      "name": "The Prince Alfred Hotel",
+      "address": "170 Brisbane Road, Booval",
+      "region": "Queensland",
+      "source_title": "[Queensland]The Prince Alfred Hotel",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=53446",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -27.613488,
+      "longitude": 152.79105800000002,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:26.019794+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "76233",
+      "name": "Phoenix HQ",
+      "address": "20/315 Archerfield Rd, Richlands QLD 4077",
+      "region": "Queensland",
+      "source_title": "[Queensland]Phoenix HQ",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=76233",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -27.5882628,
+      "longitude": 152.95692350000002,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:27.618150+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "42762",
+      "name": "Phoenix Plus Darts Bar",
+      "address": "202 Calam Road, Sunnybank Hills, Brisbane, Queensland 4109, Australia",
+      "region": "Queensland",
+      "source_title": "[Queensland]Phoenix Plus Darts Bar",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=42762",
+      "machine_text": "VSS 6.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 6
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -27.610397,
+      "longitude": 153.05555600000002,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:29.287965+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "72362",
+      "name": "Briny Restaurant & Bar",
+      "address": "23 Warry St, Fortitude Valley . 4006",
+      "region": "Queensland",
+      "source_title": "[Queensland]Briny Restaurant & Bar",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=72362",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -27.455996,
+      "longitude": 153.0308893,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:30.884403+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "63619",
+      "name": "Beenleigh & Districts Darts Association",
+      "address": "24 Railway Parade, Woodridge QLD 4114",
+      "region": "Queensland",
+      "source_title": "[Queensland]Beenleigh & Districts Darts Association",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=63619",
+      "machine_text": "VSS 4.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 4
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -27.6391544,
+      "longitude": 153.10467790000007,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:32.476082+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "51011",
+      "name": "Snooker World",
+      "address": "2520 Gold Coast Highway, Mermaid Beach QLD 4218",
+      "region": "Queensland",
+      "source_title": "[Queensland]Snooker World",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=51011",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -28.0407556,
+      "longitude": 153.43351459999997,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:34.065241+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "76475",
+      "name": "Ipswich Central Hotel",
+      "address": "253 Brisbane Street, Ipswich, QLD 4305",
+      "region": "Queensland",
+      "source_title": "[Queensland]Ipswich Central Hotel",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=76475",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -27.6146011,
+      "longitude": 152.75419969999996,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:35.655056+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "84228",
+      "name": "NGU",
+      "address": "307A Archer St, Toowong QLD 4066",
+      "region": "Queensland",
+      "source_title": "[Queensland]NGU",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=84228",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -27.4857743,
+      "longitude": 152.9943974,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:37.233695+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "67581",
+      "name": "The Deception Bay Club",
+      "address": "32 Bayview Terrace, Deception Bay",
+      "region": "Queensland",
+      "source_title": "[Queensland]The Deception Bay Club",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=67581",
+      "machine_text": "VSS 3.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -27.1848029,
+      "longitude": 153.0254734,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:38.725143+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "51614",
+      "name": "Jandowae Hotel Motel",
+      "address": "32 High Street Jandowae",
+      "region": "Queensland",
+      "source_title": "[Queensland]Jandowae Hotel Motel",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=51614",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -26.779942,
+      "longitude": 151.10830399999998,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:40.151591+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "76255",
+      "name": "Country Club Pavilion",
+      "address": "35-41 Routley Drive",
+      "region": "Queensland",
+      "source_title": "[Queensland]Country Club Pavilion",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=76255",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -28.0814532,
+      "longitude": 152.8405537,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:41.617810+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "76821",
+      "name": "Superstar Karaoke",
+      "address": "379 Elizabeth st, north Hobart, TAS 7000",
+      "region": "Queensland",
+      "source_title": "[Queensland]Superstar Karaoke",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=76821",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -42.8721121,
+      "longitude": 147.31487119999997,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:43.079979+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "69972",
+      "name": "Phoenix Den",
+      "address": "387 McCullough St, Sunnybank, 4109",
+      "region": "Queensland",
+      "source_title": "[Queensland]Phoenix Den",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=69972",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -27.5729671,
+      "longitude": 153.0695789,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:44.545471+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "74516",
+      "name": "Chermside Bowls Club",
+      "address": "468 Rode Rd, Chermside QLD 4032",
+      "region": "Queensland",
+      "source_title": "[Queensland]Chermside Bowls Club",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=74516",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -27.3961773,
+      "longitude": 153.02791379999996,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:46.007374+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "74943",
+      "name": "Grand View Hotel",
+      "address": "49 North Street, Cleveland, QLD 4163",
+      "region": "Queensland",
+      "source_title": "[Queensland]Grand View Hotel",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=74943",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -27.5228839,
+      "longitude": 153.28578560000005,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:47.471337+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "77204",
+      "name": "The Queenslander",
+      "address": "52-64 Chambers Flat Rd, Waterford West QLD 4133",
+      "region": "Queensland",
+      "source_title": "[Queensland]The Queenslander",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=77204",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -27.6802762,
+      "longitude": 153.1166565,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:48.935810+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "78155",
+      "name": "The Australian Hotel",
+      "address": "65 Lamb St, Murgon QLD 4605",
+      "region": "Queensland",
+      "source_title": "[Queensland]The Australian Hotel",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=78155",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -26.2421063,
+      "longitude": 151.9411758,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:50.412726+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "72487",
+      "name": "Leo's Depot",
+      "address": "8 Kent Lane, Rockhampton",
+      "region": "Queensland",
+      "source_title": "[Queensland]Leo's Depot",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=72487",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -23.3746355,
+      "longitude": 150.50352470000007,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:51.867592+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "75351",
+      "name": "RaceView Hotel",
+      "address": "99 Raceview St, Raceview QLD 4305",
+      "region": "Queensland",
+      "source_title": "[Queensland]RaceView Hotel",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=75351",
+      "machine_text": "VSS 3.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -27.6385599,
+      "longitude": 152.7734511,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:53.341555+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "49287",
+      "name": "AU Training Machine",
+      "address": "AU Training Machine",
+      "region": "Queensland",
+      "source_title": "[Queensland]AU Training Machine",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=49287",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": 44.6856705,
+      "longitude": -84.66471059999998,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:54.807175+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "77203",
+      "name": "Redlands Muti-Sports Club",
+      "address": "Cnr Bailey &, Randall Rd, Birkdale QLD 4159",
+      "region": "Queensland",
+      "source_title": "[Queensland]Redlands Muti-Sports Club",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=77203",
+      "machine_text": "VSS 3.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -27.5123462,
+      "longitude": 153.221405,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:56.269475+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "62124",
+      "name": "Townsville Darts Association",
+      "address": "Merviyn Crossman Drive, Murry Sports Complex",
+      "region": "Queensland",
+      "source_title": "[Queensland]Townsville Darts Association",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=62124",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -19.3099682,
+      "longitude": 146.8003506,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:57.746791+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "78530",
+      "name": "Mad Burger Redcliffe",
+      "address": "Shop 6, 82-98 Anzac Avenue, Redcliffe, 4020",
+      "region": "Queensland",
+      "source_title": "[Queensland]Mad Burger Redcliffe",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=78530",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": 0.0,
+      "longitude": 0.0,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:19:59.210212+00:00"
+    },
+    {
+      "source_id": "55594",
+      "name": "The Little Pub",
+      "address": "17 Hindley St, Adelaide SA 5000",
+      "region": "South Australia",
+      "source_title": "[South Australia]The Little Pub",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=55594",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -34.9232911,
+      "longitude": 138.5986474,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:20:00.695600+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "57904",
+      "name": "Portland Hotel",
+      "address": "286 Commercial Rd, Port Adelaide SA 5015",
+      "region": "South Australia",
+      "source_title": "[South Australia]Portland Hotel",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=57904",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -34.8503875,
+      "longitude": 138.5085861,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:20:02.136597+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "53949",
+      "name": "Salisbury North Football Club",
+      "address": "39 - 41 Bagster road Salisbury North SA 5108",
+      "region": "South Australia",
+      "source_title": "[South Australia]Salisbury North Football Club",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=53949",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -34.753235,
+      "longitude": 138.63318100000004,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:20:03.604720+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "64153",
+      "name": "XSITE GAMING",
+      "address": "4a 79 Gawler street Mount Barker SA 5251",
+      "region": "South Australia",
+      "source_title": "[South Australia]XSITE GAMING",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=64153",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -35.0656173,
+      "longitude": 138.86216620000005,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:20:05.079726+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "57746",
+      "name": "The Salisbury Hotel",
+      "address": "52 Commercial Rd, Salisbury SA 5108",
+      "region": "South Australia",
+      "source_title": "[South Australia]The Salisbury Hotel",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=57746",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -34.7615388,
+      "longitude": 138.64914829999998,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:20:06.539761+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "58016",
+      "name": "McQueens Tavern",
+      "address": "55 Cardigan St, Angle Park SA 5010",
+      "region": "South Australia",
+      "source_title": "[South Australia]McQueens Tavern",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=58016",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -34.8556024,
+      "longitude": 138.5613975,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:20:07.999452+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "49370",
+      "name": "Northern Districts Dart Association",
+      "address": "58 Homington Road, Elizabeth North",
+      "region": "South Australia",
+      "source_title": "[South Australia]Northern Districts Dart Association",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=49370",
+      "machine_text": "VSS 3.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -34.7017966,
+      "longitude": 138.67539350000004,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:20:09.485128+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "57358",
+      "name": "Port Adelaide Football Club",
+      "address": "Alberton Oval, Brougham Place, ALBERTON SA 5014",
+      "region": "South Australia",
+      "source_title": "[South Australia]Port Adelaide Football Club",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=57358",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -34.8635291,
+      "longitude": 138.51879529999997,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:20:10.953914+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "76968",
+      "name": "Xplosions Bar & Bowl",
+      "address": "1/25 Bakery Square, Melton 3337",
+      "region": "Victoria",
+      "source_title": "[Victoria]Xplosions Bar & Bowl",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=76968",
+      "machine_text": "VSS 5.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 5
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -37.6838478,
+      "longitude": 144.58568089999994,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:20:12.409419+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "49852",
+      "name": "Pastoral Hotel",
+      "address": "100 Sturt Street, Echuca, VIC 3164",
+      "region": "Victoria",
+      "source_title": "[Victoria]Pastoral Hotel",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=49852",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -36.131162,
+      "longitude": 144.75474099999997,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:20:13.878356+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "84583",
+      "name": "Prince of Wales",
+      "address": "109 Church St, Richmond VIC 3121",
+      "region": "Victoria",
+      "source_title": "[Victoria]Prince of Wales",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=84583",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -37.81469500000001,
+      "longitude": 145.0000808,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:20:15.344244+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "55593",
+      "name": "Kangaroo Flat Hotel",
+      "address": "130 High St, Kangaroo Flat VIC 3555",
+      "region": "Victoria",
+      "source_title": "[Victoria]Kangaroo Flat Hotel",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=55593",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -36.7700064,
+      "longitude": 144.26079879999998,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:20:16.804150+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "47275",
+      "name": "Golden Vine Hotel",
+      "address": "135 King Street Bendigo Vic 3550",
+      "region": "Victoria",
+      "source_title": "[Victoria]Golden Vine Hotel",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=47275",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -36.766572,
+      "longitude": 144.27502000000004,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:20:18.263308+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "51710",
+      "name": "Hurleys Bar and Bistro",
+      "address": "217 Allan Street, Kyabram, VIC 3620",
+      "region": "Victoria",
+      "source_title": "[Victoria]Hurleys Bar and Bistro",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=51710",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -36.313193,
+      "longitude": 145.048497,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:20:19.730851+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "77963",
+      "name": "Phoenix Darts Victoria",
+      "address": "25-37 Huntingdale Rd, Burwood 312525-37 Huntingdale Rd, Burwood 3125",
+      "region": "Victoria",
+      "source_title": "[Victoria]Phoenix Darts Victoria",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=77963",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": 0.0,
+      "longitude": 0.0,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:20:21.193175+00:00"
+    },
+    {
+      "source_id": "48593",
+      "name": "Royal Oak Hotel",
+      "address": "29 - 31 Sydney Street Kilmore",
+      "region": "Victoria",
+      "source_title": "[Victoria]Royal Oak Hotel",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=48593",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -37.2938933,
+      "longitude": 144.9509984,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:20:22.680392+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "47738",
+      "name": "White Horse Hotel California Gully",
+      "address": "305 Eaglehawk Road California Gully vic 3556",
+      "region": "Victoria",
+      "source_title": "[Victoria]White Horse Hotel California Gully",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=47738",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -36.731909,
+      "longitude": 144.256983,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:20:24.135610+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "48594",
+      "name": "Camp Hotel",
+      "address": "35 High Street Eaglehawk Vic 2556",
+      "region": "Victoria",
+      "source_title": "[Victoria]Camp Hotel",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=48594",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -36.718257,
+      "longitude": 144.25375299999996,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:20:25.604817+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "50885",
+      "name": "Royal Mail Hotel",
+      "address": "350 High Street, Nagambie, VIC 3630",
+      "region": "Victoria",
+      "source_title": "[Victoria]Royal Mail Hotel",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=50885",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -36.78267,
+      "longitude": 145.15537800000004,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:20:27.064571+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "74932",
+      "name": "Phoenix Darts Victoria",
+      "address": "4 Caulfield Court, Wanitrna 3152",
+      "region": "Victoria",
+      "source_title": "[Victoria]Phoenix Darts Victoria",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=74932",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -37.857884,
+      "longitude": 145.21668699999998,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:20:28.522806+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "75983",
+      "name": "Turk's Sports Bar",
+      "address": "4 Caulfield Court, Wanitrna 3152",
+      "region": "Victoria",
+      "source_title": "[Victoria]Turk's Sports Bar",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=75983",
+      "machine_text": "VSS 2.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -37.857884,
+      "longitude": 145.21668699999998,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:20:29.989102+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "74373",
+      "name": "TIPSY MIURA LOUNGE",
+      "address": "572-574 Glen Huntly Rd, Elsternwick VIC 3185",
+      "region": "Victoria",
+      "source_title": "[Victoria]TIPSY MIURA LOUNGE",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=74373",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -37.8860419,
+      "longitude": 145.01352559999998,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:20:31.446311+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "50886",
+      "name": "The Hotel Australia",
+      "address": "73 Fryers Street, Shepparton, VIC 3630",
+      "region": "Victoria",
+      "source_title": "[Victoria]The Hotel Australia",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=50886",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -36.378915,
+      "longitude": 145.40163200000006,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:20:32.920579+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "80736",
+      "name": "Nonna's Pizza & Pasta",
+      "address": "83A Percy Street, Portland VIC 3305",
+      "region": "Victoria",
+      "source_title": "[Victoria]Nonna's Pizza & Pasta",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=80736",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -38.3460696,
+      "longitude": 141.6034738,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:20:34.378817+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "76244",
+      "name": "Cervantes Country Club",
+      "address": "14 Aragon St, Cervantes WA 6511",
+      "region": "Western Australia",
+      "source_title": "[Western Australia]Cervantes Country Club",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=76244",
+      "machine_text": "VSS 1.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -30.4994027,
+      "longitude": 115.07055459999992,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:20:35.838403+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "63340",
+      "name": "Cuepower Pool & Snooker Entertainment",
+      "address": "96 Winton Road, Joondalup WA",
+      "region": "Western Australia",
+      "source_title": "[Western Australia]Cuepower Pool & Snooker Entertainment",
+      "source_url": "https://www.phoenixdarts.com/au/shop/shopDetail?s_seq=63340",
+      "machine_text": "VSS 5.",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 5
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "au",
+      "latitude": -31.7437054,
+      "longitude": 115.7600966,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:20:37.305429+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    }
+  ]
+}

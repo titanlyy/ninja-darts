@@ -22,7 +22,7 @@ Business facts only are collected. No player data, descriptions or photos are im
 | Vietnam | complete | 103 | 101 | [Public directory](https://www.phoenixdarts.com/vn/shop/shopSearch) |
 | Mongolia | complete | 70 | 70 | [Public directory](https://www.phoenixdarts.com/mn/shop/shopSearch) |
 | China | failed | 0 | 0 | [Public directory](https://www.phoenixdarts.com/cn/shop/shopSearch) |
-| Australia | pending | n.a. | n.a. | [Public directory](https://www.phoenixdarts.com/au/shop/shopSearch) |
+| Australia | complete | 77 | 0 | [Public directory](https://www.phoenixdarts.com/au/shop/shopSearch) |
 | New Zealand | pending | n.a. | n.a. | [Public directory](https://www.phoenixdarts.com/nz/shop/shopSearch) |
 | New Caledonia | pending | n.a. | n.a. | [Public directory](https://www.phoenixdarts.com/nc/shop/shopSearch) |
 | Canada | pending | n.a. | n.a. | [Public directory](https://www.phoenixdarts.com/ca/shop/shopSearch) |
