@@ -1,6 +1,6 @@
 {
   "provider": "phoenix",
-  "updated_at": "2026-11-03T09:07:50.134165+00:00",
+  "updated_at": "2026-11-03T09:10:20.155515+00:00",
   "countries": [
     {
       "country_code": "sg",
@@ -128,7 +128,13 @@
       "country_code": "th",
       "name": "Thailand",
       "source_url": "https://www.phoenixdarts.com/th/shop/shopSearch",
-      "status": "pending"
+      "status": "complete",
+      "updated_at": "2026-11-03T09:10:19.849009+00:00",
+      "discovered": 59,
+      "collected": 59,
+      "mapped": 57,
+      "listing_pages": 12,
+      "file": "data/phoenix/th.json"
     },
     {
       "country_code": "vn",
