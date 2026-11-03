@@ -1,0 +1,1841 @@
+{
+  "coverage": {
+    "country_code": "be",
+    "name": "Belgium",
+    "source_url": "https://www.phoenixdarts.com/be/shop/shopSearch",
+    "status": "complete",
+    "updated_at": "2026-11-03T09:36:13.663864+00:00",
+    "discovered": 73,
+    "collected": 73,
+    "mapped": 72,
+    "listing_pages": 15
+  },
+  "venues": [
+    {
+      "source_id": "86254",
+      "name": "Office HDK",
+      "address": "Alfons van de sandelaan 37 - 2970 Schilde",
+      "region": "Antwerp",
+      "source_title": "[Antwerp]Office HDK",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=86254",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 51.2359127,
+      "longitude": 4.5888762,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:34:21.138399+00:00"
+    },
+    {
+      "source_id": "82285",
+      "name": "T OOR",
+      "address": "Dorp39 2250 OLEN Antwerpen Belgium",
+      "region": "Antwerp",
+      "source_title": "[Antwerp]T OOR",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=82285",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 51.1440008,
+      "longitude": 4.860161700000001,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:34:22.761523+00:00"
+    },
+    {
+      "source_id": "83255",
+      "name": "CAFE SPORT",
+      "address": "LINDEN 2 2240 ZANDHOVEN Antwerpen",
+      "region": "Antwerp",
+      "source_title": "[Antwerp]CAFE SPORT",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=83255",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 51.21522400000001,
+      "longitude": 4.6602633,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:34:24.378470+00:00"
+    },
+    {
+      "source_id": "85558",
+      "name": "DE RUI",
+      "address": "Oude Vaartplaats 60 2000",
+      "region": "Antwerp",
+      "source_title": "[Antwerp]DE RUI",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=85558",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 51.2134922,
+      "longitude": 4.40891,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:34:25.995631+00:00"
+    },
+    {
+      "source_id": "73486",
+      "name": "James",
+      "address": "Arthur Scheirrestraat 11 9620 ZOTTEGEM",
+      "region": "East Flanders",
+      "source_title": "[East Flanders]James",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=73486",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.8697337,
+      "longitude": 3.809779800000001,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:34:27.626443+00:00"
+    },
+    {
+      "source_id": "92004",
+      "name": "CAFE COUTO",
+      "address": "Bergense steenweg 613 1070 ANDERLECHT BRUSSEL",
+      "region": "East Flanders",
+      "source_title": "[East Flanders]CAFE COUTO",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=92004",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.8330672,
+      "longitude": 4.3126073,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:34:29.245527+00:00"
+    },
+    {
+      "source_id": "74541",
+      "name": "VLAEMINCK OFFICE",
+      "address": "Burreken 24, 9660 BRAKEL",
+      "region": "East Flanders",
+      "source_title": "[East Flanders]VLAEMINCK OFFICE",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=74541",
+      "machine_text": "VSS 4 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 4
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.798494,
+      "longitude": 3.709125800000038,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:34:30.856540+00:00"
+    },
+    {
+      "source_id": "93572",
+      "name": "SPORTS BAR DE KRING",
+      "address": "Centrum 20 1540 HERNE FLEMISH BRABANT",
+      "region": "East Flanders",
+      "source_title": "[East Flanders]SPORTS BAR DE KRING",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=93572",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.7245759,
+      "longitude": 4.0284242,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:34:32.510366+00:00"
+    },
+    {
+      "source_id": "73490",
+      "name": "PRESIDENT",
+      "address": "GALGESTRAAT 1 9700 OUDENAARDE",
+      "region": "East Flanders",
+      "source_title": "[East Flanders]PRESIDENT",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=73490",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.8509149,
+      "longitude": 3.6137043999999605,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:34:34.090374+00:00"
+    },
+    {
+      "source_id": "98707",
+      "name": "DEN PLANSJEE",
+      "address": "Gravenstraat 70\t9970 KAPRIJKE\tEAST FLANDERS",
+      "region": "East Flanders",
+      "source_title": "[East Flanders]DEN PLANSJEE",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=98707",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 51.2464995,
+      "longitude": 3.6038291,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:34:35.713923+00:00"
+    },
+    {
+      "source_id": "94692",
+      "name": "PALACE",
+      "address": "Grote Markt 2 \t9600 RONSE\tEAST FLANDERS",
+      "region": "East Flanders",
+      "source_title": "[East Flanders]PALACE",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=94692",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.748072,
+      "longitude": 3.6021221,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:34:37.343164+00:00"
+    },
+    {
+      "source_id": "99830",
+      "name": "CAFE AMBIANCE",
+      "address": "Grote markt 71\t9060 ZELZATE\tEAST FLANDERS",
+      "region": "East Flanders",
+      "source_title": "[East Flanders]CAFE AMBIANCE",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=99830",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 51.2003481,
+      "longitude": 3.811588199999999,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:34:38.956074+00:00"
+    },
+    {
+      "source_id": "78454",
+      "name": "TEST VLAEMINCK 2",
+      "address": "LEIDEVELD 139688 SCHORISSE",
+      "region": "East Flanders",
+      "source_title": "[East Flanders]TEST VLAEMINCK 2",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=78454",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.79472,
+      "longitude": 3.65966,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:34:40.575855+00:00"
+    },
+    {
+      "source_id": "79579",
+      "name": "t CHAMPETTERKEN",
+      "address": "Letterhoutem dorp 6  \t9521 ST- LIEVENS-HOUTEM",
+      "region": "East Flanders",
+      "source_title": "[East Flanders]t CHAMPETTERKEN",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=79579",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.9268078,
+      "longitude": 3.8812242,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:34:42.219368+00:00"
+    },
+    {
+      "source_id": "94406",
+      "name": "LUXOR",
+      "address": "MARKT 6 9900 EEKLO EAST FLANDERS",
+      "region": "East Flanders",
+      "source_title": "[East Flanders]LUXOR",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=94406",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 51.1843458,
+      "longitude": 3.5673281,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:34:43.837300+00:00"
+    },
+    {
+      "source_id": "76063",
+      "name": "BISTRO IRIS",
+      "address": "Markt 37\t9890 GAVERE",
+      "region": "East Flanders",
+      "source_title": "[East Flanders]BISTRO IRIS",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=76063",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.9298823,
+      "longitude": 3.6600257999999712,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:34:45.456767+00:00"
+    },
+    {
+      "source_id": "94601",
+      "name": "G-HUIS",
+      "address": "Merelbekestraat 99\t9090 MELLE\tEAST FLANDERS",
+      "region": "East Flanders",
+      "source_title": "[East Flanders]G-HUIS",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=94601",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 51.0193837,
+      "longitude": 3.7700592,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:34:47.060763+00:00"
+    },
+    {
+      "source_id": "99651",
+      "name": "KAPITEIN CRAVATE",
+      "address": "Nederkouter 69\t9000 GENT\tEAST FLANDERS",
+      "region": "East Flanders",
+      "source_title": "[East Flanders]KAPITEIN CRAVATE",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=99651",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 51.0475177,
+      "longitude": 3.7219063,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:34:48.682738+00:00"
+    },
+    {
+      "source_id": "73504",
+      "name": "DE BIERTONNE",
+      "address": "Nestor de Tièrestraat 94 9700 OUDENAARDE",
+      "region": "East Flanders",
+      "source_title": "[East Flanders]DE BIERTONNE",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=73504",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.8665095,
+      "longitude": 3.617108300000041,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:34:50.298353+00:00"
+    },
+    {
+      "source_id": "94430",
+      "name": "OVERPOORT BOWL",
+      "address": "Overpoortstraat 38\t9000 GENT\tEAST FLANDERS",
+      "region": "East Flanders",
+      "source_title": "[East Flanders]OVERPOORT BOWL",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=94430",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 51.0403961,
+      "longitude": 3.7250957,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:34:51.928867+00:00"
+    },
+    {
+      "source_id": "78625",
+      "name": "Café Matheus",
+      "address": "Sleidinge-dorp 1209940 EVERGEM",
+      "region": "East Flanders",
+      "source_title": "[East Flanders]Café Matheus",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=78625",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 51.1348395,
+      "longitude": 3.6800646,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:34:53.540107+00:00"
+    },
+    {
+      "source_id": "76222",
+      "name": "LEMON BAR",
+      "address": "Stationsplein 7\t9230 WETTEREN",
+      "region": "East Flanders",
+      "source_title": "[East Flanders]LEMON BAR",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=76222",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 51.00191299999999,
+      "longitude": 3.8827830999999833,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:34:55.159402+00:00"
+    },
+    {
+      "source_id": "83432",
+      "name": "GEMEENTEHUIS",
+      "address": "ZULZEKESTRAAT 14 9690 KLUISBERGEN EAST FLANDERS",
+      "region": "East Flanders",
+      "source_title": "[East Flanders]GEMEENTEHUIS",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=83432",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.78885709999999,
+      "longitude": 3.5708973,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:34:56.829075+00:00"
+    },
+    {
+      "source_id": "73953",
+      "name": "SNOOKER PRISMAS",
+      "address": "Zuidlaan 47, 9630 ZWALM",
+      "region": "East Flanders",
+      "source_title": "[East Flanders]SNOOKER PRISMAS",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=73953",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.8777948,
+      "longitude": 3.733256200000028,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:34:58.426381+00:00"
+    },
+    {
+      "source_id": "88795",
+      "name": "BOWLING DES BASSINS",
+      "address": "22 ave des Bassins\t7000 MONS",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]BOWLING DES BASSINS",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=88795",
+      "machine_text": "VSS 4 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 4
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.4599595,
+      "longitude": 3.9433371,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:00.040490+00:00"
+    },
+    {
+      "source_id": "99245",
+      "name": "ROYAL TENNIS CLUB NIMY",
+      "address": "31 Rue de la Clairière\t7020 NIMY\tHAINAUT",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]ROYAL TENNIS CLUB NIMY",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=99245",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.4846447,
+      "longitude": 3.9406566,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:01.651339+00:00"
+    },
+    {
+      "source_id": "93307",
+      "name": "CODE BAR",
+      "address": "55 Rue du Chateau 7970 BELOEIL  HAINAUT",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]CODE BAR",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=93307",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.5490207,
+      "longitude": 3.7349762,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:03.284247+00:00"
+    },
+    {
+      "source_id": "90888",
+      "name": "LE BRASSIN",
+      "address": "8 Place du parc 7380 QUIEVRAIN",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]LE BRASSIN",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=90888",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.4064468,
+      "longitude": 3.6808157,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:04.904144+00:00"
+    },
+    {
+      "source_id": "78943",
+      "name": "GOAL ASBL",
+      "address": "Avenue Max Buset 1\t7100 LA LOUVIERE",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]GOAL ASBL",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=78943",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.47492159999999,
+      "longitude": 4.2020304,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:06.540927+00:00"
+    },
+    {
+      "source_id": "89823",
+      "name": "L ESCALE",
+      "address": "Avenue du Lac Antoing 7640 PERONNES",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]L ESCALE",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=89823",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.5455338,
+      "longitude": 3.4469539,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:08.157212+00:00"
+    },
+    {
+      "source_id": "99652",
+      "name": "LE PETIT SALON",
+      "address": "Boulevard Leopold III 10\t7600 PERUWELZ\tHAINAUT",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]LE PETIT SALON",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=99652",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.5069235,
+      "longitude": 3.5913758,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:09.771999+00:00"
+    },
+    {
+      "source_id": "99358",
+      "name": "BLACK VELVET",
+      "address": "Chaussee de grammont 87\t7860 LESSINES\tHAINAUT",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]BLACK VELVET",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=99358",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.7265264,
+      "longitude": 3.8355597,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:11.386832+00:00"
+    },
+    {
+      "source_id": "90259",
+      "name": "LE VINTAGE",
+      "address": "Grand Place 2 HAINAUT",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]LE VINTAGE",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=90259",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.6059655,
+      "longitude": 3.3878251,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:12.994294+00:00"
+    },
+    {
+      "source_id": "99532",
+      "name": "LE PETRUS",
+      "address": "Grand Place 21\t7500 TOURNAI\tHAINAUT",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]LE PETRUS",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=99532",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.6065901,
+      "longitude": 3.3868805,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:14.619999+00:00"
+    },
+    {
+      "source_id": "94043",
+      "name": "GRAND SALON",
+      "address": "Grand Rue 83\t7743 OBIGIES HAINAUT",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]GRAND SALON",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=94043",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.6572693,
+      "longitude": 3.3625384,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:16.265947+00:00"
+    },
+    {
+      "source_id": "100355",
+      "name": "LE COCQUIN",
+      "address": "Grand''Route 111\t7500 TOURNAI\tHAINAUT",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]LE COCQUIN",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=100355",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.5956154,
+      "longitude": 3.4730574,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:17.891507+00:00"
+    },
+    {
+      "source_id": "99925",
+      "name": "LE FORGERON",
+      "address": "Julien Mulliestraat 102\t7711 DOTTIGNIES\tHAINAUT",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]LE FORGERON",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=99925",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.7313744,
+      "longitude": 3.3004801,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:19.557074+00:00"
+    },
+    {
+      "source_id": "86127",
+      "name": "LA BASCULE",
+      "address": "PLACE DE FROIDMONT 4 7504 FROIDMONT",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]LA BASCULE",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=86127",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.5774822,
+      "longitude": 3.3277539,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:21.146686+00:00"
+    },
+    {
+      "source_id": "86126",
+      "name": "LE HIGHLANDER",
+      "address": "PLACE SAINT PIERRE 15 7500 TOURNAU",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]LE HIGHLANDER",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=86126",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.6063951,
+      "longitude": 3.3915273,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:22.766493+00:00"
+    },
+    {
+      "source_id": "85563",
+      "name": "LA CRYPTE",
+      "address": "Place Saint Pierre 25 7500 TOURNAI",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]LA CRYPTE",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=85563",
+      "machine_text": "VSS 4 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 4
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.6070161,
+      "longitude": 3.3910792,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:24.395061+00:00"
+    },
+    {
+      "source_id": "95220",
+      "name": "THE FOX S HOLE",
+      "address": "Place de Lille 16\t7500 TOURNAI\tHAINAUT",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]THE FOX S HOLE",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=95220",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.6064204,
+      "longitude": 3.3808772,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:26.030892+00:00"
+    },
+    {
+      "source_id": "73954",
+      "name": "SNOOKER THEMIS",
+      "address": "Place de la Justice 19, 7700 MOUSCRON",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]SNOOKER THEMIS",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=73954",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.7398737,
+      "longitude": 3.219909899999948,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:27.510152+00:00"
+    },
+    {
+      "source_id": "90968",
+      "name": "DONALDSON",
+      "address": "Place de la justice 2 7700 MOUSCRON",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]DONALDSON",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=90968",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.74036690000001,
+      "longitude": 3.2201119,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:28.986946+00:00"
+    },
+    {
+      "source_id": "85206",
+      "name": "MON TOÎT",
+      "address": "Place du docteur Bocquet 6 7610 RUMES",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]MON TOÎT",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=85206",
+      "machine_text": "VSS 4 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 4
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.5559721,
+      "longitude": 3.3037316,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:30.625897+00:00"
+    },
+    {
+      "source_id": "98023",
+      "name": "MAISON DU PEUPLE WIHERIES",
+      "address": "Place du jeu de Balle 24\t7370 DOUR",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]MAISON DU PEUPLE WIHERIES",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=98023",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.3863339,
+      "longitude": 3.7560463,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:32.138277+00:00"
+    },
+    {
+      "source_id": "73503",
+      "name": "AU HALL",
+      "address": "RUE DE LA FAUVETTE 6 7911 Frasnes-Lez-BuissenaL",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]AU HALL",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=73503",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.6667451,
+      "longitude": 3.61773160000007,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:33.643683+00:00"
+    },
+    {
+      "source_id": "79344",
+      "name": "ASBL ULTRA'S LIBERI",
+      "address": "RUE KERAMIS 13\t7100 LA LOUVIERE",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]ASBL ULTRA'S LIBERI",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=79344",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.4776804,
+      "longitude": 4.187403199999999,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:35.115376+00:00"
+    },
+    {
+      "source_id": "98123",
+      "name": "LA BELLE VIE",
+      "address": "René Dubreucqstraat 11 \t7880 FLOBECQ",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]LA BELLE VIE",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=98123",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.7378013,
+      "longitude": 3.7373861,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:36.590321+00:00"
+    },
+    {
+      "source_id": "86272",
+      "name": "MAISON DU PEUPLE",
+      "address": "Rue Alfred Dendal 251 7300 BOUSSU BOIS",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]MAISON DU PEUPLE",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=86272",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.4099101,
+      "longitude": 3.8010424,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:38.081906+00:00"
+    },
+    {
+      "source_id": "85156",
+      "name": "LE SUPER BALL",
+      "address": "Rue Grande 63 7380 QUIEVRAIN HAINAUT",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]LE SUPER BALL",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=85156",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.40542319999999,
+      "longitude": 3.6830341,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:39.555111+00:00"
+    },
+    {
+      "source_id": "99893",
+      "name": "LE PETIT COEUR",
+      "address": "Rue Jean Lefebvre 3A \t7730 ESTAIMUIS\tHAINAUT",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]LE PETIT COEUR",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=99893",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.706042,
+      "longitude": 3.2652561,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:41.031457+00:00"
+    },
+    {
+      "source_id": "98952",
+      "name": "LE BUXUS",
+      "address": "Rue Neuve 38\t7301 BOUSSU\tHAINAUT",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]LE BUXUS",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=98952",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.43209359999999,
+      "longitude": 3.7944649,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:42.531944+00:00"
+    },
+    {
+      "source_id": "98122",
+      "name": "CHAPELLE LIONS PADEL",
+      "address": "Rue Warloche 17\t7911 Frasnes-Lez-BuissenaL",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]CHAPELLE LIONS PADEL",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=98122",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.6738016,
+      "longitude": 3.6666132,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:43.977998+00:00"
+    },
+    {
+      "source_id": "76999",
+      "name": "REDRUM BAR",
+      "address": "Rue de Courtrai 34\t7500 TOURNAI",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]REDRUM BAR",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=76999",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.6084314,
+      "longitude": 3.387817499999983,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:45.463537+00:00"
+    },
+    {
+      "source_id": "94191",
+      "name": "TC RESSAIX",
+      "address": "Rue de l''industrie 52\t7134 RESSAIX\tHAINAUT",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]TC RESSAIX",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=94191",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.4282273,
+      "longitude": 4.190973899999999,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:46.958485+00:00"
+    },
+    {
+      "source_id": "91113",
+      "name": "PONT ROYAL",
+      "address": "Rue de la gare 37",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]PONT ROYAL",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=91113",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 48.90192520000001,
+      "longitude": 2.3746087,
+      "map_eligible": false,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:48.445875+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
+    },
+    {
+      "source_id": "79110",
+      "name": "BARAD'JO",
+      "address": "Rue des Berceaux 17 7623 Rongy",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]BARAD'JO",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=79110",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.5082785,
+      "longitude": 3.3909127,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:49.924780+00:00"
+    },
+    {
+      "source_id": "89866",
+      "name": "Hollywood Arcadia",
+      "address": "Rue du 10 Novembre 6 7900 LEUZE",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]Hollywood Arcadia",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=89866",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.5967117,
+      "longitude": 3.6265985,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:51.399945+00:00"
+    },
+    {
+      "source_id": "79994",
+      "name": "ARÈNA CAFÉ",
+      "address": "Rue du pont de la Cure 16c \t7901 LEUZE",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]ARÈNA CAFÉ",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=79994",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.5983925,
+      "longitude": 3.6122326,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:52.879558+00:00"
+    },
+    {
+      "source_id": "94622",
+      "name": "TENNIS CHEMINOTS",
+      "address": "Rue marius Renard 238\t7301 HORNU\tHAINAUT",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]TENNIS CHEMINOTS",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=94622",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.4429447,
+      "longitude": 3.8374074,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:54.356263+00:00"
+    },
+    {
+      "source_id": "96791",
+      "name": "LE SALON",
+      "address": "Rue ville Basse 19\t7830 SILLY\tHAINAUT",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]LE SALON",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=96791",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.65026539999999,
+      "longitude": 3.9259525,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:55.822230+00:00"
+    },
+    {
+      "source_id": "97973",
+      "name": "BONS VIVANTS",
+      "address": "Touquetstraat 139\t7783 BIZET",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]BONS VIVANTS",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=97973",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.7070778,
+      "longitude": 2.8902578,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:57.290781+00:00"
+    },
+    {
+      "source_id": "100194",
+      "name": "BLACK SHEEP PUB",
+      "address": "place saint pierre 14\t7500 TOURNAI\tHAINAUT",
+      "region": "Hainaut",
+      "source_title": "[Hainaut]BLACK SHEEP PUB",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=100194",
+      "machine_text": "VSS 3 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 3
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.60634959999999,
+      "longitude": 3.3914079,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:35:58.779905+00:00"
+    },
+    {
+      "source_id": "89710",
+      "name": "Cafe Positief",
+      "address": "Frans van der Steenstraat 114, 1750 LENNIK",
+      "region": "Walloon Brabant",
+      "source_title": "[Walloon Brabant]Cafe Positief",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=89710",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.8005127,
+      "longitude": 4.1551631,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:36:00.250932+00:00"
+    },
+    {
+      "source_id": "83766",
+      "name": "JEAN BOIS UNE",
+      "address": "Grand''Place 45 1400 NIVELLES WALLOON BRABANT",
+      "region": "Walloon Brabant",
+      "source_title": "[Walloon Brabant]JEAN BOIS UNE",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=83766",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.5970363,
+      "longitude": 4.3227385,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:36:01.727343+00:00"
+    },
+    {
+      "source_id": "73726",
+      "name": "DEN HERT",
+      "address": "Heuleplaats 10, 8500 KORTRIJK",
+      "region": "West Flanders",
+      "source_title": "[West Flanders]DEN HERT",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=73726",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.8432341,
+      "longitude": 3.234664100000032,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:36:03.207466+00:00"
+    },
+    {
+      "source_id": "99162",
+      "name": "J&A thirteen",
+      "address": "Kasteelstraat 31\t8660 DE PANNE\tWEST FLANDERS",
+      "region": "West Flanders",
+      "source_title": "[West Flanders]J&A thirteen",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=99162",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 51.0973323,
+      "longitude": 2.592129,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:36:04.723084+00:00"
+    },
+    {
+      "source_id": "99797",
+      "name": "DE VLASSCHAARD",
+      "address": "Kerkstraat 30\t8580 AVELGEM\tWEST FLANDERS",
+      "region": "West Flanders",
+      "source_title": "[West Flanders]DE VLASSCHAARD",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=99797",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.7758052,
+      "longitude": 3.4455737,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:36:06.178102+00:00"
+    },
+    {
+      "source_id": "96257",
+      "name": "CAFE DE POMPE",
+      "address": "Rijselstraat 266\t8930 MENEN",
+      "region": "West Flanders",
+      "source_title": "[West Flanders]CAFE DE POMPE",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=96257",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.7879306,
+      "longitude": 3.1273356,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:36:07.683009+00:00"
+    },
+    {
+      "source_id": "82555",
+      "name": "JEUGDHUIS KRAK",
+      "address": "Scheldelaan 6 8580 AVELGEM WEST FLANDERS",
+      "region": "West Flanders",
+      "source_title": "[West Flanders]JEUGDHUIS KRAK",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=82555",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.77612920000001,
+      "longitude": 3.44957,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:36:09.160660+00:00"
+    },
+    {
+      "source_id": "93997",
+      "name": "THE OLD MONKEY",
+      "address": "Veurnestraat 7\t8660 DE PANNE\tWEST FLANDERS",
+      "region": "West Flanders",
+      "source_title": "[West Flanders]THE OLD MONKEY",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=93997",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 51.09553810000001,
+      "longitude": 2.5894337,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:36:10.657250+00:00"
+    },
+    {
+      "source_id": "83229",
+      "name": "7 SEVEN",
+      "address": "Zeelaan 90 8660 DE PANNE WEST FLANDERS",
+      "region": "West Flanders",
+      "source_title": "[West Flanders]7 SEVEN",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=83229",
+      "machine_text": "VSS 1 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 1
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 51.0983732,
+      "longitude": 2.5917906,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:36:12.158674+00:00"
+    },
+    {
+      "source_id": "88255",
+      "name": "BELVERE",
+      "address": "Zwevegemstraat 2, 8553 OTEGEM",
+      "region": "West Flanders",
+      "source_title": "[West Flanders]BELVERE",
+      "source_url": "https://www.phoenixdarts.com/be/shop/shopDetail?s_seq=88255",
+      "machine_text": "VSS 2 .",
+      "machines": [
+        {
+          "model": "VSS",
+          "count": 2
+        }
+      ],
+      "parser_version": 3,
+      "provider": "phoenix",
+      "country_code": "be",
+      "latitude": 50.813092,
+      "longitude": 3.4084356,
+      "map_eligible": true,
+      "directory_eligible": true,
+      "off_days": "",
+      "website": "",
+      "collected_at": "2026-11-03T09:36:13.663487+00:00"
+    }
+  ]
+}
