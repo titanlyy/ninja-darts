@@ -1,0 +1,15 @@
+{
+  "coverage": {
+    "country_code": "cn",
+    "name": "China",
+    "source_url": "https://www.phoenixdarts.com/cn/shop/shopSearch",
+    "status": "failed",
+    "updated_at": "2026-11-03T09:17:47.289753+00:00",
+    "note": "HTTPConnectionPool(host='www.phoenixdartcn.com', port=80): Max retries exceeded with url: /cn (Caused by NameResolutionError(\"HTTPConnection(host='www.phoenixdartcn.com', port=80): Failed to resolve 'www.phoenixdartcn.com' ([Errno -2] Name or service not known)\"))",
+    "discovered": 0,
+    "collected": 0,
+    "mapped": 0,
+    "listing_pages": 0
+  },
+  "venues": []
+}

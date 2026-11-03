@@ -21,7 +21,7 @@ Business facts only are collected. No player data, descriptions or photos are im
 | Thailand | complete | 59 | 57 | [Public directory](https://www.phoenixdarts.com/th/shop/shopSearch) |
 | Vietnam | complete | 103 | 101 | [Public directory](https://www.phoenixdarts.com/vn/shop/shopSearch) |
 | Mongolia | complete | 70 | 70 | [Public directory](https://www.phoenixdarts.com/mn/shop/shopSearch) |
-| China | pending | n.a. | n.a. | [Public directory](https://www.phoenixdarts.com/cn/shop/shopSearch) |
+| China | failed | 0 | 0 | [Public directory](https://www.phoenixdarts.com/cn/shop/shopSearch) |
 | Australia | pending | n.a. | n.a. | [Public directory](https://www.phoenixdarts.com/au/shop/shopSearch) |
 | New Zealand | pending | n.a. | n.a. | [Public directory](https://www.phoenixdarts.com/nz/shop/shopSearch) |
 | New Caledonia | pending | n.a. | n.a. | [Public directory](https://www.phoenixdarts.com/nc/shop/shopSearch) |
@@ -47,3 +47,4 @@ Business facts only are collected. No player data, descriptions or photos are im
 - Singapore: Existing reviewed Singapore pilot
 - Brunei: Public directory returned no usable venue rows; not proof of zero installations
 - United Arab Emirates: Public directory returned no usable venue rows; not proof of zero installations
+- China: HTTPConnectionPool(host='www.phoenixdartcn.com', port=80): Max retries exceeded with url: /cn (Caused by NameResolutionError("HTTPConnection(host='www.phoenixdartcn.com', port=80): Failed to resolve 'www.phoenixdartcn.com' ([Errno -2] Name or service not known)"))
