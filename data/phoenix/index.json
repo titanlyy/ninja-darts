@@ -1,6 +1,6 @@
 {
   "provider": "phoenix",
-  "updated_at": "2026-11-03T09:10:20.155515+00:00",
+  "updated_at": "2026-11-03T09:14:18.112373+00:00",
   "countries": [
     {
       "country_code": "sg",
@@ -140,7 +140,13 @@
       "country_code": "vn",
       "name": "Vietnam",
       "source_url": "https://www.phoenixdarts.com/vn/shop/shopSearch",
-      "status": "pending"
+      "status": "complete",
+      "updated_at": "2026-11-03T09:14:17.708902+00:00",
+      "discovered": 103,
+      "collected": 103,
+      "mapped": 101,
+      "listing_pages": 21,
+      "file": "data/phoenix/vn.json"
     },
     {
       "country_code": "mn",
