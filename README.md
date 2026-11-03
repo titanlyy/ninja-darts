@@ -14,9 +14,11 @@ A map-based global directory of darts venues, with DARTSLIVE source data across 
 - One-click provider filters: All, DARTSLIVE and Phoenix.
 - Independent, provider-attributed machine inventories and source links.
 - Conservative duplicate matching. The original DARTSLIVE data remains unchanged.
-- Singapore opens by default. Country browsing still covers the global dataset.
-- Countries ranked by mapped listing count, with region and city/area drill-down
+- IP-estimated country opens by default, or Singapore if unsupported/unavailable.
+- Default country pinned first, remaining countries ranked by mapped listing count, with region and city/area drill-down
   where source geography is available. See [location field coverage](docs/LOCATION_FILTERS.md).
+- Near me selects and street-zooms the closest shop, highlights its logo and name
+  outside the open venue card, and closes the mobile/tablet sidebar.
 - See [pilot collection and matching notes](docs/PHOENIX_PILOT.md).
 
 ## Features

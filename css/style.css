@@ -167,6 +167,14 @@ a:hover { text-decoration: underline; }
 .provider-marker { width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; background: white; border: 1px solid #0003; border-radius: 5px; box-shadow: 0 2px 5px #0005; overflow: hidden; }
 .leaflet-container .provider-marker img { display: block; width: 28px !important; max-width: 28px !important; min-width: 0; height: 28px; object-fit: contain; }
 .leaflet-container .provider-marker.dual img { width: 14px !important; max-width: 14px !important; height: 20px; }
+.selected-venue .provider-marker { outline: 3px solid #ffd166; box-shadow: 0 0 0 7px #ffd16640, 0 4px 15px #0009; }
+.selected-venue::after { border-top-color: #ffd166; }
+.leaflet-tooltip.selected-venue-label { padding: 7px 10px; border: 1px solid #ffd166; border-radius: 7px; color: #fff8e8; background: #252017; max-width: min(240px, calc(100vw - 48px)); box-shadow: 0 3px 12px #0008; white-space: normal; }
+.selected-venue-label span { display: block; color: #ffd166; font-size: 10px; letter-spacing: .06em; text-transform: uppercase; }
+.selected-venue-label strong { display: block; font-size: 13px; line-height: 1.4; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.leaflet-tooltip-top.selected-venue-label::before { border-top-color: #ffd166; }
+.detail-distance { margin: 6px 0 8px; color: #ffd166; font-size: var(--text-sm); font-weight: 700; }
+#near-me:disabled { opacity: .6; cursor: wait; }
 .detail-provider-logos { display: flex; gap: var(--space-2); margin-bottom: var(--space-3); padding-right: var(--space-6); }
 .detail-provider-logos img { width: 108px; height: 36px; object-fit: contain; background: white; border-radius: 4px; padding: 5px; }
 .source-note { margin-top: var(--space-4); color: var(--color-text-muted); font-size: var(--text-xs); line-height: 1.5; }
@@ -206,6 +214,7 @@ a:hover { text-decoration: underline; }
 }
 
 /* Country list */
+.country-context { padding: 4px 16px 8px; font-size: 10px; line-height: 1.4; color: var(--color-text-muted); flex-shrink: 0; }
 .country-list {
   flex: 1;
   overflow-y: auto;
@@ -598,7 +607,7 @@ body.sb-collapsed #sidebar-toggle svg { transform: rotate(180deg); }
     right: var(--space-2);
     bottom: var(--space-2);
     width: auto;
-    max-height: 62dvh;
+    max-height: 52dvh;
   }
 
   #detail-body { padding: 0 var(--space-4) var(--space-4); }

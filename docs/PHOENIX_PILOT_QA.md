@@ -53,3 +53,26 @@ dual-provider venue was found; the empty Both filter was removed in the UI clean
 - Cluster click-to-zoom, DARTSLIVE/Phoenix buttons, machine filters, search,
   venue details and Japan prefecture/district filtering pass regression checks.
 - Mobile map and provider filtering remain usable.
+
+## Selected venue focus and IP default
+
+- Mobile Near me with a granted Ang Mo Kio coordinate selects iDarts X (Big Mac
+  Centre), opens the card with a separate 0.2 km distance, collapses the drawer,
+  and loads zoom-16 map tiles.
+- At 375 × 812, the selected pin ends at y=219, above the card starting at
+  y≈382. The permanent selected-venue label is fully within the visible map.
+- Gold selection stays unclustered when zooming out. Card close, Escape and
+  provider switch remove the overlay.
+- Mobile short viewport 375 × 640 and landscape 812 × 375 preserve the pin
+  and label outside the card. Desktop selection fits left of the card.
+- Ordinary Phoenix pin selection uses the same highlight and camera.
+- Denied geolocation restores Near me and shows an explanatory message with
+  no invented marker.
+- Mocked IP defaults: USA→USA, France→France, unsupported GB→Singapore,
+  Macau→Hong Kong / Macau, HTTP 503→Singapore, timeout→Singapore.
+- Every IP-default case pins the selected country after All countries and
+  sorts the remaining countries by count. Manual Japan/Tokyo/Shinjuku selection
+  stays selected after initial load.
+- Real browser integration received HTTP 200 from https://api.country.is/ and
+  selected the sandbox IP's USA country without precise-location permission.
+- IP API purpose and privacy behaviour are documented in LOCATION_FILTERS.md.

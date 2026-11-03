@@ -1,8 +1,24 @@
 # Country and locality navigation
 
-Countries are ranked by the total number of currently mapped listings, descending,
-with name as a deterministic tie-breaker. All countries remains above the ranking.
-Counts include both providers where the Phoenix pilot is available.
+All countries stays first, followed by the visitor's default country. Remaining
+countries are ranked by total mapped listings, descending, with name as a
+deterministic tie-breaker. Counts include both providers where the Phoenix pilot
+is available.
+
+## IP-based default
+
+The browser requests https://api.country.is/ once on page load, with credentials
+omitted and no referrer. The public service returns the caller's IP country;
+this app uses only the country code and does not persist the IP or location.
+The service necessarily receives the visitor's network IP, and is credited in
+the sidebar. Service documentation: https://country.is/
+
+A supported country is pinned and selected. Unsupported countries, invalid
+responses, network failure or a 2.5-second timeout select and pin Singapore.
+Macau maps to the existing Hong Kong / Macau directory. Manual country choices
+after load are not overridden. IP estimates may reflect a VPN and are not
+precise browser geolocation. Precise location is requested only when the user
+clicks Near me.
 
 Selecting a country reveals region and city/area controls in its expandable
 navigation section, where source geography exists. The second control narrows
@@ -58,3 +74,22 @@ individual pins at the same zoom, at the cost of denser/overlapping logos.
 It is not a fixed geographic distance: its ground distance changes with zoom.
 Very close or identical-coordinate venues still cluster and can be expanded
 by clicking a cluster and zooming in.
+
+## Selection and Near me
+
+Near me shows the nearest 50 records, selects the closest, and focuses that
+shop at street-level zoom 16 rather than centring the visitor at zoom 11.
+The closest shop's distance is shown separately in its card. Normal pin clicks
+also focus and highlight the selected venue.
+
+The selected logo has a gold outline and a permanent venue-name label on a
+separate, unclustered overlay. Its highlight remains visible if the map is
+zoomed out. Closing the card, switching country/provider, or filtering out the
+venue clears the selection.
+
+The camera uses the measured uncovered map rectangle: above a bottom card on
+mobile, or left of the right-hand card on desktop. ResizeObserver repositions
+the selection when the viewport or card dimensions change. The mobile card
+is capped at 52dvh to preserve map space; its content scrolls within the card.
+Opening a selection closes the sidebar on mobile/tablet widths up to 1024px.
+Location lookup temporarily disables Near me and restores it on success or error.

@@ -13,6 +13,7 @@
     venues: [],      // all loaded venues
     markers: new Map(), // venue.id -> marker
     selected: 'sg',
+    defaultCountry: 'sg',
     provider: 'all',
     region: '',
     area: '',
@@ -40,6 +41,7 @@
     areaLabel: $('area-label'),
     areaControl: $('area-control'),
     countryList: $('country-list'),
+    countryContext: $('country-context'),
     venueCount: $('venue-count'),
     detail: $('detail'),
     detailBody: $('detail-body'),
@@ -129,8 +131,27 @@
   }
 
   // ── Data loading ──────────────────────────────────────────
+  async function detectCountry() {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 2500);
+    try {
+      const response = await fetch('https://api.country.is/', {
+        signal: controller.signal, credentials: 'omit', referrerPolicy: 'no-referrer', cache: 'no-store',
+      });
+      if (!response.ok) return null;
+      const country = (await response.json()).country;
+      return typeof country === 'string' && /^[A-Z]{2}$/i.test(country) ? country.toLowerCase() : null;
+    } catch {
+      return null;
+    } finally {
+      clearTimeout(timeout);
+    }
+  }
+
   async function boot() {
     try {
+      // Starts alongside venue downloads; never requests precise browser location.
+      const countryHintPromise = detectCountry();
       const res = await fetch('data/index.json');
       state.countries = await res.json();
       await Promise.all(
@@ -196,10 +217,21 @@
           [Math.max(...venues.map((v) => v.la)), Math.max(...venues.map((v) => v.lo))],
         ];
       });
-      state.countries.sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+      const ipCountry = await countryHintPromise;
+      const mappedCountry = ipCountry === 'mo' ? 'hk' : ipCountry;
+      const supported = state.countries.some((c) => c.cc === mappedCountry);
+      state.defaultCountry = supported ? mappedCountry : 'sg';
+      state.countries.sort((a, b) =>
+        Number(b.cc === state.defaultCountry) - Number(a.cc === state.defaultCountry) ||
+        b.count - a.count || a.name.localeCompare(b.name));
+      const defaultName = state.countries.find((c) => c.cc === state.defaultCountry).name;
+      els.countryContext.innerHTML = supported
+        ? `IP estimate: ${escapeHtml(defaultName)} · <a href="https://country.is/" target="_blank" rel="noopener">Country.is</a>`
+        : `Singapore default · <a href="https://country.is/" target="_blank" rel="noopener">IP country unavailable or not listed</a>`;
+      els.countryContext.title = 'Country is approximate and may reflect a VPN. Change country anytime. The lookup provider receives your IP; this app does not store it.';
       renderCountryList();
       buildMarkers();
-      selectCountry('sg');
+      selectCountry(state.defaultCountry, { scroll: false });
       if (matchMedia('(max-width: 768px)').matches) {
         els.sidebar.classList.add('collapsed');
         document.body.classList.add('sb-collapsed');
@@ -246,18 +278,18 @@
     });
   }
 
-  function selectCountry(cc) {
+  function selectCountry(cc, { scroll = true } = {}) {
     state.selected = cc;
     state.region = '';
     state.area = '';
-    els.detail.classList.add('hidden');
+    closeDetail();
     els.countryList.querySelectorAll('.country-item').forEach((el) => {
       const active = el.dataset.cc === cc;
       el.classList.toggle('active', active);
       el.classList.toggle('selected', active);
     });
     renderLocationFilters();
-    if (!els.locationFilter.classList.contains('hidden')) {
+    if (scroll && !els.locationFilter.classList.contains('hidden')) {
       els.countryList.querySelector(`[data-cc="${cc}"]`)?.scrollIntoView({ block: 'start' });
     }
     if (cc === 'all') {
@@ -327,7 +359,7 @@
       (!state.region || regionKey(v) === state.region) && (!state.area || areaKey(v) === state.area));
     map.stop();
     if (venues.length) map.fitBounds(venues.map((v) => [v.la, v.lo]), { padding: [48, 48], maxZoom: 14, animate: false });
-    els.detail.classList.add('hidden');
+    closeDetail();
     applyFilters();
   }
 
@@ -360,6 +392,7 @@
   }
 
   function applyFilters() {
+    if (selectedVenue && !matchesFilters(selectedVenue)) closeDetail();
     let shown = 0;
     state.venues.forEach((v) => {
       const m = state.markers.get(venueKey(v));
@@ -380,7 +413,65 @@
   }
 
   // ── Detail panel ──────────────────────────────────────────
-  function showDetail(v) {
+  let selectedVenue = null;
+  let selectedPin = null;
+  let selectedZoom = 16;
+  let focusFrame = 0;
+
+  function closeDetail() {
+    selectedVenue = null;
+    if (selectedPin) map.removeLayer(selectedPin);
+    selectedPin = null;
+    els.detail.classList.add('hidden');
+    els.detail.setAttribute('aria-hidden', 'true');
+  }
+
+  function focusSelectedVenue() {
+    if (!selectedVenue || els.detail.classList.contains('hidden')) return;
+    map.invalidateSize({ pan: false });
+    const bounds = els.map.getBoundingClientRect();
+    const card = els.detail.getBoundingClientRect();
+    const mobile = window.matchMedia('(max-width: 768px)').matches;
+    const left = 16;
+    const right = mobile ? bounds.width - 16 : Math.max(100, card.left - bounds.left - 20);
+    const top = 76;
+    const bottom = mobile ? Math.max(top + 64, card.top - bounds.top - 20) : bounds.height - 48;
+    const target = L.point((left + right) / 2, (top + bottom) / 2);
+    const centre = L.point(bounds.width / 2, bounds.height / 2);
+    map.stop();
+    map.setView([selectedVenue.la, selectedVenue.lo], selectedZoom, { animate: false });
+    map.panBy(centre.subtract(target), { animate: false });
+  }
+
+  function queueSelectedFocus() {
+    cancelAnimationFrame(focusFrame);
+    focusFrame = requestAnimationFrame(focusSelectedVenue);
+  }
+
+  // Reposition for card size changes, browser chrome/orientation and drawer resizing.
+  const selectionLayoutObserver = new ResizeObserver(() => {
+    if (selectedVenue) queueSelectedFocus();
+  });
+  selectionLayoutObserver.observe(els.detail);
+  selectionLayoutObserver.observe(els.map);
+
+  function showDetail(v, options = {}) {
+    closeDetail();
+    selectedVenue = v;
+    selectedZoom = options.nearMe ? 16 : Math.max(16, map.getZoom());
+    selectedPin = L.marker([v.la, v.lo], {
+      icon: markerIcon(v), zIndexOffset: 2000, keyboard: false, interactive: false,
+    }).addTo(map);
+    selectedPin.getElement().classList.add('selected-venue');
+    selectedPin.bindTooltip(
+      `<span>Selected venue</span><strong>${escapeHtml(v.n)}</strong>`,
+      { permanent: true, direction: 'top', offset: [0, -48], className: 'selected-venue-label', opacity: 1 }
+    );
+    if (window.matchMedia('(max-width: 1024px)').matches) {
+      els.sidebar.classList.add('collapsed');
+      document.body.classList.add('sb-collapsed');
+      els.sidebarToggle.setAttribute('aria-expanded', 'false');
+    }
     const machines = [];
     if (v.d3) machines.push({ num: v.d3, lbl: 'DARTSLIVE3' });
     if (v.d2) machines.push({ num: v.d2, lbl: 'DARTSLIVE2' });
@@ -404,6 +495,7 @@
         <div class="detail-provider-logos">${v.providers.map(providerLogo).join('')}</div>
         <div class="detail-badges">${badges.join('')}</div>
         <h2 class="detail-title">${escapeHtml(v.n)}</h2>
+        ${Number.isFinite(options.distanceKm) ? `<p class="detail-distance">Closest venue · ${options.distanceKm.toFixed(1)} km away</p>` : ''}
         <p class="detail-sub">${flag(v.cc)} ${escapeHtml(v.a || '')}</p>
       </div>
       ${v.providers.includes('phoenix') && !(v.phoenix_machines || []).length ? '<p class="detail-sub">Phoenix machine inventory not published.</p>' : ''}
@@ -438,6 +530,8 @@
 
     els.detail.classList.remove('hidden');
     els.detail.setAttribute('aria-hidden', 'false');
+    els.detail.scrollTop = 0;
+    queueSelectedFocus();
   }
 
   // ── Events ────────────────────────────────────────────────
@@ -462,7 +556,7 @@
     if (!button) return;
     state.provider = button.dataset.provider;
     syncProviderButtons();
-    els.detail.classList.add('hidden');
+    closeDetail();
     applyFilters();
   });
   els.search.addEventListener('input', (e) => {
@@ -483,16 +577,16 @@
     applyFilters();
   });
 
-  els.detailClose.addEventListener('click', () => {
-    els.detail.classList.add('hidden');
-    els.detail.setAttribute('aria-hidden', 'true');
-  });
+  els.detailClose.addEventListener('click', closeDetail);
 
   els.sidebarToggle.addEventListener('click', () => {
     const collapsed = els.sidebar.classList.toggle('collapsed');
     document.body.classList.toggle('sb-collapsed', collapsed);
     els.sidebarToggle.setAttribute('aria-expanded', String(!collapsed));
-    setTimeout(() => map.invalidateSize(), 200);
+    setTimeout(() => {
+      map.invalidateSize();
+      if (selectedVenue) queueSelectedFocus();
+    }, 200);
   });
 
   els.nearMe.addEventListener('click', () => {
@@ -501,8 +595,18 @@
       return;
     }
     toast('Finding your location…');
+    els.nearMe.disabled = true;
+    els.nearMe.setAttribute('aria-busy', 'true');
+    els.nearMe.querySelector('span').textContent = 'Locating…';
+    const finishLocationRequest = () => {
+      els.nearMe.disabled = false;
+      els.nearMe.removeAttribute('aria-busy');
+      els.nearMe.querySelector('span').textContent = 'Near me';
+    };
     navigator.geolocation.getCurrentPosition(
       (pos) => {
+        finishLocationRequest();
+        clearTimeout(debounce);
         const { latitude: la, longitude: lo } = pos.coords;
         state.selected = 'all';
         state.region = '';
@@ -546,11 +650,13 @@
         });
         els.venueCount.textContent = `${near.length} nearest venues shown`;
 
-        map.setView([la, lo], 11);
-        toast(`${near.length} venues near you · closest: ${near[0].v.n} (${near[0].d.toFixed(1)} km)`);
-        showDetail({ ...near[0].v, n: `${near[0].v.n} — ${near[0].d.toFixed(1)} km away` });
+        els.toast.classList.add('hidden');
+        showDetail(near[0].v, { nearMe: true, distanceKm: near[0].d });
       },
-      () => toast('Could not get your location. Check permissions.'),
+      () => {
+        finishLocationRequest();
+        toast('Could not get your location. Check permissions.');
+      },
       { enableHighAccuracy: false, timeout: 10000 }
     );
   });
@@ -558,7 +664,7 @@
   // Keyboard: Esc closes detail
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
-      els.detail.classList.add('hidden');
+      closeDetail();
     }
   });
 
