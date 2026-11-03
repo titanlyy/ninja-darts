@@ -17,7 +17,7 @@ Business facts only are collected. No player data, descriptions or photos are im
 | Indonesia | complete | 206 | 191 | [Public directory](https://www.phoenixdarts.com/id/shop/shopSearch) |
 | Malaysia | complete | 694 | 689 | [Public directory](https://www.phoenixdarts.com/my/shop/shopSearch) |
 | Hong Kong | complete | 295 | 291 | [Public directory](https://www.phoenixdarts.com/hk/shop/shopSearch) |
-| Taiwan | pending | n.a. | n.a. | [Public directory](https://www.phoenixdarts.com/tw/shop/shopSearch) |
+| Taiwan | complete | 728 | 722 | [Public directory](https://www.phoenixdarts.com/tw/shop/shopSearch) |
 | Thailand | pending | n.a. | n.a. | [Public directory](https://www.phoenixdarts.com/th/shop/shopSearch) |
 | Vietnam | pending | n.a. | n.a. | [Public directory](https://www.phoenixdarts.com/vn/shop/shopSearch) |
 | Mongolia | pending | n.a. | n.a. | [Public directory](https://www.phoenixdarts.com/mn/shop/shopSearch) |
