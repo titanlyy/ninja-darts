@@ -1,6 +1,6 @@
 {
   "provider": "phoenix",
-  "updated_at": "2026-11-03T10:32:00.674626+00:00",
+  "updated_at": "2026-11-03T11:09:49.351916+00:00",
   "countries": [
     {
       "country_code": "sg",
@@ -347,7 +347,15 @@
       "country_code": "es",
       "name": "Spain",
       "source_url": "https://www.phoenixdarts.com/es/shop/shopSearch",
-      "status": "pending"
+      "status": "failed",
+      "updated_at": "2026-11-03T11:09:48.764106+00:00",
+      "continuation_attempt": 0,
+      "discovered": 2137,
+      "collected": 885,
+      "mapped": 884,
+      "listing_pages": 428,
+      "note": "No detail coordinate inputs: https://www.phoenixdarts.com/es/shop/shopDetail?s_seq=99167",
+      "file": "data/phoenix/es.json"
     },
     {
       "country_code": "fr",

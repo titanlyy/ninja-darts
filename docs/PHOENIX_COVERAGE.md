@@ -36,7 +36,7 @@ Business facts only are collected. No player data, descriptions or photos are im
 | Germany | complete | 16 | 16 | [Public directory](https://www.phoenixdarts.com/de/shop/shopSearch) |
 | Portugal | complete | 1427 | 1396 | [Public directory](https://www.phoenixdarts.com/pt/shop/shopSearch) |
 | Switzerland | complete | 97 | 97 | [Public directory](https://www.phoenixdarts.com/ch/shop/shopSearch) |
-| Spain | pending | n.a. | n.a. | [Public directory](https://www.phoenixdarts.com/es/shop/shopSearch) |
+| Spain | failed | 885 | 884 | [Public directory](https://www.phoenixdarts.com/es/shop/shopSearch) |
 | France | pending | n.a. | n.a. | [Public directory](https://www.phoenixdarts.com/fr/shop/shopSearch) |
 | USA | pending | n.a. | n.a. | [Public directory](https://www.phoenixdarts.com/us/shop/shopSearch) |
 | Korea | pending | n.a. | n.a. | [Public directory](https://www.phoenixdarts.com/kr/shop/shopSearch) |
@@ -49,3 +49,4 @@ Business facts only are collected. No player data, descriptions or photos are im
 - United Arab Emirates: Public directory returned no usable venue rows; not proof of zero installations
 - China: HTTPConnectionPool(host='www.phoenixdartcn.com', port=80): Max retries exceeded with url: /cn (Caused by NameResolutionError("HTTPConnection(host='www.phoenixdartcn.com', port=80): Failed to resolve 'www.phoenixdartcn.com' ([Errno -2] Name or service not known)"))
 - Ireland: Public directory returned no usable venue rows; not proof of zero installations
+- Spain: No detail coordinate inputs: https://www.phoenixdarts.com/es/shop/shopDetail?s_seq=99167
