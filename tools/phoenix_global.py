@@ -128,17 +128,24 @@ class AccessBlocked(RuntimeError):
     pass
 
 
+class CollectionDeferred(RuntimeError):
+    pass
+
+
 class Client:
-    def __init__(self, delay):
+    def __init__(self, delay, max_seconds=18000):
         self.session = requests.Session()
         self.session.headers["User-Agent"] = "NinjaDarts-DirectoryResearch/1.0 (public business facts; paced)"
         self.delay = max(1.2, delay)
         self.last = 0
+        self.deadline = time.monotonic() + max_seconds
 
     def get(self, url):
         if urlparse(url).hostname not in {"www.phoenixdarts.com", "vs.phoenixdarts.com"}:
             raise ValueError("Unexpected source host")
         for attempt in range(3):
+            if time.monotonic() >= self.deadline:
+                raise CollectionDeferred("Checkpointed before runner time limit; resume with saved country cache")
             time.sleep(max(0, self.delay - (time.monotonic() - self.last)))
             try:
                 response = self.session.get(url, timeout=45)
@@ -307,6 +314,10 @@ def collect(route, cache, client):
                 print(f"{route}: details {len(records)}/{len(progress['rows'])}", flush=True)
         coverage["status"] = "complete"
         export()
+    except CollectionDeferred as error:
+        coverage.update(status="partial", note=str(error))
+        export()
+        print(f"{route}: PARTIAL {len(records)}/{len(progress['rows'])}; {error}", flush=True)
     except AccessBlocked as error:
         coverage.update(status="blocked", note=str(error))
         export()
@@ -407,10 +418,14 @@ def main():
     parser.add_argument("--countries", default="")
     parser.add_argument("--cache", default=str(ROOT.parent / "phoenix-global-cache"))
     parser.add_argument("--delay", type=float, default=1.2)
+    parser.add_argument("--max-seconds", type=float, default=18000,
+                        help="Soft collection budget per process; preserves partial facts and cache for resumption")
     parser.add_argument("--build-only", action="store_true")
     args = parser.parse_args()
     if not args.build_only:
-        client = Client(args.delay)
+        if args.max_seconds <= 0:
+            parser.error("--max-seconds must be positive")
+        client = Client(args.delay, args.max_seconds)
         routes = args.countries.split(",") if args.countries else [r for r, _ in COUNTRIES if r != "sg"]
         for route in routes:
             if route not in dict(COUNTRIES):

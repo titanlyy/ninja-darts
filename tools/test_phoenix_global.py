@@ -1,12 +1,35 @@
 """Parser regression fixtures modelled on the fetched public country templates."""
 import unittest
 import json
+import tempfile
+from pathlib import Path
+from unittest.mock import Mock, patch
 from bs4 import BeautifulSoup
-from phoenix_global import ROOT, in_country, listing_rows, machines_from, parse_detail, repair_nested_title, split_title
+from phoenix_global import ROOT, Client, CollectionDeferred, collect, in_country, listing_rows, machines_from, parse_detail, repair_nested_title, split_title
 from build_phoenix_bounds import country_boxes
 
 
 class ParserTests(unittest.TestCase):
+    def test_soft_budget_stops_before_another_source_request(self):
+        client = Client(1.2)
+        client.deadline = -1
+        with patch.object(client.session, "get") as get:
+            with self.assertRaises(CollectionDeferred):
+                client.get("https://www.phoenixdarts.com/my/shop/shopSearch")
+            get.assert_not_called()
+
+    def test_deferred_collection_exports_partial_not_complete(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            client = Mock()
+            client.get.side_effect = CollectionDeferred("Checkpointed for resumption")
+            with patch("phoenix_global.ROOT", root):
+                collect("my", root / "cache", client)
+            result = json.loads((root / "data/phoenix/my.json").read_text())
+            self.assertEqual(result["coverage"]["status"], "partial")
+            self.assertEqual(result["coverage"]["collected"], 0)
+            self.assertIn("resumption", result["coverage"]["note"])
+
     def test_duplicate_iso_features_are_aggregated(self):
         def feature(points):
             return {"properties": {"ISO_A2_EH": "ZZ"}, "geometry": {
