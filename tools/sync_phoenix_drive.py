@@ -69,11 +69,16 @@ def main():
         requests = []
         for title in ("Phoenix Live", "Collection status"):
             if title not in existing:
-                requests.append({"addSheet": {"properties": {"title": title, "gridProperties": {
+                requests.append({"addSheet": {"properties": {"title": title, **({"index": 0} if title == "Phoenix Live" and not matches else {}), "gridProperties": {
                     "columnCount": 14 if title == "Phoenix Live" else 10,
                     "rowCount": (20000 if cc in {"jp", "kr", "fr", "us"} else 3000) if title == "Phoenix Live" else 30,
                     "frozenRowCount": 1 if title == "Phoenix Live" else 0,
                 }}}})
+        if workbook["name"].startswith("Darts Venues - ") and "Phoenix Live" in existing:
+            requests.append({"updateSheetProperties": {
+                "properties": {"sheetId": existing["Phoenix Live"], "index": 0},
+                "fields": "index",
+            }})
         if not schema.get("properties", {}).get("importFunctionsExternalUrlAccessAllowed"):
             requests.append({"updateSpreadsheetProperties": {
                 "properties": {"importFunctionsExternalUrlAccessAllowed": True},
