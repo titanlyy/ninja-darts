@@ -1,6 +1,6 @@
 {
   "provider": "phoenix",
-  "updated_at": "2026-11-03T11:56:57.087547+00:00",
+  "updated_at": "2026-11-03T12:26:44.522121+00:00",
   "countries": [
     {
       "country_code": "sg",
@@ -374,7 +374,14 @@
       "country_code": "us",
       "name": "USA",
       "source_url": "https://www.phoenixdarts.com/us/shop/shopSearch",
-      "status": "pending"
+      "status": "complete",
+      "updated_at": "2026-11-03T12:26:44.058037+00:00",
+      "continuation_attempt": 0,
+      "discovered": 898,
+      "collected": 898,
+      "mapped": 890,
+      "listing_pages": 180,
+      "file": "data/phoenix/us.json"
     },
     {
       "country_code": "kr",
