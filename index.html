@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>Ninja Darts — Global Darts Venue Map</title>
-  <meta name="description" content="A map-based global directory of places to play darts. Find DARTSLIVE venues, bars and clubs near you." />
+  <meta name="description" content="Find DARTSLIVE and Phoenix darts venues on the map. Phoenix Singapore pilot with provider logos, machine counts and directions." />
   <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png" />
   <link rel="apple-touch-icon" href="icons/icon-192.png" />
   <link rel="manifest" href="manifest.webmanifest" />
@@ -14,7 +14,7 @@
   <link href="https://api.fontshare.com/v2/css?f[]=clash-display@500,600,700&f[]=satoshi@400,500,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
-  <link rel="stylesheet" href="css/style.css?v=2" />
+  <link rel="stylesheet" href="css/style.css?v=3" />
 </head>
 <body>
   <div id="app">
@@ -38,6 +38,20 @@
         <input id="search" type="search" placeholder="Search venue, city or address…" aria-label="Search venues" autocomplete="off" />
       </div>
 
+      <div class="provider-control">
+        <label for="provider">Machine provider</label>
+        <select id="provider" aria-label="Machine provider">
+          <option value="all">All providers</option>
+          <option value="dartslive">DARTSLIVE</option>
+          <option value="phoenix">Phoenix · Singapore pilot</option>
+          <option value="both">Both brands</option>
+        </select>
+        <div class="provider-legend">
+          <span><img src="icons/providers/dartslive.svg" alt="DARTSLIVE" /></span>
+          <span><img src="icons/providers/phoenix.png" alt="Phoenix Darts" /></span>
+        </div>
+        <p>Logo pins show each venue's brands. Zoom into numbered clusters to see venues.</p>
+      </div>
       <div class="filters">
         <label class="chip"><input type="checkbox" id="f-league" /><span>League venues</span></label>
         <label class="chip"><input type="checkbox" id="f-dl3" /><span>Has DARTSLIVE3</span></label>
@@ -53,7 +67,8 @@
 
       <footer class="sidebar-foot">
         <p id="venue-count">Loading venues…</p>
-        <p class="credit">Data: <a href="https://search.dartslive.com/" target="_blank" rel="noopener">DARTSLIVE</a> · Map © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OSM</a></p>
+        <p class="credit">Data: <a href="https://search.dartslive.com/" target="_blank" rel="noopener">DARTSLIVE</a> / <a href="https://www.phoenixdarts.com/sg/shop/shopSearch" target="_blank" rel="noopener">Phoenix</a> · Map © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OSM</a></p>
+        <p class="credit">Independent directory. Brands and logos belong to their respective owners. Listings may be outdated.</p>
       </footer>
     </aside>
 
@@ -77,6 +92,6 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-  <script src="js/app.js?v=2"></script>
+  <script src="js/app.js?v=3"></script>
 </body>
 </html>

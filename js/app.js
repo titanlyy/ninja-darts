@@ -12,7 +12,8 @@
     countries: [],   // from data/index.json
     venues: [],      // all loaded venues
     markers: new Map(), // venue.id -> marker
-    selected: null,  // selected country code ('all' default)
+    selected: 'sg',
+    provider: 'all',
     query: '',
     leagueOnly: false,
     dl3Only: false,
@@ -28,6 +29,7 @@
     league: $('f-league'),
     dl3: $('f-dl3'),
     nearMe: $('near-me'),
+    provider: $('provider'),
     countryList: $('country-list'),
     venueCount: $('venue-count'),
     detail: $('detail'),
@@ -64,16 +66,18 @@
   });
   map.addLayer(clusterGroup);
 
-  const markerIcon = (league) =>
+  const providerLogo = (provider) =>
+    `<img src="icons/providers/${provider === 'phoenix' ? 'phoenix.png' : 'dartslive.svg'}" alt="${provider === 'phoenix' ? 'Phoenix Darts' : 'DARTSLIVE'}" />`;
+
+  const markerIcon = (venue) =>
     L.divIcon({
       html:
-        '<div class="venue-marker' + (league ? ' league' : '') + '">' +
-        '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#141210" stroke-width="3" stroke-linecap="round"><path d="M20 4L8 16"/><circle cx="5" cy="19" r="2.5" fill="#141210" stroke="none"/></svg>' +
+        '<div class="provider-marker' + (venue.providers.length > 1 ? ' dual' : '') + '">' +
+        venue.providers.map(providerLogo).join('') +
         '</div>',
       className: 'venue-marker-wrap',
-      iconSize: [26, 26],
-      iconAnchor: [13, 26],
-      popupAnchor: [0, -14],
+      iconSize: [82, venue.providers.length > 1 ? 58 : 38],
+      iconAnchor: [41, venue.providers.length > 1 ? 58 : 38],
     });
 
   // ── Helpers ───────────────────────────────────────────────
@@ -91,7 +95,9 @@
       .replace(/'/g, '&' + '#39;');
 
   const linkify = (s) =>
-    /^https?:\/\//.test(s) ? escapeHtml(s) : 'https://' + escapeHtml(s);
+    /^https?:\/\//i.test(s) ? escapeHtml(s) : '#';
+
+  const venueKey = (v) => `${v.cc}:${v.id}`;
 
   // Break business-hours strings into one line per day for readability
   const prettyHours = (h) =>
@@ -114,7 +120,6 @@
     try {
       const res = await fetch('data/index.json');
       state.countries = await res.json();
-      renderCountryList();
       await Promise.all(
         state.countries.map((c) =>
           fetch(`data/${c.cc}.json`)
@@ -122,17 +127,58 @@
             .then((venues) => {
               venues.forEach((v) => {
                 v.cc = c.cc;
+                v.providers = ['dartslive'];
+                v.sources = [{ provider: 'dartslive', id: v.id, url: v.url }];
                 state.venues.push(v);
               });
             })
         )
       );
+      // Additive pilot feed: preserve the original DARTSLIVE source records.
+      let pilot = { venues: [] };
+      try {
+        const pilotResponse = await fetch('data/phoenix-sg.json');
+        if (!pilotResponse.ok) throw new Error('Phoenix pilot data unavailable');
+        pilot = await pilotResponse.json();
+      } catch (error) {
+        toast('Phoenix pilot could not load. DARTSLIVE venues are still available.');
+      }
+      pilot.venues.forEach((p) => {
+        if (p.directory_eligible === false) return;
+        const existing = p.dartslive_id
+          ? state.venues.find((v) => v.cc === 'sg' && v.id === p.dartslive_id)
+          : null;
+        const source = { provider: 'phoenix', id: p.source_id, url: p.source_url, collected_at: p.collected_at };
+        if (existing) {
+          existing.providers.push('phoenix');
+          existing.sources.push(source);
+          existing.phoenix_machines = p.machines;
+          existing.phoenix_name = p.name;
+        } else if (p.map_eligible) {
+          state.venues.push({
+            id: `phoenix-${p.source_id}`, cc: 'sg', n: p.name, a: p.address,
+            la: p.latitude, lo: p.longitude, g: '', h: '', st: '', d2: null, d3: null,
+            L: false, C: false, providers: ['phoenix'], sources: [source],
+            phoenix_machines: p.machines,
+          });
+        }
+      });
+      state.countries.forEach((c) => {
+        const venues = state.venues.filter((v) => v.cc === c.cc);
+        c.count = venues.length;
+        c.bounds = [
+          [Math.min(...venues.map((v) => v.la)), Math.min(...venues.map((v) => v.lo))],
+          [Math.max(...venues.map((v) => v.la)), Math.max(...venues.map((v) => v.lo))],
+        ];
+      });
+      renderCountryList();
       buildMarkers();
-      els.venueCount.textContent =
-        state.venues.length.toLocaleString() +
-        ' venues · ' +
-        state.countries.length +
-        (state.countries.length === 1 ? ' country' : ' countries');
+      selectCountry('sg');
+      if (matchMedia('(max-width: 768px)').matches) {
+        els.sidebar.classList.add('collapsed');
+        document.body.classList.add('sb-collapsed');
+        els.sidebarToggle.setAttribute('aria-expanded', 'false');
+      }
     } catch (err) {
       console.error(err);
       els.venueCount.textContent = 'Failed to load venue data';
@@ -185,7 +231,7 @@
       map.setView([25, 30], 2);
     } else {
       const c = state.countries.find((x) => x.cc === cc);
-      if (c) map.fitBounds(c.bounds, { padding: [40, 40], maxZoom: 11 });
+      if (c) map.fitBounds(c.bounds, { padding: [48, 48], maxZoom: 11 });
     }
     applyFilters();
   }
@@ -193,19 +239,24 @@
   // ── Markers ───────────────────────────────────────────────
   function buildMarkers() {
     state.venues.forEach((v) => {
-      const m = L.marker([v.la, v.lo], { icon: markerIcon(v.L) });
+      const m = L.marker([v.la, v.lo], {
+        icon: markerIcon(v), title: `${v.n} · ${v.providers.join(' + ')}`,
+        alt: `${v.n} · ${v.providers.join(' + ')}`,
+      });
       m.on('click', () => showDetail(v));
-      state.markers.set(v.id, m);
+      state.markers.set(venueKey(v), m);
     });
     clusterGroup.addLayers([...state.markers.values()]);
   }
 
   function matchesFilters(v) {
     if (state.selected !== 'all' && v.cc !== state.selected) return false;
+    if (state.provider === 'both' && v.providers.length < 2) return false;
+    if (!['all', 'both'].includes(state.provider) && !v.providers.includes(state.provider)) return false;
     if (state.leagueOnly && !v.L) return false;
     if (state.dl3Only && !v.d3) return false;
     if (state.query) {
-      const hay = (v.n + ' ' + v.a + ' ' + v.g + ' ' + (v.st || '')).toLowerCase();
+      const hay = (v.n + ' ' + (v.phoenix_name || '') + ' ' + v.a + ' ' + v.g + ' ' + (v.st || '')).toLowerCase();
       if (!hay.includes(state.query)) return false;
     }
     return true;
@@ -214,7 +265,7 @@
   function applyFilters() {
     let shown = 0;
     state.venues.forEach((v) => {
-      const m = state.markers.get(v.id);
+      const m = state.markers.get(venueKey(v));
       if (!m) return;
       const keep = matchesFilters(v);
       if (keep) shown++;
@@ -227,6 +278,7 @@
       (shown === state.venues.length && state.selected === 'all'
         ? ' venues · ' + state.countries.length + (state.countries.length === 1 ? ' country' : ' countries')
         : ' venues shown');
+    if (!shown) toast('No matching venues. Try another provider, country or search.');
   }
 
   // ── Detail panel ──────────────────────────────────────────
@@ -234,6 +286,7 @@
     const machines = [];
     if (v.d3) machines.push({ num: v.d3, lbl: 'DARTSLIVE3' });
     if (v.d2) machines.push({ num: v.d2, lbl: 'DARTSLIVE2' });
+    (v.phoenix_machines || []).forEach((m) => machines.push({ num: m.count, lbl: `Phoenix ${m.model}` }));
 
     const badges = [];
     if (v.L) badges.push('<span class="badge league">League Venue</span>');
@@ -250,10 +303,12 @@
 
     els.detailBody.innerHTML = `
       <div class="detail-header">
+        <div class="detail-provider-logos">${v.providers.map(providerLogo).join('')}</div>
         <div class="detail-badges">${badges.join('')}</div>
         <h2 class="detail-title">${escapeHtml(v.n)}</h2>
         <p class="detail-sub">${flag(v.cc)} ${escapeHtml(v.a || '')}</p>
       </div>
+      ${v.providers.includes('phoenix') && !(v.phoenix_machines || []).length ? '<p class="detail-sub">Phoenix machine inventory not published.</p>' : ''}
       ${machines.length ? `
       <div class="detail-section">
         <h3>Machines</h3>
@@ -278,8 +333,9 @@
       </div>` : ''}
       <div class="detail-actions">
         <a class="btn primary" href="${directions}" target="_blank" rel="noopener">Directions</a>
-        <a class="btn" href="${escapeHtml(v.url)}" target="_blank" rel="noopener">DARTSLIVE Page</a>
+        ${v.sources.map((source) => `<a class="btn" href="${linkify(source.url)}" target="_blank" rel="noopener">${source.provider === 'phoenix' ? 'Phoenix' : 'DARTSLIVE'} Page</a>`).join('')}
       </div>
+      <p class="source-note">Provider listings are not a guarantee of current operation or machine availability. Confirm opening hours and visitor access with the venue; some clubs may require membership.${v.sources.filter((s) => s.collected_at).map((s) => ' Phoenix collected ' + escapeHtml(s.collected_at.slice(0, 10)) + '.').join('')}</p>
     `;
 
     els.detail.classList.remove('hidden');
@@ -288,6 +344,11 @@
 
   // ── Events ────────────────────────────────────────────────
   let debounce;
+  els.provider.addEventListener('change', (e) => {
+    state.provider = e.target.value;
+    els.detail.classList.add('hidden');
+    applyFilters();
+  });
   els.search.addEventListener('input', (e) => {
     clearTimeout(debounce);
     debounce = setTimeout(() => {
@@ -337,6 +398,8 @@
         els.search.value = '';
         state.leagueOnly = false;
         state.dl3Only = false;
+        state.provider = 'all';
+        els.provider.value = 'all';
         els.league.checked = false;
         els.dl3.checked = false;
         applyFilters();
@@ -355,13 +418,14 @@
         }
 
         // show only the nearest 50
-        const nearIds = new Set(near.map((x) => x.v.id));
+        const nearIds = new Set(near.map((x) => venueKey(x.v)));
         state.markers.forEach((m, id) => {
           const keep = nearIds.has(id);
           if (keep !== clusterGroup.hasLayer(m)) {
             keep ? clusterGroup.addLayer(m) : clusterGroup.removeLayer(m);
           }
         });
+        els.venueCount.textContent = `${near.length} nearest venues shown`;
 
         map.setView([la, lo], 11);
         toast(`${near.length} venues near you · closest: ${near[0].v.n} (${near[0].d.toFixed(1)} km)`);

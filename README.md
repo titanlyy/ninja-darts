@@ -6,7 +6,16 @@
 
 ## What is this?
 
-A map-based global directory of darts venues — like Google Maps, but purpose-built for darts. Currently seeded with every venue listed on [DARTSLIVE's search site](https://search.dartslive.com/) across 20 countries, with thousands of venues including machine counts (DARTSLIVE2 / DARTSLIVE3), business hours, addresses, coordinates, league status and social links.
+A map-based global directory of darts venues, with DARTSLIVE source data across 18 regions and a Singapore Phoenix Darts pilot. Counts reflect collected provider listings, not a guarantee of completeness or current operation.
+
+## Phoenix Singapore pilot
+
+- Official DARTSLIVE and Phoenix logo markers; both logos on matched dual-brand venues.
+- Provider filters: All, DARTSLIVE, Phoenix and Both.
+- Independent, provider-attributed machine inventories and source links.
+- Conservative duplicate matching. The original DARTSLIVE data remains unchanged.
+- Singapore opens by default. Country browsing still covers the global dataset.
+- See [pilot collection and matching notes](docs/PHOENIX_PILOT.md).
 
 ## Features
 
@@ -54,4 +63,5 @@ See [docs/APP_REQUIREMENTS.md](docs/APP_REQUIREMENTS.md) for the full plan: venu
 ## Attribution
 
 - Venue data: [DARTSLIVE](https://search.dartslive.com/) (scraped for community, non-commercial use)
+- Singapore pilot data: [Phoenix Darts](https://www.phoenixdarts.com/sg/shop/shopSearch). Source rights and terms remain applicable; this pilot does not establish permission for commercial reuse.
 - Map tiles: © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright) © [CARTO](https://carto.com/attributions)

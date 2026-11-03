@@ -1,0 +1,713 @@
+[
+  {
+    "phoenix_id": "87508",
+    "name": "SE9TEMBER",
+    "address": "1 SELEGIE RD, #02-04/05 GR.ID, SINGAPORE 188306",
+    "matched": null,
+    "candidates": [
+      {
+        "dartslive_id": "3fa763334915d3b158d385ea46352d8f",
+        "name": "Tatawan",
+        "address": "1 Selegie Road, B1-12, GR.iD, Singapore 188306",
+        "distance_m": 50,
+        "name_similarity": 0.125
+      },
+      {
+        "dartslive_id": "d10b45f36171491efec1ae84bb28bd87",
+        "name": "F.M.L.",
+        "address": "40 Prinsep Street, #01-01, Singapore 188666",
+        "distance_m": 92,
+        "name_similarity": 0.167
+      }
+    ]
+  },
+  {
+    "phoenix_id": "87793",
+    "name": "SING MY SONG KINEX",
+    "address": "11 Tanjong Katong Road #03-05 Kinex Shopping Mall, Singapore 437157",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "75631",
+    "name": "Candy K-Bar",
+    "address": "111 Somerset Road #02-07/08/09 Singapore 238164",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "86308",
+    "name": "DOUBLE UP CAFE",
+    "address": "151 CHIN SWEE ROAD, #01-29130 MANHATTAN HOUSE, SINGAPORE 169876",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "96729",
+    "name": "CLUB XIN ZE",
+    "address": "151 CHIN SWEE ROAD, #01-49 MANHATTAN HOUSE, 169876 SINGAPORE",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "99226",
+    "name": "时光酒吧 (TIME BAR)",
+    "address": "2 ALIWAL ST #02-01, SINGAPORE 199895",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "86550",
+    "name": "LISBON KTV",
+    "address": "2 FOCH ROAD, 209252 SINGAPORE.",
+    "matched": null,
+    "candidates": [
+      {
+        "dartslive_id": "521f111f655308afb21333aee1bd51e4",
+        "name": "Pub 150",
+        "address": "42 Foch Road, #01-01 Singapore 209269",
+        "distance_m": 73,
+        "name_similarity": 0.133
+      }
+    ]
+  },
+  {
+    "phoenix_id": "99819",
+    "name": "Last warning",
+    "address": "2 Havelock Rd #02-09,Central Singapore 059763",
+    "matched": null,
+    "candidates": [
+      {
+        "dartslive_id": "137e84fbc6cea28128032249b44395af",
+        "name": "NTUC Club Clubhouse @ Havelock 2",
+        "address": "2 Havelock Road, #02-04/05/06/07 Havelock2, Singapore 059763",
+        "distance_m": 8,
+        "name_similarity": 0.108
+      }
+    ]
+  },
+  {
+    "phoenix_id": "90043",
+    "name": "ONE BAR",
+    "address": "2 KALLANG AVE, #01-K2 CT HUB, 339407 SINGAPORE",
+    "matched": null,
+    "candidates": [
+      {
+        "dartslive_id": "2ee47e2df3426607790ab824ce8730e5",
+        "name": "GOOD CHEER @ BENDEMEER",
+        "address": "2 Kallang Avenue #02-01/02/03/04 & #02-12/13/14, CT Hub, Singapore 339407",
+        "distance_m": 0,
+        "name_similarity": 0.333
+      },
+      {
+        "dartslive_id": "515365a6b69a5df9b21333aee1bd51e4",
+        "name": "OBAR",
+        "address": "8 Boon Lay Way, Tradehub 21, Singapore 609964",
+        "distance_m": 12280,
+        "name_similarity": 0.8
+      }
+    ]
+  },
+  {
+    "phoenix_id": "89047",
+    "name": "SAM PLACE",
+    "address": "203 THOMSON RD, SINGAPORE 307638",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "98089",
+    "name": "V LOUNGE",
+    "address": "27A, LORONG MAMBONG, HOLLAND VILLAGE, SINGAPORE 277686",
+    "matched": null,
+    "candidates": [
+      {
+        "dartslive_id": "c69ba42b4946bb7afec1ae84bb28bd87",
+        "name": "JP Lounge",
+        "address": "11 Northshore Drive, #01-09, Singapore 828670",
+        "distance_m": 16374,
+        "name_similarity": 0.8
+      }
+    ]
+  },
+  {
+    "phoenix_id": "98846",
+    "name": "SHANGHAI JAZZ",
+    "address": "29 SEAH ST SINGAPORE 188385 SINGAPORE",
+    "matched": null,
+    "candidates": [
+      {
+        "dartslive_id": "02b3780550e45946fec1ae84bb28bd87",
+        "name": "ATF",
+        "address": "11 Purvis Street, Singapore 188590",
+        "distance_m": 75,
+        "name_similarity": 0.133
+      }
+    ]
+  },
+  {
+    "phoenix_id": "99845",
+    "name": "CLUB VOX",
+    "address": "3 Temasek Bivd, #03-309, Central Singapore, 038983",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "70361",
+    "name": "K Bowling Club",
+    "address": "313 Orchard Road,#03-27,S 238895",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "88932",
+    "name": "PUB SAMURAI",
+    "address": "31B, CIRCULAR ROAD, SINGAPORE 049387",
+    "matched": null,
+    "candidates": [
+      {
+        "dartslive_id": "f7da1d9ed328215a58d385ea46352d8f",
+        "name": "Lucid Bar",
+        "address": "53 South Bridge Road, Floor No. 1/2 - Unit 1, Singapore 058684",
+        "distance_m": 93,
+        "name_similarity": 0.444
+      }
+    ]
+  },
+  {
+    "phoenix_id": "86469",
+    "name": "VICTORIA ENTERTAINMENT",
+    "address": "32 MOSQUE STREET, SINGAPORE 059510",
+    "matched": null,
+    "candidates": [
+      {
+        "dartslive_id": "1743408144c642fd28032249b44395af",
+        "name": "Fame Music & Entertainment",
+        "address": "333 Boon Lay Way, #02A-04, Safra Clubhouse (Jurong), Singapore 649848",
+        "distance_m": 16498,
+        "name_similarity": 0.698
+      }
+    ]
+  },
+  {
+    "phoenix_id": "100218",
+    "name": "SPECTRA",
+    "address": "35 SELEGIE ROAD, PARKLANE SHOPPING MALL, #05-07 SINGAPORE",
+    "matched": null,
+    "candidates": [
+      {
+        "dartslive_id": "3fa763334915d3b158d385ea46352d8f",
+        "name": "Tatawan",
+        "address": "1 Selegie Road, B1-12, GR.iD, Singapore 188306",
+        "distance_m": 16,
+        "name_similarity": 0.286
+      },
+      {
+        "dartslive_id": "16455fc2593295e95f9f3321c1147265",
+        "name": "Xpect",
+        "address": "3 Coleman Street, #02-29, Singapore 179804",
+        "distance_m": 981,
+        "name_similarity": 0.667
+      }
+    ]
+  },
+  {
+    "phoenix_id": "100572",
+    "name": "Itaewon Freedom",
+    "address": "36 Lor Mambong, Central, Singapore 277693",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "94894",
+    "name": "THE BAR STATION",
+    "address": "362 TANJUNG KATONG RD, SINGAPORE 437122",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "65915",
+    "name": "Level Up",
+    "address": "3A River Valley Road, #02-04, Clarke Quay, Singapore 179020",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "98541",
+    "name": "CLUB Y",
+    "address": "4, LOR TELOK, #02-00 SINGAPORE 049017",
+    "matched": null,
+    "candidates": [
+      {
+        "dartslive_id": "f7da1d9ed328215a58d385ea46352d8f",
+        "name": "Lucid Bar",
+        "address": "53 South Bridge Road, Floor No. 1/2 - Unit 1, Singapore 058684",
+        "distance_m": 49,
+        "name_similarity": 0.462
+      }
+    ]
+  },
+  {
+    "phoenix_id": "69630",
+    "name": "Illuzion 2",
+    "address": "45A Neil Road, Singapore 088826",
+    "matched": null,
+    "candidates": [
+      {
+        "dartslive_id": "e60caa0183100a58b21333aee1bd51e4",
+        "name": "BARBACK HUB",
+        "address": "51 Neil Rd., Singapore 088829",
+        "distance_m": 24,
+        "name_similarity": 0.105
+      }
+    ]
+  },
+  {
+    "phoenix_id": "100013",
+    "name": "SPACE BAR",
+    "address": "470 N BRIDGE RD, #05-08 BUGIS CUBE, CENTRAL, SINGAPORE, 188735",
+    "matched": null,
+    "candidates": [
+      {
+        "dartslive_id": "7d092857edab12f6b21333aee1bd51e4",
+        "name": "LEVEL 5 BAR",
+        "address": "470 North Bridge Road, #05-23 Bugis Cube, Singapore 188735",
+        "distance_m": 0,
+        "name_similarity": 0.471
+      }
+    ]
+  },
+  {
+    "phoenix_id": "98648",
+    "name": "JU BAR",
+    "address": "48 PRINSEP STREET #02-01, SINGAPORE 188677",
+    "matched": null,
+    "candidates": [
+      {
+        "dartslive_id": "d10b45f36171491efec1ae84bb28bd87",
+        "name": "F.M.L.",
+        "address": "40 Prinsep Street, #01-01, Singapore 188666",
+        "distance_m": 15,
+        "name_similarity": 0.0
+      },
+      {
+        "dartslive_id": "3fa763334915d3b158d385ea46352d8f",
+        "name": "Tatawan",
+        "address": "1 Selegie Road, B1-12, GR.iD, Singapore 188306",
+        "distance_m": 145,
+        "name_similarity": 0.167
+      },
+      {
+        "dartslive_id": "515365a6b69a5df9b21333aee1bd51e4",
+        "name": "OBAR",
+        "address": "8 Boon Lay Way, Tradehub 21, Singapore 609964",
+        "distance_m": 11155,
+        "name_similarity": 0.667
+      }
+    ]
+  },
+  {
+    "phoenix_id": "97803",
+    "name": "WINDOW 4",
+    "address": "49 LORONG 27, GEYLANG, SINGAPORE 388180",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "94561",
+    "name": "EPIC",
+    "address": "5 KOEK ROAD, #05-01 CUPPAGE PLAZA, SINGAPORE 228796",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "93937",
+    "name": "DELULU KARAOKE BAR",
+    "address": "5 Koek Rd, #04-29 Cuppage Plaza, Singapore 228796",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "97085",
+    "name": "HORO 3",
+    "address": "54 PRINSEP STREET, &01-01 PRINSEP PLACE, SINGAPORE 188684",
+    "matched": null,
+    "candidates": [
+      {
+        "dartslive_id": "d10b45f36171491efec1ae84bb28bd87",
+        "name": "F.M.L.",
+        "address": "40 Prinsep Street, #01-01, Singapore 188666",
+        "distance_m": 38,
+        "name_similarity": 0.0
+      },
+      {
+        "dartslive_id": "3fa763334915d3b158d385ea46352d8f",
+        "name": "Tatawan",
+        "address": "1 Selegie Road, B1-12, GR.iD, Singapore 188306",
+        "distance_m": 134,
+        "name_similarity": 0.0
+      }
+    ]
+  },
+  {
+    "phoenix_id": "91262",
+    "name": "MINGLE @ LEVEL 2",
+    "address": "56 PRINSEP STREET #02-01, SINGAPORE 188685",
+    "matched": null,
+    "candidates": [
+      {
+        "dartslive_id": "d10b45f36171491efec1ae84bb28bd87",
+        "name": "F.M.L.",
+        "address": "40 Prinsep Street, #01-01, Singapore 188666",
+        "distance_m": 54,
+        "name_similarity": 0.267
+      }
+    ]
+  },
+  {
+    "phoenix_id": "67860",
+    "name": "Club Kara",
+    "address": "571 Serangoon Road, Singapore 218186",
+    "matched": null,
+    "candidates": [
+      {
+        "dartslive_id": "56b558f14bc48fb5a3f63593b5358cc4",
+        "name": "Good Vibes Club",
+        "address": "449 Race Course Road, 218693 Singapore",
+        "distance_m": 58,
+        "name_similarity": 0.381
+      }
+    ]
+  },
+  {
+    "phoenix_id": "97027",
+    "name": "CUE 8 BILLIARDS",
+    "address": "6 EU TONG SEN ST, #04-85 CLARKE QUAY CENTRAL, SINGAPORE 059817",
+    "matched": null,
+    "candidates": [
+      {
+        "dartslive_id": "7956c6dd561b44d0790ab824ce8730e5",
+        "name": "Susan",
+        "address": "29 Carpenter Street, Level 6, Singapore 059923",
+        "distance_m": 134,
+        "name_similarity": 0.222
+      }
+    ]
+  },
+  {
+    "phoenix_id": "96728",
+    "name": "THIRSTY NEKO",
+    "address": "60 TESSENSOHN RD, #01-00A, 217664 SINGAPORE",
+    "matched": null,
+    "candidates": [
+      {
+        "dartslive_id": "b27b1f96be3efa935f9f3321c1147265",
+        "name": "Forest3 @ CSC",
+        "address": "60 Tessensohn Road, #01-03 Civil Service Club, Singapore 217664",
+        "distance_m": 15,
+        "name_similarity": 0.286
+      }
+    ]
+  },
+  {
+    "phoenix_id": "38600",
+    "name": "PHOENIXDARTS SG OFFICE",
+    "address": "71 Ubi Crescent, #08-11 Excalibur Centre, Singapore 408571",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "88613",
+    "name": "TEST MACHINE FOR SINGAPORE",
+    "address": "71 Ubi Crescent, #08-11 Excalibur Centre, Singapore 408571",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "97699",
+    "name": "SIGNAL",
+    "address": "76 TG PAGAR RD, CENTRAL SINGAPORE 088497",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "91433",
+    "name": "TANTRIC BAR",
+    "address": "80A, NEIL RD, SINGAPORE 088842",
+    "matched": null,
+    "candidates": [
+      {
+        "dartslive_id": "e60caa0183100a58b21333aee1bd51e4",
+        "name": "BARBACK HUB",
+        "address": "51 Neil Rd., Singapore 088829",
+        "distance_m": 40,
+        "name_similarity": 0.3
+      }
+    ]
+  },
+  {
+    "phoenix_id": "69501",
+    "name": "Sirius",
+    "address": "85 Kampong Bahru Road S(169380)",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "71232",
+    "name": "Ice Cold Beer",
+    "address": "9 Emerald Hill Singapore 229283",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "93868",
+    "name": "PRISM +",
+    "address": "UBIX, #01-02, 25 Ubi Rd 4, Singapore 408621",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "93972",
+    "name": "JYU YAE",
+    "address": "1 PASIR RIS CLOSE #01-301 DOWNTOWN EAST,EAST,519599 SINGAPORE",
+    "matched": null,
+    "candidates": [
+      {
+        "dartslive_id": "5ae07dd73a67c29b58d385ea46352d8f",
+        "name": "Forest 4",
+        "address": "1 Pasir Ris Close, #01-313, EAST E!Avenue Downtown East, Singapore 519599",
+        "distance_m": 131,
+        "name_similarity": 0.154
+      }
+    ]
+  },
+  {
+    "phoenix_id": "89773",
+    "name": "7TH HEAVEN KTV & CAFE",
+    "address": "1/A TAMPINES STREET 92, #03-02 SAFRA TAMPINES, SINGAPORE 528882.",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "80313",
+    "name": "AUPE",
+    "address": "295 Upper Paya Lebar Rd, Wisma AUPE Level 2, Singapore 534929",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "83842",
+    "name": "WELLS SINGAPORE",
+    "address": "3014 BEDOK INDUSTRIAL PARK E #04-2152 S489980",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "83686",
+    "name": "TinkerTank @ Kaki Bukit'",
+    "address": "32 Kaki Bukit Crescent S(416262) #05-00",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "92877",
+    "name": "PITCH & OCHE",
+    "address": "58, JLN BENAAN KAPAL, SINGAPORE 399645",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "99238",
+    "name": "DARTS DISTRICT",
+    "address": "59 CHAI CHEE ROAD SINGAPORE 460059",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "97745",
+    "name": "LE BLEU",
+    "address": "756 UPPER SERANGOON RD.,  SINGAPORE 534626",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "79214",
+    "name": "HJ Bistro Pte Ltd",
+    "address": "11 NORTHSHORE DRIVE SINGAPORE 828670",
+    "matched": null,
+    "candidates": [
+      {
+        "dartslive_id": "c69ba42b4946bb7afec1ae84bb28bd87",
+        "name": "JP Lounge",
+        "address": "11 Northshore Drive, #01-09, Singapore 828670",
+        "distance_m": 36,
+        "name_similarity": 0.273
+      }
+    ]
+  },
+  {
+    "phoenix_id": "91724",
+    "name": "BAR 8 PARADISE",
+    "address": "11, NORTHSHORE DRIVE, SINGAPORE 828670.",
+    "matched": null,
+    "candidates": [
+      {
+        "dartslive_id": "c69ba42b4946bb7afec1ae84bb28bd87",
+        "name": "JP Lounge",
+        "address": "11 Northshore Drive, #01-09, Singapore 828670",
+        "distance_m": 0,
+        "name_similarity": 0.2
+      }
+    ]
+  },
+  {
+    "phoenix_id": "78241",
+    "name": "JeweL Music Box",
+    "address": "2 Yishun Walk #04-08 (767944)",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "99878",
+    "name": "Globalzyphron",
+    "address": "2 yishun industrial street 1 #07-31, Singapore 768159",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "54460",
+    "name": "Oldies Karaoke Lounge",
+    "address": "365 Sembawang Road, Singapore 758380, Singapore",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "89246",
+    "name": "KIN KHAO THAI BISTRO",
+    "address": "43 ADMIRALTY RD WEST #02-01, SINGAPORE 759962",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "52969",
+    "name": "NCS Pte Ltd",
+    "address": "5 Ang Mo Kio Street 62, NCS Hub Singapore 569141",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "54879",
+    "name": "Club July @ Stagmont",
+    "address": "5 Stagmont Ring, 688241, Singapore",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "64320",
+    "name": "Hare LLP",
+    "address": "7 Boon Tat St, Singapore 069614",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "96234",
+    "name": "POURHOUSE BISTRO",
+    "address": "CARROS CENTRE, 60 JALAN LAM HUAT, #01-27 SINGAPORE 737869",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "92684",
+    "name": "FORTRESS MESS (WTD)",
+    "address": "FORTRESS MESS, 565 TRANSIT RD, SINGAPORE 778911",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "85030",
+    "name": "Rendezvous Bistro and Bar",
+    "address": "2 International Business Park Rd, #01-02 The Strategy, Singapore 609930",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "91431",
+    "name": "VOLTA BISTRO",
+    "address": "27 WEST COAST HIGHWAY, #01-03 WEST WAY,  SINGAPORE 117867",
+    "matched": null,
+    "candidates": [
+      {
+        "dartslive_id": "38f5149d7d0020a1f454cb89828a1cfe",
+        "name": "Le White Bar",
+        "address": "27 West Coast Highway, #01-05, Westway, Singapore 117867",
+        "distance_m": 0,
+        "name_similarity": 0.381
+      }
+    ]
+  },
+  {
+    "phoenix_id": "61626",
+    "name": "Ace Music",
+    "address": "321 Alexandra Central #03-16, Singapore 159971",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "85029",
+    "name": "JeweL Music Box @ Jurong SAFRA",
+    "address": "333 Boon Lay Way. 3A-01 S649848",
+    "matched": null,
+    "candidates": [
+      {
+        "dartslive_id": "1743408144c642fd28032249b44395af",
+        "name": "Fame Music & Entertainment",
+        "address": "333 Boon Lay Way, #02A-04, Safra Clubhouse (Jurong), Singapore 649848",
+        "distance_m": 14,
+        "name_similarity": 0.348
+      }
+    ]
+  },
+  {
+    "phoenix_id": "57722",
+    "name": "Tiger Tavern",
+    "address": "459 Jln Ahmad Ibrahim, 639934, Singapore",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "87766",
+    "name": "1030 Bar & Bistro 壹零叁零",
+    "address": "511 UPPER JURONG ROAD #01-03, ARENA COUNTRY CLUB, SINGAPORE 638366",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "94560",
+    "name": "SOUTHWEST TAVERN",
+    "address": "8 BOON LAY WAY, #01-33 TRADEHUB 21, SINGAPORE 609964",
+    "matched": null,
+    "candidates": [
+      {
+        "dartslive_id": "515365a6b69a5df9b21333aee1bd51e4",
+        "name": "OBAR",
+        "address": "8 Boon Lay Way, Tradehub 21, Singapore 609964",
+        "distance_m": 16,
+        "name_similarity": 0.316
+      }
+    ]
+  },
+  {
+    "phoenix_id": "38688",
+    "name": "The Chill-Lab @ NUSS",
+    "address": "9 Kent Ridge Drive",
+    "matched": null,
+    "candidates": []
+  },
+  {
+    "phoenix_id": "96374",
+    "name": "SEMBAWANG CAMP",
+    "address": "SEMBAWANG CAMP, 40 ADMIRATY WEST, SINGAPORE 757619",
+    "matched": null,
+    "candidates": []
+  }
+]

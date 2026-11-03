@@ -151,6 +151,24 @@ a:hover { text-decoration: underline; }
 
 .search-box input::placeholder { color: var(--color-text-faint); }
 
+.provider-control { padding: var(--space-3) var(--space-4) 0; }
+.provider-control label { display: block; font-size: var(--text-xs); color: var(--color-text-muted); margin-bottom: var(--space-1); }
+.provider-control select { width: 100%; padding: var(--space-2); background: var(--color-surface-2); border: 1px solid var(--color-border); border-radius: var(--radius-md); font-size: var(--text-sm); }
+.provider-control p { font-size: var(--text-xs); color: var(--color-text-muted); line-height: 1.4; }
+.provider-legend { display: flex; gap: var(--space-2); margin: var(--space-2) 0; }
+.provider-legend span, .detail-provider-logos img { background: white; border-radius: 4px; padding: 5px; }
+.provider-legend img { display: block; width: 92px; height: 24px; object-fit: contain; }
+.provider-marker { width: 82px; height: 38px; display: flex; flex-direction: column; align-items: center; justify-content: center; background: white; border: 2px solid #e5484d; border-radius: 8px; box-shadow: 0 3px 10px #0008; padding: 5px; }
+.provider-marker::after { content: ''; position: absolute; bottom: -5px; border: 5px solid transparent; border-top-color: white; border-bottom: 0; }
+.provider-marker.dual { height: 58px; gap: 4px; border-color: #ed9c39; }
+.leaflet-container .provider-marker img { display: block; width: 68px !important; max-width: 68px !important; min-width: 0; height: 22px; object-fit: contain; }
+.provider-marker.dual img { height: 20px; }
+.detail-provider-logos { display: flex; gap: var(--space-2); margin-bottom: var(--space-3); padding-right: var(--space-6); }
+.detail-provider-logos img { width: 108px; height: 36px; object-fit: contain; }
+.source-note { margin-top: var(--space-4); color: var(--color-text-muted); font-size: var(--text-xs); line-height: 1.5; }
+.machines { flex-wrap: wrap; }
+.machine-card { min-width: 115px; }
+
 /* Filter chips */
 .filters {
   display: flex;

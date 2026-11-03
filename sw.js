@@ -1,12 +1,14 @@
 /* Ninja Darts service worker — app-shell caching for offline/PWA use.
    Venues data is network-first (fresh data), falling back to cache. */
 
-const CACHE = 'ninja-darts-v1';
+const CACHE = 'ninja-darts-v3-phoenix';
 const APP_SHELL = [
   './',
   './index.html',
-  './css/style.css?v=2',
-  './js/app.js?v=2',
+  './css/style.css?v=3',
+  './js/app.js?v=3',
+  './icons/providers/dartslive.svg',
+  './icons/providers/phoenix.png',
   './manifest.webmanifest',
   './icons/icon-192.png',
   './icons/icon-512.png',
@@ -30,6 +32,8 @@ self.addEventListener('activate', (e) => {
 
 self.addEventListener('fetch', (e) => {
   const url = new URL(e.request.url);
+  // Leave third-party tiles/CDNs to browser caching and provider policies.
+  if (url.origin !== self.location.origin || e.request.method !== 'GET') return;
 
   // Venue data: network-first so the directory stays fresh
   if (url.pathname.includes('/data/')) {
@@ -45,18 +49,14 @@ self.addEventListener('fetch', (e) => {
     return;
   }
 
-  // Everything else (app shell, map tiles): cache-first with background fill
+  // App shell: network-first, so returning visitors receive the current build.
   e.respondWith(
-    caches.match(e.request).then(
-      (cached) =>
-        cached ||
-        fetch(e.request).then((res) => {
+    fetch(e.request).then((res) => {
           if (e.request.method === 'GET' && res.ok) {
             const copy = res.clone();
             caches.open(CACHE).then((cache) => cache.put(e.request, copy));
           }
           return res;
-        })
-    )
+        }).catch(() => caches.match(e.request))
   );
 });
