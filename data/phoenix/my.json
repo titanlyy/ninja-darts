@@ -7,7 +7,7 @@
     "updated_at": "2026-11-03T08:31:32.863605+00:00",
     "discovered": 694,
     "collected": 694,
-    "mapped": 694,
+    "mapped": 689,
     "listing_pages": 139
   },
   "venues": [
@@ -2561,11 +2561,12 @@
       "country_code": "my",
       "latitude": 37.539841,
       "longitude": 126.97231299999999,
-      "map_eligible": true,
+      "map_eligible": false,
       "directory_eligible": true,
       "off_days": "",
       "website": "https://www.facebook.com/BaliBaliHaiCafe/",
-      "collected_at": "2026-11-03T08:14:56.266454+00:00"
+      "collected_at": "2026-11-03T08:14:56.266454+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
     },
     {
       "source_id": "90697",
@@ -7181,11 +7182,12 @@
       "country_code": "my",
       "latitude": 37.539841,
       "longitude": 126.97231299999999,
-      "map_eligible": true,
+      "map_eligible": false,
       "directory_eligible": true,
       "off_days": "",
       "website": "",
-      "collected_at": "2026-11-03T08:20:11.621849+00:00"
+      "collected_at": "2026-11-03T08:20:11.621849+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
     },
     {
       "source_id": "90002",
@@ -8557,11 +8559,12 @@
       "country_code": "my",
       "latitude": 44.5379358,
       "longitude": 1.6760691,
-      "map_eligible": true,
+      "map_eligible": false,
       "directory_eligible": true,
       "off_days": "",
       "website": "https://www.facebook.com/Mark7autodetailing/about/?locale=ms_MY&_rdr",
-      "collected_at": "2026-11-03T08:21:43.429023+00:00"
+      "collected_at": "2026-11-03T08:21:43.429023+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
     },
     {
       "source_id": "86904",
@@ -11253,11 +11256,12 @@
       "country_code": "my",
       "latitude": 37.539841,
       "longitude": 126.97231299999999,
-      "map_eligible": true,
+      "map_eligible": false,
       "directory_eligible": true,
       "off_days": "",
       "website": "https://www.facebook.com/snack88cafe/?locale=ms_MY",
-      "collected_at": "2026-11-03T08:24:57.125501+00:00"
+      "collected_at": "2026-11-03T08:24:57.125501+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
     },
     {
       "source_id": "90261",
@@ -12901,11 +12905,12 @@
       "country_code": "my",
       "latitude": 37.539841,
       "longitude": 126.97231299999999,
-      "map_eligible": true,
+      "map_eligible": false,
       "directory_eligible": true,
       "off_days": "",
       "website": "https://www.facebook.com/CKldu/",
-      "collected_at": "2026-11-03T08:26:58.584377+00:00"
+      "collected_at": "2026-11-03T08:26:58.584377+00:00",
+      "coordinate_review": "Pin falls outside permissive source-country geometry checks; verify before mapping"
     },
     {
       "source_id": "89589",
