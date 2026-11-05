@@ -656,6 +656,13 @@
   });
   selectionLayoutObserver.observe(els.detail);
   selectionLayoutObserver.observe(els.map);
+  window.matchMedia('(max-width: 1024px)').addEventListener('change', ({ matches }) => {
+    if (!matches || !selectedVenue) return;
+    els.sidebar.classList.add('collapsed');
+    document.body.classList.add('sb-collapsed');
+    els.sidebarToggle.setAttribute('aria-expanded', 'false');
+    queueSelectedFocus();
+  });
 
   function showDetail(v, options = {}) {
     closeDetail();
