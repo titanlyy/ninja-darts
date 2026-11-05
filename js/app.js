@@ -93,7 +93,12 @@
       css.href = 'vendor/maplibre-gl.css';
       document.head.appendChild(css);
       const gl = await import(new URL('vendor/maplibre-gl.mjs', document.baseURI).href);
-      gl.setWorkerUrl(new URL('vendor/maplibre-gl-worker.mjs', document.baseURI).href);
+      const workerModule = new URL('vendor/maplibre-gl-worker.mjs', document.baseURI).href;
+      // A blob bootstrap also works inside the preview's opaque-origin iframe.
+      // The imported worker remains the pinned, same-bundle library with CORS.
+      gl.setWorkerUrl(URL.createObjectURL(new Blob(
+        [`import ${JSON.stringify(workerModule)}`], { type: 'text/javascript' }
+      )));
       window.maplibregl = gl;
       await new Promise((resolve, reject) => {
         const script = document.createElement('script');
