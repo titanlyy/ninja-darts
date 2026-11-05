@@ -1,0 +1,103 @@
+name: Review completed cross-provider collection
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ['Collect global Phoenix directories']
+    types: [completed]
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: ninja-darts-duplicate-review
+  cancel-in-progress: false
+jobs:
+  review:
+    if: >-
+      github.event_name != 'workflow_run' ||
+      (github.event.workflow_run.head_branch == 'main' &&
+       github.event.workflow_run.head_repository.full_name == github.repository)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Wait for collection completion, without scheduling a polling loop
+        id: idle
+        uses: actions/github-script@v7
+        with:
+          script: |
+            let active = 0;
+            for (const status of ['queued', 'in_progress', 'waiting', 'pending', 'requested']) {
+              const {data} = await github.rest.actions.listWorkflowRuns({
+                ...context.repo, workflow_id: 'phoenix-global.yml', status, per_page: 1
+              });
+              active += data.total_count;
+            }
+            core.setOutput('ready', active === 0 ? 'true' : 'false');
+            if (active) core.notice('Collection is still active/queued; no final audit will run.');
+      - name: Verify country-level completion
+        id: coverage
+        if: steps.idle.outputs.ready == 'true'
+        run: |
+          if python tools/review_duplicates.py --check-ready; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "Final duplicate review held: Spain/Japan or another collection checkpoint is unfinished." >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Test conservative matching rules
+        if: steps.coverage.outputs.ready == 'true'
+        run: python -m unittest discover -s tools -p test_review_duplicates.py
+      - name: Generate review only
+        if: steps.coverage.outputs.ready == 'true'
+        run: python tools/review_duplicates.py --collection-idle-verified
+      - name: Publish report and evidence without altering venue feeds
+        if: steps.coverage.outputs.ready == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            for (const status of ['queued', 'in_progress', 'waiting', 'pending', 'requested']) {
+              const {data} = await github.rest.actions.listWorkflowRuns({
+                ...context.repo, workflow_id:'phoenix-global.yml', status, per_page:1
+              });
+              if (data.total_count) {
+                core.notice('A new collection started; this review will not be published.');
+                return;
+              }
+            }
+            const paths = ['docs/DUPLICATE_REVIEW.md', 'docs/duplicate-review/candidates.json', 'docs/duplicate-review/candidates.csv'];
+            const entries = [];
+            for (const path of paths) {
+              const {data: blob} = await github.rest.git.createBlob({
+                ...context.repo, content: fs.readFileSync(path).toString('base64'), encoding: 'base64'
+              });
+              entries.push({path, mode:'100644', type:'blob', sha:blob.sha});
+            }
+            for (let attempt = 0; attempt < 3; attempt++) {
+              const {data: ref} = await github.rest.git.getRef({...context.repo, ref:'heads/main'});
+              const {data: parent} = await github.rest.git.getCommit({...context.repo, commit_sha:ref.object.sha});
+              const {data: tree} = await github.rest.git.createTree({...context.repo, base_tree:parent.tree.sha, tree:entries});
+              const {data: commit} = await github.rest.git.createCommit({
+                ...context.repo, message:'Review cross-provider candidates without merging source records',
+                tree:tree.sha, parents:[ref.object.sha]
+              });
+              try {
+                await github.rest.git.updateRef({...context.repo, ref:'heads/main', sha:commit.sha, force:false});
+                break;
+              } catch (error) {
+                if (attempt === 2 || ![409,422].includes(error.status)) throw error;
+              }
+            }
+      - uses: actions/upload-artifact@v4
+        if: steps.coverage.outputs.ready == 'true'
+        with:
+          name: ninja-darts-cross-provider-review
+          path: |
+            docs/DUPLICATE_REVIEW.md
+            docs/duplicate-review/
+          retention-days: 90

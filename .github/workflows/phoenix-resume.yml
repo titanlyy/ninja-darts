@@ -48,5 +48,5 @@ jobs:
             echo 'An existing collection run is active or queued; no duplicate dispatched.' | tee -a "$GITHUB_STEP_SUMMARY"
             exit 0
           fi
-          gh workflow run phoenix-global.yml --ref main --field "countries=$countries"
+          gh workflow run phoenix-global.yml --ref main --field "countries=$countries" --field require_checkpoint=true
           echo 'Dispatched the next bounded checkpoint continuation.' | tee -a "$GITHUB_STEP_SUMMARY"

@@ -1,12 +1,12 @@
 /* Ninja Darts service worker — app-shell caching for offline/PWA use.
    Venues data is network-first (fresh data), falling back to cache. */
 
-const CACHE = 'ninja-darts-v10-live-phoenix-feeds';
+const CACHE = 'ninja-darts-v11-directory-ready';
 const APP_SHELL = [
   './',
   './index.html',
-  './css/style.css?v=10',
-  './js/app.js?v=10',
+  './css/style.css?v=11',
+  './js/app.js?v=11',
   './vendor/leaflet/leaflet.js',
   './vendor/leaflet/leaflet.css',
   './vendor/markercluster/leaflet.markercluster.js',
@@ -18,6 +18,7 @@ const APP_SHELL = [
   './manifest.webmanifest',
   './icons/icon-192.png',
   './icons/icon-512.png',
+  './icons/icon-maskable-512.png',
 ];
 
 self.addEventListener('install', (e) => {
@@ -30,7 +31,7 @@ self.addEventListener('install', (e) => {
 self.addEventListener('activate', (e) => {
   e.waitUntil(
     caches.keys().then((keys) =>
-      Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k)))
+      Promise.all(keys.filter((k) => k.startsWith('ninja-darts-') && k !== CACHE).map((k) => caches.delete(k)))
     )
   );
   self.clients.claim();
@@ -41,28 +42,27 @@ self.addEventListener('fetch', (e) => {
   // Leave third-party tiles/CDNs to browser caching and provider policies.
   if (url.origin !== self.location.origin || e.request.method !== 'GET') return;
 
-  // Venue data: network-first so the directory stays fresh
-  if (url.pathname.includes('/data/')) {
-    e.respondWith(
-      fetch(e.request)
-        .then((res) => {
-          const copy = res.clone();
-          caches.open(CACHE).then((cache) => cache.put(e.request, copy));
-          return res;
-        })
-        .catch(() => caches.match(e.request))
-    );
-    return;
-  }
-
-  // App shell: network-first, so returning visitors receive the current build.
-  e.respondWith(
-    fetch(e.request).then((res) => {
-          if (e.request.method === 'GET' && res.ok) {
-            const copy = res.clone();
-            caches.open(CACHE).then((cache) => cache.put(e.request, copy));
-          }
-          return res;
-        }).catch(() => caches.match(e.request))
-  );
+  e.respondWith(networkFirst(e.request));
 });
+
+async function networkFirst(request) {
+  let response;
+  try {
+    response = await fetch(request);
+    if (response.ok) {
+      try {
+        const cache = await caches.open(CACHE);
+        await cache.put(request, response.clone());
+      } catch {
+        // Storage exhaustion/private mode must not discard a valid response.
+      }
+      return response;
+    }
+  } catch {
+    // A cached successful response is safer than an error response or no response.
+  }
+  const cached = await caches.match(request).catch(() => null);
+  return cached || response || new Response('Offline: this resource has not been saved yet.', {
+    status: 503, headers: { 'Content-Type': 'text/plain; charset=utf-8' },
+  });
+}

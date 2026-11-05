@@ -18,6 +18,7 @@ import csv
 import os
 import time
 import re
+from urllib.parse import urlparse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from threading import Lock
 
@@ -65,6 +66,16 @@ DAY_MAP = {
     "水曜日": "Wed", "木曜日": "Thu", "金曜日": "Fri",
     "土曜日": "Sat", "祝日": "Holiday",
 }
+
+def is_venue_website(value):
+    """Exclude known corporate footer policy links, not the raw source record."""
+    try:
+        url = urlparse(value.strip())
+        return (url.scheme in {"http", "https"} and bool(url.hostname)
+                and not (url.hostname.endswith("segasammy.co.jp")
+                         and "socialmediapolicy" in url.path.lower()))
+    except (TypeError, ValueError, AttributeError):
+        return False
 
 def translate_hours(raw_hours):
     """Convert Japanese day names to English in business hours string."""
@@ -308,7 +319,7 @@ def scrape_shop(region_code, shop_id):
                 set_field("equipment", value)
             elif "url" in key or "website" in key or "web" in key:
                 val_lower = value.lower()
-                if "http" in val_lower and "instagram" not in val_lower and "facebook" not in val_lower and "twitter" not in val_lower:
+                if is_venue_website(value) and "instagram" not in val_lower and "facebook" not in val_lower and "twitter" not in val_lower:
                     set_field("website_url", value)
 
         # Social media links from <a> tags
@@ -320,7 +331,7 @@ def scrape_shop(region_code, shop_id):
                 shop["x_twitter"] = href
             elif "facebook.com" in href:
                 shop["facebook"] = href
-            elif "http" in href and not any(s in href for s in ["dartslive", "google", "instagram", "facebook", "twitter", "x.com"]):
+            elif is_venue_website(href) and not any(s in href for s in ["dartslive", "google", "instagram", "facebook", "twitter", "x.com"]):
                 if not shop["website_url"]:
                     shop["website_url"] = href
 

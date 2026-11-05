@@ -1,0 +1,35 @@
+name: Test directory and public build
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ['Collect global Phoenix directories']
+    types: [completed]
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: pip install requests beautifulsoup4
+      - run: npm test
+      - run: npm run check
+      - run: npm run build
+      - name: Verify only public assets were packaged
+        run: |
+          test -f www/index.html
+          test -f www/manifest.webmanifest
+          test ! -e www/.git
+          test ! -e www/.phoenix-cache
+          test ! -e www/tools
+          test ! -e www/.env

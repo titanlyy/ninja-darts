@@ -109,8 +109,17 @@
       .replace(/"/g, '&' + 'quot;')
       .replace(/'/g, '&' + '#39;');
 
-  const linkify = (s) =>
-    /^https?:\/\//i.test(s) ? escapeHtml(s) : '#';
+  const linkify = (s) => {
+    let value = String(s || '').trim();
+    if (value.startsWith('//')) value = 'https:' + value;
+    else if (/^(?:[a-z0-9-]+\.)+[a-z]{2,}(?:[/:?#]|$)/i.test(value)) value = 'https://' + value;
+    try {
+      const url = new URL(value);
+      return /^https?:$/.test(url.protocol) ? escapeHtml(url.href) : '#';
+    } catch { return '#'; }
+  };
+  const venueWebsite = (value) => linkify(value) !== '#' &&
+    !/segasammy\.co\.jp\/[^?#]*socialmediapolicy/i.test(value || '');
 
   const venueKey = (v) => `${v.cc}:${v.id}`;
 
@@ -173,15 +182,30 @@
 
   async function boot() {
     try {
+      const feedWarnings = [];
+      const warnFeeds = (message) => {
+        feedWarnings.push(message);
+        $('feed-warning').textContent = feedWarnings.join(' ') + ' Counts may be incomplete; missing feeds do not mean zero installations.';
+        $('feed-warning').classList.remove('hidden');
+      };
       // Starts alongside venue downloads; never requests precise browser location.
       const countryHintPromise = detectCountry();
       const res = await fetch('data/index.json');
+      if (!res.ok) throw new Error('Country index unavailable');
       state.countries = await res.json();
+      let failedDartsliveFeeds = 0;
       await Promise.all(
         state.countries.map((c) =>
           fetch(`data/${c.cc}.json`)
-            .then((r) => r.json())
+            .then((r) => {
+              if (!r.ok) throw new Error('DARTSLIVE country feed unavailable');
+              return r.json();
+            })
             .then((venues) => {
+              if (!Array.isArray(venues) || !venues.every((v) => v.id && Number.isFinite(v.la) &&
+                  Number.isFinite(v.lo) && Math.abs(v.la) <= 90 && Math.abs(v.lo) <= 180)) {
+                throw new Error('Invalid DARTSLIVE country data');
+              }
               venues.forEach((v) => {
                 v.cc = c.cc;
                 v.providers = ['dartslive'];
@@ -189,8 +213,13 @@
                 state.venues.push(v);
               });
             })
+            .catch(() => { failedDartsliveFeeds++; })
         )
       );
+      if (failedDartsliveFeeds) {
+        warnFeeds(`${failedDartsliveFeeds} DARTSLIVE country feed(s) could not load.`);
+        toast(`${failedDartsliveFeeds} DARTSLIVE country feed(s) could not load. Other listings are still available.`);
+      }
       // Additive feeds: preserve original DARTSLIVE source records and the pilot.
       let pilot = { venues: [] };
       try {
@@ -206,11 +235,20 @@
             return [];
           }
         }));
-        if (failedFeeds) toast(`${failedFeeds} Phoenix country feed(s) could not load. Other listings are still available.`);
+        if (failedFeeds) {
+          warnFeeds(`${failedFeeds} Phoenix country feed(s) could not load.`);
+          toast(`${failedFeeds} Phoenix country feed(s) could not load. Other listings are still available.`);
+        }
         pilot.venues = feeds.flat();
         const completed = manifest.countries.filter((c) => c.status === 'complete').length;
         const coverage = $('phoenix-coverage');
-        if (coverage) coverage.textContent = `Phoenix: ${completed}/${manifest.countries.length} country directories collected`;
+        if (coverage) {
+          const gaps = manifest.countries.filter((c) => c.status !== 'complete');
+          coverage.textContent = `Phoenix: ${completed}/${manifest.countries.length} directories complete${gaps.length ? ` · ${gaps.length} incomplete` : ''}`;
+          coverage.title = gaps.length
+            ? gaps.map((c) => `${c.name}: ${c.status}`).join('; ') + '. Incomplete does not mean zero machines.'
+            : 'All collected public directories completed. Listings are not independently verified.';
+        }
         manifest.countries.forEach((c) => {
           if (!state.countries.some((existing) => existing.cc === c.country_code) &&
               pilot.venues.some((p) => p.country_code === c.country_code && p.map_eligible && p.directory_eligible !== false)) {
@@ -218,9 +256,18 @@
           }
         });
       } catch (error) {
-        const pilotResponse = await fetch('data/phoenix-sg.json');
-        if (pilotResponse.ok) pilot = await pilotResponse.json();
-        else toast('Phoenix data could not load. DARTSLIVE venues are still available.');
+        try {
+          const pilotResponse = await fetch('data/phoenix-sg.json');
+          if (!pilotResponse.ok) throw new Error('Pilot unavailable');
+          pilot = await pilotResponse.json();
+          warnFeeds('Global Phoenix feeds unavailable; Singapore pilot fallback only.');
+          $('phoenix-coverage').textContent = 'Phoenix feed unavailable · Singapore pilot fallback';
+          toast('Global Phoenix feeds could not load. Showing the Singapore pilot and available DARTSLIVE listings.');
+        } catch {
+          warnFeeds('Phoenix feeds unavailable.');
+          $('phoenix-coverage').textContent = 'Phoenix feeds could not load';
+          toast('Phoenix data could not load. DARTSLIVE venues are still available.');
+        }
       }
       pilot.venues.forEach((p) => {
         if (p.directory_eligible === false) return;
@@ -237,7 +284,7 @@
         } else if (p.map_eligible) {
           state.venues.push({
             id: `phoenix-${p.source_id}`, cc: country, n: p.name, a: p.address,
-            la: p.latitude, lo: p.longitude, g: '', h: '', st: '', d2: null, d3: null,
+            la: p.latitude, lo: p.longitude, g: '', h: p.hours || '', ho: p.off_days || '', phone: p.phone || '', w: p.website || '', st: '', d2: null, d3: null,
             region: p.region || '', area: p.area || '',
             L: false, C: false, providers: ['phoenix'], sources: [source],
             phoenix_machines: p.machines,
@@ -259,14 +306,14 @@
       state.countries.forEach((c) => {
         const venues = state.venues.filter((v) => v.cc === c.cc);
         c.count = venues.length;
-        c.bounds = [
+        c.bounds = venues.length ? [
           [Math.min(...venues.map((v) => v.la)), Math.min(...venues.map((v) => v.lo))],
           [Math.max(...venues.map((v) => v.la)), Math.max(...venues.map((v) => v.lo))],
-        ];
+        ] : null;
       });
       const ipCountry = await countryHintPromise;
       const mappedCountry = ipCountry === 'mo' ? 'hk' : ipCountry;
-      const supported = state.countries.some((c) => c.cc === mappedCountry);
+      const supported = state.countries.some((c) => c.cc === mappedCountry && c.count > 0);
       state.defaultCountry = supported ? mappedCountry : 'sg';
       state.countries.sort((a, b) =>
         Number(b.cc === state.defaultCountry) - Number(a.cc === state.defaultCountry) ||
@@ -343,7 +390,7 @@
       map.setView([25, 30], 2);
     } else {
       const c = state.countries.find((x) => x.cc === cc);
-      if (c) map.fitBounds(c.bounds, { padding: [48, 48], maxZoom: 11, animate: false });
+      if (c?.bounds) map.fitBounds(c.bounds, { padding: [48, 48], maxZoom: 11, animate: false });
     }
     applyFilters();
   }
@@ -405,7 +452,7 @@
   }
 
   function focusGeography() {
-    const venues = state.venues.filter((v) => v.cc === state.selected &&
+    const venues = state.venues.filter((v) => v.cc === state.selected && matchesProvider(v) &&
       (!state.region || regionKey(v) === state.region) && (!state.area || areaKey(v) === state.area));
     map.stop();
     if (venues.length) map.fitBounds(venues.map((v) => [v.la, v.lo]), { padding: [48, 48], maxZoom: 14, animate: false });
@@ -413,9 +460,26 @@
     applyFilters();
   }
 
+  function focusSearchResults() {
+    if (!state.query) return;
+    const venues = state.venues.filter(matchesFilters);
+    if (!venues.length) return;
+    map.stop();
+    map.fitBounds(venues.map((v) => [v.la, v.lo]), { padding: [48, 48], maxZoom: 16, animate: false });
+  }
+
   // ── Markers ───────────────────────────────────────────────
   function matchesProvider(v) {
     return state.provider === 'all' || v.providers.includes(state.provider);
+  }
+
+  function distanceKm(lat1, lon1, lat2, lon2) {
+    const radians = Math.PI / 180;
+    const deltaLat = (lat2 - lat1) * radians;
+    const deltaLon = (lon2 - lon1) * radians;
+    const h = Math.sin(deltaLat / 2) ** 2 +
+      Math.cos(lat1 * radians) * Math.cos(lat2 * radians) * Math.sin(deltaLon / 2) ** 2;
+    return 6371 * 2 * Math.asin(Math.sqrt(Math.min(1, h)));
   }
 
   function updateProviderNavigation() {
@@ -559,10 +623,10 @@
     if (v.g) badges.push(`<span class="badge genre">${escapeHtml(v.g)}</span>`);
 
     const socials = [];
-    if (v.w) socials.push(`<a href="${linkify(v.w)}" target="_blank" rel="noopener">Website</a>`);
-    if (v.ig) socials.push(`<a href="${linkify(v.ig)}" target="_blank" rel="noopener">Instagram</a>`);
-    if (v.tw) socials.push(`<a href="${linkify(v.tw)}" target="_blank" rel="noopener">X / Twitter</a>`);
-    if (v.fb) socials.push(`<a href="${linkify(v.fb)}" target="_blank" rel="noopener">Facebook</a>`);
+    if (venueWebsite(v.w)) socials.push(`<a href="${linkify(v.w)}" target="_blank" rel="noopener">Website</a>`);
+    if (v.ig && linkify(v.ig) !== '#') socials.push(`<a href="${linkify(v.ig)}" target="_blank" rel="noopener">Instagram</a>`);
+    if (v.tw && linkify(v.tw) !== '#') socials.push(`<a href="${linkify(v.tw)}" target="_blank" rel="noopener">X / Twitter</a>`);
+    if (v.fb && linkify(v.fb) !== '#') socials.push(`<a href="${linkify(v.fb)}" target="_blank" rel="noopener">Facebook</a>`);
 
     const directions = `https://www.google.com/maps/dir/?api=1&destination=${v.la},${v.lo}`;
 
@@ -579,14 +643,16 @@
       <div class="detail-section">
         <h3>Machines</h3>
         <div class="machines">
-          ${machines.map((m) => `<div class="machine-card"><div class="num">${m.num}</div><div class="lbl">${m.lbl}</div></div>`).join('')}
+          ${machines.map((m) => `<div class="machine-card"><div class="num">${escapeHtml(m.num)}</div><div class="lbl">${escapeHtml(m.lbl)}</div></div>`).join('')}
         </div>
       </div>` : ''}
-      ${v.h ? `
+      ${v.h || v.ho ? `
       <div class="detail-section">
         <h3>Business Hours</h3>
-        <p class="detail-hours">${escapeHtml(prettyHours(v.h))}</p>
+        ${v.h ? `<p class="detail-hours">${escapeHtml(prettyHours(v.h))}</p>` : ''}
+        ${v.ho ? `<p>Closed: ${escapeHtml(v.ho)}</p>` : ''}
       </div>` : ''}
+      ${v.phone ? `<div class="detail-section"><h3>Telephone</h3><p>${escapeHtml(v.phone)}</p></div>` : ''}
       ${v.st ? `
       <div class="detail-section">
         <h3>Nearest Station</h3>
@@ -641,6 +707,7 @@
     debounce = setTimeout(() => {
       state.query = e.target.value.trim().toLowerCase();
       applyFilters();
+      focusSearchResults();
     }, 220);
   });
 
@@ -707,7 +774,7 @@
         const near = state.venues
           .map((v) => ({
             v,
-            d: Math.hypot(v.la - la, (v.lo - lo) * Math.cos((la * Math.PI) / 180)) * 111.32,
+            d: distanceKm(la, lo, v.la, v.lo),
           }))
           .sort((a, b) => a.d - b.d)
           .slice(0, 50);
@@ -756,5 +823,7 @@
     /* sandboxed context — PWA install unavailable, app still works */
   }
 
+  window.addEventListener('offline', () => toast('Offline: saved listings only. Map tiles may be unavailable.'));
+  window.addEventListener('online', () => toast('Connection restored. Reload to refresh listings.'));
   boot();
 })();

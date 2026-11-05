@@ -25,7 +25,7 @@
   --color-border: #3d3730;
   --color-text: #efe9df;
   --color-text-muted: #a89f92;
-  --color-text-faint: #6e665c;
+  --color-text-faint: #9d9385;
   --color-accent: #e5484d;
   --color-accent-soft: rgba(229, 72, 77, 0.14);
   --color-green: #4cc38a;
@@ -155,6 +155,8 @@ a:hover { text-decoration: underline; }
 .provider-control p { font-size: var(--text-xs); color: var(--color-text-muted); line-height: 1.4; }
 .provider-heading { margin-bottom: 7px; }
 .provider-hint { margin-top: 7px; }
+.provider-control .feed-warning { margin-top: 7px; color: #ffd166; font-size: 12px; }
+.feed-warning.hidden { display: none; }
 .provider-switch { display: flex; gap: 4px; padding: 4px; background: var(--color-surface-2); border: 1px solid var(--color-border); border-radius: 10px; }
 .provider-switch button { flex: 1; display: flex; align-items: center; justify-content: center; gap: 5px; min-height: 40px; padding: 5px 7px; border: 1px solid transparent; border-radius: 7px; color: var(--color-text-muted); font-size: 11px; font-weight: 700; white-space: nowrap; }
 .provider-switch button:first-child { flex: 0.6; }
@@ -170,7 +172,7 @@ a:hover { text-decoration: underline; }
 .selected-venue .provider-marker { outline: 3px solid #ffd166; box-shadow: 0 0 0 7px #ffd16640, 0 4px 15px #0009; }
 .selected-venue::after { border-top-color: #ffd166; }
 .leaflet-tooltip.selected-venue-label { padding: 7px 10px; border: 1px solid #ffd166; border-radius: 7px; color: #fff8e8; background: #252017; max-width: min(240px, calc(100vw - 48px)); box-shadow: 0 3px 12px #0008; white-space: normal; }
-.selected-venue-label span { display: block; color: #ffd166; font-size: 10px; letter-spacing: .06em; text-transform: uppercase; }
+.selected-venue-label span { display: block; color: #ffd166; font-size: 12px; letter-spacing: .06em; text-transform: uppercase; }
 .selected-venue-label strong { display: block; font-size: 13px; line-height: 1.4; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .leaflet-tooltip-top.selected-venue-label::before { border-top-color: #ffd166; }
 .detail-distance { margin: 6px 0 8px; color: #ffd166; font-size: var(--text-sm); font-weight: 700; }
@@ -192,6 +194,7 @@ a:hover { text-decoration: underline; }
 .chip {
   display: inline-flex;
   align-items: center;
+  min-height: 36px;
   gap: var(--space-1);
   font-size: var(--text-xs);
   color: var(--color-text-muted);
@@ -207,14 +210,15 @@ a:hover { text-decoration: underline; }
 .chip:hover { color: var(--color-text); border-color: var(--color-text-faint); }
 
 .chip input { position: absolute; opacity: 0; }
+.chip:focus-within, .chip:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
 .chip:has(input:checked) {
-  color: var(--color-accent);
+  color: #ff8b8e;
   border-color: var(--color-accent);
   background: var(--color-accent-soft);
 }
 
 /* Country list */
-.country-context { padding: 4px 16px 8px; font-size: 10px; line-height: 1.4; color: var(--color-text-muted); flex-shrink: 0; }
+.country-context { padding: 4px 16px 8px; font-size: 12px; line-height: 1.4; color: var(--color-text-muted); flex-shrink: 0; }
 .country-list {
   flex: 1;
   overflow-y: auto;
@@ -281,7 +285,7 @@ a:hover { text-decoration: underline; }
 .location-filter label span { display: block; margin-bottom: 5px; font-size: var(--text-xs); color: var(--color-text-muted); }
 .location-filter select { width: 100%; min-width: 0; min-height: 40px; padding: 7px; border: 1px solid var(--color-border); border-radius: 6px; background: var(--color-bg); color: var(--color-text); font-size: 12px; }
 .location-filter select:focus-visible { outline: 2px solid var(--color-accent); }
-.location-note { font-size: 10px; color: var(--color-text-muted); line-height: 1.4; }
+.location-note { font-size: 12px; color: var(--color-text-muted); line-height: 1.4; }
 
 /* Sidebar footer */
 .sidebar-foot {
@@ -334,8 +338,8 @@ body.sb-collapsed #sidebar-toggle svg { transform: rotate(180deg); }
 
 .leaflet-control-attribution {
   background: rgba(20, 18, 16, 0.85) !important;
-  color: var(--color-text-faint) !important;
-  font-size: 10px;
+  color: var(--color-text-muted) !important;
+  font-size: 12px;
 }
 
 .leaflet-control-attribution a { color: var(--color-text-muted) !important; }

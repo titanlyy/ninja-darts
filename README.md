@@ -1,71 +1,52 @@
-# ninja-darts
+# Ninja Darts
 
-🎯 A darts directory made by dart lovers, for dart lovers — listing all places to play darts around the world.
+A map-first public directory of DARTSLIVE and Phoenix venues, built directly on GitHub. Country totals represent collected provider listings, not independently verified unique premises.
 
-**Live map:** [https://titanlyy.github.io/ninja-darts/](https://titanlyy.github.io/ninja-darts/)
+[Open the live map](https://titanlyy.github.io/ninja-darts/) · [Phoenix coverage audit](docs/PHOENIX_COVERAGE.md)
 
-## What is this?
+## Directory features
 
-A map-based global directory of darts venues, with DARTSLIVE source data across 18 regions and a Singapore Phoenix Darts pilot. Counts reflect collected provider listings, not a guarantee of completeness or current operation.
+- Compact pointed brand-logo markers, provider filters and provider-aware country totals/ranking.
+- IP-estimated country default, with Singapore fallback; precise browser location is requested only for Near me.
+- Region/city filters where source metadata exists, venue/address search, league and DARTSLIVE3 filters.
+- Street-level nearest-venue focus, a highlighted pin and a mobile card that leaves the selection visible.
+- Provider-attributed machine inventories, published hours/websites where available, directions and original listing links.
+- Installable PWA with offline app/data fallback after a successful load. Basemap tiles require connectivity and are not bulk-cached.
 
-## Phoenix Singapore pilot
+## Source coverage and limitations
 
-- Compact square DARTSLIVE and Phoenix symbol markers without wordmark text.
-- One-click provider filters: All, DARTSLIVE and Phoenix.
-- Independent, provider-attributed machine inventories and source links.
-- Conservative duplicate matching. The original DARTSLIVE data remains unchanged.
-- IP-estimated country opens by default, or Singapore if unsupported/unavailable.
-- Default country pinned first, remaining countries ranked by mapped listing count, with region and city/area drill-down
-  where source geography is available. See [location field coverage](docs/LOCATION_FILTERS.md).
-- Near me selects and street-zooms the closest shop, highlights its logo and name
-  outside the open venue card, and closes the mobile/tablet sidebar.
-- See [pilot collection and matching notes](docs/PHOENIX_PILOT.md).
+Original DARTSLIVE records span 18 source regions. The additive Phoenix importer targets 33 public country directories. Consult the generated coverage audit for the current status, timestamps and counts rather than assuming universal coverage.
 
-## Features
+Failed/unavailable directories do not establish zero installations. Source coordinates, opening hours, public visitor access and continued operation are not independently verified. Unmapped and restricted-access records are retained for review. Cross-provider duplicates may remain; uncertain matches are not silently merged.
 
-- 🗺️ Full-screen interactive dark map with marker clustering
-- 🔍 Search by venue name, city or address
-- 🌏 Browse by country with venue counts
-- 🎯 Filter: official league venues, venues with DARTSLIVE3 machines
-- 📍 "Near me" — geolocation, nearest 50 venues with distances
-- 📱 Installable PWA (works offline once loaded)
-- 🤖 Android/iOS ready — see [docs/MOBILE.md](docs/MOBILE.md)
+Country Google Sheets have Phoenix Live and Collection status tabs linked to the repository feeds. Existing source tabs are preserved. Google controls IMPORTDATA refresh timing; this is not an instant live feed or a recurring rescrape.
 
-## Data pipeline
-
-```
-tools/DartsliveScraper.py   →  dartslive_shops.csv   →  tools/build_data.py  →  data/*.json
- (scrapes DARTSLIVE)            (raw venue rows)        (CSV → compact JSON)   (app data)
-```
-
-Refresh the data:
+## Development and packaging
 
 ```bash
-python3 tools/build_data.py dartslive_shops.csv data/
+python3 -m pip install requests beautifulsoup4
+npm test
+npm run check
+npm run build
 ```
 
-Per-country source spreadsheets are also kept in Google Drive → "Ninja Darts — DARTSLIVE Venues".
+The build copies only public assets into `www/`, excluding tooling, repository metadata and scraper caches. The same output can be served as a static website or used by the included Capacitor configuration. See [mobile preparation](docs/MOBILE.md).
 
-## Repository layout
+The app itself has no build-time dependencies, API keys, account system or paid map service. It uses vendored Leaflet/markercluster and public JSON feeds. Supabase is not required for this read-only directory; owner accounts, claims, moderation and billing in the proposed requirements document are future work, not implemented features.
 
-```
-├── index.html            # SPA shell
-├── css/style.css         # dark night-darts-bar theme
-├── js/app.js             # Leaflet map, search, filters, detail panel
-├── data/                 # index.json + <country>.json venue files
-├── tools/                # scraper + data build script
-├── icons/                # PWA icons (dartboard)
-├── manifest.webmanifest  # PWA manifest
-├── sw.js                 # service worker (offline caching)
-└── docs/                 # requirements (ARD) + mobile guide
-```
+## Collection pipeline
 
-## Roadmap
+- `tools/DartsliveScraper.py` and `tools/build_data.py`: original DARTSLIVE CSV/JSON pipeline.
+- `tools/phoenix_global.py`: paced, checkpointed Phoenix collection with country CSV/JSON feeds and source/coordinate holds.
+- `phoenix-global.yml`: single-country-at-a-time collection, checkpoint preservation and explicit completion checks.
+- `phoenix-resume.yml`: finite, bounded continuation of time-budget checkpoints only; no access-block bypass or recurring scraping.
+- `deploy-site.yml`: independent public-asset deployment, so a hosting failure cannot discard source collection.
+- `duplicate-review.yml`: event-driven, review-only candidate report after all collection stops and Spain/Japan are complete. Source gaps are explicit; no automated merges or deletions occur.
+- `directory-quality.yml`: data consistency, matching safeguards, offline-cache regression tests and public build checks on code changes and collection completion.
+- `tools/sync_phoenix_drive.py`: owner-authorized country workbook linking through the connected Google account. Never runs with Google credentials in GitHub Actions.
 
-See [docs/APP_REQUIREMENTS.md](docs/APP_REQUIREMENTS.md) for the full plan: venue claiming, reviews, events, subscriptions. This map is Phase 1's public directory front-end.
+## Attribution and privacy
 
-## Attribution
+Venue facts are attributed to [DARTSLIVE](https://search.dartslive.com/) and [Phoenix Darts](https://www.phoenixdarts.com/). Names/logos remain their owners' property; collection does not establish commercial redistribution rights.
 
-- Venue data: [DARTSLIVE](https://search.dartslive.com/) (scraped for community, non-commercial use)
-- Singapore pilot data: [Phoenix Darts](https://www.phoenixdarts.com/sg/shop/shopSearch). Source rights and terms remain applicable; this pilot does not establish permission for commercial reuse.
-- Map tiles: © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright) © [CARTO](https://carto.com/attributions)
+The basemap uses [OpenStreetMap](https://www.openstreetmap.org/copyright), subject to its tile usage policy. [Country.is](https://country.is/) provides the approximate country hint. Read [privacy and external services](docs/PRIVACY.md) before expanding the product.

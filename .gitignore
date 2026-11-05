@@ -2,3 +2,8 @@ node_modules/
 *.log
 __pycache__/
 .phoenix-cache/
+www/
+.env
+.env.*
+!.env.example
+.DS_Store
