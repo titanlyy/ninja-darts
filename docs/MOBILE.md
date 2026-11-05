@@ -32,3 +32,7 @@ Do not publish a thin wrapper without checking the relevant store's current poli
 The build bundles the collected public dataset. A native release can ship updated data, or a future reviewed configuration can fetch trusted HTTPS feeds. The current static app does not silently install native updates or use a remote-code server.
 
 Never bulk-download OpenStreetMap tiles for offline packs. Use a tile provider and licence that explicitly permits the intended native/offline usage.
+
+The web tile layer sends an accurate origin referrer where the browser permits it, as required by [OpenStreetMap's tile policy](https://operations.osmfoundation.org/policies/tiles/). Embedded previews/privacy filters may suppress it and receive blocked tiles; do not work around that by spoofing identification or proxying anonymous traffic. Recheck the tile provider and identification requirements before a native release.
+
+Embedded previews use the separate, public [OpenFreeMap](https://openfreemap.org/) vector service, which permits website/app and commercial usage without an API key. It is rendered through pinned, vendored MapLibre GL and its Leaflet adapter; source attribution is retained. `?basemap=vector` exercises this renderer on a normal host. No offline tile download is implemented, and that service's current terms still apply.

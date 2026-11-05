@@ -4,6 +4,7 @@ import vm from 'node:vm';
 import { readFile } from 'node:fs/promises';
 
 const source = await readFile(new URL('../sw.js', import.meta.url), 'utf8');
+const currentCache = source.match(/const CACHE = '([^']+)'/)[1];
 function worker() {
   const events = {}, saved = new Map(), deleted = [];
   let network = async () => new Response('fresh');
@@ -16,7 +17,7 @@ function worker() {
       };
     },
     async match(request) { return saved.get(key(request))?.clone(); },
-    async keys() { return ['ninja-darts-v10-old', 'ninja-darts-v11-directory-ready', 'another-app-v1']; },
+    async keys() { return ['ninja-darts-v10-old', currentCache, 'another-app-v1']; },
     async delete(name) { deleted.push(name); },
   };
   const self = {

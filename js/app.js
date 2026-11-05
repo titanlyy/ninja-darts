@@ -53,20 +53,77 @@
   const map = L.map(els.map, {
     zoomControl: false,
     attributionControl: true,
+    maxZoom: 19,
   }).setView([25, 30], 2);
 
   L.control.zoom({ position: 'bottomleft' }).addTo(map);
+  // Keep source attribution visible above the full-width mobile venue card.
+  map.attributionControl.setPosition('topright');
 
-  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution:
-      '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> contributors',
-    maxZoom: 19,
-  }).addTo(map);
+  const previewBasemap = /(^|\.)pplx\.app$|(^|\.)perplexity\.ai$/.test(location.hostname) ||
+    new URLSearchParams(location.search).get('basemap') === 'vector';
+  if (previewBasemap) {
+    loadPreviewBasemap();
+  } else {
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      referrerPolicy: 'strict-origin-when-cross-origin',
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> contributors',
+      maxZoom: 19,
+    }).addTo(map);
+  }
+
+  async function loadPreviewBasemap() {
+    const notice = document.createElement('div');
+    notice.className = 'map-status';
+    notice.setAttribute('role', 'status');
+    notice.textContent = 'Loading preview basemap…';
+    $('map').appendChild(notice);
+    const unavailable = () => {
+      notice.textContent = 'Preview basemap unavailable. ';
+      const liveLink = document.createElement('a');
+      liveLink.href = 'https://titanlyy.github.io/ninja-darts/';
+      liveLink.target = '_blank';
+      liveLink.rel = 'noopener';
+      liveLink.textContent = 'Open the live map';
+      notice.appendChild(liveLink);
+    };
+    try {
+      const css = document.createElement('link');
+      css.rel = 'stylesheet';
+      css.href = 'vendor/maplibre-gl.css';
+      document.head.appendChild(css);
+      const gl = await import('../vendor/maplibre-gl.mjs');
+      gl.setWorkerUrl(new URL('vendor/maplibre-gl-worker.mjs', document.baseURI).href);
+      window.maplibregl = gl;
+      await new Promise((resolve, reject) => {
+        const script = document.createElement('script');
+        script.src = 'vendor/leaflet-maplibre-gl.js';
+        script.onload = resolve;
+        script.onerror = reject;
+        document.head.appendChild(script);
+      });
+      const layer = L.maplibreGL({
+        style: 'https://tiles.openfreemap.org/styles/liberty',
+        interactive: false,
+        attributionControl: {
+          customAttribution: '<a href="https://openfreemap.org/" target="_blank" rel="noopener">OpenFreeMap</a> · ' +
+            '<a href="https://www.openmaptiles.org/" target="_blank" rel="noopener">&copy; OpenMapTiles</a> · ' +
+            '<a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">&copy; OSM contributors</a>',
+        },
+      }).addTo(map);
+      let loaded = false;
+      layer.getMaplibreMap().on('error', () => { if (!loaded) unavailable(); });
+      layer.getMaplibreMap().once('load', () => { loaded = true; notice.remove(); });
+    } catch (error) {
+      unavailable();
+    }
+  }
 
   // Screen-pixel grouping distance. Lower values keep more venue pins separate.
   const CLUSTER_RADIUS_PX = 28;
   const clusterGroup = L.markerClusterGroup({
     chunkedLoading: true,
+    animate: false,
     maxClusterRadius: CLUSTER_RADIUS_PX,
     spiderfyOnMaxZoom: true,
     showCoverageOnHover: false,

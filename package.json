@@ -3,10 +3,17 @@
   "version": "1.0.0",
   "private": true,
   "description": "Map-first DARTSLIVE and Phoenix public venue directory",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "build": "node tools/build_site.mjs",
+    "vendor": "node tools/vendor_maps.mjs",
     "test": "python3 -m unittest discover -s tools -p 'test_*.py' && node --test tools/test_service_worker.mjs tools/test_app_helpers.mjs",
     "check": "node --check js/app.js && node --check sw.js"
+  },
+  "dependencies": {
+    "@maplibre/maplibre-gl-leaflet": "0.1.4",
+    "maplibre-gl": "6.16.0"
   }
 }

@@ -22,6 +22,10 @@ jobs:
         with:
           node-version: '22'
       - run: pip install requests beautifulsoup4
+      - run: npm ci --ignore-scripts
+      - run: npm audit --audit-level=high
+      - name: Verify checked-in map libraries match pinned packages
+        run: npm run vendor && git diff --exit-code -- vendor
       - run: npm test
       - run: npm run check
       - run: npm run build

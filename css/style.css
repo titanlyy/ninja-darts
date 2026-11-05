@@ -328,6 +328,7 @@ body.sb-collapsed #sidebar-toggle svg { transform: rotate(180deg); }
   background: var(--color-bg);
 }
 
+.map-status { position: absolute; top: 12px; left: 50%; transform: translateX(-50%); z-index: 900; max-width: calc(100% - 88px); padding: 8px 12px; border: 1px solid var(--color-border); border-radius: 8px; background: var(--color-surface); color: var(--color-text); font-size: 12px; text-align: center; }
 #map .leaflet-container { background: var(--color-bg); }
 
 /* Dark-mode map: invert OSM raster tiles (markers live in a separate pane,
@@ -337,6 +338,7 @@ body.sb-collapsed #sidebar-toggle svg { transform: rotate(180deg); }
 }
 
 .leaflet-control-attribution {
+  max-width: calc(100vw - 80px);
   background: rgba(20, 18, 16, 0.85) !important;
   color: var(--color-text-muted) !important;
   font-size: 12px;

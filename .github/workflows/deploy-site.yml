@@ -15,6 +15,10 @@ on:
       - vendor/**
       - manifest.webmanifest
       - sw.js
+      - package.json
+      - package-lock.json
+      - tools/build_site.mjs
+      - tools/test_*
       - .github/workflows/deploy-site.yml
 permissions:
   contents: read
@@ -38,13 +42,22 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
-      - name: Prepare public map assets only
-        run: |
-          mkdir -p /tmp/ninja-darts-site
-          cp -r index.html css js data icons vendor manifest.webmanifest sw.js .nojekyll /tmp/ninja-darts-site/
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: pip install requests beautifulsoup4
+      - run: npm ci --ignore-scripts
+      - run: npm audit --audit-level=high
+      - run: npm test
+      - run: npm run check
+      - name: Prepare tested public map assets only
+        run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: /tmp/ninja-darts-site
+          path: www
       - name: Publish map
         id: deployment
         uses: actions/deploy-pages@v4

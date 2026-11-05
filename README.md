@@ -23,6 +23,8 @@ Country Google Sheets have Phoenix Live and Collection status tabs linked to the
 
 ## Development and packaging
 
+Use Node 22+ and Python 3.10+. The checked-in vendor assets allow a static build without downloading packages; use `npm ci --ignore-scripts && npm run vendor` when reproducing those pinned library assets.
+
 ```bash
 python3 -m pip install requests beautifulsoup4
 npm test
@@ -32,7 +34,7 @@ npm run build
 
 The build copies only public assets into `www/`, excluding tooling, repository metadata and scraper caches. The same output can be served as a static website or used by the included Capacitor configuration. See [mobile preparation](docs/MOBILE.md).
 
-The app itself has no build-time dependencies, API keys, account system or paid map service. It uses vendored Leaflet/markercluster and public JSON feeds. Supabase is not required for this read-only directory; owner accounts, claims, moderation and billing in the proposed requirements document are future work, not implemented features.
+The static build uses Node's standard library and needs no API keys, account system or paid map service. It uses vendored Leaflet/markercluster and public JSON feeds. Embedded previews additionally use the pinned MapLibre/OpenFreeMap renderer; the normal GitHub site retains its existing OpenStreetMap raster basemap. Supabase is not required for this read-only directory; owner accounts, claims, moderation and billing in the proposed requirements document are future work, not implemented features.
 
 ## Collection pipeline
 

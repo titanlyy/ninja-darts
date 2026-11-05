@@ -12,7 +12,7 @@ Opening Directions sends the selected venue coordinates to Google Maps. Map tile
 
 ## External services
 
-GitHub Pages hosts the public directory. OpenStreetMap supplies basemap tiles, Country.is supplies the country hint, and Fontshare supplies fonts. These services receive normal network request information and apply their own policies.
+GitHub Pages hosts the public directory. OpenStreetMap supplies the normal live basemap; embedded previews use OpenFreeMap/OpenMapTiles through MapLibre instead, without proxying or disguising requests to OpenStreetMap's tile server. Country.is supplies the country hint and Fontshare supplies fonts. These services receive normal network request information and apply their own policies, including [OpenFreeMap's privacy policy](https://openfreemap.org/privacy/).
 
 Links to provider venue pages, social profiles and Google Maps leave this site. Their privacy terms apply after navigation.
 
