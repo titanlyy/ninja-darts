@@ -16,6 +16,8 @@ GitHub Pages hosts the public directory. OpenStreetMap supplies the normal live 
 
 Links to provider venue pages, social profiles and Google Maps leave this site. Their privacy terms apply after navigation.
 
+Embedded previews also retrieve public Phoenix feeds and a versioned map-worker bundle from GitHub's public raw-content service. These are unauthenticated requests; no database keys or user credentials are shipped.
+
 ## Storage and data
 
 The service worker caches public app assets and venue data on the visitor's device for offline fallback. The app has no account system, ad tracker, first-party analytics, stored location history or payment collection.

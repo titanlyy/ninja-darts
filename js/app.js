@@ -93,12 +93,9 @@
       css.href = 'vendor/maplibre-gl.css';
       document.head.appendChild(css);
       const gl = await import(new URL('vendor/maplibre-gl.mjs', document.baseURI).href);
-      const workerModule = new URL('vendor/maplibre-gl-worker.mjs', document.baseURI).href;
-      // A blob bootstrap also works inside the preview's opaque-origin iframe.
-      // The imported worker remains the pinned, same-bundle library with CORS.
-      gl.setWorkerUrl(URL.createObjectURL(new Blob(
-        [`import ${JSON.stringify(workerModule)}`], { type: 'text/javascript' }
-      )));
+      // MapLibre fetches this cross-origin .cjs build into a classic blob worker.
+      // This supports the opaque preview origin without unsafe module workers.
+      gl.setWorkerUrl('https://raw.githubusercontent.com/titanlyy/ninja-darts/main/vendor/maplibre-gl-worker-6.16.0.cjs');
       window.maplibregl = gl;
       await new Promise((resolve, reject) => {
         const script = document.createElement('script');
