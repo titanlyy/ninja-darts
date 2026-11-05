@@ -1,6 +1,9 @@
 name: Deploy Ninja Darts map
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows: ['Collect global Phoenix directories']
+    types: [completed]
   push:
     branches: [main]
     paths:
@@ -22,7 +25,12 @@ concurrency:
   cancel-in-progress: false
 jobs:
   deploy:
+    if: >-
+      github.event_name != 'workflow_run' ||
+      (github.event.workflow_run.head_branch == 'main' &&
+       github.event.workflow_run.head_repository.full_name == github.repository)
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

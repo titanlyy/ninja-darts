@@ -247,6 +247,8 @@ def parse_detail(soup, row, route):
         "directory_eligible": bool(record["name"] and record["address"]),
         "off_days": fields.get("off days", fields.get("휴무일", "")),
         "website": fields.get("url", ""),
+        "hours": fields.get("営業時間", fields.get("business hours", fields.get("opening hours", ""))),
+        "phone": fields.get("tel", fields.get("telephone", fields.get("phone", ""))),
         "collected_at": now(),
     })
     if directory_response:

@@ -12,8 +12,6 @@ on:
         default: false
 permissions:
   contents: write
-  pages: write
-  id-token: write
 concurrency:
   group: phoenix-global-collection
   cancel-in-progress: false
@@ -34,7 +32,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - uses: actions/cache@v4
+      - uses: actions/cache/restore@v4
         with:
           path: .phoenix-cache
           key: phoenix-${{ matrix.country }}-${{ github.run_id }}-${{ github.run_attempt }}
@@ -70,6 +68,12 @@ jobs:
         run: python tools/phoenix_global.py --countries "${PHOENIX_COUNTRY}" --cache .phoenix-cache
         env:
           PHOENIX_COUNTRY: ${{ matrix.country }}
+      - name: Save checkpoint independently of publication success
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .phoenix-cache
+          key: phoenix-${{ matrix.country }}-${{ github.run_id }}-${{ github.run_attempt }}
       - name: Rebuild coverage after an interrupted collection
         if: always()
         run: python tools/phoenix_global.py --build-only
@@ -90,23 +94,18 @@ jobs:
             docs/PHOENIX_COVERAGE.md
             .phoenix-cache/
           retention-days: 90
-      - name: Prepare static site without collector caches or repository metadata
-        if: success()
+  coverage:
+    name: Verify requested country completion
+    needs: collect
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Report actual country status, not just process success
+        env:
+          COUNTRIES: ${{ inputs.countries }}
         run: |
-          mkdir -p /tmp/phoenix-site
-          git fetch --depth=1 origin main
-          git archive FETCH_HEAD index.html css js data icons vendor manifest.webmanifest sw.js .nojekyll | tar -x -C /tmp/phoenix-site/
-      - uses: actions/upload-pages-artifact@v3
-        if: success()
-        with:
-          path: /tmp/phoenix-site
-          name: github-pages-${{ matrix.country }}
-      - name: Publish updated map
-        if: success()
-        uses: actions/deploy-pages@v4
-        with:
-          artifact_name: github-pages-${{ matrix.country }}
-        id: deployment
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+          set -o pipefail
+          python tools/check_phoenix_coverage.py --countries "$COUNTRIES" | tee -a "$GITHUB_STEP_SUMMARY"
