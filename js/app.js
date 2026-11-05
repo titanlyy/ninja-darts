@@ -92,7 +92,7 @@
       css.rel = 'stylesheet';
       css.href = 'vendor/maplibre-gl.css';
       document.head.appendChild(css);
-      const gl = await import('../vendor/maplibre-gl.mjs');
+      const gl = await import(new URL('vendor/maplibre-gl.mjs', document.baseURI).href);
       gl.setWorkerUrl(new URL('vendor/maplibre-gl-worker.mjs', document.baseURI).href);
       window.maplibregl = gl;
       await new Promise((resolve, reject) => {
@@ -127,12 +127,15 @@
     maxClusterRadius: CLUSTER_RADIUS_PX,
     spiderfyOnMaxZoom: true,
     showCoverageOnHover: false,
-    iconCreateFunction: (cluster) =>
-      L.divIcon({
-        html: `<div class="mcluster">${cluster.getChildCount()}</div>`,
+    iconCreateFunction: (cluster) => {
+      const count = cluster.getChildCount();
+      const label = count >= 1000 ? `${(count / 1000).toFixed(1).replace(/\.0$/, '')}k` : count;
+      return L.divIcon({
+        html: `<div class="mcluster" title="${count.toLocaleString()} provider listings">${label}</div>`,
         className: 'mcluster-wrap',
-        iconSize: [38, 38],
-      }),
+        iconSize: [28, 28],
+      });
+    },
   });
   map.addLayer(clusterGroup);
 
